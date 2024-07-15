@@ -169,7 +169,7 @@ variables:
 - `asset_id` as UInt64, initialized to `0` and set _once_ by the ASA Manager Address;
 - `burned` address as Bytes, initialized to the Global `Zero Address` and set by
 the ASA Manager Address;
-- `locke`d address as Bytes, initialized to the Global `Zero Address` and set by
+- `locked` address as Bytes, initialized to the Global `Zero Address` and set by
 the ASA Manager Address;
 - `generic` address as Bytes, initialized to the Global `Zero Address` and set by
 the ASA Manager Address.
