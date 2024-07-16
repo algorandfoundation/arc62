@@ -21,15 +21,15 @@ Standard Assets (ASA) and its client-side retrieval.
 
 Algorand Standard Asset (ASA) `total` supply is _defined_ upon ASA creation.
 
-Creating an ASA on the ledger does imply its `total` supply is immediately “minted”
-or “circulating”.  In fact, the semantic of token “minting” on Algorand is slightly
-different from other blockchains: it is not coincident with the token units creation
-on the ledger.
+Creating an ASA on the ledger _does not_ imply its `total` supply is immediately
+“minted” or “circulating”. In fact, the semantic of token “minting” on Algorand is
+slightly different from other blockchains: it is not coincident with the token units
+creation on the ledger.
 
-The Reserve Address, one of the 4 addresses of the ASA Role-Based-Access-Control
-(RBAC), is used to identify the portion of ASA `total` supply not yet in circulation.
-The Reserve Address has no “privilege” over the token: it is just a “logical” label
-used (client-side) to classify an existing amount of ASA as “not in circulation”.
+The Reserve Address, one of the 4 addresses of ASA Role-Based-Access-Control (RBAC),
+is used to identify the portion of `total` supply not yet in circulation. The Reserve
+Address has no “privilege” over the token: it is just a “logical” label used (client-side)
+to classify an existing amount of ASA as “not in circulation”.
 
 On Algorand, “minting” an amount of ASA units is equivalent to _moving that amount
 out of the Reserve Address_.
@@ -40,7 +40,9 @@ out of the Reserve Address_.
 This semantic led to a simple and unsophisticated definition of ASA circulating
 supply, widely provided by clients (wallets, explorers, etc.) as standard information:
 
-`circulating_supply = total - reserve_balance`
+```text
+circulating_supply = total - reserve_balance
+```
 
 Where `reserve_balance` is the ASA balance hold by the Reserve Address.
 
@@ -66,23 +68,23 @@ in this document are to be interpreted as described in [RFC 2119](https://datatr
 
 A compliant ASA, with a circulating supply definition conforming to this ARC, **MUST**
 implement the following _read-only_ (ARC-0022) method on an Application (also referred
-as Circulating Supply App in this specification):
+as _Circulating Supply App_ in this specification):
 
 ```json
 {
-    "name": "arcXXXX_get_circulating_supply",
-    "desc": "Get ASA circulating supply",
+    "name": "arcXXX_get_circulating_supply",
     "args": [
         {
-            "name": "asset_id",
             "type": "uint64",
+            "name": "asset_id",
             "desc": "ASA ID of the circulating supply"
         }
     ],
     "returns": {
         "type": "uint64",
         "desc": "ASA circulating supply"
-    }
+    },
+    "desc": "Get ASA circulating supply"
 }
 ```
 
@@ -107,7 +109,9 @@ Let `locked` be an external Locked Address dedicated to ASA locked supply.
 
 The ASA issuer defines the _circulating supply_ as:
 
-`circulating_supply = total - reserve_balance - burned_balance - locked_balance`
+```text
+circulating_supply = total - reserve_balance - burned_balance - locked_balance
+```
 
 In this case the simulated read-only method call would autopopulate 1 external
 reference for the ASA and 3 external reference accounts (Reserve, Burned and Locked).
@@ -116,15 +120,14 @@ reference for the ASA and 3 external reference accounts (Reserve, Burned and Loc
 
 Let the ASA have `total` supply and _no_ Reserve Address (i.e. set to `ZeroAddress`).
 
-Let the Reserve Address be assigned to an account different from the Circulating
-Supply App Account.
-
 Let `non_circulating_amount` be a UInt64 Global Var defined by the implementation
 of the Circulating Supply App.
 
 The ASA issuer defines the _circulating supply_ as:
 
-`circulating_supply = total - non_circulating_amount`
+```text
+circulating_supply = total - non_circulating_amount
+```
 
 In this case the simulated read-only method call would autopopulate just 1 external
 reference for the ASA.
