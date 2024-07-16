@@ -202,6 +202,10 @@ note field, as follows:
 - The `<data>` **MUST** specify `application-id` equal to the Circulating Supply App
 ID.
 
+**WARNING**: To preserve the existing ASA RBAC (e.g. Manager Address, Freeze Address,
+etc.) it is necessary to **include all the existing role addresses** in the `AssetConfig`.
+Not doing so would irreversibly disable the RBAC roles!
+
 ### Example - JSON without version
 
 ```text
