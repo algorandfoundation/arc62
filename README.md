@@ -132,7 +132,7 @@ circulating_supply = total - non_circulating_amount
 In this case the simulated read-only method call would autopopulate just 1 external
 reference for the ASA.
 
-#### Circulating Supply Application discovery
+### Circulating Supply Application discovery
 
 TBD
 
