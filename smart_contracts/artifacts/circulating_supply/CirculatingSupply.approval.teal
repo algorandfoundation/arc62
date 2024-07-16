@@ -12,9 +12,9 @@ main_entrypoint@2:
     bz main_bare_routing@9
     method "set_asset(uint64)void"
     method "set_not_circulating_address(address,string)void"
-    method "get_circulating_supply(uint64)uint64"
+    method "arc62_get_circulating_supply(uint64)uint64"
     txna ApplicationArgs 0
-    match main_set_asset_route@4 main_set_not_circulating_address_route@5 main_get_circulating_supply_route@6
+    match main_set_asset_route@4 main_set_not_circulating_address_route@5 main_arc62_get_circulating_supply_route@6
     err // reject transaction
 
 main_set_asset_route@4:
@@ -54,7 +54,7 @@ main_set_not_circulating_address_route@5:
     int 1
     return
 
-main_get_circulating_supply_route@6:
+main_arc62_get_circulating_supply_route@6:
     // smart_contracts/circulating_supply/contract.py:59
     // @abimethod(readonly=True)
     txn OnCompletion
@@ -68,7 +68,7 @@ main_get_circulating_supply_route@6:
     btoi
     // smart_contracts/circulating_supply/contract.py:59
     // @abimethod(readonly=True)
-    callsub get_circulating_supply
+    callsub arc62_get_circulating_supply
     itob
     byte 0x151f7c75
     swap
@@ -238,11 +238,11 @@ set_not_circulating_address_switch_case_next@5:
     retsub
 
 
-// smart_contracts.circulating_supply.contract.CirculatingSupply.get_circulating_supply(asset_id: uint64) -> uint64:
-get_circulating_supply:
+// smart_contracts.circulating_supply.contract.CirculatingSupply.arc62_get_circulating_supply(asset_id: uint64) -> uint64:
+arc62_get_circulating_supply:
     // smart_contracts/circulating_supply/contract.py:59-60
     // @abimethod(readonly=True)
-    // def get_circulating_supply(self, asset_id: UInt64) -> UInt64:
+    // def arc62_get_circulating_supply(self, asset_id: UInt64) -> UInt64:
     proto 1 1
     byte ""
     dupn 2
@@ -324,14 +324,14 @@ get_circulating_supply:
     // UInt64(0)
     // if asset.reserve == Global.zero_address
     // else asset.balance(asset.reserve)
-    bz get_circulating_supply_ternary_false@2
+    bz arc62_get_circulating_supply_ternary_false@2
     // smart_contracts/circulating_supply/contract.py:78
     // UInt64(0)
     int 0
     frame_bury 2
-    b get_circulating_supply_ternary_merge@3
+    b arc62_get_circulating_supply_ternary_merge@3
 
-get_circulating_supply_ternary_false@2:
+arc62_get_circulating_supply_ternary_false@2:
     // smart_contracts/circulating_supply/contract.py:80
     // else asset.balance(asset.reserve)
     frame_dig -1
@@ -342,18 +342,18 @@ get_circulating_supply_ternary_false@2:
     assert // account opted into asset
     frame_bury 2
 
-get_circulating_supply_ternary_merge@3:
+arc62_get_circulating_supply_ternary_merge@3:
     // smart_contracts/circulating_supply/contract.py:83
     // UInt64(0) if burned == Global.zero_address else asset.balance(burned)
     frame_dig 3
     global ZeroAddress
     ==
-    bz get_circulating_supply_ternary_false@5
+    bz arc62_get_circulating_supply_ternary_false@5
     int 0
     frame_bury 0
-    b get_circulating_supply_ternary_merge@6
+    b arc62_get_circulating_supply_ternary_merge@6
 
-get_circulating_supply_ternary_false@5:
+arc62_get_circulating_supply_ternary_false@5:
     // smart_contracts/circulating_supply/contract.py:83
     // UInt64(0) if burned == Global.zero_address else asset.balance(burned)
     frame_dig 3
@@ -362,18 +362,18 @@ get_circulating_supply_ternary_false@5:
     assert // account opted into asset
     frame_bury 0
 
-get_circulating_supply_ternary_merge@6:
+arc62_get_circulating_supply_ternary_merge@6:
     // smart_contracts/circulating_supply/contract.py:86
     // UInt64(0) if locked == Global.zero_address else asset.balance(locked)
     frame_dig 4
     global ZeroAddress
     ==
-    bz get_circulating_supply_ternary_false@8
+    bz arc62_get_circulating_supply_ternary_false@8
     int 0
     frame_bury 1
-    b get_circulating_supply_ternary_merge@9
+    b arc62_get_circulating_supply_ternary_merge@9
 
-get_circulating_supply_ternary_false@8:
+arc62_get_circulating_supply_ternary_false@8:
     // smart_contracts/circulating_supply/contract.py:86
     // UInt64(0) if locked == Global.zero_address else asset.balance(locked)
     frame_dig 4
@@ -382,17 +382,17 @@ get_circulating_supply_ternary_false@8:
     assert // account opted into asset
     frame_bury 1
 
-get_circulating_supply_ternary_merge@9:
+arc62_get_circulating_supply_ternary_merge@9:
     // smart_contracts/circulating_supply/contract.py:89
     // UInt64(0) if generic == Global.zero_address else asset.balance(generic)
     frame_dig 5
     global ZeroAddress
     ==
-    bz get_circulating_supply_ternary_false@11
+    bz arc62_get_circulating_supply_ternary_false@11
     int 0
-    b get_circulating_supply_ternary_merge@12
+    b arc62_get_circulating_supply_ternary_merge@12
 
-get_circulating_supply_ternary_false@11:
+arc62_get_circulating_supply_ternary_false@11:
     // smart_contracts/circulating_supply/contract.py:89
     // UInt64(0) if generic == Global.zero_address else asset.balance(generic)
     frame_dig 5
@@ -400,7 +400,7 @@ get_circulating_supply_ternary_false@11:
     asset_holding_get AssetBalance
     assert // account opted into asset
 
-get_circulating_supply_ternary_merge@12:
+arc62_get_circulating_supply_ternary_merge@12:
     // smart_contracts/circulating_supply/contract.py:92
     // asset.total
     frame_dig -1

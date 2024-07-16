@@ -57,7 +57,7 @@ class CirculatingSupply(ARC4Contract):
                 assert False, err.INVALID_LABEL
 
     @abimethod(readonly=True)
-    def get_circulating_supply(self, asset_id: UInt64) -> UInt64:
+    def arc62_get_circulating_supply(self, asset_id: UInt64) -> UInt64:
         """
         Get ASA circulating supply
 

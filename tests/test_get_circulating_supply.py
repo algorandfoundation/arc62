@@ -32,7 +32,7 @@ def test_pass_get_circulating_supply(
         generic_not_circulating_with_balance.address,
     ]
 
-    circulating_supply = asset_circulating_supply_client.get_circulating_supply(
+    circulating_supply = asset_circulating_supply_client.arc62_get_circulating_supply(
         asset_id=asset,
         transaction_parameters=OnCompleteCallParameters(
             # TODO: Foreign resources should be auto-populated
@@ -53,7 +53,7 @@ def test_pass_get_circulating_supply(
             accounts=[burning_with_balance.address],
         ),
     )
-    circulating_supply = asset_circulating_supply_client.get_circulating_supply(
+    circulating_supply = asset_circulating_supply_client.arc62_get_circulating_supply(
         asset_id=asset,
         transaction_parameters=OnCompleteCallParameters(
             # TODO: Foreign resources should be auto-populated
@@ -74,7 +74,7 @@ def test_pass_get_circulating_supply(
             accounts=[locking_with_balance.address],
         ),
     )
-    circulating_supply = asset_circulating_supply_client.get_circulating_supply(
+    circulating_supply = asset_circulating_supply_client.arc62_get_circulating_supply(
         asset_id=asset,
         transaction_parameters=OnCompleteCallParameters(
             # TODO: Foreign resources should be auto-populated
@@ -98,7 +98,7 @@ def test_pass_get_circulating_supply(
             accounts=[generic_not_circulating_with_balance.address],
         ),
     )
-    circulating_supply = asset_circulating_supply_client.get_circulating_supply(
+    circulating_supply = asset_circulating_supply_client.arc62_get_circulating_supply(
         asset_id=asset,
         transaction_parameters=OnCompleteCallParameters(
             # TODO: Foreign resources should be auto-populated
@@ -131,7 +131,7 @@ def test_pass_no_reserve(
             reserve="",
         ),
     )
-    circulating_supply = asset_circulating_supply_client.get_circulating_supply(
+    circulating_supply = asset_circulating_supply_client.arc62_get_circulating_supply(
         asset_id=asset,
         transaction_parameters=OnCompleteCallParameters(
             # TODO: Foreign resources should be auto-populated
