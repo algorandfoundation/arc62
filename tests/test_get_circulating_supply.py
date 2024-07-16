@@ -7,16 +7,11 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
 )
 from smart_contracts.circulating_supply import config as cfg
 
-from .conftest import (
-    ASA_TOTAL,
-    BURNED_BALANCE,
-    GENERIC_BALANCE,
-    LOCKED_BALANCE,
-    RESERVE_BALANCE,
-)
+from .conftest import get_asset_balance
 
 
 def test_pass_get_circulating_supply(
+    algorand_client: AlgorandClient,
     asset_circulating_supply_client: CirculatingSupplyClient,
     asset_manager: AddressAndSigner,
     asset: int,
@@ -25,6 +20,26 @@ def test_pass_get_circulating_supply(
     locking_with_balance: AddressAndSigner,
     generic_not_circulating_with_balance: AddressAndSigner,
 ) -> None:
+    total: int = algorand_client.client.algod.asset_info(asset)["params"]["total"]  # type: ignore
+    reserve_balance: int = get_asset_balance(
+        algorand_client, reserve_with_balance.address, asset
+    )
+    burned_balance: int = get_asset_balance(
+        algorand_client, burning_with_balance.address, asset
+    )
+    locked_balance: int = get_asset_balance(
+        algorand_client, locking_with_balance.address, asset
+    )
+    generic_balance: int = get_asset_balance(
+        algorand_client, generic_not_circulating_with_balance.address, asset
+    )
+
+    print("\nASA Total: ", total)
+    print("Reserve Balance: ", reserve_balance)
+    print("Burned Balance: ", burned_balance)
+    print("Locked Balance: ", locked_balance)
+    print("Generic Not-Circulating Balance: ", generic_balance)
+
     not_circulating_addresses = [
         reserve_with_balance.address,
         burning_with_balance.address,
@@ -40,7 +55,7 @@ def test_pass_get_circulating_supply(
             accounts=[reserve_with_balance.address],
         ),
     ).return_value
-    assert circulating_supply == ASA_TOTAL - RESERVE_BALANCE
+    assert circulating_supply == total - reserve_balance
 
     asset_circulating_supply_client.set_not_circulating_address(
         address=burning_with_balance.address,
@@ -61,7 +76,7 @@ def test_pass_get_circulating_supply(
             accounts=not_circulating_addresses,
         ),
     ).return_value
-    assert circulating_supply == ASA_TOTAL - RESERVE_BALANCE - BURNED_BALANCE
+    assert circulating_supply == total - reserve_balance - burned_balance
 
     asset_circulating_supply_client.set_not_circulating_address(
         address=locking_with_balance.address,
@@ -83,8 +98,7 @@ def test_pass_get_circulating_supply(
         ),
     ).return_value
     assert (
-        circulating_supply
-        == ASA_TOTAL - RESERVE_BALANCE - BURNED_BALANCE - LOCKED_BALANCE
+        circulating_supply == total - reserve_balance - burned_balance - locked_balance
     )
 
     asset_circulating_supply_client.set_not_circulating_address(
@@ -108,12 +122,9 @@ def test_pass_get_circulating_supply(
     ).return_value
     assert (
         circulating_supply
-        == ASA_TOTAL
-        - RESERVE_BALANCE
-        - BURNED_BALANCE
-        - LOCKED_BALANCE
-        - GENERIC_BALANCE
+        == total - reserve_balance - burned_balance - locked_balance - generic_balance
     )
+    print("Circulating Supply: ", circulating_supply)
 
 
 def test_pass_no_reserve(
@@ -122,6 +133,7 @@ def test_pass_no_reserve(
     asset_manager: AddressAndSigner,
     asset: int,
 ) -> None:
+    total: int = algorand_client.client.algod.asset_info(asset)["params"]["total"]  # type: ignore
     algorand_client.send.asset_config(
         AssetConfigParams(
             sender=asset_manager.address,
@@ -138,4 +150,4 @@ def test_pass_no_reserve(
             foreign_assets=[asset],
         ),
     ).return_value
-    assert circulating_supply == ASA_TOTAL
+    assert circulating_supply == total
