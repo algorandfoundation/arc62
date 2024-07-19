@@ -63,7 +63,8 @@ supply of an ASA.
 
 The keywords "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL NOT**",
 "**SHOULD**", "**SHOULD NOT**", "**RECOMMENDED**", "**MAY**", and "**OPTIONAL**"
-in this document are to be interpreted as described in <a href="https://datatracker.ietf.org/doc/html/rfc2119">RFC 2119</a>.
+in this document are to be interpreted as described in
+<a href="https://datatracker.ietf.org/doc/html/rfc2119">RFC 2119</a>.
 
 > Notes like this are non-normative.
 
@@ -230,6 +231,7 @@ and `generic`.
 
 > To change the labels of not circulating addresses is sufficient to rename the
 > following constants just in `smart_contracts/circulating_supply/config.py`:
+>
 > ```python
 > NOT_CIRCULATING_LABEL_1: Final[str] = "burned"
 > NOT_CIRCULATING_LABEL_2: Final[str] = "locked"
@@ -243,12 +245,12 @@ variables:
 
 - `asset_id` as UInt64, initialized to `0` and set **only once** by the ASA Manager
 Address;
-- Not circulating address 1 (`burned`) as Bytes, initialized to the Global `Zero Address`
- and set by the ASA Manager Address;
-- Not circulating address 2 (`locked`) as Bytes, initialized to the Global `Zero Address`
-and set by the ASA Manager Address;
-- Not circulating address 3 (`generic`) as Bytes, initialized to the Global `Zero Address`
-and set by the ASA Manager Address.
+- Not circulating address 1 (`burned`) as Bytes, initialized to the Global
+`Zero Address` and set by the ASA Manager Address;
+- Not circulating address 2 (`locked`) as Bytes, initialized to the Global
+`Zero Address` and set by the ASA Manager Address;
+- Not circulating address 3 (`generic`) as Bytes, initialized to the Global
+`Zero Address` and set by the ASA Manager Address.
 
 A reference implementation **SHOULD** enforce that, upon setting `burned`, `locked`
 and `generic` addresses, the latter already opted-in the `asset_id`.

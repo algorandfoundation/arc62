@@ -318,9 +318,9 @@ class Composer:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> "Composer":
         """Set the ASA ID for the circulating supply - Authorization: ASA Manager Address
-        
+
         Adds a call to `set_asset(uint64)void` ABI method
-        
+
         :param int asset_id: ASA ID of the circulating supply
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns Composer: This Composer instance"""
@@ -344,9 +344,9 @@ class Composer:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> "Composer":
         """Set non-circulating supply addresses - Authorization: ASA Manager Address
-        
+
         Adds a call to `set_not_circulating_address(address,string)void` ABI method
-        
+
         :param str address: Address to assign to the label to
         :param str label: Not-circulating label selector
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
@@ -371,9 +371,9 @@ class Composer:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> "Composer":
         """Get ASA circulating supply
-        
+
         Adds a call to `arc62_get_circulating_supply(uint64)uint64` ABI method
-        
+
         :param int asset_id: ASA ID of the circulating supply
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns Composer: This Composer instance"""
@@ -396,7 +396,7 @@ class Composer:
         transaction_parameters: algokit_utils.CreateTransactionParameters | None = None,
     ) -> "Composer":
         """Adds a call to create an application using the no_op bare method
-        
+
         :param typing.Literal[no_op] on_complete: On completion type to use
         :param algokit_utils.CreateTransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns Composer: This Composer instance"""
@@ -414,17 +414,17 @@ class Composer:
         app_args: list[bytes] | None = None,
     ) -> "Composer":
         """Adds a call to the application with on completion set to ClearState
-    
+
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :param list[bytes] | None app_args: (optional) Application args to pass"""
-    
+
         self.app_client.compose_clear_state(self.atc, _convert_transaction_parameters(transaction_parameters), app_args)
         return self
 
 
 class CirculatingSupplyClient:
     """ARC-62 Reference Implementation
-    
+
     A class for interacting with the CirculatingSupply app providing high productivity and
     strongly typed methods to deploy and call the app"""
 
@@ -475,7 +475,7 @@ class CirculatingSupplyClient:
         """
         CirculatingSupplyClient can be created with an app_id to interact with an existing application, alternatively
         it can be created with a creator and indexer_client specified to find existing applications by name and creator.
-        
+
         :param AlgodClient algod_client: AlgoSDK algod client
         :param int app_id: The app_id of an existing application, to instead find the application by creator and name
         use the creator and indexer_client parameters
@@ -494,7 +494,7 @@ class CirculatingSupplyClient:
             """
 
         self.app_spec = APP_SPEC
-        
+
         # calling full __init__ signature, so ignoring mypy warning about overloads
         self.app_client = algokit_utils.ApplicationClient(  # type: ignore[call-overload, misc]
             algod_client=algod_client,
@@ -563,9 +563,9 @@ class CirculatingSupplyClient:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> algokit_utils.ABITransactionResponse[None]:
         """Set the ASA ID for the circulating supply - Authorization: ASA Manager Address
-        
+
         Calls `set_asset(uint64)void` ABI method
-        
+
         :param int asset_id: ASA ID of the circulating supply
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns algokit_utils.ABITransactionResponse[None]: The result of the transaction"""
@@ -588,9 +588,9 @@ class CirculatingSupplyClient:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> algokit_utils.ABITransactionResponse[None]:
         """Set non-circulating supply addresses - Authorization: ASA Manager Address
-        
+
         Calls `set_not_circulating_address(address,string)void` ABI method
-        
+
         :param str address: Address to assign to the label to
         :param str label: Not-circulating label selector
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
@@ -614,9 +614,9 @@ class CirculatingSupplyClient:
         transaction_parameters: algokit_utils.TransactionParameters | None = None,
     ) -> algokit_utils.ABITransactionResponse[int]:
         """Get ASA circulating supply
-        
+
         Calls `arc62_get_circulating_supply(uint64)uint64` ABI method
-        
+
         :param int asset_id: ASA ID of the circulating supply
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns algokit_utils.ABITransactionResponse[int]: ASA circulating supply"""
@@ -638,7 +638,7 @@ class CirculatingSupplyClient:
         transaction_parameters: algokit_utils.CreateTransactionParameters | None = None,
     ) -> algokit_utils.TransactionResponse:
         """Creates an application using the no_op bare method
-        
+
         :param typing.Literal[no_op] on_complete: On completion type to use
         :param algokit_utils.CreateTransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :returns algokit_utils.TransactionResponse: The result of the transaction"""
@@ -655,11 +655,11 @@ class CirculatingSupplyClient:
         app_args: list[bytes] | None = None,
     ) -> algokit_utils.TransactionResponse:
         """Calls the application with on completion set to ClearState
-    
+
         :param algokit_utils.TransactionParameters transaction_parameters: (optional) Additional transaction parameters
         :param list[bytes] | None app_args: (optional) Application args to pass
         :returns algokit_utils.TransactionResponse: The result of the transaction"""
-    
+
         return self.app_client.clear_state(_convert_transaction_parameters(transaction_parameters), app_args)
 
     def deploy(
@@ -678,22 +678,22 @@ class CirculatingSupplyClient:
         delete_args: algokit_utils.DeployCallArgs | None = None,
     ) -> algokit_utils.DeployResponse:
         """Deploy an application and update client to reference it.
-        
+
         Idempotently deploy (create, update/delete if changed) an app against the given name via the given creator
         account, including deploy-time template placeholder substitutions.
         To understand the architecture decisions behind this functionality please see
         <https://github.com/algorandfoundation/algokit-cli/blob/main/docs/architecture-decisions/2023-01-12_smart-contract-deployment.md>
-        
+
         ```{note}
         If there is a breaking state schema change to an existing app (and `on_schema_break` is set to
         'ReplaceApp' the existing app will be deleted and re-created.
         ```
-        
+
         ```{note}
         If there is an update (different TEAL code) to an existing app (and `on_update` is set to 'ReplaceApp')
         the existing app will be deleted and re-created.
         ```
-        
+
         :param str version: version to use when creating or updating app, if None version will be auto incremented
         :param algosdk.atomic_transaction_composer.TransactionSigner signer: signer to use when deploying app
         , if None uses self.signer
