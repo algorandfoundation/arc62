@@ -1,15 +1,14 @@
 ---
 arc: 62
-title: ASA circulating supply
-description: An ARC to standardize a getter method for ASA circulating supply
+title: ASA Circulating Supply
+description: Getter method for ASA circulating supply
 author: Cosimo Bassi (@cusma)
-discussion-to: TBD
-status: Draft
+discussions-to: https://github.com/algorandfoundation/ARCs/issues/302
+status: Review
 type: Standards Track
 category: Interface
 created: 2024-06-12
 requires: 4, 22
-
 ---
 
 ## Abstract
@@ -64,7 +63,7 @@ supply of an ASA.
 
 The keywords "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL NOT**",
 "**SHOULD**", "**SHOULD NOT**", "**RECOMMENDED**", "**MAY**", and "**OPTIONAL**"
-in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+in this document are to be interpreted as described in <a href="https://datatracker.ietf.org/doc/html/rfc2119">RFC 2119</a>.
 
 > Notes like this are non-normative.
 
@@ -77,6 +76,7 @@ App_ in this specification):
 ```json
 {
   "name": "arc62_get_circulating_supply",
+  "readonly": true,
   "args": [
     {
       "type": "uint64",
@@ -92,7 +92,7 @@ App_ in this specification):
 }
 ```
 
-The `arc62_get_circulating_supply` **MUST** be a _read-only_ ([ARC-0022](https://arc.algorand.foundation/ARCs/arc-0022))
+The `arc62_get_circulating_supply` **MUST** be a _read-only_ ([ARC-22](./arc-0022.md))
 method (getter).
 
 ### Usage
@@ -100,7 +100,7 @@ method (getter).
 Getter calls **SHOULD** be _simulated_.
 
 External resources used by the implementation (if any) **SHOULD** be discovered
-and autopopulated by the simulated method call.
+and auto-populated by the simulated method call.
 
 #### Example 1
 
@@ -119,7 +119,7 @@ and autopopulated by the simulated method call.
 > circulating_supply = total - reserve_balance - burned_balance - locked_balance
 > ```
 >
-> In this case the simulated read-only method call would autopopulate 1 external
+> In this case the simulated read-only method call would auto-populate 1 external
 > reference for the ASA and 3 external reference accounts (Reserve, Burned and Locked).
 
 #### Example 2
@@ -135,7 +135,7 @@ and autopopulated by the simulated method call.
 > circulating_supply = total - non_circulating_amount
 > ```
 >
-> In this case the simulated read-only method call would autopopulate just 1 external
+> In this case the simulated read-only method call would auto-populate just 1 external
 > reference for the ASA.
 
 ### Circulating Supply Application discovery
@@ -148,8 +148,8 @@ An ASA conforming to this ARC **MUST** specify the Circulating Supply App ID.
 > To avoid ecosystem fragmentation this ARC does not propose any new method to specify
 > the metadata of an ASA. Instead, it only extends already existing standards.
 
-If the ASA also conforms to any ARC that supports additional `properties` ([ARC-3](https://arc.algorand.foundation/ARCs/arc-0003),
-[ARC-19](https://arc.algorand.foundation/ARCs/arc-0019), [ARC-69](https://arc.algorand.foundation/ARCs/arc-0069)),
+If the ASA also conforms to any ARC that supports additional `properties` ([ARC-3](./arc-0003.md),
+[ARC-19](./arc-0019.md), [ARC-69](./arc-0069.md)),
 then it **MUST** include a `arc-62` key and set the corresponding value to a map,
 including the ID of the Circulating Supply App as a value for the key `application-id`.
 
@@ -178,7 +178,7 @@ For this reason, the proposed method’s signature does not require any referenc
 to external resources, a part form the `asset_id` of the ASA for which the circulating
 supply is defined.
 
-Eventual external resources can be discovered and autopopulated directly by the
+Eventual external resources can be discovered and auto-populated directly by the
 simulated method call.
 
 The rational of this design choice is avoiding fragmentation and integration overhead
@@ -192,19 +192,18 @@ method for that ASA.
 
 ## Backwards Compatibility
 
-Existing ASA willing to conform to this ARC **SHOULD** specify the Circulating Supply
-App ID as [ARC-2](https://arc.algorand.foundation/ARCs/arc-0002) `AssetConfig` transaction
-note field, as follows:
+Existing ASA willing to conform to this ARC **MUST** specify the Circulating Supply
+App ID as [ARC-2](./arc-0002.md) `AssetConfig` transaction note field, as follows:
 
 - The `<dapp-name>` **MUST** be equal to `arc62`;
-- The **RECOMMENDED** `<data-format>` are [MsgPack](https://msgpack.org/) (`m`)
-or [JSON](https://www.json.org/json-en.html) (`j`);
+- The **RECOMMENDED** `<data-format>` are <a href="https://msgpack.org/">MsgPack</a>
+(`m`) or <a href="https://www.json.org/json-en.html">JSON</a> (`j`);
 - The `<data>` **MUST** specify `application-id` equal to the Circulating Supply
 App ID.
 
-**WARNING**: To preserve the existing ASA RBAC (e.g. Manager Address, Freeze Address,
-etc.) it is necessary to **include all the existing role addresses** in the `AssetConfig`.
-Not doing so would irreversibly disable the RBAC roles!
+> **WARNING**: To preserve the existing ASA RBAC (e.g. Manager Address, Freeze Address,
+> etc.) it is necessary to **include all the existing role addresses** in the `AssetConfig`.
+> Not doing so would irreversibly disable the RBAC roles!
 
 ### Example - JSON without version
 
@@ -218,27 +217,92 @@ arc62:j{"application-id":123}
 
 This section suggests a reference implementation of the Circulating Supply App.
 
+An Algorand-Python example is available [here](../assets/arc-0062).
+
 An ASA using the reference implementation **SHOULD NOT** assign the Reserve Address
 to the Circulating Supply App Account.
 
-A reference implementation **SHOULD** declare, at least, the following Global State
+A reference implementation **SHOULD** use 3 external addresses, in addition to the
+Reserve Address, to define the not circulating supply.
+
+The **RECOMMENDED** labels for not-circulating balances are: `burned`, `locked`
+and `generic`.
+
+> To change the labels of not circulating addresses is sufficient to rename the
+> following constants just in `smart_contracts/circulating_supply/config.py`:
+> ```python
+> NOT_CIRCULATING_LABEL_1: Final[str] = "burned"
+> NOT_CIRCULATING_LABEL_2: Final[str] = "locked"
+> NOT_CIRCULATING_LABEL_3: Final[str] = "generic"
+> ```
+
+### State Schema
+
+A reference implementation **SHOULD** allocate, at least, the following Global State
 variables:
 
-- `asset_id` as UInt64, initialized to `0` and set _once_ by the ASA Manager Address;
-- `burned` address as Bytes, initialized to the Global `Zero Address` and set by
-the ASA Manager Address;
-- `locked` address as Bytes, initialized to the Global `Zero Address` and set by
-the ASA Manager Address;
-- `generic` address as Bytes, initialized to the Global `Zero Address` and set by
-the ASA Manager Address.
+- `asset_id` as UInt64, initialized to `0` and set **only once** by the ASA Manager
+Address;
+- Not circulating address 1 (`burned`) as Bytes, initialized to the Global `Zero Address`
+ and set by the ASA Manager Address;
+- Not circulating address 2 (`locked`) as Bytes, initialized to the Global `Zero Address`
+and set by the ASA Manager Address;
+- Not circulating address 3 (`generic`) as Bytes, initialized to the Global `Zero Address`
+and set by the ASA Manager Address.
+
+A reference implementation **SHOULD** enforce that, upon setting `burned`, `locked`
+and `generic` addresses, the latter already opted-in the `asset_id`.
+
+```json
+"state": {
+    "global": {
+        "num_byte_slices": 3,
+        "num_uints": 1
+    },
+    "local": {
+        "num_byte_slices": 0,
+        "num_uints": 0
+    }
+},
+"schema": {
+    "global": {
+        "declared": {
+            "asset_id": {
+                "type": "uint64",
+                "key": "asset_id"
+            },
+            "not_circulating_label_1": {
+                "type": "bytes",
+                "key": "burned"
+            },
+            "not_circulating_label_2": {
+                "type": "bytes",
+                "key": "locked"
+            },
+            "not_circulating_label_3": {
+                "type": "bytes",
+                "key": "generic"
+            }
+        },
+        "reserved": {}
+    },
+    "local": {
+        "declared": {},
+        "reserved": {}
+    }
+},
+```
+
+### Circulating Supply Getter
 
 A reference implementation **SHOULD** enforce that the `asset_id` Global Variable
-is equal to the `asset_id` argument of the `arc62_get_circulating_supply` method.
+is equal to the `asset_id` argument of the `arc62_get_circulating_supply` getter
+method.
 
 > Alternatively the reference implementation could ignore the `asset_id` argument
 > and use directly the `asset_id` Global Variable.
 
-A reference implementation **SHOULD** define the ASA _circulating supply_ as:
+A reference implementation **SHOULD** return the ASA _circulating supply_ as:
 
 ```text
 circulating_supply = total - reserve_balance - burned_balance - locked_balance - generic_balance
@@ -248,18 +312,22 @@ Where:
 
 - `total` is the total supply of the ASA (`asset_id`);
 - `reserve_balance` is the ASA balance hold by the Reserve Address or `0` if the
-address is set to the Global `ZeroAddress`;
+address is set to the Global `ZeroAddress` or not opted-in `asset_id`;
 - `burned_balance` is the ASA balance hold by the Burned Address or `0` if the address
-is set to the Global `ZeroAddress`;
+is set to the Global `ZeroAddress` or is not opted-in `asset_id`;
 - `locked_balance` is the ASA balance hold by the Locked Address or `0` if the address
-is set to the Global `ZeroAddress`;
+is set to the Global `ZeroAddress` or not opted-in `asset_id`;
 - `generic_balance` is the ASA balance hold by a Generic Address or `0` if the address
-is set to the Global `ZeroAddress`.
+is set to the Global `ZeroAddress` or not opted-in `asset_id`.
 
 ## Security Considerations
 
-> Not Applicable
+Permissions over the Circulating Supply App setting and update **SHOULD** be granted
+to the ASA Manager Address.
+
+> The ASA trust-model (i.e. who sets the Reserve Address) is extended to the generalized
+> ASA circulating supply definition.
 
 ## Copyright
 
-Copyright and related rights waived via [CCO](https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via <a href="https://creativecommons.org/publicdomain/zero/1.0/">CCO</a>.
