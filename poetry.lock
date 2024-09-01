@@ -123,16 +123,16 @@ frozenlist = ">=1.1.0"
 
 [[package]]
 name = "algokit-client-generator"
-version = "1.1.6"
+version = "1.1.7"
 description = "Algorand typed client Generator"
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "algokit_client_generator-1.1.6-py3-none-any.whl", hash = "sha256:c4a6dbc4185b0668239fe1d35596e94c6bf6190f9855a24f2924f9803e9e4e57"},
+    {file = "algokit_client_generator-1.1.7-py3-none-any.whl", hash = "sha256:88c594825c173dec9491ff7318bfa61c96aad0dbf918e795d32e0c8475b634d8"},
 ]
 
 [package.dependencies]
-algokit-utils = "2.3.0"
+algokit-utils = ">=2.3.0,<3.0.0"
 
 [[package]]
 name = "algokit-utils"
@@ -2064,4 +2064,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "419017fd8cfabc5441f3341555559777d7d09e6854947282a968db3d30f70340"
+content-hash = "a1331f32e621536ff7d479490ae2f1bc88d2d06dce72f4bbf37344011e90aaeb"
