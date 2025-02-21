@@ -37,17 +37,18 @@ def deploy() -> None:
         on_update=algokit_utils.OnUpdate.AppendApp,
     )
 
-    asset_id = algorand.send.asset_create(
-        algokit_utils.AssetCreateParams(
-            sender=deployer.address,
-            signer=deployer.signer,
-            asset_name=ASA_NAME,
-            unit_name=ASA_UNIT_NAME,
-            total=ASA_TOTAL,
-            decimals=ASA_DECIMALS,
-            manager=deployer.address,
-            url=APP_URI + str(app_client.app_id),
-        )
-    ).asset_id
+    if not app_client.state.global_state.asset_id:
+        asset_id = algorand.send.asset_create(
+            algokit_utils.AssetCreateParams(
+                sender=deployer.address,
+                signer=deployer.signer,
+                asset_name=ASA_NAME,
+                unit_name=ASA_UNIT_NAME,
+                total=ASA_TOTAL,
+                decimals=ASA_DECIMALS,
+                manager=deployer.address,
+                url=APP_URI + str(app_client.app_id),
+            )
+        ).asset_id
 
-    app_client.send.set_asset(args=SetAssetArgs(asset_id=asset_id))
+        app_client.send.set_asset(args=SetAssetArgs(asset_id=asset_id))
