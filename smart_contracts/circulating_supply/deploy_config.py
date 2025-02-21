@@ -1,14 +1,19 @@
 import logging
+from typing import Final
 
 import algokit_utils
 
 logger = logging.getLogger(__name__)
+
+ASA_TOTAL: Final[int] = 42
+APP_URI: Final[str] = "algorand://app/"
 
 
 # define deployment behaviour based on supplied app spec
 def deploy() -> None:
     from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
         CirculatingSupplyFactory,
+        SetAssetArgs,
     )
 
     algorand = algokit_utils.AlgorandClient.from_environment()
@@ -22,3 +27,15 @@ def deploy() -> None:
         on_schema_break=algokit_utils.OnSchemaBreak.AppendApp,
         on_update=algokit_utils.OnUpdate.AppendApp,
     )
+
+    asset_id = algorand.send.asset_create(
+        algokit_utils.AssetCreateParams(
+            sender=deployer.address,
+            signer=deployer.signer,
+            total=ASA_TOTAL,
+            manager=deployer.address,
+            url=APP_URI + str(app_client.app_id),
+        )
+    ).asset_id
+
+    app_client.send.set_asset(args=SetAssetArgs(asset_id=asset_id))
