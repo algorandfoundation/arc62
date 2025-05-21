@@ -1,5 +1,5 @@
-import logging
 import json
+import logging
 from typing import Final
 
 import algokit_utils
@@ -37,7 +37,9 @@ def deploy() -> None:
     # ARC-3 Circulating Supply App discovery
     # https://arc.algorand.foundation/ARCs/arc-0062#circulating-supply-application-discovery
     logger.info("Creating ARC-3 discovery Circulating Supply App...")
-    arc3_app_client, _ = factory.send.create.bare(params=algokit_utils.CommonAppCallCreateParams(note="ARC-3".encode()))
+    arc3_app_client, _ = factory.send.create.bare(  # type: ignore
+        params=algokit_utils.CommonAppCallCreateParams(note=b"ARC-3")
+    )
     logger.info(f"ARC-3 discovery Circulating Supply App ID: {arc3_app_client.app_id}")
     arc3_data_cid = ""
     if not algorand.client.is_localnet():
@@ -84,12 +86,16 @@ def deploy() -> None:
     ).asset_id
 
     logger.info("Creating ARC-2 discovery Circulating Supply App...")
-    arc2_app_client, _ = factory.send.create.bare(params=algokit_utils.CommonAppCallCreateParams(note="ARC-2".encode()))
+    arc2_app_client, _ = factory.send.create.bare(  # type: ignore
+        params=algokit_utils.CommonAppCallCreateParams(note=b"ARC-2")
+    )
     logger.info(f"ARC-2 discovery Circulating Supply App ID: {arc2_app_client.app_id}")
     logger.info("Setting ASA on ARC-2 discovery Circulating Supply App...")
     arc2_app_client.send.set_asset(args=SetAssetArgs(asset_id=arc2_asset_id))
-    arc2_data: dict[str, int] = {"application-id": arc2_app_client.app_id,}
-    arc2_note = f"arc62:j" + json.dumps(arc2_data)
+    arc2_data: dict[str, int] = {
+        "application-id": arc2_app_client.app_id,
+    }
+    arc2_note = "arc62:j" + json.dumps(arc2_data)
     logger.info("Setting Circulating Supply App with ARC-2...")
     algorand.send.asset_config(
         params=algokit_utils.AssetConfigParams(
