@@ -4,7 +4,7 @@
 // smart_contracts.circulating_supply.contract.CirculatingSupply.__algopy_entrypoint_with_init() -> uint64:
 main:
     intcblock 0 1
-    bytecblock "asset_id" "burned" "locked" "test"
+    bytecblock "asset_id" "burned" "locked" "generic"
     txn ApplicationID
     bnz main_after_if_else@2
     // smart_contracts/circulating_supply/contract.py:24-25
@@ -33,7 +33,7 @@ main:
     app_global_put
     // smart_contracts/circulating_supply/contract.py:33
     // Address(), key=cfg.NOT_CIRCULATING_LABEL_3
-    bytec_3 // "test"
+    bytec_3 // "generic"
     global ZeroAddress
     // smart_contracts/circulating_supply/contract.py:32-34
     // self.not_circulating_label_3 = GlobalState(
@@ -204,7 +204,7 @@ set_not_circulating_address:
     bytec_2 // "locked"
     // smart_contracts/circulating_supply/contract.py:69
     // case cfg.NOT_CIRCULATING_LABEL_3:
-    bytec_3 // "test"
+    bytec_3 // "generic"
     // smart_contracts/circulating_supply/contract.py:63-72
     // # Effects
     // match label:
@@ -225,7 +225,7 @@ set_not_circulating_address:
 set_not_circulating_address_switch_case_2@3:
     // smart_contracts/circulating_supply/contract.py:70
     // self.not_circulating_label_3.value = address
-    bytec_3 // "test"
+    bytec_3 // "generic"
     frame_dig -2
     app_global_put
     retsub
@@ -270,7 +270,7 @@ arc62_get_circulating_supply:
     // smart_contracts/circulating_supply/contract.py:88
     // not_circulating_3 = Account(self.not_circulating_label_3.value.bytes)
     intc_0 // 0
-    bytec_3 // "test"
+    bytec_3 // "generic"
     app_global_get_ex
     assert // check self.not_circulating_label_3 exists
     // smart_contracts/circulating_supply/contract.py:89-90
