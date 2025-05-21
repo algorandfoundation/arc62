@@ -53,7 +53,7 @@ def get_pinata_jwt() -> str:
         raise err
 
 
-def upload_to_pinata(json_data: dict, jwt: str) -> str:
+def upload_to_pinata(json_data: dict[str, object], jwt: str) -> str:
     """
     Uploads a JSON to the Piñata API.
 

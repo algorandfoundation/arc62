@@ -2,8 +2,9 @@ import logging
 from typing import Final
 
 import algokit_utils
-from helpers import ipfs
 from algokit_utils.config import config
+
+from helpers import ipfs
 
 logger = logging.getLogger(__name__)
 
@@ -45,11 +46,7 @@ def deploy() -> None:
                 "name": ASA_NAME,
                 "decimals": ASA_DECIMALS,
                 "description": "ASA with Circulating Supply App",
-                "properties": {
-                    "arc-62": {
-                        "application-id": app_client.app_id
-                    }
-                }
+                "properties": {"arc-62": {"application-id": app_client.app_id}},
             }
             jwt = ipfs.get_pinata_jwt().strip()
             arc3_data_cid = ipfs.upload_to_pinata(arc3_data, jwt)
