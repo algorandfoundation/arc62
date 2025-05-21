@@ -37,8 +37,11 @@ def deploy() -> None:
     # ARC-3 Circulating Supply App discovery
     # https://arc.algorand.foundation/ARCs/arc-0062#circulating-supply-application-discovery
     logger.info("Creating ARC-3 discovery Circulating Supply App...")
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
     arc3_app_client, _ = factory.send.create.bare(  # type: ignore
-        params=algokit_utils.CommonAppCallCreateParams(note=b"ARC-3")
+        params=algokit_utils.CommonAppCallCreateParams(
+            first_valid_round=current_round, last_valid_round=current_round + 100
+        )
     )
     logger.info(f"ARC-3 discovery Circulating Supply App ID: {arc3_app_client.app_id}")
     arc3_data_cid = ""
@@ -55,6 +58,7 @@ def deploy() -> None:
         logger.info(f"Upload complete. ARC-3 metadata CID: {arc3_data_cid}")
 
     logger.info("Creating ARC-3 discovery Circulating Supply ASA...")
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
     arc3_asset_id = algorand.send.asset_create(
         algokit_utils.AssetCreateParams(
             sender=deployer.address,
@@ -65,14 +69,25 @@ def deploy() -> None:
             decimals=ASA_DECIMALS,
             manager=deployer.address,
             url=APP_URI + arc3_data_cid,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
         )
     ).asset_id
     logger.info("Setting ASA on ARC-3 discovery Circulating Supply App...")
-    arc3_app_client.send.set_asset(args=SetAssetArgs(asset_id=arc3_asset_id))
+    current_round = algorand.client.algod.status().get("last-round")  # type: ignore
+    arc3_app_client.send.set_asset(
+        args=SetAssetArgs(asset_id=arc3_asset_id),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    )
 
     # ARC-2 Circulating Supply App discovery (backward compatibility)
     # https://arc.algorand.foundation/ARCs/arc-0062#backwards-compatibility
     logger.info("Creating ARC-2 discovery Circulating Supply ASA...")
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
     arc2_asset_id = algorand.send.asset_create(
         algokit_utils.AssetCreateParams(
             sender=deployer.address,
@@ -82,26 +97,42 @@ def deploy() -> None:
             total=ASA_TOTAL,
             decimals=ASA_DECIMALS,
             manager=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
         )
     ).asset_id
 
     logger.info("Creating ARC-2 discovery Circulating Supply App...")
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
     arc2_app_client, _ = factory.send.create.bare(  # type: ignore
-        params=algokit_utils.CommonAppCallCreateParams(note=b"ARC-2")
+        params=algokit_utils.CommonAppCallCreateParams(
+            first_valid_round=current_round, last_valid_round=current_round + 100
+        )
     )
     logger.info(f"ARC-2 discovery Circulating Supply App ID: {arc2_app_client.app_id}")
     logger.info("Setting ASA on ARC-2 discovery Circulating Supply App...")
-    arc2_app_client.send.set_asset(args=SetAssetArgs(asset_id=arc2_asset_id))
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    arc2_app_client.send.set_asset(
+        args=SetAssetArgs(asset_id=arc2_asset_id),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    )
     arc2_data: dict[str, int] = {
         "application-id": arc2_app_client.app_id,
     }
     arc2_note = "arc62:j" + json.dumps(arc2_data)
     logger.info("Setting Circulating Supply App with ARC-2...")
+    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
     algorand.send.asset_config(
         params=algokit_utils.AssetConfigParams(
             sender=deployer.address,
             asset_id=arc2_asset_id,
             manager=deployer.address,
             note=arc2_note.encode("utf-8"),
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
         )
     )
