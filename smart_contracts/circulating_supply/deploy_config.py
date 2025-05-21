@@ -2,6 +2,7 @@ import logging
 from typing import Final
 
 import algokit_utils
+from helpers import ipfs
 from algokit_utils.config import config
 
 logger = logging.getLogger(__name__)
@@ -10,7 +11,7 @@ ASA_NAME: Final[str] = "ARC-62 Test ASA"
 ASA_UNIT_NAME: Final[str] = "ARC-62"
 ASA_DECIMALS: Final[int] = 0
 ASA_TOTAL: Final[int] = 42
-APP_URI: Final[str] = "algorand://app/"
+APP_URI: Final[str] = "ipfs://"
 
 
 def deploy() -> None:
@@ -37,6 +38,22 @@ def deploy() -> None:
     )
 
     if not app_client.state.global_state.asset_id:
+        arc3_data_cid = ""
+        if not algorand.client.is_localnet():
+            logger.info("Uploading AppSpec on IPFS")
+            arc3_data = {
+                "name": ASA_NAME,
+                "decimals": ASA_DECIMALS,
+                "description": "ASA with Circulating Supply App",
+                "properties": {
+                    "arc-62": {
+                        "application-id": app_client.app_id
+                    }
+                }
+            }
+            jwt = ipfs.get_pinata_jwt().strip()
+            arc3_data_cid = ipfs.upload_to_pinata(arc3_data, jwt)
+
         asset_id = algorand.send.asset_create(
             algokit_utils.AssetCreateParams(
                 sender=deployer.address,
@@ -46,7 +63,7 @@ def deploy() -> None:
                 total=ASA_TOTAL,
                 decimals=ASA_DECIMALS,
                 manager=deployer.address,
-                url=APP_URI + str(app_client.app_id),
+                url=APP_URI + arc3_data_cid,
             )
         ).asset_id
 
