@@ -49,5 +49,9 @@ jobs:
           DEPLOYER_MNEMONIC: ${{ secrets.DEPLOYER_MNEMONIC }}
           # The dispenser account is used to ensure the deployer account is funded
           DISPENSER_MNEMONIC: ${{ secrets.DISPENSER_MNEMONIC }}
+          # ASA non-circulating supply account
+          NON_CIRCULATING_MNEMONIC: ${{ secrets.NON_CIRCULATING_MNEMONIC }}
+          # ASA circulating supply account
+          CIRCULATING_MNEMONIC: ${{ secrets.CIRCULATING_MNEMONIC }}
           # Pinata API JWT to publish ARC-3 metadata on IPFS
           ALGOKIT_PINATA_JWT: ${{ secrets.ALGOKIT_PINATA_JWT }}

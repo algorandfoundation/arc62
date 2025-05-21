@@ -18,9 +18,12 @@ APP_URI: Final[str] = "ipfs://"
 
 def deploy() -> None:
     from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
+        Arc62GetCirculatingSupplyArgs,
         CirculatingSupplyFactory,
         SetAssetArgs,
+        SetNotCirculatingAddressArgs,
     )
+    from smart_contracts.circulating_supply.config import NOT_CIRCULATING_LABEL_1
 
     config.configure(
         debug=False,
@@ -29,6 +32,42 @@ def deploy() -> None:
 
     algorand = algokit_utils.AlgorandClient.from_environment()
     deployer = algorand.account.from_environment("DEPLOYER")
+    non_circulating = algorand.account.from_environment("NON_CIRCULATING")
+    circulating = algorand.account.from_environment("CIRCULATING")
+
+    def get_last_round() -> int:
+        return algorand.client.algod.status().get("last-round")  # type: ignore
+
+    def asset_opt_in(account: algokit_utils.SigningAccount, asset_id: int) -> None:
+        current_round = get_last_round()
+        algorand.send.asset_opt_in(
+            algokit_utils.AssetOptInParams(
+                sender=account.address,
+                signer=account.signer,
+                asset_id=asset_id,
+                first_valid_round=current_round,
+                last_valid_round=current_round + 100,
+            )
+        )
+
+    def asset_transfer(
+        sender: algokit_utils.SigningAccount,
+        asset_id: int,
+        amount: int,
+        receiver: str,
+    ) -> None:
+        current_round = get_last_round()
+        algorand.send.asset_transfer(
+            algokit_utils.AssetTransferParams(
+                sender=sender.address,
+                signer=sender.signer,
+                asset_id=asset_id,
+                amount=amount,
+                receiver=receiver,
+                first_valid_round=current_round,
+                last_valid_round=current_round + 100,
+            )
+        )
 
     factory = algorand.client.get_typed_app_factory(
         CirculatingSupplyFactory, default_sender=deployer.address
@@ -44,6 +83,7 @@ def deploy() -> None:
         )
     )
     logger.info(f"ARC-3 discovery Circulating Supply App ID: {arc3_app_client.app_id}")
+
     arc3_data_cid = ""
     if not algorand.client.is_localnet():
         logger.info("Uploading ARC-3 metadata on IPFS")
@@ -58,7 +98,7 @@ def deploy() -> None:
         logger.info(f"Upload complete. ARC-3 metadata CID: {arc3_data_cid}")
 
     logger.info("Creating ARC-3 discovery Circulating Supply ASA...")
-    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    current_round = get_last_round()
     arc3_asset_id = algorand.send.asset_create(
         algokit_utils.AssetCreateParams(
             sender=deployer.address,
@@ -68,13 +108,19 @@ def deploy() -> None:
             total=ASA_TOTAL,
             decimals=ASA_DECIMALS,
             manager=deployer.address,
+            reserve=deployer.address,
             url=APP_URI + arc3_data_cid,
             first_valid_round=current_round,
             last_valid_round=current_round + 100,
         )
     ).asset_id
-    logger.info("Setting ASA on ARC-3 discovery Circulating Supply App...")
-    current_round = algorand.client.algod.status().get("last-round")  # type: ignore
+    asset_opt_in(non_circulating, arc3_asset_id)
+    asset_opt_in(circulating, arc3_asset_id)
+    asset_transfer(deployer, arc3_asset_id, 1, non_circulating.address)
+    asset_transfer(deployer, arc3_asset_id, 1, circulating.address)
+
+    logger.info("Setting ARC-3 discovery Circulating Supply App...")
+    current_round = get_last_round()
     arc3_app_client.send.set_asset(
         args=SetAssetArgs(asset_id=arc3_asset_id),
         params=algokit_utils.CommonAppCallParams(
@@ -83,11 +129,33 @@ def deploy() -> None:
             last_valid_round=current_round + 100,
         ),
     )
+    arc3_app_client.send.set_not_circulating_address(
+        args=SetNotCirculatingAddressArgs(
+            address=non_circulating.address,
+            label=NOT_CIRCULATING_LABEL_1,
+        ),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    )
+
+    current_round = get_last_round()
+    arc3_circulating_supply = arc3_app_client.send.arc62_get_circulating_supply(
+        args=Arc62GetCirculatingSupplyArgs(asset_id=arc3_asset_id),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    ).abi_return
+    logger.info(f"ARC-3 discovery Circulating Supply: {arc3_circulating_supply}")
 
     # ARC-2 Circulating Supply App discovery (backward compatibility)
     # https://arc.algorand.foundation/ARCs/arc-0062#backwards-compatibility
     logger.info("Creating ARC-2 discovery Circulating Supply ASA...")
-    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    current_round = get_last_round()
     arc2_asset_id = algorand.send.asset_create(
         algokit_utils.AssetCreateParams(
             sender=deployer.address,
@@ -101,17 +169,21 @@ def deploy() -> None:
             last_valid_round=current_round + 100,
         )
     ).asset_id
+    asset_opt_in(non_circulating, arc2_asset_id)
+    asset_opt_in(circulating, arc2_asset_id)
+    asset_transfer(deployer, arc2_asset_id, 1, non_circulating.address)
+    asset_transfer(deployer, arc2_asset_id, 1, circulating.address)
 
     logger.info("Creating ARC-2 discovery Circulating Supply App...")
-    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    current_round = get_last_round()
     arc2_app_client, _ = factory.send.create.bare(  # type: ignore
         params=algokit_utils.CommonAppCallCreateParams(
             first_valid_round=current_round, last_valid_round=current_round + 100
         )
     )
     logger.info(f"ARC-2 discovery Circulating Supply App ID: {arc2_app_client.app_id}")
-    logger.info("Setting ASA on ARC-2 discovery Circulating Supply App...")
-    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    logger.info("Setting ARC-2 discovery Circulating Supply App...")
+    current_round = get_last_round()
     arc2_app_client.send.set_asset(
         args=SetAssetArgs(asset_id=arc2_asset_id),
         params=algokit_utils.CommonAppCallParams(
@@ -125,7 +197,7 @@ def deploy() -> None:
     }
     arc2_note = "arc62:j" + json.dumps(arc2_data)
     logger.info("Setting Circulating Supply App with ARC-2...")
-    current_round: int = algorand.client.algod.status().get("last-round")  # type: ignore
+    current_round = get_last_round()
     algorand.send.asset_config(
         params=algokit_utils.AssetConfigParams(
             sender=deployer.address,
@@ -136,3 +208,25 @@ def deploy() -> None:
             last_valid_round=current_round + 100,
         )
     )
+    arc2_app_client.send.set_not_circulating_address(
+        args=SetNotCirculatingAddressArgs(
+            address=non_circulating.address,
+            label=NOT_CIRCULATING_LABEL_1,
+        ),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    )
+
+    current_round = get_last_round()
+    arc2_circulating_supply = arc2_app_client.send.arc62_get_circulating_supply(
+        args=Arc62GetCirculatingSupplyArgs(asset_id=arc2_asset_id),
+        params=algokit_utils.CommonAppCallParams(
+            sender=deployer.address,
+            first_valid_round=current_round,
+            last_valid_round=current_round + 100,
+        ),
+    ).abi_return
+    logger.info(f"ARC-2 discovery Circulating Supply: {arc2_circulating_supply}")
