@@ -13,7 +13,6 @@ ASA_TOTAL: Final[int] = 42
 APP_URI: Final[str] = "algorand://app/"
 
 
-# define deployment behaviour based on supplied app spec
 def deploy() -> None:
     from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
         CirculatingSupplyFactory,
