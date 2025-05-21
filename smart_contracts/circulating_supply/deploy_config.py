@@ -41,7 +41,7 @@ def deploy() -> None:
     if not app_client.state.global_state.asset_id:
         arc3_data_cid = ""
         if not algorand.client.is_localnet():
-            logger.info("Uploading AppSpec on IPFS")
+            logger.info("Uploading ARC3 metadata on IPFS")
             arc3_data = {
                 "name": ASA_NAME,
                 "decimals": ASA_DECIMALS,
@@ -49,7 +49,8 @@ def deploy() -> None:
                 "properties": {"arc-62": {"application-id": app_client.app_id}},
             }
             jwt = ipfs.get_pinata_jwt().strip()
-            arc3_data_cid = ipfs.upload_to_pinata(arc3_data, jwt)
+            arc3_data_cid = ipfs.upload_to_pinata(arc3_data, jwt, ASA_UNIT_NAME)
+            logger.info("Upload complete. CID: %s", arc3_data_cid)
 
         asset_id = algorand.send.asset_create(
             algokit_utils.AssetCreateParams(
