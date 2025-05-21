@@ -1,3 +1,4 @@
+import io
 import json
 import os
 
@@ -53,13 +54,16 @@ def get_pinata_jwt() -> str:
         raise err
 
 
-def upload_to_pinata(json_data: dict[str, object], jwt: str) -> str:
+def upload_to_pinata(
+    json_data: dict[str, object], jwt: str, name: str | None = None
+) -> str:
     """
     Uploads a JSON to the Piñata API.
 
     Args:
         json_data (dict): JSON data to be uploaded.
         jwt (str): The JWT for accessing the Piñata API.
+        name (str | None, optional): The name to be assigned to the uploaded file. If not provided, defaults to None.
 
     Returns:
         str: The CID (Content Identifier) of the uploaded file.
@@ -87,11 +91,13 @@ def upload_to_pinata(json_data: dict[str, object], jwt: str) -> str:
 
     pinata_options = {"cidVersion": 1}
     data = {"pinataOptions": json.dumps(pinata_options)}
+    json_bytes = json.dumps(json_data).encode("utf-8")
+    files = {"file": (name, io.BytesIO(json_bytes))}
     try:
         response = httpx.post(
             url="https://api.pinata.cloud/pinning/pinFileToIPFS",
             data=data,
-            json=json.dumps(json_data),
+            files=files,
             headers=headers,
             timeout=DEFAULT_TIMEOUT,
         )
