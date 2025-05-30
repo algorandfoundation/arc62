@@ -13,7 +13,9 @@ ASA_NAME: Final[str] = "ARC-62 Test ASA"
 ASA_UNIT_NAME: Final[str] = "ARC-62"
 ASA_DECIMALS: Final[int] = 0
 ASA_TOTAL: Final[int] = 42
-APP_URI: Final[str] = "ipfs://"
+ARC3_URI: Final[str] = "ipfs://"
+ARC3_SUFFIX: Final[str] = "#arc3"
+ARC62_PREFIX: Final[str] = "arc62"
 
 
 def deploy() -> None:
@@ -109,7 +111,7 @@ def deploy() -> None:
             decimals=ASA_DECIMALS,
             manager=deployer.address,
             reserve=deployer.address,
-            url=APP_URI + arc3_data_cid,
+            url=ARC3_URI + arc3_data_cid + ARC3_SUFFIX,
             first_valid_round=current_round,
             last_valid_round=current_round + 100,
         )
@@ -195,7 +197,7 @@ def deploy() -> None:
     arc2_data: dict[str, int] = {
         "application-id": arc2_app_client.app_id,
     }
-    arc2_note = "arc62:j" + json.dumps(arc2_data)
+    arc2_note = ARC62_PREFIX + ":j" + json.dumps(arc2_data)
     logger.info("Setting Circulating Supply App with ARC-2...")
     current_round = get_last_round()
     algorand.send.asset_config(
