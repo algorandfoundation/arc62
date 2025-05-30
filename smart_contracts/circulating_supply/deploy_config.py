@@ -6,6 +6,7 @@ import algokit_utils
 from algokit_utils.config import config
 
 from helpers import ipfs
+from smart_contracts.circulating_supply.config import ARC2_PREFIX, ARC3_SUFFIX, ARC3_URI
 
 logger = logging.getLogger(__name__)
 
@@ -13,9 +14,6 @@ ASA_NAME: Final[str] = "ARC-62 Test ASA"
 ASA_UNIT_NAME: Final[str] = "ARC-62"
 ASA_DECIMALS: Final[int] = 0
 ASA_TOTAL: Final[int] = 42
-ARC3_URI: Final[str] = "ipfs://"
-ARC3_SUFFIX: Final[str] = "#arc3"
-ARC62_PREFIX: Final[str] = "arc62"
 
 
 def deploy() -> None:
@@ -197,7 +195,7 @@ def deploy() -> None:
     arc2_data: dict[str, int] = {
         "application-id": arc2_app_client.app_id,
     }
-    arc2_note = ARC62_PREFIX + ":j" + json.dumps(arc2_data)
+    arc2_note = ARC2_PREFIX + ":j" + json.dumps(arc2_data)
     logger.info("Setting Circulating Supply App with ARC-2...")
     current_round = get_last_round()
     algorand.send.asset_config(
