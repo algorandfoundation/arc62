@@ -1,8 +1,17 @@
 import json
 import logging
+import os
 from typing import Final
 
 import algokit_utils
+from algokit_utils import (
+    Actions,
+    AppCallMethodCallParams,
+    CallEnum,
+    Method,
+    MethodArg,
+    Returns,
+)
 from algokit_utils.config import config
 
 from helpers import ipfs
@@ -34,9 +43,31 @@ def deploy() -> None:
     deployer = algorand.account.from_environment("DEPLOYER")
     non_circulating = algorand.account.from_environment("NON_CIRCULATING")
     circulating = algorand.account.from_environment("CIRCULATING")
+    non_circulating_address = non_circulating.address
+
+    if is_testnet := algorand.client.is_testnet():
+        non_circulating_address = os.environ["BONFIRE_ADDR"]
+        bonfire_app_id = int(os.environ["BONFIRE_APP_ID"])
+        arc54_opt_in_to_asa = Method(
+            actions=Actions(call=[CallEnum.NO_OP]),
+            args=[MethodArg(type="asset")],
+            name="arc54_optIntoASA",
+            returns=Returns(type="void"),
+        )
 
     def get_last_round() -> int:
         return algorand.client.algod.status().get("last-round")  # type: ignore
+
+    def bonfire_opt_in(asset_id: int) -> None:
+        algorand.send.app_call_method_call(
+            params=AppCallMethodCallParams(
+                sender=deployer.address,
+                app_id=bonfire_app_id,
+                method=arc54_opt_in_to_asa.to_abi_method(),
+                args=[asset_id],  # type: ignore
+                asset_references=[asset_id],
+            ),
+        )
 
     def asset_opt_in(account: algokit_utils.SigningAccount, asset_id: int) -> None:
         current_round = get_last_round()
@@ -85,7 +116,7 @@ def deploy() -> None:
     logger.info(f"ARC-3 discovery Circulating Supply App ID: {arc3_app_client.app_id}")
 
     arc3_data_cid = ""
-    if not algorand.client.is_localnet():
+    if is_testnet:
         logger.info("Uploading ARC-3 metadata on IPFS")
         arc3_data = {
             "name": ASA_NAME,
@@ -114,9 +145,14 @@ def deploy() -> None:
             last_valid_round=current_round + 100,
         )
     ).asset_id
-    asset_opt_in(non_circulating, arc3_asset_id)
+
+    if is_testnet:
+        bonfire_opt_in(arc3_asset_id)
+    else:
+        asset_opt_in(non_circulating, arc3_asset_id)
+    asset_transfer(deployer, arc3_asset_id, 1, non_circulating_address)
+
     asset_opt_in(circulating, arc3_asset_id)
-    asset_transfer(deployer, arc3_asset_id, 1, non_circulating.address)
     asset_transfer(deployer, arc3_asset_id, 1, circulating.address)
 
     logger.info("Setting ARC-3 discovery Circulating Supply App...")
@@ -131,7 +167,7 @@ def deploy() -> None:
     )
     arc3_app_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=non_circulating.address,
+            address=non_circulating_address,
             label=NOT_CIRCULATING_LABEL_1,
         ),
         params=algokit_utils.CommonAppCallParams(
@@ -169,9 +205,14 @@ def deploy() -> None:
             last_valid_round=current_round + 100,
         )
     ).asset_id
-    asset_opt_in(non_circulating, arc2_asset_id)
+
+    if is_testnet:
+        bonfire_opt_in(arc2_asset_id)
+    else:
+        asset_opt_in(non_circulating, arc2_asset_id)
+    asset_transfer(deployer, arc2_asset_id, 1, non_circulating_address)
+
     asset_opt_in(circulating, arc2_asset_id)
-    asset_transfer(deployer, arc2_asset_id, 1, non_circulating.address)
     asset_transfer(deployer, arc2_asset_id, 1, circulating.address)
 
     logger.info("Creating ARC-2 discovery Circulating Supply App...")
@@ -210,7 +251,7 @@ def deploy() -> None:
     )
     arc2_app_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=non_circulating.address,
+            address=non_circulating_address,
             label=NOT_CIRCULATING_LABEL_1,
         ),
         params=algokit_utils.CommonAppCallParams(
