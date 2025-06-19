@@ -43,10 +43,11 @@ def deploy() -> None:
     deployer = algorand.account.from_environment("DEPLOYER")
     non_circulating = algorand.account.from_environment("NON_CIRCULATING")
     circulating = algorand.account.from_environment("CIRCULATING")
+    non_circulating_address = non_circulating.address
 
     if is_testnet := algorand.client.is_testnet():
-        bonfire_addr: str = os.environ["BONFIRE_ADDR"]
-        bonfire_app_id: int = int(os.environ["BONFIRE_APP_ID"])
+        non_circulating_address = os.environ["BONFIRE_ADDR"]
+        bonfire_app_id = int(os.environ["BONFIRE_APP_ID"])
         arc54_opt_in_to_asa = Method(
             actions=Actions(call=[CallEnum.NO_OP]),
             args=[MethodArg(type="asset")],
@@ -149,7 +150,7 @@ def deploy() -> None:
         bonfire_opt_in(arc3_asset_id)
     else:
         asset_opt_in(non_circulating, arc3_asset_id)
-    asset_transfer(deployer, arc3_asset_id, 1, non_circulating.address)
+    asset_transfer(deployer, arc3_asset_id, 1, non_circulating_address)
 
     asset_opt_in(circulating, arc3_asset_id)
     asset_transfer(deployer, arc3_asset_id, 1, circulating.address)
@@ -166,7 +167,7 @@ def deploy() -> None:
     )
     arc3_app_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=non_circulating.address if not is_testnet else bonfire_addr,
+            address=non_circulating_address,
             label=NOT_CIRCULATING_LABEL_1,
         ),
         params=algokit_utils.CommonAppCallParams(
@@ -209,7 +210,7 @@ def deploy() -> None:
         bonfire_opt_in(arc2_asset_id)
     else:
         asset_opt_in(non_circulating, arc2_asset_id)
-    asset_transfer(deployer, arc2_asset_id, 1, non_circulating.address)
+    asset_transfer(deployer, arc2_asset_id, 1, non_circulating_address)
 
     asset_opt_in(circulating, arc2_asset_id)
     asset_transfer(deployer, arc2_asset_id, 1, circulating.address)
@@ -250,7 +251,7 @@ def deploy() -> None:
     )
     arc2_app_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=non_circulating.address if not is_testnet else bonfire_addr,
+            address=non_circulating_address,
             label=NOT_CIRCULATING_LABEL_1,
         ),
         params=algokit_utils.CommonAppCallParams(
