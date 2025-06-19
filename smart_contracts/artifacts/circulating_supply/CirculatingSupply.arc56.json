@@ -21,7 +21,7 @@
                 ]
             },
             "readonly": false,
-            "desc": "Set the ASA ID for the circulating supply - Authorization: ASA Manager Address",
+            "desc": "Set the ASA ID for the circulating supply - Authorization: ASA Manager Address.",
             "events": [],
             "recommendations": {}
         },
@@ -49,7 +49,7 @@
                 ]
             },
             "readonly": false,
-            "desc": "Set non-circulating supply addresses - Authorization: ASA Manager Address",
+            "desc": "Set non-circulating supply addresses - Authorization: ASA Manager Address.",
             "events": [],
             "recommendations": {}
         },
@@ -73,7 +73,7 @@
                 ]
             },
             "readonly": true,
-            "desc": "Get ASA circulating supply",
+            "desc": "Get ASA circulating supply.",
             "events": [],
             "recommendations": {}
         }
