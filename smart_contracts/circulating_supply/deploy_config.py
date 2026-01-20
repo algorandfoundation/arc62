@@ -145,7 +145,7 @@ def deploy() -> None:
     )
 
     algorand = AlgorandClient.from_environment()
-    algorand.set_default_validity_window(20)
+    algorand.set_default_validity_window(100)
     deployer = algorand.account.from_environment("DEPLOYER")
     logger.info(f"Deployer address: {deployer.address}")
 
