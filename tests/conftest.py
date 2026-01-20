@@ -8,6 +8,7 @@ from algokit_utils import (
     AssetOptInParams,
     AssetTransferParams,
     CommonAppCallParams,
+    PaymentParams,
     SigningAccount,
 )
 from algokit_utils.config import config
@@ -15,16 +16,26 @@ from algokit_utils.config import config
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
     CirculatingSupplyFactory,
-    SetAssetArgs,
+    InitConfigArgs,
 )
-from smart_contracts.circulating_supply.config import ARC3_SUFFIX, ARC3_URI
+from smart_contracts.circulating_supply.config import ARC3_SUFFIX, IPFS_URI
 
-INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount.from_algo(100)
-ASA_TOTAL: Final[int] = 1000
-RESERVE_BALANCE: Final[int] = 420
-NOT_CIRCULATING_BALANCE_1: Final[int] = 69
-NOT_CIRCULATING_BALANCE_2: Final[int] = 42
-NOT_CIRCULATING_BALANCE_3: Final[int] = 4
+INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
+
+ASA_TOTAL: Final[int] = 100
+RESERVE_BALANCE: Final[int] = 4
+BURNED_BALANCE: Final[int] = 3
+LOCKED_BALANCE: Final[int] = 2
+CUSTOM_BALANCE: Final[int] = 1
+
+ACCOUNT_MBR = AlgoAmount(micro_algo=100_000)
+CONFIG_MBR = AlgoAmount(micro_algo=44_100)
+
+config.configure(
+    debug=False,
+    populate_app_call_resources=True,
+    # trace_all=True,
+)
 
 
 @pytest.fixture(scope="session")
@@ -48,21 +59,18 @@ def deployer(algorand: AlgorandClient) -> SigningAccount:
 def circulating_supply_client(
     algorand: AlgorandClient, deployer: SigningAccount
 ) -> CirculatingSupplyClient:
-    config.configure(
-        debug=False,
-        populate_app_call_resources=True,
-        # trace_all=True,
-    )
-
     factory = algorand.client.get_typed_app_factory(
         CirculatingSupplyFactory,
         default_sender=deployer.address,
         default_signer=deployer.signer,
     )
     client, _ = factory.send.create.bare()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=client.app_address,
-        min_spending_balance=INITIAL_FUNDS,
+    algorand.send.payment(
+        params=PaymentParams(
+            sender=deployer.address,
+            receiver=client.app_address,
+            amount=ACCOUNT_MBR,
+        )
     )
     return client
 
@@ -98,7 +106,7 @@ def asset_reserve(algorand: AlgorandClient) -> SigningAccount:
 
 
 @pytest.fixture(scope="session")
-def not_circulating_address_1(algorand: AlgorandClient) -> SigningAccount:
+def burned_supply(algorand: AlgorandClient) -> SigningAccount:
     account = algorand.account.random()
     algorand.account.ensure_funded_from_environment(
         account_to_fund=account.address,
@@ -108,7 +116,7 @@ def not_circulating_address_1(algorand: AlgorandClient) -> SigningAccount:
 
 
 @pytest.fixture(scope="session")
-def not_circulating_address_2(algorand: AlgorandClient) -> SigningAccount:
+def locked_supply(algorand: AlgorandClient) -> SigningAccount:
     account = algorand.account.random()
     algorand.account.ensure_funded_from_environment(
         account_to_fund=account.address,
@@ -118,7 +126,7 @@ def not_circulating_address_2(algorand: AlgorandClient) -> SigningAccount:
 
 
 @pytest.fixture(scope="session")
-def not_circulating_address_3(algorand: AlgorandClient) -> SigningAccount:
+def custom_supply(algorand: AlgorandClient) -> SigningAccount:
     account = algorand.account.random()
     algorand.account.ensure_funded_from_environment(
         account_to_fund=account.address,
@@ -142,7 +150,7 @@ def asset(
             total=ASA_TOTAL,
             manager=asset_manager.address,
             reserve=asset_reserve.address,
-            url=ARC3_URI + "<ipfs-cid>" + ARC3_SUFFIX,
+            url=IPFS_URI + "<ipfs-cid>" + ARC3_SUFFIX,
         )
     ).asset_id
 
@@ -178,16 +186,16 @@ def reserve_with_balance(
 
 
 @pytest.fixture(scope="function")
-def not_circulating_balance_1(
+def burned_balance(
     algorand: AlgorandClient,
     asset_creator: SigningAccount,
-    not_circulating_address_1: SigningAccount,
+    burned_supply: SigningAccount,
     asset: int,
 ) -> SigningAccount:
     algorand.send.asset_opt_in(
         AssetOptInParams(
-            sender=not_circulating_address_1.address,
-            signer=not_circulating_address_1.signer,
+            sender=burned_supply.address,
+            signer=burned_supply.signer,
             asset_id=asset,
         )
     )
@@ -196,28 +204,28 @@ def not_circulating_balance_1(
             sender=asset_creator.address,
             signer=asset_creator.signer,
             asset_id=asset,
-            amount=NOT_CIRCULATING_BALANCE_1,
-            receiver=not_circulating_address_1.address,
+            amount=BURNED_BALANCE,
+            receiver=burned_supply.address,
         )
     )
     assert (
-        algorand.asset.get_account_information(not_circulating_address_1, asset).balance
-        == NOT_CIRCULATING_BALANCE_1
+        algorand.asset.get_account_information(burned_supply, asset).balance
+        == BURNED_BALANCE
     )
-    return not_circulating_address_1
+    return burned_supply
 
 
 @pytest.fixture(scope="function")
-def not_circulating_balance_2(
+def locked_balance(
     algorand: AlgorandClient,
     asset_creator: SigningAccount,
-    not_circulating_address_2: SigningAccount,
+    locked_supply: SigningAccount,
     asset: int,
 ) -> SigningAccount:
     algorand.send.asset_opt_in(
         AssetOptInParams(
-            sender=not_circulating_address_2.address,
-            signer=not_circulating_address_2.signer,
+            sender=locked_supply.address,
+            signer=locked_supply.signer,
             asset_id=asset,
         )
     )
@@ -226,28 +234,28 @@ def not_circulating_balance_2(
             sender=asset_creator.address,
             signer=asset_creator.signer,
             asset_id=asset,
-            amount=NOT_CIRCULATING_BALANCE_2,
-            receiver=not_circulating_address_2.address,
+            amount=LOCKED_BALANCE,
+            receiver=locked_supply.address,
         )
     )
     assert (
-        algorand.asset.get_account_information(not_circulating_address_2, asset).balance
-        == NOT_CIRCULATING_BALANCE_2
+        algorand.asset.get_account_information(locked_supply, asset).balance
+        == LOCKED_BALANCE
     )
-    return not_circulating_address_2
+    return locked_supply
 
 
 @pytest.fixture(scope="function")
-def not_circulating_balance_3(
+def custom_balance(
     algorand: AlgorandClient,
     asset_creator: SigningAccount,
-    not_circulating_address_3: SigningAccount,
+    custom_supply: SigningAccount,
     asset: int,
 ) -> SigningAccount:
     algorand.send.asset_opt_in(
         AssetOptInParams(
-            sender=not_circulating_address_3.address,
-            signer=not_circulating_address_3.signer,
+            sender=custom_supply.address,
+            signer=custom_supply.signer,
             asset_id=asset,
         )
     )
@@ -256,15 +264,15 @@ def not_circulating_balance_3(
             sender=asset_creator.address,
             signer=asset_creator.signer,
             asset_id=asset,
-            amount=NOT_CIRCULATING_BALANCE_3,
-            receiver=not_circulating_address_3.address,
+            amount=CUSTOM_BALANCE,
+            receiver=custom_supply.address,
         )
     )
     assert (
-        algorand.asset.get_account_information(not_circulating_address_3, asset).balance
-        == NOT_CIRCULATING_BALANCE_3
+        algorand.asset.get_account_information(custom_supply, asset).balance
+        == CUSTOM_BALANCE
     )
-    return not_circulating_address_3
+    return custom_supply
 
 
 @pytest.fixture(scope="function")
@@ -273,8 +281,16 @@ def asset_circulating_supply_client(
     asset_manager: SigningAccount,
     asset: int,
 ) -> CirculatingSupplyClient:
-    circulating_supply_client.send.set_asset(
-        args=SetAssetArgs(asset_id=asset),
+    mbr_payment = circulating_supply_client.algorand.create_transaction.payment(
+        PaymentParams(
+            sender=asset_manager.address,
+            receiver=circulating_supply_client.app_address,
+            amount=CONFIG_MBR,
+        )
+    )
+
+    circulating_supply_client.send.init_config(
+        args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
     return circulating_supply_client
