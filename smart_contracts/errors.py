@@ -1,0 +1,8 @@
+# Errors
+UNAUTHORIZED = "Unauthorized"
+CONFIG_EXISTS = "Circulating supply config already exists for this ASA"
+CONFIG_NOT_EXISTS = "Circulating supply config does not exist for this ASA"
+NOT_OPTED_IN = "Address is not opted-in the ASA"
+INVALID_LABEL = "Invalid label"
+INVALID_MBR_RECEIVER = "Invalid circulating supply config MBR receiver"
+INVALID_MBR_AMOUNT = "Invalid circulating supply config MBR amount"

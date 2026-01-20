@@ -1,67 +1,77 @@
 import pytest
 from algokit_utils import CommonAppCallParams, LogicError, SigningAccount
 
+from smart_contracts import errors as err
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
     SetNotCirculatingAddressArgs,
 )
 from smart_contracts.circulating_supply import config as cfg
-from smart_contracts.errors import std_errors as err
 
 
 def test_pass_set_not_circulating_address(
     asset_circulating_supply_client: CirculatingSupplyClient,
     asset_manager: SigningAccount,
     asset: int,
-    not_circulating_balance_1: SigningAccount,
-    not_circulating_balance_2: SigningAccount,
-    not_circulating_balance_3: SigningAccount,
+    burned_balance: SigningAccount,
+    locked_balance: SigningAccount,
+    custom_balance: SigningAccount,
 ) -> None:
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_1.address,
-            label=cfg.NOT_CIRCULATING_LABEL_1,
+            asset=asset,
+            address=burned_balance.address,
+            label=cfg.BURNED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_2.address,
-            label=cfg.NOT_CIRCULATING_LABEL_2,
+            asset=asset,
+            address=locked_balance.address,
+            label=cfg.LOCKED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_3.address,
-            label=cfg.NOT_CIRCULATING_LABEL_3,
+            asset=asset,
+            address=custom_balance.address,
+            label=cfg.CUSTOM,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
 
-    state = asset_circulating_supply_client.state.global_state
+    config = asset_circulating_supply_client.state.box.circulating_supply.get_value(
+        asset
+    )
 
-    assert state.not_circulating_label_1 == not_circulating_balance_1.address
-    assert state.not_circulating_label_2 == not_circulating_balance_2.address
-    assert state.not_circulating_label_3 == not_circulating_balance_3.address
+    assert config.burned_addr == burned_balance.address
+    assert config.locked_addr == locked_balance.address
+    assert config.custom_addr == custom_balance.address
 
 
 def test_fail_unauthorized(
     asset_circulating_supply_client: CirculatingSupplyClient,
     asset_creator: SigningAccount,
     asset: int,
-    not_circulating_balance_1: SigningAccount,
+    burned_balance: SigningAccount,
 ) -> None:
     with pytest.raises(LogicError, match=err.UNAUTHORIZED):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
-                address=not_circulating_balance_1.address,
-                label=cfg.NOT_CIRCULATING_LABEL_1,
+                asset=asset,
+                address=burned_balance.address,
+                label=cfg.BURNED,
             ),
             params=CommonAppCallParams(sender=asset_creator.address),
         )
+
+
+def test_fail_config_not_exists() -> None:
+    pass  # TODO
 
 
 def test_fail_not_opted_in(
@@ -72,8 +82,9 @@ def test_fail_not_opted_in(
     with pytest.raises(LogicError, match=err.NOT_OPTED_IN):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
+                asset=asset,
                 address=asset_manager.address,
-                label=cfg.NOT_CIRCULATING_LABEL_1,
+                label=cfg.BURNED,
             ),
             params=CommonAppCallParams(sender=asset_manager.address),
         )
@@ -83,13 +94,14 @@ def test_fail_invalid_label(
     asset_circulating_supply_client: CirculatingSupplyClient,
     asset_manager: SigningAccount,
     asset: int,
-    not_circulating_balance_1: SigningAccount,
+    burned_balance: SigningAccount,
 ) -> None:
     with pytest.raises(LogicError, match=err.INVALID_LABEL):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
-                address=not_circulating_balance_1.address,
-                label=cfg.NOT_CIRCULATING_LABEL_1 + "spam",
+                asset=asset,
+                address=burned_balance.address,
+                label=cfg.BURNED + "spam",
             ),
             params=CommonAppCallParams(sender=asset_manager.address),
         )

@@ -20,29 +20,23 @@ def test_pass_get_circulating_supply(
     asset_manager: SigningAccount,
     asset: int,
     reserve_with_balance: SigningAccount,
-    not_circulating_balance_1: SigningAccount,
-    not_circulating_balance_2: SigningAccount,
-    not_circulating_balance_3: SigningAccount,
+    burned_balance: SigningAccount,
+    locked_balance: SigningAccount,
+    custom_balance: SigningAccount,
 ) -> None:
     total = algorand.asset.get_by_id(asset).total
     reserve_balance = algorand.asset.get_account_information(
         reserve_with_balance, asset
     ).balance
-    nc_balance_1 = algorand.asset.get_account_information(
-        not_circulating_balance_1, asset
-    ).balance
-    nc_balance_2 = algorand.asset.get_account_information(
-        not_circulating_balance_2, asset
-    ).balance
-    nc_balance_3 = algorand.asset.get_account_information(
-        not_circulating_balance_3, asset
-    ).balance
+    nc_balance_1 = algorand.asset.get_account_information(burned_balance, asset).balance
+    nc_balance_2 = algorand.asset.get_account_information(locked_balance, asset).balance
+    nc_balance_3 = algorand.asset.get_account_information(custom_balance, asset).balance
 
     print("\nASA Total: ", total)
     print("Reserve Balance: ", reserve_balance)
-    print(f"{cfg.NOT_CIRCULATING_LABEL_1.capitalize()} Balance: ", nc_balance_1)
-    print(f"{cfg.NOT_CIRCULATING_LABEL_2.capitalize()} Balance: ", nc_balance_2)
-    print(f"{cfg.NOT_CIRCULATING_LABEL_3.capitalize()} Balance: ", nc_balance_3)
+    print(f"{cfg.BURNED.capitalize()} Balance: ", nc_balance_1)
+    print(f"{cfg.LOCKED.capitalize()} Balance: ", nc_balance_2)
+    print(f"{cfg.CUSTOM.capitalize()} Balance: ", nc_balance_3)
 
     circulating_supply = (
         asset_circulating_supply_client.send.arc62_get_circulating_supply(
@@ -53,8 +47,9 @@ def test_pass_get_circulating_supply(
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_1.address,
-            label=cfg.NOT_CIRCULATING_LABEL_1,
+            asset=asset,
+            address=burned_balance.address,
+            label=cfg.BURNED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
@@ -67,8 +62,9 @@ def test_pass_get_circulating_supply(
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_2.address,
-            label=cfg.NOT_CIRCULATING_LABEL_2,
+            asset=asset,
+            address=locked_balance.address,
+            label=cfg.LOCKED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
@@ -81,8 +77,9 @@ def test_pass_get_circulating_supply(
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_3.address,
-            label=cfg.NOT_CIRCULATING_LABEL_3,
+            asset=asset,
+            address=custom_balance.address,
+            label=cfg.CUSTOM,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
@@ -128,23 +125,24 @@ def test_pass_closed_address(
     asset_creator: SigningAccount,
     asset_manager: SigningAccount,
     reserve_with_balance: SigningAccount,
-    not_circulating_balance_1: SigningAccount,
+    burned_balance: SigningAccount,
     asset: int,
 ) -> None:
     total = algorand.asset.get_by_id(asset).total
 
     asset_circulating_supply_client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(
-            address=not_circulating_balance_1.address,
-            label=cfg.NOT_CIRCULATING_LABEL_1,
+            asset=asset,
+            address=burned_balance.address,
+            label=cfg.BURNED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
 
     algorand.send.asset_transfer(
         AssetTransferParams(
-            sender=not_circulating_balance_1.address,
-            signer=not_circulating_balance_1.signer,
+            sender=burned_balance.address,
+            signer=burned_balance.signer,
             asset_id=asset,
             amount=0,
             receiver=asset_creator.address,
@@ -169,3 +167,11 @@ def test_pass_closed_address(
         ).abi_return
     )
     assert circulating_supply == total
+
+
+def test_pass_asa_not_exists() -> None:
+    pass  # TODO
+
+
+def test_fail_config_not_exists() -> None:
+    pass  # TODO

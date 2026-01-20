@@ -3,7 +3,7 @@
   "sources": [
     "../../circulating_supply/contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAwBQ;AAAgB;AAAhB;AAEmB;AAAf;;AADJ;AAImB;AAAf;;AADJ;AAImB;AAAf;;AADJ;AAZR;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;;;;;;;;;AAgBK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAUU;;AAAc;AAAA;;AAAA;AAAd;AAAA;;;AAAoC;AAAA;AAAA;AAAA;AAApC;;;;AAAP;AAEA;AAAA;;AAAA;AAZH;AAAA;;;;;AAcA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AASiB;AAAA;AAAA;AAAA;AAEP;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AACO;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAP;AAGS;AAEA;AAEA;AALT;;AAAA;;;;;;;;AAQQ;AAFA;AAAA;;AAAA;AApBX;AAAA;AAkBW;AAAA;;AAAA;;;;AAFA;AAAA;;AAAA;;;;;;;;AAQX;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAY+B;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAR;AAAA;AAAA;AAAA;AACQ;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAR;AAAA;AAAA;AAAA;AACQ;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAR;AAAA;AAAA;AAAA;AAED;AAAA;AAAA;AAAA;AAAZ;;AAAA;AAAP;AAIO;;AAAA;AAAiB;;AAAjB;AAAA;;;AACI;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAJ;;;AAFH;;;AAOG;;AAAqB;;AAArB;AAAA;;;AACI;;AAAA;;AAAA;;AAAA;;AAAJ;;;AAFH;;;AAOG;;AAAqB;;AAArB;AAAA;;;AACI;;AAAA;;AAAA;;AAAA;;AAAJ;;;AAFH;;;AAOG;AAAqB;;AAArB;AAAA;;;AACI;AAAA;;AAAA;;AAAA;;AAAJ;;;AAFH;AAMA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AA3CP;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAwCY;AAAA;;AAAA;;AAAA;;;;AANA;;AAAA;;AAAA;;AAAA;;;;;;AANA;;AAAA;;AAAA;;AAAA;;;;;;AANc;;AAAA;AAAA;;AAAA;AAAd;AAAA;;AAAA;;;",
+  "mappings": ";;;;;;;;;;;;;;AA6BA;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;AAAA;AAiLK;AAAA;;;;;;;;;AAzKA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAeO;;AAAc;;AAAA;;AAAA;AAAd;AADJ;AAGO;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAP;AAEI;;AAAA;;AAAwB;;AAAxB;AADJ;AAKQ;;AAAA;;AAAA;AACE;;AACD;;AADC;AAAA;AAGmC;;AAA7C;;AAAA;AAAA;;AAAA;AAC6C;;AAA7C;;AAAA;AAAA;;AAAA;AAC6C;;AAA7C;;AAAA;;AAAA;;AAAA;AAGmB;;AAAA;;AAAA;AAAA;AAAA;AACZ;AAAA;;AAAA;;AAAA;AAAP;AAjCH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAqCA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AAcU;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AACO;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAP;AACO;AAAA;;AAAA;;AAAA;;AAAP;AAIS;;;;;;;;;;;;;;;;;;;;;;;AADT;;AAAA;;;;;;;;AAQQ;AAFA;AAAA;;AAAA;;AAAA;AAzBX;AAAA;AAuBW;AAAA;AAAA;;AAAA;;;;AAFA;AAAA;AAAA;;AAAA;;;;AAQX;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAaU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AA3Fe;;AAAA;;AA4FvB;;;AACmB;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AAGI;;AAAA;;AAAA;AACR;;AAAA;;AAC2B;;AAAA;;AAAA;AAAR;AAGnB;AAAsB;;;;;;;;AAAtB;;;AAAA;;;AAAA;AAvBH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AA2BA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAWU;AAAA;AAAA;AAAA;;AAAP;AACO;AAAA;AAZV;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;;;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAcU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AArIe;AAAA;;AAAA;;AAAA;AA4IR;;AAAA;AAAiB;;AAAjB;AAAA;;;AACA;AAAA;;;AACI;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAJ;;;AAHH;;;AAOU;;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAGQ;;AAAf;AAAA;;;AACA;AAAA;;;AACI;;AAAA;;AAAA;;AAAA;;AAAJ;;;AAHH;;;AAOU;;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAGQ;;AAAf;AAAA;;;AACA;AAAA;;;AACI;;AAAA;;AAAA;;AAAA;;AAAJ;;;AAHH;;;AAOU;;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAGQ;;AAAf;AAAA;;;AACA;AAAA;;;AACI;;AAAA;;AAAA;;AAAA;;AAAJ;;;AAHH;AAQA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAvDP;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAmDY;;AAAA;;AAAA;;AAAA;;;;AATA;;AAAA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;AAAA;;;;;;AATc;;AAAA;AAAA;;AAAA;AAAd;AAAA;;AAAA;;;;;;AAsDL;;AAAA;;AAAA;AACE;;AAAA;;AAAA;AADF;AAGJ;AACa;;;;;;AADb;;;AAAA;;;AAAA;AAZH;AAAA",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,123 +11,12 @@
       "params": {},
       "block": "main",
       "stack_in": [],
-      "op": "intcblock 0 32 1 8"
+      "op": "intcblock 1 0 8 32"
     },
     "7": {
-      "op": "bytecblock \"asset_id\" \"burned\" \"locked\" \"generic\""
+      "op": "bytecblock 0x151f7c75"
     },
-    "40": {
-      "op": "txn ApplicationID",
-      "defined_out": [
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0"
-      ]
-    },
-    "42": {
-      "op": "bnz main_after_if_else@2",
-      "stack_out": []
-    },
-    "45": {
-      "op": "bytec_0 // \"asset_id\"",
-      "defined_out": [
-        "\"asset_id\""
-      ],
-      "stack_out": [
-        "\"asset_id\""
-      ]
-    },
-    "46": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "\"asset_id\"",
-        "0"
-      ],
-      "stack_out": [
-        "\"asset_id\"",
-        "0"
-      ]
-    },
-    "47": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "48": {
-      "op": "bytec_1 // \"burned\"",
-      "defined_out": [
-        "\"burned\""
-      ],
-      "stack_out": [
-        "\"burned\""
-      ]
-    },
-    "49": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "\"burned\"",
-        "tmp%0#2"
-      ],
-      "stack_out": [
-        "\"burned\"",
-        "tmp%0#2"
-      ]
-    },
-    "51": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "52": {
-      "op": "bytec_2 // \"locked\"",
-      "defined_out": [
-        "\"locked\""
-      ],
-      "stack_out": [
-        "\"locked\""
-      ]
-    },
-    "53": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "\"locked\"",
-        "tmp%1#2"
-      ],
-      "stack_out": [
-        "\"locked\"",
-        "tmp%1#2"
-      ]
-    },
-    "55": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "56": {
-      "op": "bytec_3 // \"generic\"",
-      "defined_out": [
-        "\"generic\""
-      ],
-      "stack_out": [
-        "\"generic\""
-      ]
-    },
-    "57": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "\"generic\"",
-        "tmp%2#1"
-      ],
-      "stack_out": [
-        "\"generic\"",
-        "tmp%2#1"
-      ]
-    },
-    "59": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "60": {
-      "block": "main_after_if_else@2",
-      "stack_in": [],
+    "14": {
       "op": "txn NumAppArgs",
       "defined_out": [
         "tmp%0#1"
@@ -136,11 +25,11 @@
         "tmp%0#1"
       ]
     },
-    "62": {
-      "op": "bz main___algopy_default_create@12",
+    "16": {
+      "op": "bz main___algopy_default_create@16",
       "stack_out": []
     },
-    "65": {
+    "19": {
       "op": "txn OnCompletion",
       "defined_out": [
         "tmp%2#0"
@@ -149,7 +38,7 @@
         "tmp%2#0"
       ]
     },
-    "67": {
+    "21": {
       "op": "!",
       "defined_out": [
         "tmp%3#0"
@@ -158,11 +47,11 @@
         "tmp%3#0"
       ]
     },
-    "68": {
+    "22": {
       "op": "assert",
       "stack_out": []
     },
-    "69": {
+    "23": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%4#0"
@@ -171,47 +60,78 @@
         "tmp%4#0"
       ]
     },
-    "71": {
+    "25": {
       "op": "assert",
       "stack_out": []
     },
-    "72": {
-      "op": "pushbytess 0x709b80a8 0x0b62c728 0x5cc2c535 // method \"set_asset(uint64)void\", method \"set_not_circulating_address(address,string)void\", method \"arc62_get_circulating_supply(uint64)uint64\"",
+    "26": {
+      "op": "pushbytess 0x08deee7e 0xa83f2989 0x4cb6d3dc 0xa34795cc 0x5cc2c535 0x0056d9c1 0xb92e267a // method \"init_config(uint64,pay)uint64\", method \"set_not_circulating_address(uint64,address,string)void\", method \"delete_config(uint64)uint64\", method \"get_config(uint64)(address,address,address)\", method \"arc62_get_circulating_supply(uint64)uint64\", method \"extra_resources()void\", method \"withdraw_balance_excess()void\"",
       "defined_out": [
         "Method(arc62_get_circulating_supply(uint64)uint64)",
-        "Method(set_asset(uint64)void)",
-        "Method(set_not_circulating_address(address,string)void)"
+        "Method(delete_config(uint64)uint64)",
+        "Method(extra_resources()void)",
+        "Method(get_config(uint64)(address,address,address))",
+        "Method(init_config(uint64,pay)uint64)",
+        "Method(set_not_circulating_address(uint64,address,string)void)",
+        "Method(withdraw_balance_excess()void)"
       ],
       "stack_out": [
-        "Method(set_asset(uint64)void)",
-        "Method(set_not_circulating_address(address,string)void)",
-        "Method(arc62_get_circulating_supply(uint64)uint64)"
+        "Method(init_config(uint64,pay)uint64)",
+        "Method(set_not_circulating_address(uint64,address,string)void)",
+        "Method(delete_config(uint64)uint64)",
+        "Method(get_config(uint64)(address,address,address))",
+        "Method(arc62_get_circulating_supply(uint64)uint64)",
+        "Method(extra_resources()void)",
+        "Method(withdraw_balance_excess()void)"
       ]
     },
-    "89": {
+    "63": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(arc62_get_circulating_supply(uint64)uint64)",
-        "Method(set_asset(uint64)void)",
-        "Method(set_not_circulating_address(address,string)void)",
+        "Method(delete_config(uint64)uint64)",
+        "Method(extra_resources()void)",
+        "Method(get_config(uint64)(address,address,address))",
+        "Method(init_config(uint64,pay)uint64)",
+        "Method(set_not_circulating_address(uint64,address,string)void)",
+        "Method(withdraw_balance_excess()void)",
         "tmp%6#0"
       ],
       "stack_out": [
-        "Method(set_asset(uint64)void)",
-        "Method(set_not_circulating_address(address,string)void)",
+        "Method(init_config(uint64,pay)uint64)",
+        "Method(set_not_circulating_address(uint64,address,string)void)",
+        "Method(delete_config(uint64)uint64)",
+        "Method(get_config(uint64)(address,address,address))",
         "Method(arc62_get_circulating_supply(uint64)uint64)",
+        "Method(extra_resources()void)",
+        "Method(withdraw_balance_excess()void)",
         "tmp%6#0"
       ]
     },
-    "92": {
-      "op": "match set_asset set_not_circulating_address arc62_get_circulating_supply",
+    "66": {
+      "op": "match init_config set_not_circulating_address delete_config get_config arc62_get_circulating_supply main_extra_resources_route@11 withdraw_balance_excess",
       "stack_out": []
     },
-    "100": {
+    "82": {
       "op": "err"
     },
-    "101": {
-      "block": "main___algopy_default_create@12",
+    "83": {
+      "block": "main_extra_resources_route@11",
+      "stack_in": [],
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "84": {
+      "op": "return",
+      "stack_out": []
+    },
+    "85": {
+      "block": "main___algopy_default_create@16",
       "stack_in": [],
       "op": "txn OnCompletion",
       "defined_out": [
@@ -221,7 +141,7 @@
         "tmp%7#0"
       ]
     },
-    "103": {
+    "87": {
       "op": "!",
       "defined_out": [
         "tmp%8#0"
@@ -230,7 +150,7 @@
         "tmp%8#0"
       ]
     },
-    "104": {
+    "88": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%8#0",
@@ -241,7 +161,7 @@
         "tmp%9#0"
       ]
     },
-    "106": {
+    "90": {
       "op": "!",
       "defined_out": [
         "tmp%10#0",
@@ -252,7 +172,7 @@
         "tmp%10#0"
       ]
     },
-    "107": {
+    "91": {
       "op": "&&",
       "defined_out": [
         "tmp%11#0"
@@ -261,15 +181,15 @@
         "tmp%11#0"
       ]
     },
-    "108": {
+    "92": {
       "op": "return",
       "defined_out": [],
       "stack_out": []
     },
-    "109": {
-      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.set_asset[routing]",
+    "93": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.init_config[routing]",
       "params": {},
-      "block": "set_asset",
+      "block": "init_config",
       "stack_in": [],
       "op": "txna ApplicationArgs 1",
       "defined_out": [
@@ -279,7 +199,7 @@
         "tmp%0#0"
       ]
     },
-    "112": {
+    "96": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -290,7 +210,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "113": {
+    "97": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -301,8 +221,8 @@
         "len%0#0"
       ]
     },
-    "114": {
-      "op": "intc_3 // 8",
+    "98": {
+      "op": "intc_2 // 8",
       "defined_out": [
         "8",
         "len%0#0",
@@ -314,7 +234,7 @@
         "8"
       ]
     },
-    "115": {
+    "99": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -325,2574 +245,3998 @@
         "eq%0#0"
       ]
     },
-    "116": {
+    "100": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "117": {
+    "101": {
       "op": "btoi",
       "defined_out": [
-        "asset_id#0"
+        "asset#0"
       ],
       "stack_out": [
-        "asset_id#0"
+        "asset#0"
+      ]
+    },
+    "102": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "asset#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0"
+      ]
+    },
+    "104": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "asset#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "1"
+      ]
+    },
+    "105": {
+      "op": "-",
+      "defined_out": [
+        "asset#0",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0"
+      ]
+    },
+    "106": {
+      "op": "dup",
+      "defined_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "mbr_payment#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "mbr_payment#0 (copy)"
+      ]
+    },
+    "107": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "asset#0",
+        "gtxn_type%0#0",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "109": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "asset#0",
+        "gtxn_type%0#0",
+        "mbr_payment#0",
+        "pay"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "gtxn_type%0#0",
+        "pay"
+      ]
+    },
+    "110": {
+      "op": "==",
+      "defined_out": [
+        "asset#0",
+        "gtxn_type_matches%0#0",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "111": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0"
+      ]
+    },
+    "112": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%0#1"
+      ]
+    },
+    "114": {
+      "op": "dig 2",
+      "defined_out": [
+        "asset#0",
+        "asset#0 (copy)",
+        "mbr_payment#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%0#1",
+        "asset#0 (copy)"
+      ]
+    },
+    "116": {
+      "op": "asset_params_get AssetManager",
+      "defined_out": [
+        "asset#0",
+        "check%0#0",
+        "mbr_payment#0",
+        "tmp%0#1",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%0#1",
+        "value%0#0",
+        "check%0#0"
       ]
     },
     "118": {
-      "op": "dup",
-      "defined_out": [
-        "asset_id#0"
-      ],
+      "error": "asset exists",
+      "op": "assert // asset exists",
       "stack_out": [
-        "asset_id#0",
-        "asset_id#0"
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%0#1",
+        "value%0#0"
       ]
     },
     "119": {
-      "op": "txn Sender",
+      "op": "==",
       "defined_out": [
-        "asset_id#0",
-        "tmp%0#1"
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%1#1"
       ],
       "stack_out": [
-        "asset_id#0",
-        "asset_id#0",
-        "tmp%0#1"
+        "asset#0",
+        "mbr_payment#0",
+        "tmp%1#1"
+      ]
+    },
+    "120": {
+      "error": "Unauthorized",
+      "op": "assert // Unauthorized",
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0"
       ]
     },
     "121": {
       "op": "swap",
       "stack_out": [
-        "asset_id#0",
-        "tmp%0#1",
-        "asset_id#0"
+        "mbr_payment#0",
+        "asset#0"
       ]
     },
     "122": {
-      "op": "asset_params_get AssetManager",
+      "op": "itob",
       "defined_out": [
-        "asset_id#0",
-        "check%0#0",
-        "tmp%0#1",
-        "value%0#0"
+        "encoded_value%0#0",
+        "mbr_payment#0"
       ],
       "stack_out": [
-        "asset_id#0",
-        "tmp%0#1",
-        "value%0#0",
-        "check%0#0"
+        "mbr_payment#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "123": {
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
       ]
     },
     "124": {
-      "error": "asset exists",
-      "op": "assert // asset exists",
-      "stack_out": [
-        "asset_id#0",
-        "tmp%0#1",
-        "value%0#0"
-      ]
-    },
-    "125": {
-      "op": "==",
+      "op": "box_len",
       "defined_out": [
-        "asset_id#0",
-        "tmp%1#1"
-      ],
-      "stack_out": [
-        "asset_id#0",
-        "tmp%1#1"
-      ]
-    },
-    "126": {
-      "op": "bz set_asset_bool_false@4",
-      "stack_out": [
-        "asset_id#0"
-      ]
-    },
-    "129": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "asset_id#0",
-        "0"
-      ]
-    },
-    "130": {
-      "op": "bytec_0 // \"asset_id\"",
-      "defined_out": [
-        "\"asset_id\"",
-        "0",
-        "asset_id#0"
-      ],
-      "stack_out": [
-        "asset_id#0",
-        "0",
-        "\"asset_id\""
-      ]
-    },
-    "131": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "asset_id#0",
+        "_%0#0",
+        "encoded_value%0#0",
         "maybe_exists%0#0",
-        "maybe_value%0#0"
+        "mbr_payment#0"
       ],
       "stack_out": [
-        "asset_id#0",
-        "maybe_value%0#0",
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "_%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "132": {
-      "error": "check self.asset_id exists",
-      "op": "assert // check self.asset_id exists",
+    "125": {
+      "op": "bury 1",
       "stack_out": [
-        "asset_id#0",
-        "maybe_value%0#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "127": {
+      "op": "!",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%2#1"
+      ]
+    },
+    "128": {
+      "error": "Circulating supply config already exists for this ASA",
+      "op": "assert // Circulating supply config already exists for this ASA",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "129": {
+      "op": "dig 1",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_payment#0 (copy)"
+      ]
+    },
+    "131": {
+      "op": "gtxns Receiver",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%3#1"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%3#1"
       ]
     },
     "133": {
-      "op": "bnz set_asset_bool_false@4",
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%3#1",
+        "tmp%4#1"
+      ],
       "stack_out": [
-        "asset_id#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%3#1",
+        "tmp%4#1"
+      ]
+    },
+    "135": {
+      "op": "==",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%5#1"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%5#1"
       ]
     },
     "136": {
-      "op": "intc_2 // 1",
-      "defined_out": [
-        "and_result%0#0",
-        "asset_id#0"
-      ],
+      "error": "Invalid circulating supply config MBR receiver",
+      "op": "assert // Invalid circulating supply config MBR receiver",
       "stack_out": [
-        "asset_id#0",
-        "and_result%0#0"
+        "mbr_payment#0",
+        "encoded_value%0#0"
       ]
     },
     "137": {
-      "error": "Unauthorized",
-      "block": "set_asset_bool_merge@5",
-      "stack_in": [
-        "asset_id#0",
-        "and_result%0#0"
-      ],
-      "op": "assert // Unauthorized",
-      "defined_out": [],
-      "stack_out": [
-        "asset_id#0"
-      ]
-    },
-    "138": {
-      "op": "bytec_0 // \"asset_id\"",
+      "op": "global CurrentApplicationAddress",
       "defined_out": [
-        "\"asset_id\""
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%6#0"
       ],
       "stack_out": [
-        "asset_id#0",
-        "\"asset_id\""
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%6#0"
       ]
     },
     "139": {
-      "op": "dig 1",
+      "op": "acct_params_get AcctMinBalance",
       "defined_out": [
-        "\"asset_id\"",
-        "asset_id#0"
+        "check%1#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0"
       ],
       "stack_out": [
-        "asset_id#0",
-        "\"asset_id\"",
-        "asset_id#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "check%1#0"
       ]
     },
     "141": {
-      "op": "app_global_put",
+      "error": "account funded",
+      "op": "assert // account funded",
       "stack_out": [
-        "asset_id#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
       ]
     },
     "142": {
-      "op": "intc_2 // 1",
-      "defined_out": [
-        "1",
-        "asset_id#0"
-      ],
+      "op": "dig 1",
       "stack_out": [
-        "asset_id#0",
-        "1"
-      ]
-    },
-    "143": {
-      "op": "return",
-      "stack_out": [
-        "asset_id#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)"
       ]
     },
     "144": {
-      "block": "set_asset_bool_false@4",
-      "stack_in": [
-        "asset_id#0"
-      ],
-      "op": "intc_0 // 0",
+      "op": "pushint 96",
       "defined_out": [
-        "and_result%0#0"
+        "96",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "mbr_i#0",
+        "mbr_payment#0"
       ],
       "stack_out": [
-        "asset_id#0",
-        "and_result%0#0"
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)",
+        "96"
       ]
     },
-    "145": {
-      "op": "b set_asset_bool_merge@5"
+    "146": {
+      "op": "box_create",
+      "defined_out": [
+        "_exists#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "_exists#0"
+      ]
+    },
+    "147": {
+      "op": "pop",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ]
     },
     "148": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%8#0"
+      ]
+    },
+    "150": {
+      "op": "dig 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%8#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "152": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%8#0",
+        "encoded_value%0#0 (copy)",
+        "0"
+      ]
+    },
+    "153": {
+      "op": "uncover 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)",
+        "0",
+        "tmp%8#0"
+      ]
+    },
+    "155": {
+      "op": "box_replace",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ]
+    },
+    "156": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%9#0"
+      ]
+    },
+    "158": {
+      "op": "dig 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%9#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "160": {
+      "op": "intc_3 // 32",
+      "defined_out": [
+        "32",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%9#0",
+        "encoded_value%0#0 (copy)",
+        "32"
+      ]
+    },
+    "161": {
+      "op": "uncover 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)",
+        "32",
+        "tmp%9#0"
+      ]
+    },
+    "163": {
+      "op": "box_replace",
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ]
+    },
+    "164": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%10#0"
+      ]
+    },
+    "166": {
+      "op": "uncover 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "tmp%10#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "168": {
+      "op": "pushint 64",
+      "defined_out": [
+        "64",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "tmp%10#0",
+        "encoded_value%0#0",
+        "64"
+      ]
+    },
+    "170": {
+      "op": "uncover 2",
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "encoded_value%0#0",
+        "64",
+        "tmp%10#0"
+      ]
+    },
+    "172": {
+      "op": "box_replace",
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0"
+      ]
+    },
+    "173": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "mbr_i#0",
+        "mbr_payment#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "tmp%11#0"
+      ]
+    },
+    "175": {
+      "op": "acct_params_get AcctMinBalance",
+      "defined_out": [
+        "check%2#0",
+        "mbr_i#0",
+        "mbr_payment#0",
+        "value%2#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "value%2#0",
+        "check%2#0"
+      ]
+    },
+    "177": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_i#0",
+        "value%2#0"
+      ]
+    },
+    "178": {
+      "op": "swap",
+      "stack_out": [
+        "mbr_payment#0",
+        "value%2#0",
+        "mbr_i#0"
+      ]
+    },
+    "179": {
+      "op": "-",
+      "defined_out": [
+        "mbr_delta_amount#0",
+        "mbr_payment#0"
+      ],
+      "stack_out": [
+        "mbr_payment#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "180": {
+      "op": "swap",
+      "stack_out": [
+        "mbr_delta_amount#0",
+        "mbr_payment#0"
+      ]
+    },
+    "181": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "mbr_delta_amount#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "mbr_delta_amount#0",
+        "tmp%13#0"
+      ]
+    },
+    "183": {
+      "op": "dig 1",
+      "defined_out": [
+        "mbr_delta_amount#0",
+        "mbr_delta_amount#0 (copy)",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "mbr_delta_amount#0",
+        "tmp%13#0",
+        "mbr_delta_amount#0 (copy)"
+      ]
+    },
+    "185": {
+      "op": ">=",
+      "defined_out": [
+        "mbr_delta_amount#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "mbr_delta_amount#0",
+        "tmp%14#0"
+      ]
+    },
+    "186": {
+      "error": "Invalid circulating supply config MBR amount",
+      "op": "assert // Invalid circulating supply config MBR amount",
+      "stack_out": [
+        "mbr_delta_amount#0"
+      ]
+    },
+    "187": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "188": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "189": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "190": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "191": {
+      "op": "log",
+      "stack_out": []
+    },
+    "192": {
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "1"
+      ]
+    },
+    "193": {
+      "op": "return",
+      "stack_out": []
+    },
+    "194": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.set_not_circulating_address[routing]",
       "params": {},
       "block": "set_not_circulating_address",
       "stack_in": [],
-      "op": "txna ApplicationArgs 1"
-    },
-    "151": {
-      "op": "dupn 2",
-      "defined_out": [
-        "address#0",
-        "address#0 (copy)"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "address#0 (copy)"
-      ]
-    },
-    "153": {
-      "op": "len",
-      "defined_out": [
-        "address#0",
-        "len%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0"
-      ]
-    },
-    "154": {
-      "op": "dup",
-      "defined_out": [
-        "address#0",
-        "len%0#0",
-        "len%0#0 (copy)"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "len%0#0 (copy)"
-      ]
-    },
-    "155": {
-      "op": "intc_1 // 32",
-      "defined_out": [
-        "32",
-        "address#0",
-        "len%0#0",
-        "len%0#0 (copy)"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "len%0#0 (copy)",
-        "32"
-      ]
-    },
-    "156": {
-      "op": "==",
-      "defined_out": [
-        "address#0",
-        "eq%0#0",
-        "len%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "eq%0#0"
-      ]
-    },
-    "157": {
-      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
-      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0"
-      ]
-    },
-    "158": {
-      "op": "txna ApplicationArgs 2",
-      "defined_out": [
-        "address#0",
-        "len%0#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0"
-      ]
-    },
-    "161": {
-      "op": "dup",
-      "defined_out": [
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "tmp%1#0 (copy)"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "tmp%1#0 (copy)"
-      ]
-    },
-    "162": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "tmp%1#0 (copy)",
-        "0"
-      ]
-    },
-    "163": {
-      "error": "invalid array length header",
-      "op": "extract_uint16 // on error: invalid array length header",
-      "defined_out": [
-        "address#0",
-        "aggregate%array_length%0#0",
-        "len%0#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "aggregate%array_length%0#0"
-      ]
-    },
-    "164": {
-      "op": "pushint 2",
-      "defined_out": [
-        "2",
-        "address#0",
-        "aggregate%array_length%0#0",
-        "len%0#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "aggregate%array_length%0#0",
-        "2"
-      ]
-    },
-    "166": {
-      "op": "+",
-      "defined_out": [
-        "add%0#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "add%0#0"
-      ]
-    },
-    "167": {
-      "op": "dig 1",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "add%0#0",
-        "tmp%1#0 (copy)"
-      ]
-    },
-    "169": {
-      "op": "len",
-      "defined_out": [
-        "add%0#0",
-        "address#0",
-        "len%0#0",
-        "len%1#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "add%0#0",
-        "len%1#0"
-      ]
-    },
-    "170": {
-      "op": "==",
-      "defined_out": [
-        "address#0",
-        "eq%1#0",
-        "len%0#0",
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0",
-        "eq%1#0"
-      ]
-    },
-    "171": {
-      "error": "invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
-      "op": "assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "tmp%1#0"
-      ]
-    },
-    "172": {
-      "op": "extract 2 0",
-      "defined_out": [
-        "address#0",
-        "label#0",
-        "len%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0"
-      ]
-    },
-    "175": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "0"
-      ]
-    },
-    "176": {
-      "op": "bytec_0 // \"asset_id\"",
-      "defined_out": [
-        "\"asset_id\"",
-        "0",
-        "address#0",
-        "label#0",
-        "len%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "0",
-        "\"asset_id\""
-      ]
-    },
-    "177": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "label#0",
-        "len%0#0",
-        "maybe_exists%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "178": {
-      "error": "check self.asset_id exists",
-      "op": "assert // check self.asset_id exists",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0"
-      ]
-    },
-    "179": {
-      "op": "txn Sender",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "label#0",
-        "len%0#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "tmp%0#1"
-      ]
-    },
-    "181": {
-      "op": "dig 1",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "asset#0 (copy)",
-        "label#0",
-        "len%0#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "tmp%0#1",
-        "asset#0 (copy)"
-      ]
-    },
-    "183": {
-      "op": "asset_params_get AssetManager",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "check%0#0",
-        "label#0",
-        "len%0#0",
-        "tmp%0#1",
-        "value%0#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "tmp%0#1",
-        "value%0#0",
-        "check%0#0"
-      ]
-    },
-    "185": {
-      "error": "asset exists",
-      "op": "assert // asset exists",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "tmp%0#1",
-        "value%0#0"
-      ]
-    },
-    "186": {
-      "op": "==",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "label#0",
-        "len%0#0",
-        "tmp%1#1"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "tmp%1#1"
-      ]
-    },
-    "187": {
-      "error": "Unauthorized",
-      "op": "assert // Unauthorized",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0"
-      ]
-    },
-    "188": {
-      "op": "intc_1 // 32",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "len%0#0",
-        "label#0",
-        "asset#0",
-        "32"
-      ]
-    },
-    "189": {
-      "op": "uncover 3",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "label#0",
-        "asset#0",
-        "32",
-        "len%0#0"
-      ]
-    },
-    "191": {
-      "op": "==",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "label#0",
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "label#0",
-        "asset#0",
-        "tmp%3#0"
-      ]
-    },
-    "192": {
-      "error": "Address length is 32 bytes",
-      "op": "assert // Address length is 32 bytes",
-      "stack_out": [
-        "address#0",
-        "address#0",
-        "label#0",
-        "asset#0"
-      ]
-    },
-    "193": {
-      "op": "uncover 2",
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "asset#0",
-        "address#0"
-      ]
-    },
-    "195": {
-      "op": "swap",
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "address#0",
-        "asset#0"
-      ]
-    },
-    "196": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "address#0",
-        "label#0",
-        "tmp%4#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "tmp%4#0",
-        "tmp%5#0"
-      ]
-    },
-    "198": {
-      "op": "bury 1",
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "tmp%5#0"
-      ]
-    },
-    "200": {
-      "error": "Not Opted-In",
-      "op": "assert // Not Opted-In",
-      "stack_out": [
-        "address#0",
-        "label#0"
-      ]
-    },
-    "201": {
-      "op": "bytec_1 // \"burned\"",
-      "defined_out": [
-        "\"burned\"",
-        "address#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "\"burned\""
-      ]
-    },
-    "202": {
-      "op": "bytec_2 // \"locked\"",
-      "defined_out": [
-        "\"burned\"",
-        "\"locked\"",
-        "address#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "\"burned\"",
-        "\"locked\""
-      ]
-    },
-    "203": {
-      "op": "bytec_3 // \"generic\"",
-      "defined_out": [
-        "\"burned\"",
-        "\"generic\"",
-        "\"locked\"",
-        "address#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "label#0",
-        "\"burned\"",
-        "\"locked\"",
-        "\"generic\""
-      ]
-    },
-    "204": {
-      "op": "uncover 3",
-      "stack_out": [
-        "address#0",
-        "\"burned\"",
-        "\"locked\"",
-        "\"generic\"",
-        "label#0"
-      ]
-    },
-    "206": {
-      "op": "match set_not_circulating_address_switch_case_0@2 set_not_circulating_address_switch_case_1@3 set_not_circulating_address_switch_case_2@4",
-      "stack_out": [
-        "address#0"
-      ]
-    },
-    "214": {
-      "error": "Invalid Label",
-      "op": "err // Invalid Label"
-    },
-    "215": {
-      "block": "set_not_circulating_address_switch_case_2@4",
-      "stack_in": [
-        "address#0"
-      ],
-      "op": "bytec_3 // \"generic\"",
-      "defined_out": [
-        "\"generic\""
-      ],
-      "stack_out": [
-        "address#0",
-        "\"generic\""
-      ]
-    },
-    "216": {
-      "op": "dig 1",
-      "defined_out": [
-        "\"generic\"",
-        "address#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "\"generic\"",
-        "address#0"
-      ]
-    },
-    "218": {
-      "op": "app_global_put",
-      "stack_out": [
-        "address#0"
-      ]
-    },
-    "219": {
-      "block": "set_not_circulating_address_switch_case_next@6",
-      "stack_in": [
-        "address#0"
-      ],
-      "op": "intc_2 // 1",
-      "defined_out": [
-        "1"
-      ],
-      "stack_out": [
-        "address#0",
-        "1"
-      ]
-    },
-    "220": {
-      "op": "return",
-      "stack_out": [
-        "address#0"
-      ]
-    },
-    "221": {
-      "block": "set_not_circulating_address_switch_case_1@3",
-      "stack_in": [
-        "address#0"
-      ],
-      "op": "bytec_2 // \"locked\"",
-      "defined_out": [
-        "\"locked\""
-      ],
-      "stack_out": [
-        "address#0",
-        "\"locked\""
-      ]
-    },
-    "222": {
-      "op": "dig 1",
-      "defined_out": [
-        "\"locked\"",
-        "address#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "\"locked\"",
-        "address#0"
-      ]
-    },
-    "224": {
-      "op": "app_global_put",
-      "stack_out": [
-        "address#0"
-      ]
-    },
-    "225": {
-      "op": "b set_not_circulating_address_switch_case_next@6"
-    },
-    "228": {
-      "block": "set_not_circulating_address_switch_case_0@2",
-      "stack_in": [
-        "address#0"
-      ],
-      "op": "bytec_1 // \"burned\"",
-      "defined_out": [
-        "\"burned\""
-      ],
-      "stack_out": [
-        "address#0",
-        "\"burned\""
-      ]
-    },
-    "229": {
-      "op": "dig 1",
-      "defined_out": [
-        "\"burned\"",
-        "address#0"
-      ],
-      "stack_out": [
-        "address#0",
-        "\"burned\"",
-        "address#0"
-      ]
-    },
-    "231": {
-      "op": "app_global_put",
-      "stack_out": [
-        "address#0"
-      ]
-    },
-    "232": {
-      "op": "b set_not_circulating_address_switch_case_next@6"
-    },
-    "235": {
-      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.arc62_get_circulating_supply[routing]",
-      "params": {},
-      "block": "arc62_get_circulating_supply",
-      "stack_in": [],
-      "op": "pushbytes \"\"",
-      "stack_out": [
-        "not_circulating_balance_1#0"
-      ]
-    },
-    "237": {
-      "op": "dupn 2",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0"
-      ]
-    },
-    "239": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
         "tmp%0#0"
       ]
     },
-    "242": {
+    "197": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ]
     },
-    "243": {
+    "198": {
       "op": "len",
       "defined_out": [
         "len%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
         "tmp%0#0",
         "len%0#0"
       ]
     },
-    "244": {
-      "op": "intc_3 // 8",
+    "199": {
+      "op": "intc_2 // 8",
       "defined_out": [
         "8",
         "len%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
         "tmp%0#0",
         "len%0#0",
         "8"
       ]
     },
-    "245": {
+    "200": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "201": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "202": {
+      "op": "btoi",
+      "defined_out": [
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "203": {
+      "op": "txna ApplicationArgs 2"
+    },
+    "206": {
+      "op": "dup",
+      "defined_out": [
+        "address#0",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "207": {
+      "op": "cover 2",
+      "defined_out": [
+        "address#0",
+        "asset#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0"
+      ]
+    },
+    "209": {
+      "op": "dup",
+      "defined_out": [
+        "address#0",
+        "address#0 (copy)",
+        "asset#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "address#0 (copy)"
+      ]
+    },
+    "210": {
+      "op": "len",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "len%1#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "len%1#0"
+      ]
+    },
+    "211": {
+      "op": "intc_3 // 32",
+      "defined_out": [
+        "32",
+        "address#0",
+        "asset#0",
+        "len%1#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "len%1#0",
+        "32"
+      ]
+    },
+    "212": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "eq%1#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "eq%1#0"
+      ]
+    },
+    "213": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0"
+      ]
+    },
+    "214": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0"
+      ]
+    },
+    "217": {
+      "op": "dup",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "tmp%4#0",
+        "tmp%4#0 (copy)"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "tmp%4#0 (copy)"
+      ]
+    },
+    "218": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "tmp%4#0 (copy)",
+        "0"
+      ]
+    },
+    "219": {
+      "error": "invalid array length header",
+      "op": "extract_uint16 // on error: invalid array length header",
+      "defined_out": [
+        "address#0",
+        "aggregate%array_length%0#0",
+        "asset#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "220": {
+      "op": "pushint 2",
+      "defined_out": [
+        "2",
+        "address#0",
+        "aggregate%array_length%0#0",
+        "asset#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "aggregate%array_length%0#0",
+        "2"
+      ]
+    },
+    "222": {
+      "op": "+",
+      "defined_out": [
+        "add%0#0",
+        "address#0",
+        "asset#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "add%0#0"
+      ]
+    },
+    "223": {
+      "op": "dig 1",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "add%0#0",
+        "tmp%4#0 (copy)"
+      ]
+    },
+    "225": {
+      "op": "len",
+      "defined_out": [
+        "add%0#0",
+        "address#0",
+        "asset#0",
+        "len%2#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "add%0#0",
+        "len%2#0"
+      ]
+    },
+    "226": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "eq%2#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0",
+        "eq%2#0"
+      ]
+    },
+    "227": {
+      "error": "invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
+      "op": "assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "tmp%4#0"
+      ]
+    },
+    "228": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0"
+      ]
+    },
+    "231": {
+      "op": "txn Sender",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "label#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "tmp%0#1"
+      ]
+    },
+    "233": {
+      "op": "dig 3",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "asset#0 (copy)",
+        "label#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "tmp%0#1",
+        "asset#0 (copy)"
+      ]
+    },
+    "235": {
+      "op": "asset_params_get AssetManager",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "check%0#0",
+        "label#0",
+        "tmp%0#1",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "tmp%0#1",
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "237": {
+      "error": "asset exists",
+      "op": "assert // asset exists",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "tmp%0#1",
+        "value%0#0"
+      ]
+    },
+    "238": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "label#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "tmp%1#1"
+      ]
+    },
+    "239": {
+      "error": "Unauthorized",
+      "op": "assert // Unauthorized",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0"
+      ]
+    },
+    "240": {
+      "op": "dig 2",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "242": {
+      "op": "itob",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "243": {
+      "op": "dup",
+      "stack_out": [
+        "address#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "244": {
+      "op": "cover 4",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "246": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "address#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "label#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "247": {
+      "op": "bury 1",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "address#0",
+        "label#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "249": {
+      "error": "Circulating supply config does not exist for this ASA",
+      "op": "assert // Circulating supply config does not exist for this ASA",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "address#0",
+        "label#0"
+      ]
+    },
+    "250": {
+      "op": "swap",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "label#0",
+        "address#0"
+      ]
+    },
+    "251": {
+      "op": "uncover 2",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0",
+        "address#0",
+        "asset#0"
+      ]
+    },
+    "253": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0",
+        "tmp%2#1",
+        "tmp%3#1"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0",
+        "tmp%2#1",
+        "tmp%3#1"
+      ]
+    },
+    "255": {
+      "op": "bury 1",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0",
+        "tmp%3#1"
+      ]
+    },
+    "257": {
+      "error": "Address is not opted-in the ASA",
+      "op": "assert // Address is not opted-in the ASA",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0"
+      ]
+    },
+    "258": {
+      "op": "pushbytess \"burned\" \"locked\" \"custom\"",
+      "defined_out": [
+        "\"burned\"",
+        "\"custom\"",
+        "\"locked\"",
+        "address#0",
+        "encoded_value%0#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "label#0",
+        "\"burned\"",
+        "\"locked\"",
+        "\"custom\""
+      ]
+    },
+    "281": {
+      "op": "uncover 3",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "\"burned\"",
+        "\"locked\"",
+        "\"custom\"",
+        "label#0"
+      ]
+    },
+    "283": {
+      "op": "match set_not_circulating_address_switch_case_0@2 set_not_circulating_address_switch_case_1@3 set_not_circulating_address_switch_case_2@4",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "291": {
+      "error": "Invalid label",
+      "op": "err // Invalid label"
+    },
+    "292": {
+      "block": "set_not_circulating_address_switch_case_2@4",
+      "stack_in": [
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "293": {
+      "op": "pushint 64",
+      "defined_out": [
+        "64",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "64"
+      ]
+    },
+    "295": {
+      "op": "dig 3",
+      "defined_out": [
+        "64",
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "64",
+        "address#0"
+      ]
+    },
+    "297": {
+      "op": "box_replace",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "298": {
+      "block": "set_not_circulating_address_switch_case_next@6",
+      "stack_in": [
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "1"
+      ]
+    },
+    "299": {
+      "op": "return",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "300": {
+      "block": "set_not_circulating_address_switch_case_1@3",
+      "stack_in": [
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "301": {
+      "op": "intc_3 // 32",
+      "defined_out": [
+        "32",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "32"
+      ]
+    },
+    "302": {
+      "op": "dig 3",
+      "defined_out": [
+        "32",
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "32",
+        "address#0"
+      ]
+    },
+    "304": {
+      "op": "box_replace",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "305": {
+      "op": "b set_not_circulating_address_switch_case_next@6"
+    },
+    "308": {
+      "block": "set_not_circulating_address_switch_case_0@2",
+      "stack_in": [
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "309": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "0"
+      ]
+    },
+    "310": {
+      "op": "dig 3",
+      "defined_out": [
+        "0",
+        "address#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0",
+        "0",
+        "address#0"
+      ]
+    },
+    "312": {
+      "op": "box_replace",
+      "stack_out": [
+        "address#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "313": {
+      "op": "b set_not_circulating_address_switch_case_next@6"
+    },
+    "316": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.delete_config[routing]",
+      "params": {},
+      "block": "delete_config",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "319": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "320": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "321": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "322": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "323": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "324": {
+      "op": "btoi",
+      "defined_out": [
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "325": {
+      "op": "dupn 2",
+      "defined_out": [
+        "asset#0",
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "327": {
+      "op": "itob",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "328": {
+      "op": "dup",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "329": {
+      "op": "cover 2",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "331": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "332": {
+      "op": "bury 1",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "asset#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "334": {
+      "error": "Circulating supply config does not exist for this ASA",
+      "op": "assert // Circulating supply config does not exist for this ASA",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "asset#0"
+      ]
+    },
+    "335": {
+      "op": "asset_params_get AssetCreator",
+      "defined_out": [
+        "_creator#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "_creator#0",
+        "exists#0"
+      ]
+    },
+    "337": {
+      "op": "bury 1",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "339": {
+      "op": "bz delete_config_after_if_else@3",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "342": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%1#1"
+      ]
+    },
+    "344": {
+      "op": "dig 2",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%1#1",
+        "asset#0"
+      ]
+    },
+    "346": {
+      "op": "asset_params_get AssetManager",
+      "defined_out": [
+        "asset#0",
+        "check%0#0",
+        "encoded_value%0#0",
+        "tmp%1#1",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%1#1",
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "348": {
+      "error": "asset exists",
+      "op": "assert // asset exists",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%1#1",
+        "value%0#0"
+      ]
+    },
+    "349": {
+      "op": "==",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%2#1"
+      ]
+    },
+    "350": {
+      "error": "Unauthorized",
+      "op": "assert // Unauthorized",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "351": {
+      "block": "delete_config_after_if_else@3",
+      "stack_in": [
+        "asset#0",
+        "encoded_value%0#0"
+      ],
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%3#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%3#1"
+      ]
+    },
+    "353": {
+      "op": "acct_params_get AcctMinBalance",
+      "defined_out": [
+        "check%1#0",
+        "mbr_i#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "check%1#0"
+      ]
+    },
+    "355": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ]
+    },
+    "356": {
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "358": {
+      "op": "box_del",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "{box_del}"
+      ]
+    },
+    "359": {
+      "op": "pop",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0"
+      ]
+    },
+    "360": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%4#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "tmp%4#1"
+      ]
+    },
+    "362": {
+      "op": "acct_params_get AcctMinBalance",
+      "defined_out": [
+        "check%2#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "value%2#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "value%2#0",
+        "check%2#0"
+      ]
+    },
+    "364": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "value%2#0"
+      ]
+    },
+    "365": {
+      "op": "-",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "366": {
+      "op": "itxn_begin"
+    },
+    "367": {
+      "op": "txn Sender",
+      "defined_out": [
+        "encoded_value%0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "369": {
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "mbr_delta_amount#0",
+        "mbr_delta_amount#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "mbr_delta_amount#0 (copy)"
+      ]
+    },
+    "371": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "373": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "375": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "pay"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "pay"
+      ]
+    },
+    "376": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "378": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "0"
+      ]
+    },
+    "379": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "381": {
+      "op": "itxn_submit"
+    },
+    "382": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "383": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "384": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "385": {
+      "op": "concat",
+      "defined_out": [
+        "encoded_value%0#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "386": {
+      "op": "log",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "387": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "1"
+      ]
+    },
+    "388": {
+      "op": "return",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "389": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.get_config[routing]",
+      "params": {},
+      "block": "get_config",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "392": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "393": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "394": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "395": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "396": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "397": {
+      "op": "btoi",
+      "defined_out": [
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "398": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "399": {
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "400": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "encoded_value%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "401": {
+      "op": "bury 1",
+      "stack_out": [
+        "encoded_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "403": {
+      "error": "Circulating supply config does not exist for this ASA",
+      "op": "assert // Circulating supply config does not exist for this ASA",
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "404": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ],
+      "stack_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "405": {
+      "op": "pop",
+      "stack_out": [
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "406": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%box_get%0#0"
+      ],
+      "stack_out": [
+        "aggregate%box_get%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "407": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "408": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "409": {
+      "op": "log",
+      "stack_out": []
+    },
+    "410": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "411": {
+      "op": "return",
+      "stack_out": []
+    },
+    "412": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.arc62_get_circulating_supply[routing]",
+      "params": {},
+      "block": "arc62_get_circulating_supply",
+      "stack_in": [],
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "burned_addr#0"
+      ]
+    },
+    "413": {
+      "op": "dupn 2",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0"
+      ]
+    },
+    "415": {
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0"
+      ]
+    },
+    "417": {
+      "op": "dupn 2",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0"
+      ]
+    },
+    "419": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%0#0"
+      ]
+    },
+    "422": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "423": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "424": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "425": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "tmp%0#0",
         "eq%0#0"
       ]
     },
-    "246": {
+    "426": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "tmp%0#0"
       ]
     },
-    "247": {
+    "427": {
       "op": "btoi",
       "defined_out": [
         "asset_id#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0"
       ]
     },
-    "248": {
-      "op": "dup",
-      "defined_out": [
-        "asset_id#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0"
-      ]
-    },
-    "249": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0",
-        "0"
-      ]
-    },
-    "250": {
-      "op": "bytec_1 // \"burned\"",
-      "defined_out": [
-        "\"burned\"",
-        "0",
-        "asset_id#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0",
-        "0",
-        "\"burned\""
-      ]
-    },
-    "251": {
-      "op": "app_global_get_ex",
+    "428": {
+      "op": "dupn 2",
       "defined_out": [
         "asset_id#0",
-        "maybe_exists%0#0",
-        "not_circulating_1#0"
+        "asset_id#0 (copy)"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "252": {
-      "op": "swap",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0",
-        "maybe_exists%0#0",
-        "not_circulating_1#0"
-      ]
-    },
-    "253": {
-      "op": "dup",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0",
-        "maybe_exists%0#0",
-        "not_circulating_1#0",
-        "not_circulating_1#0 (copy)"
-      ]
-    },
-    "254": {
-      "op": "cover 2",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "maybe_exists%0#0",
-        "not_circulating_1#0"
-      ]
-    },
-    "256": {
-      "op": "cover 3",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%0#0",
-        "not_circulating_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "258": {
-      "error": "check self.not_circulating_label_1 exists",
-      "op": "assert // check self.not_circulating_label_1 exists",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "not_circulating_1#0"
-      ]
-    },
-    "259": {
-      "op": "len",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "tmp%0#1"
-      ]
-    },
-    "260": {
-      "op": "intc_1 // 32",
-      "defined_out": [
-        "32",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "tmp%0#1",
-        "32"
-      ]
-    },
-    "261": {
-      "op": "==",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "tmp%1#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "tmp%1#1"
-      ]
-    },
-    "262": {
-      "error": "Address length is 32 bytes",
-      "op": "assert // Address length is 32 bytes",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0"
-      ]
-    },
-    "263": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "0"
-      ]
-    },
-    "264": {
-      "op": "bytec_2 // \"locked\"",
-      "defined_out": [
-        "\"locked\"",
-        "0",
-        "asset_id#0",
-        "not_circulating_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "0",
-        "\"locked\""
-      ]
-    },
-    "265": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%1#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "not_circulating_2#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "266": {
-      "op": "swap",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "maybe_exists%1#0",
-        "not_circulating_2#0"
-      ]
-    },
-    "267": {
-      "op": "dup",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "maybe_exists%1#0",
-        "not_circulating_2#0",
-        "not_circulating_2#0 (copy)"
-      ]
-    },
-    "268": {
-      "op": "cover 2",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "asset_id#0",
-        "not_circulating_2#0",
-        "maybe_exists%1#0",
-        "not_circulating_2#0"
-      ]
-    },
-    "270": {
-      "op": "cover 3",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%1#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "not_circulating_2#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "272": {
-      "error": "check self.not_circulating_label_2 exists",
-      "op": "assert // check self.not_circulating_label_2 exists",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "not_circulating_2#0"
-      ]
-    },
-    "273": {
-      "op": "len",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "tmp%2#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "tmp%2#1"
-      ]
-    },
-    "274": {
-      "op": "intc_1 // 32",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "tmp%2#1",
-        "32"
-      ]
-    },
-    "275": {
-      "op": "==",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "tmp%3#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "tmp%3#1"
-      ]
-    },
-    "276": {
-      "error": "Address length is 32 bytes",
-      "op": "assert // Address length is 32 bytes",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0"
-      ]
-    },
-    "277": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "0"
-      ]
-    },
-    "278": {
-      "op": "bytec_3 // \"generic\"",
-      "defined_out": [
-        "\"generic\"",
-        "0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "0",
-        "\"generic\""
-      ]
-    },
-    "279": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%2#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "not_circulating_3#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "280": {
-      "op": "swap",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "maybe_exists%2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "281": {
-      "op": "dup",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "maybe_exists%2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0 (copy)"
-      ]
-    },
-    "282": {
-      "op": "cover 2",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "asset_id#0",
-        "not_circulating_3#0",
-        "maybe_exists%2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "284": {
-      "op": "cover 3",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%2#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "not_circulating_3#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "286": {
-      "error": "check self.not_circulating_label_3 exists",
-      "op": "assert // check self.not_circulating_label_3 exists",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "287": {
-      "op": "len",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%4#1"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "tmp%4#1"
-      ]
-    },
-    "288": {
-      "op": "intc_1 // 32",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "tmp%4#1",
-        "32"
-      ]
-    },
-    "289": {
-      "op": "==",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "tmp%5#0"
-      ]
-    },
-    "290": {
-      "error": "Address length is 32 bytes",
-      "op": "assert // Address length is 32 bytes",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0"
-      ]
-    },
-    "291": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "0"
-      ]
-    },
-    "292": {
-      "op": "bytec_0 // \"asset_id\"",
-      "defined_out": [
-        "\"asset_id\"",
-        "0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "0",
-        "\"asset_id\""
-      ]
-    },
-    "293": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "asset_id#0",
-        "maybe_exists%3#0",
-        "maybe_value%3#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "maybe_value%3#0",
-        "maybe_exists%3#0"
-      ]
-    },
-    "294": {
-      "error": "check self.asset_id exists",
-      "op": "assert // check self.asset_id exists",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "maybe_value%3#0"
-      ]
-    },
-    "295": {
-      "op": "dig 1",
-      "defined_out": [
-        "asset_id#0",
-        "asset_id#0 (copy)",
-        "maybe_value%3#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "asset_id#0",
-        "maybe_value%3#0",
         "asset_id#0 (copy)"
       ]
     },
-    "297": {
-      "op": "==",
+    "430": {
+      "op": "itob",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%6#0"
+        "encoded_value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
         "asset_id#0",
-        "tmp%6#0"
+        "encoded_value%0#0"
       ]
     },
-    "298": {
-      "error": "Invalid ASA ID",
-      "op": "assert // Invalid ASA ID",
+    "431": {
+      "op": "dup",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "432": {
+      "op": "cover 2",
+      "defined_out": [
+        "asset_id#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "asset_id#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "434": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "asset_id#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "435": {
+      "op": "bury 1",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "asset_id#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "437": {
+      "error": "Circulating supply config does not exist for this ASA",
+      "op": "assert // Circulating supply config does not exist for this ASA",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
         "asset_id#0"
       ]
     },
-    "299": {
+    "438": {
+      "op": "dup",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "asset_id#0",
+        "asset_id#0 (copy)"
+      ]
+    },
+    "439": {
+      "op": "asset_params_get AssetCreator",
+      "defined_out": [
+        "_creator#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "asset_id#0",
+        "_creator#0",
+        "exists#0"
+      ]
+    },
+    "441": {
+      "op": "cover 2",
+      "defined_out": [
+        "_creator#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "asset_id#0",
+        "_creator#0"
+      ]
+    },
+    "443": {
+      "op": "pop",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "asset_id#0"
+      ]
+    },
+    "444": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
         "asset_id#0",
         "check%0#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%0#0",
         "check%0#0"
       ]
     },
-    "301": {
+    "446": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%0#0"
       ]
     },
-    "302": {
+    "447": {
       "op": "global ZeroAddress",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%7#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%1#1",
         "value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%0#0",
-        "tmp%7#0"
+        "tmp%1#1"
       ]
     },
-    "304": {
+    "449": {
       "op": "==",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%8#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%2#1"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%8#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%2#1"
       ]
     },
-    "305": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@3",
+    "450": {
+      "op": "bnz arc62_get_circulating_supply_ternary_true@4",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "308": {
-      "op": "dig 3",
+    "453": {
+      "op": "dup",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0"
+      ]
+    },
+    "454": {
+      "op": "bz arc62_get_circulating_supply_ternary_true@4",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "457": {
+      "op": "dig 2",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0"
       ]
     },
-    "310": {
+    "459": {
       "op": "dup",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "asset_id#0 (copy)"
       ]
     },
-    "311": {
+    "460": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
         "asset_id#0",
         "check%1#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%1#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "value%1#0",
         "check%1#0"
       ]
     },
-    "313": {
+    "462": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "value%1#0"
       ]
     },
-    "314": {
+    "463": {
       "op": "swap",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%1#0",
         "asset_id#0"
       ]
     },
-    "315": {
+    "464": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%10#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%3#1",
+        "tmp%4#1"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%3#1",
+        "tmp%4#1"
+      ]
+    },
+    "466": {
+      "op": "bury 1",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%4#1"
+      ]
+    },
+    "468": {
+      "op": "bnz arc62_get_circulating_supply_ternary_false@5",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "471": {
+      "block": "arc62_get_circulating_supply_ternary_true@4",
+      "stack_in": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "reserve_balance#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "reserve_balance#0"
+      ]
+    },
+    "472": {
+      "op": "bury 4",
+      "defined_out": [
+        "reserve_balance#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "474": {
+      "block": "arc62_get_circulating_supply_ternary_merge@6",
+      "stack_in": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "476": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "477": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "478": {
+      "op": "extract 0 32",
+      "defined_out": [
+        "burned_addr#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0"
+      ]
+    },
+    "481": {
+      "op": "dup",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0",
+        "burned_addr#0"
+      ]
+    },
+    "482": {
+      "op": "bury 10",
+      "defined_out": [
+        "burned_addr#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0"
+      ]
+    },
+    "484": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "burned_addr#0",
+        "encoded_value%0#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0",
+        "tmp%5#0"
+      ]
+    },
+    "486": {
+      "op": "==",
+      "defined_out": [
+        "burned_addr#0",
+        "encoded_value%0#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%6#0"
+      ]
+    },
+    "487": {
+      "op": "bnz arc62_get_circulating_supply_ternary_true@9",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "490": {
+      "op": "dup",
+      "defined_out": [
+        "burned_addr#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0"
+      ]
+    },
+    "491": {
+      "op": "bz arc62_get_circulating_supply_ternary_true@9",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "494": {
+      "op": "dig 8",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0"
+      ]
+    },
+    "496": {
+      "op": "dig 3",
+      "defined_out": [
+        "asset_id#0",
+        "burned_addr#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0",
+        "asset_id#0"
+      ]
+    },
+    "498": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "asset_id#0",
+        "burned_addr#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "500": {
+      "op": "bury 1",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%8#0"
+      ]
+    },
+    "502": {
+      "op": "bnz arc62_get_circulating_supply_ternary_false@10",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "505": {
+      "block": "arc62_get_circulating_supply_ternary_true@9",
+      "stack_in": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "burned_balance#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_balance#0"
+      ]
+    },
+    "506": {
+      "op": "bury 6",
+      "defined_out": [
+        "burned_balance#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "508": {
+      "block": "arc62_get_circulating_supply_ternary_merge@11",
+      "stack_in": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "510": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%2#0",
+        "aggregate%box_get%3#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%2#0",
+        "aggregate%box_get%3#0"
+      ]
+    },
+    "511": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%2#0"
+      ]
+    },
+    "512": {
+      "op": "extract 32 32",
+      "defined_out": [
+        "encoded_value%0#0",
+        "locked_addr#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
+      ]
+    },
+    "515": {
+      "op": "dup",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0",
+        "locked_addr#0"
+      ]
+    },
+    "516": {
+      "op": "bury 8",
+      "defined_out": [
+        "encoded_value%0#0",
+        "locked_addr#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
+      ]
+    },
+    "518": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "encoded_value%0#0",
+        "locked_addr#0",
         "tmp%9#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%9#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0",
+        "tmp%9#0"
+      ]
+    },
+    "520": {
+      "op": "==",
+      "defined_out": [
+        "encoded_value%0#0",
+        "locked_addr#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
         "tmp%10#0"
       ]
     },
-    "317": {
+    "521": {
+      "op": "bnz arc62_get_circulating_supply_ternary_true@14",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "524": {
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0"
+      ]
+    },
+    "525": {
+      "op": "bz arc62_get_circulating_supply_ternary_true@14",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "528": {
+      "op": "dig 6",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
+      ]
+    },
+    "530": {
+      "op": "dig 3",
+      "defined_out": [
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0",
+        "asset_id#0"
+      ]
+    },
+    "532": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0",
+        "tmp%11#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%11#0",
+        "tmp%12#0"
+      ]
+    },
+    "534": {
       "op": "bury 1",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%10#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%12#0"
       ]
     },
-    "319": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@4",
+    "536": {
+      "op": "bnz arc62_get_circulating_supply_ternary_false@15",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "322": {
-      "block": "arc62_get_circulating_supply_ternary_true@3",
+    "539": {
+      "block": "arc62_get_circulating_supply_ternary_true@14",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "intc_0 // 0",
+      "op": "intc_1 // 0",
       "defined_out": [
-        "reserve_balance#0"
+        "locked_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "reserve_balance#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_balance#0"
       ]
     },
-    "323": {
+    "540": {
       "op": "bury 5",
       "defined_out": [
-        "reserve_balance#0"
+        "locked_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "325": {
-      "block": "arc62_get_circulating_supply_ternary_merge@5",
+    "542": {
+      "block": "arc62_get_circulating_supply_ternary_merge@16",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "op": "dig 2",
-      "defined_out": [
-        "not_circulating_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0"
-      ]
-    },
-    "327": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "not_circulating_1#0",
-        "tmp%11#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0",
-        "tmp%11#0"
-      ]
-    },
-    "329": {
-      "op": "==",
-      "defined_out": [
-        "not_circulating_1#0",
-        "tmp%12#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%12#0"
-      ]
-    },
-    "330": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@7",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "333": {
-      "op": "dig 2",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0"
-      ]
-    },
-    "335": {
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0",
-        "asset_id#0"
-      ]
-    },
-    "337": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_1#0",
-        "tmp%13#0",
-        "tmp%14#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%13#0",
-        "tmp%14#0"
-      ]
-    },
-    "339": {
-      "op": "bury 1",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%14#0"
-      ]
-    },
-    "341": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@8",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "344": {
-      "block": "arc62_get_circulating_supply_ternary_true@7",
-      "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "not_circulating_balance_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_1#0"
-      ]
-    },
-    "345": {
-      "op": "bury 7",
-      "defined_out": [
-        "not_circulating_balance_1#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "347": {
-      "block": "arc62_get_circulating_supply_ternary_merge@9",
-      "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
       "op": "dig 1",
       "defined_out": [
-        "not_circulating_2#0"
+        "encoded_value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "encoded_value%0#0"
       ]
     },
-    "349": {
-      "op": "global ZeroAddress",
+    "544": {
+      "op": "box_get",
       "defined_out": [
-        "not_circulating_2#0",
-        "tmp%15#0"
+        "aggregate%box_get%4#0",
+        "aggregate%box_get%5#0",
+        "encoded_value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0",
-        "tmp%15#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%4#0",
+        "aggregate%box_get%5#0"
       ]
     },
-    "351": {
-      "op": "==",
+    "545": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "aggregate%box_get%4#0"
+      ]
+    },
+    "546": {
+      "op": "extract 64 32",
       "defined_out": [
-        "not_circulating_2#0",
-        "tmp%16#0"
+        "custom_addr#0",
+        "encoded_value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%16#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0"
       ]
     },
-    "352": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@11",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "355": {
-      "op": "dig 1",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0"
-      ]
-    },
-    "357": {
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0",
-        "asset_id#0"
-      ]
-    },
-    "359": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_2#0",
-        "tmp%17#0",
-        "tmp%18#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%17#0",
-        "tmp%18#0"
-      ]
-    },
-    "361": {
-      "op": "bury 1",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%18#0"
-      ]
-    },
-    "363": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@12",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "366": {
-      "block": "arc62_get_circulating_supply_ternary_true@11",
-      "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "not_circulating_balance_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_2#0"
-      ]
-    },
-    "367": {
-      "op": "bury 6",
-      "defined_out": [
-        "not_circulating_balance_2#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "369": {
-      "block": "arc62_get_circulating_supply_ternary_merge@13",
-      "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ],
-      "op": "dup"
-    },
-    "370": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "not_circulating_3#0",
-        "tmp%19#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0",
-        "tmp%19#0"
-      ]
-    },
-    "372": {
-      "op": "==",
-      "defined_out": [
-        "not_circulating_3#0",
-        "tmp%20#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%20#0"
-      ]
-    },
-    "373": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@15",
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
-      ]
-    },
-    "376": {
+    "549": {
       "op": "dup",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0",
+        "custom_addr#0"
       ]
     },
-    "377": {
-      "op": "dig 4",
+    "550": {
+      "op": "bury 9",
       "defined_out": [
-        "asset_id#0",
-        "not_circulating_3#0"
+        "custom_addr#0",
+        "encoded_value%0#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0"
+      ]
+    },
+    "552": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "custom_addr#0",
+        "encoded_value%0#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0",
+        "tmp%13#0"
+      ]
+    },
+    "554": {
+      "op": "==",
+      "defined_out": [
+        "custom_addr#0",
+        "encoded_value%0#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%14#0"
+      ]
+    },
+    "555": {
+      "op": "bnz arc62_get_circulating_supply_ternary_true@19",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "558": {
+      "op": "dup",
+      "defined_out": [
+        "custom_addr#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0"
+      ]
+    },
+    "559": {
+      "op": "bz arc62_get_circulating_supply_ternary_true@19",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ]
+    },
+    "562": {
+      "op": "dig 7",
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0"
+      ]
+    },
+    "564": {
+      "op": "dig 3",
+      "defined_out": [
+        "asset_id#0",
+        "custom_addr#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0",
         "asset_id#0"
       ]
     },
-    "379": {
+    "566": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_3#0",
-        "tmp%21#0",
-        "tmp%22#0"
+        "custom_addr#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%15#0",
+        "tmp%16#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%21#0",
-        "tmp%22#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%15#0",
+        "tmp%16#0"
       ]
     },
-    "381": {
+    "568": {
       "op": "bury 1",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%22#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%16#0"
       ]
     },
-    "383": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@16",
+    "570": {
+      "op": "bnz arc62_get_circulating_supply_ternary_false@20",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "386": {
-      "block": "arc62_get_circulating_supply_ternary_true@15",
+    "573": {
+      "block": "arc62_get_circulating_supply_ternary_true@19",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "intc_0 // 0",
+      "op": "intc_1 // 0",
       "defined_out": [
-        "not_circulating_balance_3#0"
+        "custom_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0"
       ]
     },
-    "387": {
-      "block": "arc62_get_circulating_supply_ternary_merge@17",
+    "574": {
+      "block": "arc62_get_circulating_supply_ternary_merge@21",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0"
       ],
-      "op": "dig 4",
+      "op": "dig 3",
       "defined_out": [
         "asset_id#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
         "asset_id#0"
       ]
     },
-    "389": {
+    "576": {
       "op": "asset_params_get AssetTotal",
       "defined_out": [
         "asset_id#0",
@@ -2900,655 +4244,729 @@
         "value%7#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
         "value%7#0",
         "check%7#0"
       ]
     },
-    "391": {
+    "578": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
         "value%7#0"
       ]
     },
-    "392": {
-      "op": "dig 6",
+    "579": {
+      "op": "dig 5",
       "defined_out": [
         "asset_id#0",
         "reserve_balance#0",
         "value%7#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
         "value%7#0",
         "reserve_balance#0"
       ]
     },
-    "394": {
+    "581": {
       "op": "-",
       "defined_out": [
         "asset_id#0",
         "reserve_balance#0",
-        "tmp%23#0"
+        "tmp%17#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
-        "tmp%23#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
+        "tmp%17#0"
       ]
     },
-    "395": {
-      "op": "dig 8",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_balance_1#0",
-        "reserve_balance#0",
-        "tmp%23#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
-        "tmp%23#0",
-        "not_circulating_balance_1#0"
-      ]
-    },
-    "397": {
-      "op": "-",
-      "defined_out": [
-        "asset_id#0",
-        "not_circulating_balance_1#0",
-        "reserve_balance#0",
-        "tmp%24#0"
-      ],
-      "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "reserve_balance#0",
-        "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
-        "tmp%24#0"
-      ]
-    },
-    "398": {
+    "582": {
       "op": "dig 7",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
         "reserve_balance#0",
-        "tmp%24#0"
+        "tmp%17#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
-        "tmp%24#0",
-        "not_circulating_balance_2#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
+        "tmp%17#0",
+        "burned_balance#0"
       ]
     },
-    "400": {
+    "584": {
       "op": "-",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
         "reserve_balance#0",
-        "tmp%25#0"
+        "tmp%18#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0",
-        "tmp%25#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
+        "tmp%18#0"
       ]
     },
-    "401": {
+    "585": {
+      "op": "dig 6",
+      "defined_out": [
+        "asset_id#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
+        "tmp%18#0",
+        "locked_balance#0"
+      ]
+    },
+    "587": {
+      "op": "-",
+      "defined_out": [
+        "asset_id#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
+        "reserve_balance#0",
+        "asset_id#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0",
+        "tmp%19#0"
+      ]
+    },
+    "588": {
       "op": "swap",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
-        "not_circulating_balance_3#0",
+        "burned_balance#0",
+        "custom_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
-        "tmp%25#0"
+        "tmp%19#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%25#0",
-        "not_circulating_balance_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%19#0",
+        "custom_balance#0"
       ]
     },
-    "402": {
+    "589": {
       "op": "-",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
-        "tmp%26#0"
+        "tmp%20#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "tmp%26#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "tmp%20#0"
       ]
     },
-    "403": {
+    "590": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "404": {
-      "op": "pushbytes 0x151f7c75",
+    "591": {
+      "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0",
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "aggregate%val_as_bytes%0#0",
         "0x151f7c75"
       ]
     },
-    "410": {
+    "592": {
       "op": "swap",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "411": {
+    "593": {
       "op": "concat",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "tmp%4#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "tmp%4#0"
       ]
     },
-    "412": {
+    "594": {
       "op": "log",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "413": {
-      "op": "intc_2 // 1",
+    "595": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "asset_id#0",
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "1"
       ]
     },
-    "414": {
+    "596": {
       "op": "return",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "415": {
-      "block": "arc62_get_circulating_supply_ternary_false@16",
+    "597": {
+      "block": "arc62_get_circulating_supply_ternary_false@20",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "dup",
+      "op": "dig 7",
       "defined_out": [
-        "not_circulating_3#0"
+        "custom_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0"
       ]
     },
-    "416": {
-      "op": "dig 4",
+    "599": {
+      "op": "dig 3",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_3#0"
+        "custom_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_addr#0",
         "asset_id#0"
       ]
     },
-    "418": {
+    "601": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
         "check%6#0",
-        "not_circulating_3#0",
+        "custom_addr#0",
         "value%6#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%6#0",
         "check%6#0"
       ]
     },
-    "420": {
+    "603": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0"
+        "custom_addr#0",
+        "custom_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_3#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "custom_balance#0"
       ]
     },
-    "421": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@17"
+    "604": {
+      "op": "b arc62_get_circulating_supply_ternary_merge@21"
     },
-    "424": {
-      "block": "arc62_get_circulating_supply_ternary_false@12",
+    "607": {
+      "block": "arc62_get_circulating_supply_ternary_false@15",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "dig 1",
+      "op": "dig 6",
       "defined_out": [
-        "not_circulating_2#0"
+        "locked_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0"
       ]
     },
-    "426": {
-      "op": "dig 4",
+    "609": {
+      "op": "dig 3",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_2#0"
+        "locked_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_2#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_addr#0",
         "asset_id#0"
       ]
     },
-    "428": {
+    "611": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
         "check%5#0",
-        "not_circulating_2#0",
+        "locked_addr#0",
         "value%5#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%5#0",
         "check%5#0"
       ]
     },
-    "430": {
+    "613": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_2#0",
-        "not_circulating_balance_2#0"
+        "locked_addr#0",
+        "locked_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_2#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "locked_balance#0"
       ]
     },
-    "431": {
-      "op": "bury 6",
+    "614": {
+      "op": "bury 5",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_2#0",
-        "not_circulating_balance_2#0"
+        "locked_addr#0",
+        "locked_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "433": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@13"
+    "616": {
+      "op": "b arc62_get_circulating_supply_ternary_merge@16"
     },
-    "436": {
-      "block": "arc62_get_circulating_supply_ternary_false@8",
+    "619": {
+      "block": "arc62_get_circulating_supply_ternary_false@10",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "dig 2",
+      "op": "dig 8",
       "defined_out": [
-        "not_circulating_1#0"
+        "burned_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0"
       ]
     },
-    "438": {
-      "op": "dig 4",
+    "621": {
+      "op": "dig 3",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0"
+        "burned_addr#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_1#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_addr#0",
         "asset_id#0"
       ]
     },
-    "440": {
+    "623": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
+        "burned_addr#0",
         "check%4#0",
-        "not_circulating_1#0",
         "value%4#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%4#0",
         "check%4#0"
       ]
     },
-    "442": {
+    "625": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_balance_1#0"
+        "burned_addr#0",
+        "burned_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
-        "not_circulating_balance_1#0"
+        "encoded_value%0#0",
+        "exists#0",
+        "burned_balance#0"
       ]
     },
-    "443": {
-      "op": "bury 7",
+    "626": {
+      "op": "bury 6",
       "defined_out": [
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_balance_1#0"
+        "burned_addr#0",
+        "burned_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "445": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@9"
+    "628": {
+      "op": "b arc62_get_circulating_supply_ternary_merge@11"
     },
-    "448": {
-      "block": "arc62_get_circulating_supply_ternary_false@4",
+    "631": {
+      "block": "arc62_get_circulating_supply_ternary_false@5",
       "stack_in": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
-      "op": "dig 3",
+      "op": "dig 2",
       "defined_out": [
         "asset_id#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0"
       ]
     },
-    "450": {
+    "633": {
       "op": "dup",
       "defined_out": [
         "asset_id#0",
         "asset_id#0 (copy)"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "asset_id#0 (copy)"
       ]
     },
-    "451": {
+    "634": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
         "asset_id#0",
@@ -3556,48 +4974,54 @@
         "value%2#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "value%2#0",
         "check%2#0"
       ]
     },
-    "453": {
+    "636": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "asset_id#0",
         "value%2#0"
       ]
     },
-    "454": {
+    "637": {
       "op": "swap",
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%2#0",
         "asset_id#0"
       ]
     },
-    "455": {
+    "638": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
@@ -3605,18 +5029,20 @@
         "value%3#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "value%3#0",
         "check%3#0"
       ]
     },
-    "457": {
+    "640": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -3624,34 +5050,173 @@
         "reserve_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0",
+        "encoded_value%0#0",
+        "exists#0",
         "reserve_balance#0"
       ]
     },
-    "458": {
-      "op": "bury 5",
+    "641": {
+      "op": "bury 4",
       "defined_out": [
         "asset_id#0",
         "reserve_balance#0"
       ],
       "stack_out": [
-        "not_circulating_balance_1#0",
-        "not_circulating_balance_2#0",
+        "burned_addr#0",
+        "custom_addr#0",
+        "locked_addr#0",
+        "burned_balance#0",
+        "locked_balance#0",
         "reserve_balance#0",
         "asset_id#0",
-        "not_circulating_1#0",
-        "not_circulating_2#0",
-        "not_circulating_3#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "460": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@5"
+    "643": {
+      "op": "b arc62_get_circulating_supply_ternary_merge@6"
+    },
+    "646": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.withdraw_balance_excess[routing]",
+      "params": {},
+      "block": "withdraw_balance_excess",
+      "stack_in": [],
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "648": {
+      "op": "acct_params_get AcctBalance",
+      "defined_out": [
+        "check%0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "650": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "value%0#0"
+      ]
+    },
+    "651": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%1#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "653": {
+      "op": "acct_params_get AcctMinBalance",
+      "defined_out": [
+        "check%1#0",
+        "value%0#0",
+        "value%1#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "value%1#0",
+        "check%1#0"
+      ]
+    },
+    "655": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "value%0#0",
+        "value%1#0"
+      ]
+    },
+    "656": {
+      "op": "-",
+      "defined_out": [
+        "excess_balance#0"
+      ],
+      "stack_out": [
+        "excess_balance#0"
+      ]
+    },
+    "657": {
+      "op": "itxn_begin"
+    },
+    "658": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "excess_balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "excess_balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "660": {
+      "op": "itxn_field Receiver"
+    },
+    "662": {
+      "op": "itxn_field Amount",
+      "stack_out": []
+    },
+    "664": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "pay"
+      ],
+      "stack_out": [
+        "pay"
+      ]
+    },
+    "665": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "667": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "668": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "670": {
+      "op": "itxn_submit"
+    },
+    "671": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "672": {
+      "op": "return",
+      "stack_out": []
     }
   }
 }
