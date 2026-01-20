@@ -43,7 +43,7 @@ main:
 
 main_after_if_else@2:
     // smart_contracts/circulating_supply/contract.py:20
-    // class CirculatingSupply(ARC4Contract):
+    // class CirculatingSupply(Arc62Interface):
     txn NumAppArgs
     bz main___algopy_default_create@12
     txn OnCompletion
