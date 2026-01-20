@@ -159,7 +159,7 @@ def deploy() -> None:
 
     circulating_supply_client, deploy_result = factory.deploy(
         on_schema_break=OnSchemaBreak.AppendApp,
-        on_update=OnUpdate.UpdateApp,
+        on_update=OnUpdate.AppendApp,
     )
     logger.info(
         f"Circulating Supply Application ID: {circulating_supply_client.app_id}"
