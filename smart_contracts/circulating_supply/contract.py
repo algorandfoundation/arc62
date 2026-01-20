@@ -2,7 +2,6 @@
 
 from algopy import (
     Account,
-    ARC4Contract,
     Asset,
     Global,
     GlobalState,
@@ -13,11 +12,12 @@ from algopy import (
 from algopy.arc4 import Address, abimethod
 
 import smart_contracts.errors.std_errors as err
+from smart_contracts.arc62_interface import Arc62Interface
 
 from . import config as cfg
 
 
-class CirculatingSupply(ARC4Contract):
+class CirculatingSupply(Arc62Interface):
     """ARC-62 Reference Implementation"""
 
     def __init__(self) -> None:
