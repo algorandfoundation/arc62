@@ -1,10 +1,15 @@
 [tool.poetry]
+package-mode = false
 name = "asa-circulating-supply"
 version = "0.1.0"
-description = "Algorand smart contracts"
-authors = ["cusma <cosimo.bassi@gmail.com>"]
+description = "ASA Circulating Supply (ARC-62) reference implementation"
+license = "GPL-3.0-only"
+authors = ["cusma <cosimo.bassi@algorand.foundation>"]
+maintainers = ["cusma <cosimo.bassi@gmail.com>"]
 readme = "README.md"
-package-mode = false
+documentation = "https://dev.algorand.co/arc-standards/arc-0062/"
+repository = "https://github.com/algorandfoundation/arc62"
+keywords = ["algorand", "blockchain", "tokenization"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -14,8 +19,8 @@ algorand-python = "^3.3.0"
 
 [tool.poetry.group.dev.dependencies]
 algokit-client-generator = "^2.2.0"
-black = {extras = ["d"], version = "^25.12.0"}
-ruff = "^0.14.10"
+black = {extras = ["d"], version = "^26.1.0"}
+ruff = "^0.14.13"
 mypy = "^1.19.1"
 pytest = "^9.0.2"
 pytest-cov = "^7.0.0"
