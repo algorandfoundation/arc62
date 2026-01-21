@@ -16,6 +16,7 @@ python = "^3.12"
 algokit-utils = "^4.2.3"
 python-dotenv = "^1.2.1"
 algorand-python = "^3.3.0"
+asa-metadata-registry = { git = "https://github.com/algorandfoundation/arc89.git", branch = "main" }
 
 [tool.poetry.group.dev.dependencies]
 algokit-client-generator = "^2.2.0"
