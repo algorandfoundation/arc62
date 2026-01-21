@@ -7,6 +7,7 @@ from typing import Final
 from algokit_utils import (
     AlgoAmount,
     AlgorandClient,
+    AppClientCompilationParams,
     AssetConfigParams,
     AssetCreateParams,
     AssetOptInParams,
@@ -19,8 +20,22 @@ from algokit_utils import (
     SigningAccount,
 )
 from algokit_utils.config import config
+from asa_metadata_registry import (
+    DEFAULT_DEPLOYMENTS,
+    Arc90Compliance,
+    Arc90Uri,
+    AsaMetadataRegistry,
+    AssetMetadata,
+    IrreversibleFlags,
+    MetadataFlags,
+    ReversibleFlags,
+)
+from asa_metadata_registry._generated.asa_metadata_registry_client import (
+    AsaMetadataRegistryClient,
+    AsaMetadataRegistryFactory,
+)
+from asa_metadata_registry.deployments import RegistryDeployment
 
-from helpers import ipfs
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     Arc62GetCirculatingSupplyArgs,
     CirculatingSupplyClient,
@@ -28,7 +43,7 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     InitConfigArgs,
     SetNotCirculatingAddressArgs,
 )
-from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED, IPFS_URI
+from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED
 
 logger = logging.getLogger(__name__)
 
@@ -50,6 +65,16 @@ ASA_METADATA_HASH: Final[bytes] = 32 * b"\x00"  # Mutable metadata
 # ASSET METADATA
 # ==============================================================================
 
+METADATA_FLAGS = MetadataFlags(
+    reversible=ReversibleFlags(arc62=True),
+    irreversible=IrreversibleFlags(arc3=True, arc89_native=True, immutable=False),
+)
+
+BACKWARD_METADATA_FLAGS = MetadataFlags(
+    reversible=ReversibleFlags(arc62=True),
+    irreversible=IrreversibleFlags(immutable=False),
+)
+
 ARC3_METADATA_JSON = {
     "name": ASA_NAME,
     "description": "ASA with ARC'62 Circulating Supply",
@@ -59,6 +84,8 @@ ARC3_METADATA_JSON = {
         "arc-62": {"application-id": 0}  # Update after Smart ASA App deployment
     },
 }
+
+DEPRECATED_BY = 0
 
 # ==============================================================================
 # ARC-2 NOTE
@@ -153,6 +180,52 @@ def deploy() -> None:
     circulating = algorand.account.from_environment("CIRCULATING")
     non_circulating_address = non_circulating.address
 
+    if algorand.client.is_localnet():
+        registry_app_factory = algorand.client.get_typed_app_factory(
+            AsaMetadataRegistryFactory,
+            default_sender=deployer.address,
+        )
+
+        registry_app_client, _ = registry_app_factory.deploy(
+            compilation_params=AppClientCompilationParams(
+                deploy_time_params={
+                    "TRUSTED_DEPLOYER": deployer.public_key,
+                    "ARC90_NETAUTH": "net:" + algorand.client.network().genesis_id,
+                }
+            )
+        )
+
+        algorand.account.ensure_funded_from_environment(
+            account_to_fund=registry_app_client.app_address,
+            min_spending_balance=ACCOUNT_MBR,
+        )
+
+        registry_client = AsaMetadataRegistry.from_app_client(
+            app_client=registry_app_client, algod=algorand.client.algod
+        )
+
+        registry_deployment = RegistryDeployment(
+            network=algorand.client.network().genesis_id,
+            genesis_hash_b64=algorand.client.network().genesis_hash,
+            app_id=registry_app_client.app_id,
+            arc90_uri_netauth="net:" + algorand.client.network().genesis_id,
+            creator_address=deployer.address,
+        )
+    elif algorand.client.is_testnet():
+        registry_deployment = DEFAULT_DEPLOYMENTS["testnet"]
+        registry_app_client = algorand.client.get_typed_app_client_by_id(
+            AsaMetadataRegistryClient,
+            app_id=registry_deployment.app_id,
+            default_sender=deployer.address,
+            default_signer=deployer.signer,
+        )
+        registry_client = AsaMetadataRegistry.from_app_client(
+            app_client=registry_app_client, algod=algorand.client.algod
+        )
+    else:
+        raise OSError("Unsupported network for deployment")
+    logger.info(f"ASA Metadata Registry deployment: {registry_deployment}")
+
     factory = algorand.client.get_typed_app_factory(
         CirculatingSupplyFactory, default_sender=deployer.address
     )
@@ -173,18 +246,21 @@ def deploy() -> None:
             )
         )
 
+    # Update Asset Metadata
+    ARC3_METADATA_JSON["properties"]["arc-62"][
+        "application-id"
+    ] = circulating_supply_client.app_id
+
     # ARC-3 Circulating Supply App discovery
     # https://dev.algorand.co/arc-standards/arc-0062/#circulating-supply-application-discovery
-    arc3_data_cid = ""
-    if algorand.client.is_testnet():
-        logger.info("Uploading ARC-3 metadata on IPFS")
-        jwt = ipfs.get_pinata_jwt().strip()
-        # Update Asset Metadata
-        ARC3_METADATA_JSON["properties"]["arc-62"][
-            "application-id"
-        ] = circulating_supply_client.app_id
-        arc3_data_cid = ipfs.upload_to_pinata(ARC3_METADATA_JSON, jwt, ASA_UNIT_NAME)
-        logger.info(f"Upload complete. ARC-3 metadata CID: {arc3_data_cid}")
+    arc90_uri = Arc90Uri(
+        netauth=registry_deployment.arc90_uri_netauth,
+        app_id=registry_deployment.app_id,
+        box_name=None,
+        compliance=Arc90Compliance((62, 89)),  # ARC-62, ARC-89
+    )
+    assert arc90_uri.is_partial
+    logger.info(f"Smart ASA Metadata Partial URI: {arc90_uri.to_uri()}")
 
     logger.info("Creating ARC-3 discovery Circulating Supply ASA...")
     arc3_asset_id = algorand.send.asset_create(
@@ -197,11 +273,27 @@ def deploy() -> None:
             decimals=ASA_DECIMALS,
             manager=deployer.address,
             reserve=deployer.address,
-            url=IPFS_URI + arc3_data_cid,
+            url=arc90_uri.to_uri(),
             metadata_hash=ASA_METADATA_HASH,
             default_frozen=ASA_DEFAULT_FROZEN,
         )
     ).asset_id
+
+    logger.info("Uploading ARC-3 metadata on the ASA Metadata Registry...")
+    asa_metadata = AssetMetadata.from_json(
+        asset_id=arc3_asset_id,
+        json_obj=ARC3_METADATA_JSON,
+        flags=METADATA_FLAGS,
+        deprecated_by=DEPRECATED_BY,
+        arc3_compliant=METADATA_FLAGS.irreversible.arc3,
+    )
+
+    registry_client.write.create_metadata(
+        metadata=asa_metadata,
+        asset_manager=deployer,
+    )
+    metadata = registry_client.read.get_asset_metadata(asset_id=arc3_asset_id)
+    logger.info(f"ARC-89 ASA Metadata: {metadata.json}")
 
     _opt_in_and_transfer(
         algorand=algorand,
@@ -284,9 +376,11 @@ def deploy() -> None:
         params=CommonAppCallParams(sender=deployer.address),
     )
 
-    logger.info("Setting Circulating Supply App with ARC-2...")
     ARC2_DATA["application-id"] = circulating_supply_client.app_id
     arc2_note = ARC2_PREFIX + ":j" + json.dumps(ARC2_DATA)
+    logger.info(
+        f"Setting Circulating Supply App discovery with ARC-2 note: {arc2_note}"
+    )
     algorand.send.asset_config(
         params=AssetConfigParams(
             sender=deployer.address,
@@ -295,6 +389,22 @@ def deploy() -> None:
             note=arc2_note.encode("utf-8"),
         )
     )
+
+    logger.info("Uploading ARC-3 metadata on the ASA Metadata Registry...")
+    asa_metadata = AssetMetadata.from_json(
+        asset_id=arc2_asset_id,
+        json_obj=ARC3_METADATA_JSON,
+        flags=BACKWARD_METADATA_FLAGS,
+        deprecated_by=DEPRECATED_BY,
+        arc3_compliant=METADATA_FLAGS.irreversible.arc3,
+    )
+
+    registry_client.write.create_metadata(
+        metadata=asa_metadata,
+        asset_manager=deployer,
+    )
+    metadata = registry_client.read.get_asset_metadata(asset_id=arc2_asset_id)
+    logger.info(f"ARC-89 ASA Metadata: {metadata.json}")
 
     arc2_circulating_supply = _set_label_and_get_circulating_supply(
         circulating_supply_client=circulating_supply_client,
