@@ -6,6 +6,5 @@ LOCKED: Final[str] = "locked"
 CUSTOM: Final[str] = "custom"
 
 # ARCs
-IPFS_URI: Final[str] = "ipfs://"
 ARC3_SUFFIX: Final[str] = "#arc3"
 ARC2_PREFIX: Final[str] = "arc62"

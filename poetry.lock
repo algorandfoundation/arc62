@@ -231,6 +231,25 @@ typing_extensions = {version = ">=4.5", markers = "python_version < \"3.13\""}
 trio = ["trio (>=0.31.0) ; python_version < \"3.10\"", "trio (>=0.32.0) ; python_version >= \"3.10\""]
 
 [[package]]
+name = "asa-metadata-registry"
+version = "0.7.0"
+description = "ASA Metadata Registry (ARC-89) reference implementation and SDK"
+optional = false
+python-versions = ">=3.10,<4"
+groups = ["main"]
+files = []
+develop = false
+
+[package.dependencies]
+algokit-utils = ">=4.2.3,<5.0.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/algorandfoundation/arc89.git"
+reference = "main"
+resolved_reference = "fe119a29f3aeda3d307144732f918207da4a872b"
+
+[[package]]
 name = "attrs"
 version = "25.4.0"
 description = "Classes Without Boilerplate"
@@ -2111,14 +2130,14 @@ tests = ["hypothesis (>=3.27.0)", "pytest (>=7.4.0)", "pytest-cov (>=2.10.1)", "
 
 [[package]]
 name = "pyparsing"
-version = "3.3.1"
+version = "3.3.2"
 description = "pyparsing - Classes and methods to define and execute parsing grammars"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "pyparsing-3.3.1-py3-none-any.whl", hash = "sha256:023b5e7e5520ad96642e2c6db4cb683d3970bd640cdf7115049a6e9c3682df82"},
-    {file = "pyparsing-3.3.1.tar.gz", hash = "sha256:47fad0f17ac1e2cad3de3b458570fbc9b03560aa029ed5e16ee5554da9a2251c"},
+    {file = "pyparsing-3.3.2-py3-none-any.whl", hash = "sha256:850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d"},
+    {file = "pyparsing-3.3.2.tar.gz", hash = "sha256:c777f4d763f140633dcb6d8a3eda953bf7a214dc4eff598413c070bcdc117cbc"},
 ]
 
 [package.extras]
@@ -2693,4 +2712,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "1ac852a07305804f988f39560e7d294604c1cc738ad78dfa3e5115e0f229f248"
+content-hash = "a6f80e7b1c3ea0f2d6b651812cc334a0c6dd51c8337d5334a4bbe5a0a8a67664"

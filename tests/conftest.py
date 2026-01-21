@@ -18,7 +18,6 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     CirculatingSupplyFactory,
     InitConfigArgs,
 )
-from smart_contracts.circulating_supply.config import ARC3_SUFFIX, IPFS_URI
 
 INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
 
@@ -150,7 +149,7 @@ def asset(
             total=ASA_TOTAL,
             manager=asset_manager.address,
             reserve=asset_reserve.address,
-            url=IPFS_URI + "<ipfs-cid>" + ARC3_SUFFIX,
+            url="<asa-metadata-uri>",
         )
     ).asset_id
 
