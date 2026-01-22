@@ -71,7 +71,9 @@ ASA_METADATA_HASH: Final[bytes] = 32 * b"\x00"  # Mutable metadata
 
 METADATA_FLAGS = MetadataFlags(
     reversible=ReversibleFlags(arc62=True),
-    irreversible=IrreversibleFlags(arc3=True, arc89_native=True, reserved_2=True, immutable=False),  # TODO: update reserved_2 to burned on SDK update
+    irreversible=IrreversibleFlags(
+        arc3=True, arc89_native=True, reserved_2=True, immutable=False
+    ),  # TODO: update reserved_2 to burned on SDK update
 )
 
 BACKWARD_METADATA_FLAGS = MetadataFlags(
