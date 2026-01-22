@@ -41,7 +41,7 @@ def arc54_asset_opt_in(
 ) -> None:
     sp = algorand.get_suggested_params()
     sp.flat_fee = True
-    sp.flat_fee = 2 * sp.min_fee
+    sp.fee = 2 * sp.min_fee
     atc = AtomicTransactionComposer()
 
     # ABI method call
