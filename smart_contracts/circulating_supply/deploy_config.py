@@ -2,6 +2,7 @@
 
 import json
 import logging
+import os
 from typing import Final
 
 from algokit_utils import (
@@ -20,6 +21,7 @@ from algokit_utils import (
     SigningAccount,
 )
 from algokit_utils.config import config
+from algosdk.encoding import decode_address
 from asa_metadata_registry import (
     DEFAULT_DEPLOYMENTS,
     Arc90Compliance,
@@ -36,6 +38,7 @@ from asa_metadata_registry._generated.asa_metadata_registry_client import (
 )
 from asa_metadata_registry.deployments import RegistryDeployment
 
+from helpers.bonfire import arc54_asset_opt_in
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     Arc62GetCirculatingSupplyArgs,
     CirculatingSupplyClient,
@@ -43,7 +46,8 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     InitConfigArgs,
     SetNotCirculatingAddressArgs,
 )
-from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED
+from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED, CUSTOM
+from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 logger = logging.getLogger(__name__)
 
@@ -127,19 +131,33 @@ def _opt_in_and_transfer(
     asset_id: int,
     sender: SigningAccount,
     amount: int,
-    receiver: SigningAccount,
+    receiver: SigningAccount | None,
 ) -> None:
-    _asset_opt_in(
-        algorand=algorand,
-        account=receiver,
-        asset_id=asset_id,
-    )
+    if algorand.client.is_localnet():
+        assert receiver is not None
+        _asset_opt_in(
+            algorand=algorand,
+            account=receiver,
+            asset_id=asset_id,
+        )
+        receiver_address = receiver.address
+    elif algorand.client.is_testnet():
+        assert receiver is None
+        arc54_asset_opt_in(
+            algorand=algorand,
+            caller=sender,
+            asset_id=asset_id,
+        )
+        receiver_address = os.environ[ARC54_BURN_ADDRESS]
+    else:
+        raise OSError("Unsupported network for deployment")
+
     _asset_transfer(
         algorand=algorand,
         sender=sender,
         asset_id=asset_id,
         amount=amount,
-        receiver=receiver.address,
+        receiver=receiver_address,
     )
 
 
@@ -176,9 +194,7 @@ def deploy() -> None:
     deployer = algorand.account.from_environment("DEPLOYER")
     logger.info(f"Deployer address: {deployer.address}")
 
-    non_circulating = algorand.account.from_environment("NON_CIRCULATING")
     circulating = algorand.account.from_environment("CIRCULATING")
-    non_circulating_address = non_circulating.address
 
     if algorand.client.is_localnet():
         registry_app_factory = algorand.client.get_typed_app_factory(
@@ -211,6 +227,9 @@ def deploy() -> None:
             arc90_uri_netauth="net:" + algorand.client.network().genesis_id,
             creator_address=deployer.address,
         )
+        non_circulating = algorand.account.from_environment("NON_CIRCULATING")
+        non_circulating_address = non_circulating.address
+        non_circulating_label = CUSTOM
     elif algorand.client.is_testnet():
         registry_deployment = DEFAULT_DEPLOYMENTS["testnet"]
         registry_app_client = algorand.client.get_typed_app_client_by_id(
@@ -222,12 +241,21 @@ def deploy() -> None:
         registry_client = AsaMetadataRegistry.from_app_client(
             app_client=registry_app_client, algod=algorand.client.algod
         )
+        non_circulating = None
+        non_circulating_address = os.environ[ARC54_BURN_ADDRESS]
+        non_circulating_label = BURNED
     else:
         raise OSError("Unsupported network for deployment")
     logger.info(f"ASA Metadata Registry deployment: {registry_deployment}")
 
     factory = algorand.client.get_typed_app_factory(
-        CirculatingSupplyFactory, default_sender=deployer.address
+        CirculatingSupplyFactory,
+        compilation_params=AppClientCompilationParams(
+            deploy_time_params={
+                ARC54_BURN_ADDRESS: decode_address(os.environ[ARC54_BURN_ADDRESS]),
+            }
+        ),
+        default_sender=deployer.address,
     )
 
     circulating_supply_client, deploy_result = factory.deploy(
@@ -326,7 +354,7 @@ def deploy() -> None:
         circulating_supply_client=circulating_supply_client,
         asset_id=arc3_asset_id,
         non_circulating_address=non_circulating_address,
-        label=BURNED,
+        label=non_circulating_label,
         caller=deployer,
     )
     logger.info(f"ARC-3 discovery Circulating Supply: {arc3_circulating_supply}")
@@ -410,7 +438,7 @@ def deploy() -> None:
         circulating_supply_client=circulating_supply_client,
         asset_id=arc2_asset_id,
         non_circulating_address=non_circulating_address,
-        label=BURNED,
+        label=non_circulating_label,
         caller=deployer,
     )
     logger.info(f"ARC-2 discovery Circulating Supply: {arc2_circulating_supply}")
