@@ -35,7 +35,6 @@ from asa_metadata_registry._generated.asa_metadata_registry_client import (
     AsaMetadataRegistryFactory,
 )
 from asa_metadata_registry.deployments import RegistryDeployment
-
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     Arc62GetCirculatingSupplyArgs,
     CirculatingSupplyClient,
@@ -43,6 +42,7 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     InitConfigArgs,
     SetNotCirculatingAddressArgs,
 )
+
 from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED
 
 logger = logging.getLogger(__name__)

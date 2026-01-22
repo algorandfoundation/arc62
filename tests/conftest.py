@@ -12,7 +12,6 @@ from algokit_utils import (
     SigningAccount,
 )
 from algokit_utils.config import config
-
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
     CirculatingSupplyFactory,
