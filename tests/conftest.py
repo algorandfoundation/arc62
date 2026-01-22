@@ -4,6 +4,7 @@ import pytest
 from algokit_utils import (
     AlgoAmount,
     AlgorandClient,
+    AppClientCompilationParams,
     AssetCreateParams,
     AssetOptInParams,
     AssetTransferParams,
@@ -12,12 +13,14 @@ from algokit_utils import (
     SigningAccount,
 )
 from algokit_utils.config import config
+from algosdk.encoding import decode_address
 
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
     CirculatingSupplyFactory,
     InitConfigArgs,
 )
+from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
 
@@ -52,26 +55,6 @@ def deployer(algorand: AlgorandClient) -> SigningAccount:
         min_spending_balance=INITIAL_FUNDS,
     )
     return account
-
-
-@pytest.fixture(scope="function")
-def circulating_supply_client(
-    algorand: AlgorandClient, deployer: SigningAccount
-) -> CirculatingSupplyClient:
-    factory = algorand.client.get_typed_app_factory(
-        CirculatingSupplyFactory,
-        default_sender=deployer.address,
-        default_signer=deployer.signer,
-    )
-    client, _ = factory.send.create.bare()
-    algorand.send.payment(
-        params=PaymentParams(
-            sender=deployer.address,
-            receiver=client.app_address,
-            amount=ACCOUNT_MBR,
-        )
-    )
-    return client
 
 
 @pytest.fixture(scope="session")
@@ -140,7 +123,6 @@ def asset(
     asset_creator: SigningAccount,
     asset_manager: SigningAccount,
     asset_reserve: SigningAccount,
-    circulating_supply_client: CirculatingSupplyClient,
 ) -> int:
     return algorand.send.asset_create(
         AssetCreateParams(
@@ -272,6 +254,31 @@ def custom_balance(
         == CUSTOM_BALANCE
     )
     return custom_supply
+
+
+@pytest.fixture(scope="function")
+def circulating_supply_client(
+    algorand: AlgorandClient, deployer: SigningAccount, burned_supply: SigningAccount
+) -> CirculatingSupplyClient:
+    factory = algorand.client.get_typed_app_factory(
+        CirculatingSupplyFactory,
+        compilation_params=AppClientCompilationParams(
+            deploy_time_params={
+                ARC54_BURN_ADDRESS: decode_address(burned_supply.address),
+            }
+        ),
+        default_sender=deployer.address,
+        default_signer=deployer.signer,
+    )
+    client, _ = factory.send.create.bare()
+    algorand.send.payment(
+        params=PaymentParams(
+            sender=deployer.address,
+            receiver=client.app_address,
+            amount=ACCOUNT_MBR,
+        )
+    )
+    return client
 
 
 @pytest.fixture(scope="function")
