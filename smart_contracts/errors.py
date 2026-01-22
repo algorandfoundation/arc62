@@ -2,6 +2,7 @@
 UNAUTHORIZED = "Unauthorized"
 CONFIG_EXISTS = "Circulating supply config already exists for this ASA"
 CONFIG_NOT_EXISTS = "Circulating supply config does not exist for this ASA"
+ASA_NOT_ARC54_COMPLIANT = "The ASA must not have a clawback address"
 NOT_OPTED_IN = "Address is not opted-in the ASA"
 INVALID_LABEL = "Invalid label"
 INVALID_MBR_RECEIVER = "Invalid circulating supply config MBR receiver"
