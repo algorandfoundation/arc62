@@ -4,6 +4,7 @@ from algopy import (
     BoxMap,
     Global,
     String,
+    TemplateVar,
     Txn,
     UInt64,
     gtxn,
@@ -17,6 +18,7 @@ from algopy.arc4 import abimethod
 import smart_contracts.errors as err
 from smart_contracts.arc62_interface import Arc62Interface
 from smart_contracts.avm_types import CirculatingSupplyConfig
+from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 from . import config as cfg
 
@@ -25,6 +27,12 @@ from . import config as cfg
 def _asa_exists(asa: Asset) -> bool:
     _creator, exists = op.AssetParamsGet.asset_creator(asa)
     return exists
+
+
+@subroutine
+def _is_arc54_compliant(asa: Asset) -> bool:
+    clawback, exists = op.AssetParamsGet.asset_clawback(asa)
+    return exists and clawback == Global.zero_address
 
 
 class CirculatingSupply(Arc62Interface):
@@ -93,6 +101,9 @@ class CirculatingSupply(Arc62Interface):
         # Effects
         match label:
             case cfg.BURNED:
+                assert _is_arc54_compliant(asset) and address == TemplateVar[Account](
+                    ARC54_BURN_ADDRESS
+                ), err.ASA_NOT_ARC54_COMPLIANT
                 self.circulating_supply[asset].burned_addr = address
             case cfg.LOCKED:
                 self.circulating_supply[asset].locked_addr = address
