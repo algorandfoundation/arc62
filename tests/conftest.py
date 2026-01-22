@@ -13,6 +13,7 @@ from algokit_utils import (
     SigningAccount,
 )
 from algokit_utils.config import config
+from algosdk.encoding import decode_address
 
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
@@ -263,7 +264,7 @@ def circulating_supply_client(
         CirculatingSupplyFactory,
         compilation_params=AppClientCompilationParams(
             deploy_time_params={
-                ARC54_BURN_ADDRESS: burned_supply.address,
+                ARC54_BURN_ADDRESS: decode_address(burned_supply.address),
             }
         ),
         default_sender=deployer.address,
