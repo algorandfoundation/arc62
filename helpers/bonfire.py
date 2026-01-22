@@ -52,3 +52,4 @@ def arc54_asset_opt_in(
         method_args=[asset_id],
         foreign_assets=[asset_id],
     )
+    atc.submit()

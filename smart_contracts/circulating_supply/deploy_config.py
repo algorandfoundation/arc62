@@ -134,6 +134,7 @@ def _opt_in_and_transfer(
     receiver: SigningAccount | None,
 ) -> None:
     if algorand.client.is_localnet():
+        logger.info("Opting in receiver on LocaNet...")
         assert receiver is not None
         _asset_opt_in(
             algorand=algorand,
@@ -142,6 +143,7 @@ def _opt_in_and_transfer(
         )
         receiver_address = receiver.address
     elif algorand.client.is_testnet():
+        logger.info("Opting in Bonfire on TestNet...")
         assert receiver is None
         arc54_asset_opt_in(
             algorand=algorand,
