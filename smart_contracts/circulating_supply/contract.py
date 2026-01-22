@@ -100,10 +100,11 @@ class CirculatingSupply(Arc62Interface):
 
         # Effects
         match label:
-            case cfg.BURNED:
-                assert _is_arc54_compliant(asset) and address == TemplateVar[Account](
+            case String(cfg.BURNED):  # FIXME: puyapy bug requires explicit String()
+                assert _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
+                assert address == TemplateVar[Account](
                     ARC54_BURN_ADDRESS
-                ), err.ASA_NOT_ARC54_COMPLIANT
+                ), err.INVALID_BURNING_ADDRESS
                 self.circulating_supply[asset].burned_addr = address
             case cfg.LOCKED:
                 self.circulating_supply[asset].locked_addr = address
