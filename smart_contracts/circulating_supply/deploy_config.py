@@ -135,15 +135,14 @@ def _opt_in_and_transfer(
     amount: int,
     receiver: SigningAccount | None,
 ) -> None:
-    if algorand.client.is_localnet():
-        logger.info("Opting in receiver on LocaNet...")
+    if receiver is not None:
         _asset_opt_in(
             algorand=algorand,
             account=receiver,
             asset_id=asset_id,
         )
         receiver_address = receiver.address
-    elif algorand.client.is_testnet():
+    else:
         logger.info("Opting in Bonfire on TestNet...")
         arc54_asset_opt_in(
             algorand=algorand,
@@ -151,8 +150,6 @@ def _opt_in_and_transfer(
             asset_id=asset_id,
         )
         receiver_address = os.environ[ARC54_BURN_ADDRESS]
-    else:
-        raise OSError("Unsupported network for deployment")
 
     _asset_transfer(
         algorand=algorand,
