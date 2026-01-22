@@ -28,70 +28,50 @@ def test_pass_get_circulating_supply(
     reserve_balance = algorand.asset.get_account_information(
         reserve_with_balance, asset
     ).balance
-    nc_balance_1 = algorand.asset.get_account_information(burned_balance, asset).balance
-    nc_balance_2 = algorand.asset.get_account_information(locked_balance, asset).balance
-    nc_balance_3 = algorand.asset.get_account_information(custom_balance, asset).balance
+
+    def balance(acct: SigningAccount) -> int:
+        return algorand.asset.get_account_information(acct, asset).balance
+
+    nc_accounts = [
+        (cfg.BURNED, burned_balance),
+        (cfg.LOCKED, locked_balance),
+        (cfg.CUSTOM, custom_balance),
+    ]
+    nc_balances = {label: balance(acct) for label, acct in nc_accounts}
 
     print("\nASA Total: ", total)
     print("Reserve Balance: ", reserve_balance)
-    print(f"{cfg.BURNED.capitalize()} Balance: ", nc_balance_1)
-    print(f"{cfg.LOCKED.capitalize()} Balance: ", nc_balance_2)
-    print(f"{cfg.CUSTOM.capitalize()} Balance: ", nc_balance_3)
+    for label, _acct in nc_accounts:
+        print(f"{label.capitalize()} Balance: ", nc_balances[label])
 
-    circulating_supply = (
-        asset_circulating_supply_client.send.arc62_get_circulating_supply(
-            args=Arc62GetCirculatingSupplyArgs(asset_id=asset)
-        ).abi_return
-    )
-    assert circulating_supply == total - reserve_balance
+    def get_circulating_supply() -> int:
+        return (
+            asset_circulating_supply_client.send.arc62_get_circulating_supply(
+                args=Arc62GetCirculatingSupplyArgs(asset_id=asset)
+            ).abi_return
+        )
 
-    asset_circulating_supply_client.send.set_not_circulating_address(
-        args=SetNotCirculatingAddressArgs(
-            asset=asset,
-            address=burned_balance.address,
-            label=cfg.BURNED,
-        ),
-        params=CommonAppCallParams(sender=asset_manager.address),
-    )
-    circulating_supply = (
-        asset_circulating_supply_client.send.arc62_get_circulating_supply(
-            args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
-        ).abi_return
-    )
-    assert circulating_supply == total - reserve_balance - nc_balance_1
+    def set_nc_address(label: str, acct: SigningAccount) -> None:
+        asset_circulating_supply_client.send.set_not_circulating_address(
+            args=SetNotCirculatingAddressArgs(
+                asset=asset,
+                address=acct.address,
+                label=label,
+            ),
+            params=CommonAppCallParams(sender=asset_manager.address),
+        )
 
-    asset_circulating_supply_client.send.set_not_circulating_address(
-        args=SetNotCirculatingAddressArgs(
-            asset=asset,
-            address=locked_balance.address,
-            label=cfg.LOCKED,
-        ),
-        params=CommonAppCallParams(sender=asset_manager.address),
-    )
-    circulating_supply = (
-        asset_circulating_supply_client.send.arc62_get_circulating_supply(
-            args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
-        ).abi_return
-    )
-    assert circulating_supply == total - reserve_balance - nc_balance_1 - nc_balance_2
+    expected = total - reserve_balance
 
-    asset_circulating_supply_client.send.set_not_circulating_address(
-        args=SetNotCirculatingAddressArgs(
-            asset=asset,
-            address=custom_balance.address,
-            label=cfg.CUSTOM,
-        ),
-        params=CommonAppCallParams(sender=asset_manager.address),
-    )
-    circulating_supply = (
-        asset_circulating_supply_client.send.arc62_get_circulating_supply(
-            args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
-        ).abi_return
-    )
-    assert (
-        circulating_supply
-        == total - reserve_balance - nc_balance_1 - nc_balance_2 - nc_balance_3
-    )
+    circulating_supply = get_circulating_supply()
+    assert circulating_supply == expected
+
+    for label, acct in nc_accounts:
+        set_nc_address(label, acct)
+        expected -= nc_balances[label]
+        circulating_supply = get_circulating_supply()
+        assert circulating_supply == expected
+
     print("Circulating Supply: ", circulating_supply)
 
 
