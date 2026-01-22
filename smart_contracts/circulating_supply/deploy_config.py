@@ -71,7 +71,7 @@ ASA_METADATA_HASH: Final[bytes] = 32 * b"\x00"  # Mutable metadata
 
 METADATA_FLAGS = MetadataFlags(
     reversible=ReversibleFlags(arc62=True),
-    irreversible=IrreversibleFlags(arc3=True, arc89_native=True, immutable=False),
+    irreversible=IrreversibleFlags(arc3=True, arc89_native=True, reserved_2=True, immutable=False),  # TODO: update reserved_2 to burned on SDK update
 )
 
 BACKWARD_METADATA_FLAGS = MetadataFlags(
@@ -287,7 +287,7 @@ def deploy() -> None:
         netauth=registry_deployment.arc90_uri_netauth,
         app_id=registry_deployment.app_id,
         box_name=None,
-        compliance=Arc90Compliance((62, 89)),  # ARC-62, ARC-89
+        compliance=Arc90Compliance((54, 62, 89)),  # ARC-54, ARC-62, ARC-89
     )
     assert arc90_uri.is_partial
     logger.info(f"Smart ASA Metadata Partial URI: {arc90_uri.to_uri()}")
