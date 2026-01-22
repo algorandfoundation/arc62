@@ -37,7 +37,7 @@ iface = abi.Interface.from_json(json.dumps(ARC54_INTERFACE))
 
 
 def arc54_asset_opt_in(
-    algorand: AlgorandClient, account: SigningAccount, asset_id: int
+    algorand: AlgorandClient, caller: SigningAccount, asset_id: int
 ) -> None:
     sp = algorand.get_suggested_params()
     atc = AtomicTransactionComposer()
@@ -46,9 +46,9 @@ def arc54_asset_opt_in(
     atc.add_method_call(
         app_id=int(os.environ["BONFIRE_APP_ID"]),
         method=iface.get_method_by_name("arc54_optIntoASA"),
-        sender=account.address,
+        sender=caller.address,
         sp=sp,
-        signer=account.signer,
+        signer=caller.signer,
         method_args=[asset_id],
         foreign_assets=[asset_id],
     )
