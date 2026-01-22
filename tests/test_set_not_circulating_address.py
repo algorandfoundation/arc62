@@ -105,3 +105,11 @@ def test_fail_invalid_label(
             ),
             params=CommonAppCallParams(sender=asset_manager.address),
         )
+
+
+def test_fail_not_arc54_compliant() -> None:
+    pass  # TODO
+
+
+def test_fail_invalid_burning_address() -> None:
+    pass  # TODO
