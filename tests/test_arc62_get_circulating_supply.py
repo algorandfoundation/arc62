@@ -45,11 +45,9 @@ def test_pass_get_circulating_supply(
         print(f"{label.capitalize()} Balance: ", nc_balances[label])
 
     def get_circulating_supply() -> int:
-        return (
-            asset_circulating_supply_client.send.arc62_get_circulating_supply(
-                args=Arc62GetCirculatingSupplyArgs(asset_id=asset)
-            ).abi_return
-        )
+        return asset_circulating_supply_client.send.arc62_get_circulating_supply(
+            args=Arc62GetCirculatingSupplyArgs(asset_id=asset)
+        ).abi_return
 
     def set_nc_address(label: str, acct: SigningAccount) -> None:
         asset_circulating_supply_client.send.set_not_circulating_address(
