@@ -72,7 +72,10 @@ class CirculatingSupply(Arc62Interface):
         )
         self.circulating_supply[asset].burned_addr = Global.zero_address
         self.circulating_supply[asset].locked_addr = Global.zero_address
-        self.circulating_supply[asset].custom_addr = Global.zero_address
+        self.circulating_supply[asset].custom_1_addr = Global.zero_address
+        self.circulating_supply[asset].custom_2_addr = Global.zero_address
+        self.circulating_supply[asset].custom_3_addr = Global.zero_address
+        self.circulating_supply[asset].custom_4_addr = Global.zero_address
 
         # Postconditions
         mbr_delta_amount = Global.current_application_address.min_balance - mbr_i
@@ -108,8 +111,14 @@ class CirculatingSupply(Arc62Interface):
                 self.circulating_supply[asset].burned_addr = address
             case cfg.LOCKED:
                 self.circulating_supply[asset].locked_addr = address
-            case cfg.CUSTOM:
-                self.circulating_supply[asset].custom_addr = address
+            case cfg.CUSTOM_1:
+                self.circulating_supply[asset].custom_1_addr = address
+            case cfg.CUSTOM_2:
+                self.circulating_supply[asset].custom_2_addr = address
+            case cfg.CUSTOM_3:
+                self.circulating_supply[asset].custom_3_addr = address
+            case cfg.CUSTOM_4:
+                self.circulating_supply[asset].custom_4_addr = address
             case _:
                 op.err(err.INVALID_LABEL)
 
@@ -171,50 +180,76 @@ class CirculatingSupply(Arc62Interface):
         assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
 
         # Effects
-        asa_exists = _asa_exists(asset)
+        if not _asa_exists(asset):
+            circulating_supply = UInt64(0)
+        else:
+            reserve_balance = (
+                UInt64(0)
+                if asset.reserve == Global.zero_address
+                or not asset.reserve.is_opted_in(asset)
+                else asset.balance(asset.reserve)
+            )
 
-        reserve_balance = (
-            UInt64(0)
-            if asset.reserve == Global.zero_address
-            or not asa_exists
-            or not asset.reserve.is_opted_in(asset)
-            else asset.balance(asset.reserve)
-        )
+            burned_addr = self.circulating_supply[asset].burned_addr
+            burned_balance = (
+                UInt64(0)
+                if burned_addr == Global.zero_address
+                or not burned_addr.is_opted_in(asset)
+                else asset.balance(burned_addr)
+            )
 
-        burned_addr = self.circulating_supply[asset].burned_addr
-        burned_balance = (
-            UInt64(0)
-            if burned_addr == Global.zero_address
-            or not asa_exists
-            or not burned_addr.is_opted_in(asset)
-            else asset.balance(burned_addr)
-        )
+            locked_addr = self.circulating_supply[asset].locked_addr
+            locked_balance = (
+                UInt64(0)
+                if locked_addr == Global.zero_address
+                or not locked_addr.is_opted_in(asset)
+                else asset.balance(locked_addr)
+            )
 
-        locked_addr = self.circulating_supply[asset].locked_addr
-        locked_balance = (
-            UInt64(0)
-            if locked_addr == Global.zero_address
-            or not asa_exists
-            or not locked_addr.is_opted_in(asset)
-            else asset.balance(locked_addr)
-        )
+            custom_1_addr = self.circulating_supply[asset].custom_1_addr
+            custom_balance_1 = (
+                UInt64(0)
+                if custom_1_addr == Global.zero_address
+                or not custom_1_addr.is_opted_in(asset)
+                else asset.balance(custom_1_addr)
+            )
 
-        custom_addr = self.circulating_supply[asset].custom_addr
-        custom_balance = (
-            UInt64(0)
-            if custom_addr == Global.zero_address
-            or not asa_exists
-            or not custom_addr.is_opted_in(asset)
-            else asset.balance(custom_addr)
-        )
+            custom_2_addr = self.circulating_supply[asset].custom_2_addr
+            custom_balance_2 = (
+                UInt64(0)
+                if custom_2_addr == Global.zero_address
+                or not custom_2_addr.is_opted_in(asset)
+                else asset.balance(custom_2_addr)
+            )
 
-        return (
-            asset.total
-            - reserve_balance
-            - burned_balance
-            - locked_balance
-            - custom_balance
-        )
+            custom_3_addr = self.circulating_supply[asset].custom_3_addr
+            custom_balance_3 = (
+                UInt64(0)
+                if custom_3_addr == Global.zero_address
+                or not custom_3_addr.is_opted_in(asset)
+                else asset.balance(custom_3_addr)
+            )
+
+            custom_4_addr = self.circulating_supply[asset].custom_4_addr
+            custom_balance_4 = (
+                UInt64(0)
+                if custom_4_addr == Global.zero_address
+                or not custom_4_addr.is_opted_in(asset)
+                else asset.balance(custom_4_addr)
+            )
+
+            circulating_supply = (
+                asset.total
+                - reserve_balance
+                - burned_balance
+                - locked_balance
+                - custom_balance_1
+                - custom_balance_2
+                - custom_balance_3
+                - custom_balance_4
+            )
+
+        return circulating_supply
 
     @abimethod
     def extra_resources(self) -> None:
