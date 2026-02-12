@@ -25,7 +25,6 @@ def test_pass_get_circulating_supply(
     asset: int,
     reserve_with_balance: SigningAccount,
     burned_balance: SigningAccount,
-    locked_balance: SigningAccount,
     custom_balance_1: SigningAccount,
     custom_balance_2: SigningAccount,
     custom_balance_3: SigningAccount,
@@ -41,7 +40,6 @@ def test_pass_get_circulating_supply(
 
     nc_accounts = [
         (cfg.BURNED, burned_balance),
-        (cfg.LOCKED, locked_balance),
         (cfg.CUSTOM_1, custom_balance_1),
         (cfg.CUSTOM_2, custom_balance_2),
         (cfg.CUSTOM_3, custom_balance_3),

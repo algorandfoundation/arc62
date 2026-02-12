@@ -26,7 +26,6 @@ def test_pass_init_config(
     )
     assert config is not None
     assert config.burned_addr == ZERO_ADDRESS
-    assert config.locked_addr == ZERO_ADDRESS
     assert config.custom_1_addr == ZERO_ADDRESS
     assert config.custom_2_addr == ZERO_ADDRESS
     assert config.custom_3_addr == ZERO_ADDRESS

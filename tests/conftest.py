@@ -27,14 +27,13 @@ INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
 ASA_TOTAL: Final[int] = 100
 RESERVE_BALANCE: Final[int] = 1
 BURNED_BALANCE: Final[int] = 2
-LOCKED_BALANCE: Final[int] = 3
-CUSTOM_BALANCE_1: Final[int] = 4
-CUSTOM_BALANCE_2: Final[int] = 5
-CUSTOM_BALANCE_3: Final[int] = 6
-CUSTOM_BALANCE_4: Final[int] = 7
+CUSTOM_BALANCE_1: Final[int] = 3
+CUSTOM_BALANCE_2: Final[int] = 4
+CUSTOM_BALANCE_3: Final[int] = 5
+CUSTOM_BALANCE_4: Final[int] = 6
 
 ACCOUNT_MBR = AlgoAmount(micro_algo=100_000)
-CONFIG_MBR = AlgoAmount(micro_algo=82_500)
+CONFIG_MBR = AlgoAmount(micro_algo=69_700)
 
 config.configure(
     debug=False,
@@ -112,11 +111,6 @@ def burned_supply(algorand: AlgorandClient) -> SigningAccount:
 
 
 @pytest.fixture(scope="session")
-def locked_supply(algorand: AlgorandClient) -> SigningAccount:
-    return _create_funded_account(algorand)
-
-
-@pytest.fixture(scope="session")
 def custom_supply_1(algorand: AlgorandClient) -> SigningAccount:
     return _create_funded_account(algorand)
 
@@ -176,18 +170,6 @@ def burned_balance(
 ) -> SigningAccount:
     return _create_account_with_asset_balance(
         algorand, asset_creator, burned_supply, asset, BURNED_BALANCE
-    )
-
-
-@pytest.fixture(scope="function")
-def locked_balance(
-    algorand: AlgorandClient,
-    asset_creator: SigningAccount,
-    locked_supply: SigningAccount,
-    asset: int,
-) -> SigningAccount:
-    return _create_account_with_asset_balance(
-        algorand, asset_creator, locked_supply, asset, LOCKED_BALANCE
     )
 
 

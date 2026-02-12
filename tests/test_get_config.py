@@ -21,7 +21,6 @@ def test_pass_get_default_config(
 
     config = result.abi_return
     assert config.burned_addr == ZERO_ADDRESS
-    assert config.locked_addr == ZERO_ADDRESS
     assert config.custom_1_addr == ZERO_ADDRESS
     assert config.custom_2_addr == ZERO_ADDRESS
     assert config.custom_3_addr == ZERO_ADDRESS
@@ -33,7 +32,6 @@ def test_pass_get_modified_config(
     asset_manager: SigningAccount,
     asset: int,
     burned_balance: SigningAccount,
-    locked_balance: SigningAccount,
     custom_balance_1: SigningAccount,
     custom_balance_2: SigningAccount,
     custom_balance_3: SigningAccount,
@@ -45,15 +43,6 @@ def test_pass_get_modified_config(
             asset=asset,
             address=burned_balance.address,
             label=cfg.BURNED,
-        ),
-        params=CommonAppCallParams(sender=asset_manager.address),
-    )
-
-    asset_circulating_supply_client.send.set_not_circulating_address(
-        args=SetNotCirculatingAddressArgs(
-            asset=asset,
-            address=locked_balance.address,
-            label=cfg.LOCKED,
         ),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
@@ -101,7 +90,6 @@ def test_pass_get_modified_config(
 
     config = result.abi_return
     assert config.burned_addr == burned_balance.address
-    assert config.locked_addr == locked_balance.address
     assert config.custom_1_addr == custom_balance_1.address
     assert config.custom_2_addr == custom_balance_2.address
     assert config.custom_3_addr == custom_balance_3.address
