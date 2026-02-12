@@ -25,19 +25,57 @@ from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
 
 ASA_TOTAL: Final[int] = 100
-RESERVE_BALANCE: Final[int] = 4
-BURNED_BALANCE: Final[int] = 3
-LOCKED_BALANCE: Final[int] = 2
-CUSTOM_BALANCE: Final[int] = 1
+RESERVE_BALANCE: Final[int] = 1
+BURNED_BALANCE: Final[int] = 2
+CUSTOM_BALANCE_1: Final[int] = 3
+CUSTOM_BALANCE_2: Final[int] = 4
+CUSTOM_BALANCE_3: Final[int] = 5
+CUSTOM_BALANCE_4: Final[int] = 6
 
 ACCOUNT_MBR = AlgoAmount(micro_algo=100_000)
-CONFIG_MBR = AlgoAmount(micro_algo=44_100)
+CONFIG_MBR = AlgoAmount(micro_algo=69_700)
 
 config.configure(
     debug=False,
     populate_app_call_resources=True,
     # trace_all=True,
 )
+
+
+def _create_funded_account(algorand: AlgorandClient) -> SigningAccount:
+    account = algorand.account.random()
+    algorand.account.ensure_funded_from_environment(
+        account_to_fund=account.address,
+        min_spending_balance=INITIAL_FUNDS,
+    )
+    return account
+
+
+def _create_account_with_asset_balance(
+    algorand: AlgorandClient,
+    asset_creator: SigningAccount,
+    receiver: SigningAccount,
+    asset: int,
+    amount: int,
+) -> SigningAccount:
+    algorand.send.asset_opt_in(
+        AssetOptInParams(
+            sender=receiver.address,
+            signer=receiver.signer,
+            asset_id=asset,
+        )
+    )
+    algorand.send.asset_transfer(
+        AssetTransferParams(
+            sender=asset_creator.address,
+            signer=asset_creator.signer,
+            asset_id=asset,
+            amount=amount,
+            receiver=receiver.address,
+        )
+    )
+    assert algorand.asset.get_account_information(receiver, asset).balance == amount
+    return receiver
 
 
 @pytest.fixture(scope="session")
@@ -49,72 +87,47 @@ def algorand() -> AlgorandClient:
 
 @pytest.fixture(scope="session")
 def deployer(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
 def asset_creator(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
 def asset_manager(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
 def asset_reserve(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
 def burned_supply(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
-def locked_supply(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+def custom_supply_1(algorand: AlgorandClient) -> SigningAccount:
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="session")
-def custom_supply(algorand: AlgorandClient) -> SigningAccount:
-    account = algorand.account.random()
-    algorand.account.ensure_funded_from_environment(
-        account_to_fund=account.address,
-        min_spending_balance=INITIAL_FUNDS,
-    )
-    return account
+def custom_supply_2(algorand: AlgorandClient) -> SigningAccount:
+    return _create_funded_account(algorand)
+
+
+@pytest.fixture(scope="session")
+def custom_supply_3(algorand: AlgorandClient) -> SigningAccount:
+    return _create_funded_account(algorand)
+
+
+@pytest.fixture(scope="session")
+def custom_supply_4(algorand: AlgorandClient) -> SigningAccount:
+    return _create_funded_account(algorand)
 
 
 @pytest.fixture(scope="function")
@@ -143,27 +156,9 @@ def reserve_with_balance(
     asset_reserve: SigningAccount,
     asset: int,
 ) -> SigningAccount:
-    algorand.send.asset_opt_in(
-        AssetOptInParams(
-            sender=asset_reserve.address,
-            signer=asset_reserve.signer,
-            asset_id=asset,
-        )
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, asset_reserve, asset, RESERVE_BALANCE
     )
-    algorand.send.asset_transfer(
-        AssetTransferParams(
-            sender=asset_creator.address,
-            signer=asset_creator.signer,
-            asset_id=asset,
-            amount=RESERVE_BALANCE,
-            receiver=asset_reserve.address,
-        )
-    )
-    assert (
-        algorand.asset.get_account_information(asset_reserve, asset).balance
-        == RESERVE_BALANCE
-    )
-    return asset_reserve
 
 
 @pytest.fixture(scope="function")
@@ -173,87 +168,57 @@ def burned_balance(
     burned_supply: SigningAccount,
     asset: int,
 ) -> SigningAccount:
-    algorand.send.asset_opt_in(
-        AssetOptInParams(
-            sender=burned_supply.address,
-            signer=burned_supply.signer,
-            asset_id=asset,
-        )
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, burned_supply, asset, BURNED_BALANCE
     )
-    algorand.send.asset_transfer(
-        AssetTransferParams(
-            sender=asset_creator.address,
-            signer=asset_creator.signer,
-            asset_id=asset,
-            amount=BURNED_BALANCE,
-            receiver=burned_supply.address,
-        )
-    )
-    assert (
-        algorand.asset.get_account_information(burned_supply, asset).balance
-        == BURNED_BALANCE
-    )
-    return burned_supply
 
 
 @pytest.fixture(scope="function")
-def locked_balance(
+def custom_balance_1(
     algorand: AlgorandClient,
     asset_creator: SigningAccount,
-    locked_supply: SigningAccount,
+    custom_supply_1: SigningAccount,
     asset: int,
 ) -> SigningAccount:
-    algorand.send.asset_opt_in(
-        AssetOptInParams(
-            sender=locked_supply.address,
-            signer=locked_supply.signer,
-            asset_id=asset,
-        )
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, custom_supply_1, asset, CUSTOM_BALANCE_1
     )
-    algorand.send.asset_transfer(
-        AssetTransferParams(
-            sender=asset_creator.address,
-            signer=asset_creator.signer,
-            asset_id=asset,
-            amount=LOCKED_BALANCE,
-            receiver=locked_supply.address,
-        )
-    )
-    assert (
-        algorand.asset.get_account_information(locked_supply, asset).balance
-        == LOCKED_BALANCE
-    )
-    return locked_supply
 
 
 @pytest.fixture(scope="function")
-def custom_balance(
+def custom_balance_2(
     algorand: AlgorandClient,
     asset_creator: SigningAccount,
-    custom_supply: SigningAccount,
+    custom_supply_2: SigningAccount,
     asset: int,
 ) -> SigningAccount:
-    algorand.send.asset_opt_in(
-        AssetOptInParams(
-            sender=custom_supply.address,
-            signer=custom_supply.signer,
-            asset_id=asset,
-        )
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, custom_supply_2, asset, CUSTOM_BALANCE_2
     )
-    algorand.send.asset_transfer(
-        AssetTransferParams(
-            sender=asset_creator.address,
-            signer=asset_creator.signer,
-            asset_id=asset,
-            amount=CUSTOM_BALANCE,
-            receiver=custom_supply.address,
-        )
+
+
+@pytest.fixture(scope="function")
+def custom_balance_3(
+    algorand: AlgorandClient,
+    asset_creator: SigningAccount,
+    custom_supply_3: SigningAccount,
+    asset: int,
+) -> SigningAccount:
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, custom_supply_3, asset, CUSTOM_BALANCE_3
     )
-    assert (
-        algorand.asset.get_account_information(custom_supply, asset).balance
-        == CUSTOM_BALANCE
+
+
+@pytest.fixture(scope="function")
+def custom_balance_4(
+    algorand: AlgorandClient,
+    asset_creator: SigningAccount,
+    custom_supply_4: SigningAccount,
+    asset: int,
+) -> SigningAccount:
+    return _create_account_with_asset_balance(
+        algorand, asset_creator, custom_supply_4, asset, CUSTOM_BALANCE_4
     )
-    return custom_supply
 
 
 @pytest.fixture(scope="function")

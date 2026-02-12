@@ -1,11 +1,15 @@
+import pytest
 from algokit_utils import (
     AlgorandClient,
     AssetConfigParams,
+    AssetDestroyParams,
     AssetTransferParams,
     CommonAppCallParams,
+    LogicError,
     SigningAccount,
 )
 
+from smart_contracts import errors as err
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     Arc62GetCirculatingSupplyArgs,
     CirculatingSupplyClient,
@@ -21,8 +25,10 @@ def test_pass_get_circulating_supply(
     asset: int,
     reserve_with_balance: SigningAccount,
     burned_balance: SigningAccount,
-    locked_balance: SigningAccount,
-    custom_balance: SigningAccount,
+    custom_balance_1: SigningAccount,
+    custom_balance_2: SigningAccount,
+    custom_balance_3: SigningAccount,
+    custom_balance_4: SigningAccount,
 ) -> None:
     total = algorand.asset.get_by_id(asset).total
     reserve_balance = algorand.asset.get_account_information(
@@ -34,8 +40,10 @@ def test_pass_get_circulating_supply(
 
     nc_accounts = [
         (cfg.BURNED, burned_balance),
-        (cfg.LOCKED, locked_balance),
-        (cfg.CUSTOM, custom_balance),
+        (cfg.CUSTOM_1, custom_balance_1),
+        (cfg.CUSTOM_2, custom_balance_2),
+        (cfg.CUSTOM_3, custom_balance_3),
+        (cfg.CUSTOM_4, custom_balance_4),
     ]
     nc_balances = {label: balance(acct) for label, acct in nc_accounts}
 
@@ -147,9 +155,31 @@ def test_pass_closed_address(
     assert circulating_supply == total
 
 
-def test_pass_asa_not_exists() -> None:
-    pass  # TODO
+def test_pass_asa_not_exists(
+    algorand: AlgorandClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+) -> None:
+    algorand.send.asset_destroy(
+        AssetDestroyParams(
+            sender=asset_manager.address,
+            asset_id=asset,
+        ),
+    )
+    circulating_supply = (
+        asset_circulating_supply_client.send.arc62_get_circulating_supply(
+            args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
+        ).abi_return
+    )
+    assert circulating_supply == 0
 
 
-def test_fail_config_not_exists() -> None:
-    pass  # TODO
+def test_fail_config_not_exists(
+    circulating_supply_client: CirculatingSupplyClient,
+    asset: int,
+) -> None:
+    with pytest.raises(LogicError, match=err.CONFIG_NOT_EXISTS):
+        circulating_supply_client.send.arc62_get_circulating_supply(
+            args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
+        )
