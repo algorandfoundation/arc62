@@ -46,13 +46,13 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     InitConfigArgs,
     SetNotCirculatingAddressArgs,
 )
-from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED, CUSTOM
+from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED, CUSTOM_1
 from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 logger = logging.getLogger(__name__)
 
 ACCOUNT_MBR = AlgoAmount(micro_algo=100_000)
-CONFIG_MBR = AlgoAmount(micro_algo=44_100)
+CONFIG_MBR = AlgoAmount(micro_algo=69_700)
 
 # ==============================================================================
 # ASSET CREATION PARAMETERS
@@ -228,7 +228,7 @@ def deploy() -> None:
         )
         non_circulating = algorand.account.from_environment("NON_CIRCULATING")
         non_circulating_address = non_circulating.address
-        non_circulating_label = CUSTOM
+        non_circulating_label = CUSTOM_1
     elif algorand.client.is_testnet():
         registry_deployment = DEFAULT_DEPLOYMENTS["testnet"]
         registry_app_client = algorand.client.get_typed_app_client_by_id(
