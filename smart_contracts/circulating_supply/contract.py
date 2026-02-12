@@ -35,7 +35,7 @@ def _is_arc54_compliant(asa: Asset) -> bool:
     return exists and clawback == Global.zero_address
 
 
-class CirculatingSupply(Arc62Interface):
+class CirculatingSupply(Arc62Interface, avm_version=12):
     """
     Singleton Application providing ARC-62 getter for ASA Circulating Supply
     """
@@ -71,7 +71,6 @@ class CirculatingSupply(Arc62Interface):
             size=size_of(CirculatingSupplyConfig)
         )
         self.circulating_supply[asset].burned_addr = Global.zero_address
-        self.circulating_supply[asset].locked_addr = Global.zero_address
         self.circulating_supply[asset].custom_1_addr = Global.zero_address
         self.circulating_supply[asset].custom_2_addr = Global.zero_address
         self.circulating_supply[asset].custom_3_addr = Global.zero_address
@@ -109,8 +108,6 @@ class CirculatingSupply(Arc62Interface):
                     ARC54_BURN_ADDRESS
                 ), err.INVALID_BURNING_ADDRESS
                 self.circulating_supply[asset].burned_addr = address
-            case cfg.LOCKED:
-                self.circulating_supply[asset].locked_addr = address
             case cfg.CUSTOM_1:
                 self.circulating_supply[asset].custom_1_addr = address
             case cfg.CUSTOM_2:
@@ -198,14 +195,6 @@ class CirculatingSupply(Arc62Interface):
                 else asset.balance(burned_addr)
             )
 
-            locked_addr = self.circulating_supply[asset].locked_addr
-            locked_balance = (
-                UInt64(0)
-                if locked_addr == Global.zero_address
-                or not locked_addr.is_opted_in(asset)
-                else asset.balance(locked_addr)
-            )
-
             custom_1_addr = self.circulating_supply[asset].custom_1_addr
             custom_balance_1 = (
                 UInt64(0)
@@ -242,7 +231,6 @@ class CirculatingSupply(Arc62Interface):
                 asset.total
                 - reserve_balance
                 - burned_balance
-                - locked_balance
                 - custom_balance_1
                 - custom_balance_2
                 - custom_balance_3
