@@ -698,7 +698,8 @@
       ]
     },
     "142": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "mbr_payment#0",
         "encoded_value%0#0",
@@ -761,7 +762,8 @@
       ]
     },
     "150": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "mbr_payment#0",
         "encoded_value%0#0",
@@ -824,7 +826,8 @@
       ]
     },
     "159": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "mbr_payment#0",
         "encoded_value%0#0",
@@ -887,7 +890,8 @@
       ]
     },
     "168": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "mbr_payment#0",
         "encoded_value%0#0",
@@ -946,7 +950,8 @@
       ]
     },
     "178": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "mbr_payment#0",
         "mbr_i#0"
@@ -1884,7 +1889,8 @@
       ]
     },
     "332": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
         "asset#0",
@@ -1974,7 +1980,8 @@
       ]
     },
     "340": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
         "asset#0",
@@ -2038,7 +2045,8 @@
       ]
     },
     "349": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
         "asset#0",
@@ -2102,7 +2110,8 @@
       ]
     },
     "357": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
         "asset#0",
@@ -2384,7 +2393,8 @@
       ]
     },
     "392": {
-      "op": "box_replace",
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
         "asset#0",
@@ -4235,7 +4245,7 @@
       "defined_out": [
         "burned_addr#0",
         "encoded_value%0#0",
-        "tmp%5#0"
+        "tmp%6#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4251,7 +4261,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "burned_addr#0",
-        "tmp%5#0"
+        "tmp%6#0"
       ]
     },
     "576": {
@@ -4259,7 +4269,7 @@
       "defined_out": [
         "burned_addr#0",
         "encoded_value%0#0",
-        "tmp%6#0"
+        "tmp%7#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4274,7 +4284,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%6#0"
+        "tmp%7#0"
       ]
     },
     "577": {
@@ -4342,8 +4352,8 @@
         "asset_id#0",
         "burned_addr#0",
         "encoded_value%0#0",
-        "tmp%7#0",
-        "tmp%8#0"
+        "tmp%8#0",
+        "tmp%9#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4358,8 +4368,8 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%7#0",
-        "tmp%8#0"
+        "tmp%8#0",
+        "tmp%9#0"
       ]
     },
     "586": {
@@ -4377,7 +4387,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%8#0"
+        "tmp%9#0"
       ]
     },
     "588": {
@@ -4600,7 +4610,7 @@
       "defined_out": [
         "custom_1_addr#0",
         "encoded_value%0#0",
-        "tmp%9#0"
+        "tmp%11#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4616,7 +4626,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_1_addr#0",
-        "tmp%9#0"
+        "tmp%11#0"
       ]
     },
     "605": {
@@ -4624,7 +4634,7 @@
       "defined_out": [
         "custom_1_addr#0",
         "encoded_value%0#0",
-        "tmp%10#0"
+        "tmp%12#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4639,7 +4649,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%10#0"
+        "tmp%12#0"
       ]
     },
     "606": {
@@ -4707,8 +4717,8 @@
         "asset_id#0",
         "custom_1_addr#0",
         "encoded_value%0#0",
-        "tmp%11#0",
-        "tmp%12#0"
+        "tmp%13#0",
+        "tmp%14#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4723,8 +4733,8 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%11#0",
-        "tmp%12#0"
+        "tmp%13#0",
+        "tmp%14#0"
       ]
     },
     "615": {
@@ -4742,7 +4752,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%12#0"
+        "tmp%14#0"
       ]
     },
     "617": {
@@ -4965,7 +4975,7 @@
       "defined_out": [
         "custom_2_addr#0",
         "encoded_value%0#0",
-        "tmp%13#0"
+        "tmp%16#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -4981,7 +4991,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_2_addr#0",
-        "tmp%13#0"
+        "tmp%16#0"
       ]
     },
     "634": {
@@ -4989,7 +4999,7 @@
       "defined_out": [
         "custom_2_addr#0",
         "encoded_value%0#0",
-        "tmp%14#0"
+        "tmp%17#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5004,7 +5014,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%14#0"
+        "tmp%17#0"
       ]
     },
     "635": {
@@ -5072,8 +5082,8 @@
         "asset_id#0",
         "custom_2_addr#0",
         "encoded_value%0#0",
-        "tmp%15#0",
-        "tmp%16#0"
+        "tmp%18#0",
+        "tmp%19#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5088,8 +5098,8 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%15#0",
-        "tmp%16#0"
+        "tmp%18#0",
+        "tmp%19#0"
       ]
     },
     "644": {
@@ -5107,7 +5117,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%16#0"
+        "tmp%19#0"
       ]
     },
     "646": {
@@ -5330,7 +5340,7 @@
       "defined_out": [
         "custom_3_addr#0",
         "encoded_value%0#0",
-        "tmp%17#0"
+        "tmp%21#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5346,7 +5356,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_3_addr#0",
-        "tmp%17#0"
+        "tmp%21#0"
       ]
     },
     "663": {
@@ -5354,7 +5364,7 @@
       "defined_out": [
         "custom_3_addr#0",
         "encoded_value%0#0",
-        "tmp%18#0"
+        "tmp%22#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5369,7 +5379,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%18#0"
+        "tmp%22#0"
       ]
     },
     "664": {
@@ -5437,8 +5447,8 @@
         "asset_id#0",
         "custom_3_addr#0",
         "encoded_value%0#0",
-        "tmp%19#0",
-        "tmp%20#0"
+        "tmp%23#0",
+        "tmp%24#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5453,8 +5463,8 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%19#0",
-        "tmp%20#0"
+        "tmp%23#0",
+        "tmp%24#0"
       ]
     },
     "673": {
@@ -5472,7 +5482,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%20#0"
+        "tmp%24#0"
       ]
     },
     "675": {
@@ -5695,7 +5705,7 @@
       "defined_out": [
         "custom_4_addr#0",
         "encoded_value%0#0",
-        "tmp%21#0"
+        "tmp%26#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5711,7 +5721,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_4_addr#0",
-        "tmp%21#0"
+        "tmp%26#0"
       ]
     },
     "692": {
@@ -5719,7 +5729,7 @@
       "defined_out": [
         "custom_4_addr#0",
         "encoded_value%0#0",
-        "tmp%22#0"
+        "tmp%27#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5734,7 +5744,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%22#0"
+        "tmp%27#0"
       ]
     },
     "693": {
@@ -5802,8 +5812,8 @@
         "asset_id#0",
         "custom_4_addr#0",
         "encoded_value%0#0",
-        "tmp%23#0",
-        "tmp%24#0"
+        "tmp%28#0",
+        "tmp%29#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -5818,8 +5828,8 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%23#0",
-        "tmp%24#0"
+        "tmp%28#0",
+        "tmp%29#0"
       ]
     },
     "702": {
@@ -5837,7 +5847,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%24#0"
+        "tmp%29#0"
       ]
     },
     "704": {
@@ -6006,7 +6016,7 @@
       "defined_out": [
         "asset_id#0",
         "reserve_balance#0",
-        "tmp%25#0"
+        "tmp%30#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6022,7 +6032,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%25#0"
+        "tmp%30#0"
       ]
     },
     "716": {
@@ -6031,7 +6041,7 @@
         "asset_id#0",
         "burned_balance#0",
         "reserve_balance#0",
-        "tmp%25#0"
+        "tmp%30#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6047,7 +6057,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%25#0",
+        "tmp%30#0",
         "burned_balance#0"
       ]
     },
@@ -6057,7 +6067,7 @@
         "asset_id#0",
         "burned_balance#0",
         "reserve_balance#0",
-        "tmp%26#0"
+        "tmp%31#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6073,7 +6083,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%26#0"
+        "tmp%31#0"
       ]
     },
     "719": {
@@ -6083,7 +6093,7 @@
         "burned_balance#0",
         "custom_balance_1#0",
         "reserve_balance#0",
-        "tmp%26#0"
+        "tmp%31#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6099,7 +6109,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%26#0",
+        "tmp%31#0",
         "custom_balance_1#0"
       ]
     },
@@ -6110,7 +6120,7 @@
         "burned_balance#0",
         "custom_balance_1#0",
         "reserve_balance#0",
-        "tmp%27#0"
+        "tmp%32#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6126,7 +6136,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%27#0"
+        "tmp%32#0"
       ]
     },
     "722": {
@@ -6137,7 +6147,7 @@
         "custom_balance_1#0",
         "custom_balance_2#0",
         "reserve_balance#0",
-        "tmp%27#0"
+        "tmp%32#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6153,7 +6163,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%27#0",
+        "tmp%32#0",
         "custom_balance_2#0"
       ]
     },
@@ -6165,7 +6175,7 @@
         "custom_balance_1#0",
         "custom_balance_2#0",
         "reserve_balance#0",
-        "tmp%28#0"
+        "tmp%33#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6181,7 +6191,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%28#0"
+        "tmp%33#0"
       ]
     },
     "725": {
@@ -6193,7 +6203,7 @@
         "custom_balance_2#0",
         "custom_balance_3#0",
         "reserve_balance#0",
-        "tmp%28#0"
+        "tmp%33#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6209,7 +6219,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%28#0",
+        "tmp%33#0",
         "custom_balance_3#0"
       ]
     },
@@ -6222,7 +6232,7 @@
         "custom_balance_2#0",
         "custom_balance_3#0",
         "reserve_balance#0",
-        "tmp%29#0"
+        "tmp%34#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6238,7 +6248,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "custom_balance_4#0",
-        "tmp%29#0"
+        "tmp%34#0"
       ]
     },
     "728": {
@@ -6251,7 +6261,7 @@
         "custom_balance_3#0",
         "custom_balance_4#0",
         "reserve_balance#0",
-        "tmp%29#0"
+        "tmp%34#0"
       ],
       "stack_out": [
         "burned_addr#0",
@@ -6266,7 +6276,7 @@
         "reserve_balance#0",
         "asset_id#0",
         "encoded_value%0#0",
-        "tmp%29#0",
+        "tmp%34#0",
         "custom_balance_4#0"
       ]
     },
