@@ -32,11 +32,11 @@ from asa_metadata_registry import (
     MetadataFlags,
     ReversibleFlags,
 )
+from asa_metadata_registry.deployments import RegistryDeployment
 from asa_metadata_registry.generated.asa_metadata_registry_client import (
     AsaMetadataRegistryClient,
     AsaMetadataRegistryFactory,
 )
-from asa_metadata_registry.deployments import RegistryDeployment
 
 from helpers.bonfire import arc54_asset_opt_in
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
