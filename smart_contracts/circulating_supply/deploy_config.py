@@ -32,11 +32,11 @@ from asa_metadata_registry import (
     MetadataFlags,
     ReversibleFlags,
 )
-from asa_metadata_registry._generated.asa_metadata_registry_client import (
+from asa_metadata_registry.deployments import RegistryDeployment
+from asa_metadata_registry.generated.asa_metadata_registry_client import (
     AsaMetadataRegistryClient,
     AsaMetadataRegistryFactory,
 )
-from asa_metadata_registry.deployments import RegistryDeployment
 
 from helpers.bonfire import arc54_asset_opt_in
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
@@ -72,8 +72,8 @@ ASA_METADATA_HASH: Final[bytes] = 32 * b"\x00"  # Mutable metadata
 METADATA_FLAGS = MetadataFlags(
     reversible=ReversibleFlags(arc62=True),
     irreversible=IrreversibleFlags(
-        arc3=True, arc89_native=True, reserved_2=True, immutable=False
-    ),  # TODO: update reserved_2 to burned on SDK update
+        arc3=True, arc89_native=True, burnable=True, immutable=False
+    ),
 )
 
 BACKWARD_METADATA_FLAGS = MetadataFlags(
@@ -423,7 +423,7 @@ def deploy() -> None:
         json_obj=ARC3_METADATA_JSON,
         flags=BACKWARD_METADATA_FLAGS,
         deprecated_by=DEPRECATED_BY,
-        arc3_compliant=METADATA_FLAGS.irreversible.arc3,
+        arc3_compliant=BACKWARD_METADATA_FLAGS.irreversible.arc3,
     )
 
     registry_client.write.create_metadata(

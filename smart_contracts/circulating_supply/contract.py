@@ -35,7 +35,7 @@ def _is_arc54_compliant(asa: Asset) -> bool:
     return exists and clawback == Global.zero_address
 
 
-class CirculatingSupply(Arc62Interface, avm_version=12):
+class CirculatingSupply(Arc62Interface, avm_version=13):
     """
     Singleton Application providing ARC-62 getter for ASA Circulating Supply
     """
@@ -102,7 +102,7 @@ class CirculatingSupply(Arc62Interface, avm_version=12):
 
         # Effects
         match label:
-            case String(cfg.BURNED):  # FIXME: puyapy bug requires explicit String()
+            case cfg.BURNED:
                 assert _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
                 assert address == TemplateVar[Account](
                     ARC54_BURN_ADDRESS
