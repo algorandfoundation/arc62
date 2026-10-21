@@ -204,7 +204,7 @@ circulating_supply_client.send.init_config(
     args=InitConfigArgs(asset=asset_id, mbr_payment=mbr_payment),
 )
 
-# 2. Label the non-circulating addresses (they must be opted in to the ASA)
+# 2. Label the not-circulating addresses (they must be opted in to the ASA)
 circulating_supply_client.send.set_not_circulating_address(
     args=SetNotCirculatingAddressArgs(
         asset=asset_id,
