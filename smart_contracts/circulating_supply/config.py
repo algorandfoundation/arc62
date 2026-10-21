@@ -8,5 +8,8 @@ CUSTOM_3: Final[str] = "custom_3"
 CUSTOM_4: Final[str] = "custom_4"
 
 # ARCs
-ARC3_SUFFIX: Final[str] = "#arc3"
 ARC2_PREFIX: Final[str] = "arc62"
+
+# MBR (microALGO)
+ACCOUNT_MBR: Final[int] = 100_000
+CONFIG_MBR: Final[int] = 69_700  # Box: 2_500 + 400 * (8 + 160)

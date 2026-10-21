@@ -26,10 +26,12 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     CirculatingSupplyFactory,
     InitConfigArgs,
 )
-from smart_contracts.circulating_supply.deploy_config import ACCOUNT_MBR, CONFIG_MBR
+from smart_contracts.circulating_supply import config as cfg
 from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 INITIAL_FUNDS: Final[AlgoAmount] = AlgoAmount(algo=100)
+ACCOUNT_MBR: Final[AlgoAmount] = AlgoAmount(micro_algo=cfg.ACCOUNT_MBR)
+CONFIG_MBR: Final[AlgoAmount] = AlgoAmount(micro_algo=cfg.CONFIG_MBR)
 
 ASA_TOTAL: Final[int] = 100
 RESERVE_BALANCE: Final[int] = 1
