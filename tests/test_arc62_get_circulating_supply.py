@@ -8,6 +8,7 @@ from algokit_utils import (
     LogicError,
     SigningAccount,
 )
+from algosdk.constants import ZERO_ADDRESS
 
 from smart_contracts import errors as err
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
@@ -16,6 +17,27 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     SetNotCirculatingAddressArgs,
 )
 from smart_contracts.circulating_supply import config as cfg
+
+from .conftest import CUSTOM_BALANCE_1, RESERVE_BALANCE
+
+
+def _get_circulating_supply(client: CirculatingSupplyClient, asset: int) -> int:
+    return client.send.arc62_get_circulating_supply(
+        args=Arc62GetCirculatingSupplyArgs(asset_id=asset)
+    ).abi_return
+
+
+def _set_not_circulating_address(
+    client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    address: str,
+    label: str,
+) -> None:
+    client.send.set_not_circulating_address(
+        args=SetNotCirculatingAddressArgs(asset=asset, address=address, label=label),
+        params=CommonAppCallParams(sender=asset_manager.address),
+    )
 
 
 def test_pass_get_circulating_supply(
@@ -173,6 +195,80 @@ def test_pass_asa_not_exists(
         ).abi_return
     )
     assert circulating_supply == 0
+
+
+def test_pass_unset_label(
+    algorand: AlgorandClient,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    reserve_with_balance: SigningAccount,
+    custom_balance_1: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    total = algorand.asset.get_by_id(asset).total
+
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    assert (
+        _get_circulating_supply(client, asset)
+        == total - RESERVE_BALANCE - CUSTOM_BALANCE_1
+    )
+
+    _set_not_circulating_address(
+        client, asset_manager, asset, ZERO_ADDRESS, cfg.CUSTOM_1
+    )
+    assert _get_circulating_supply(client, asset) == total - RESERVE_BALANCE
+
+
+@pytest.mark.parametrize(
+    ("label", "labelled_fixture"),
+    [
+        (cfg.BURNED, "burned_balance"),
+        (cfg.CUSTOM_1, "custom_balance_1"),
+        (cfg.CUSTOM_2, "custom_balance_2"),
+        (cfg.CUSTOM_3, "custom_balance_3"),
+        (cfg.CUSTOM_4, "custom_balance_4"),
+    ],
+)
+def test_pass_reserve_assigned_to_label(
+    request: pytest.FixtureRequest,
+    algorand: AlgorandClient,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    reserve_with_balance: SigningAccount,
+    label: str,
+    labelled_fixture: str,
+) -> None:
+    client = asset_circulating_supply_client
+    total = algorand.asset.get_by_id(asset).total
+    labelled: SigningAccount = request.getfixturevalue(labelled_fixture)
+    labelled_balance = algorand.asset.get_account_information(labelled, asset).balance
+
+    def set_reserve(reserve: str) -> None:
+        algorand.send.asset_config(
+            AssetConfigParams(
+                sender=asset_manager.address,
+                signer=asset_manager.signer,
+                asset_id=asset,
+                manager=asset_manager.address,
+                reserve=reserve,
+            ),
+        )
+
+    _set_not_circulating_address(client, asset_manager, asset, labelled.address, label)
+    expected = total - RESERVE_BALANCE - labelled_balance
+    assert _get_circulating_supply(client, asset) == expected
+
+    # The Reserve Address is changed to the labelled address: counted once
+    set_reserve(labelled.address)
+    assert _get_circulating_supply(client, asset) == total - labelled_balance
+
+    # The Reserve Address is changed back: the label counts again
+    set_reserve(reserve_with_balance.address)
+    assert _get_circulating_supply(client, asset) == expected
 
 
 def test_fail_config_not_exists(

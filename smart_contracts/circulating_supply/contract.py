@@ -92,21 +92,43 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
 
         Args:
             asset: ASA ID of the circulating supply
-            address: Address to assign to the non-circulating supply label to
+            address: Address to assign to the non-circulating supply label to (the
+                Zero Address unsets the label)
             label: Not-circulating supply label selector
         """
         # Preconditions
         assert Txn.sender == asset.manager, err.UNAUTHORIZED
         assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
-        assert address.is_opted_in(asset), err.NOT_OPTED_IN
+        is_unset = address == Global.zero_address
+        if not is_unset:
+            assert address.is_opted_in(asset), err.NOT_OPTED_IN
+            assert address != asset.reserve, err.ADDRESS_IS_RESERVE
+            # An address can be assigned to one label only
+            config = self.circulating_supply[asset].copy()
+            assert (
+                label == cfg.BURNED or address != config.burned_addr
+            ), err.ADDRESS_ALREADY_ASSIGNED
+            assert (
+                label == cfg.CUSTOM_1 or address != config.custom_1_addr
+            ), err.ADDRESS_ALREADY_ASSIGNED
+            assert (
+                label == cfg.CUSTOM_2 or address != config.custom_2_addr
+            ), err.ADDRESS_ALREADY_ASSIGNED
+            assert (
+                label == cfg.CUSTOM_3 or address != config.custom_3_addr
+            ), err.ADDRESS_ALREADY_ASSIGNED
+            assert (
+                label == cfg.CUSTOM_4 or address != config.custom_4_addr
+            ), err.ADDRESS_ALREADY_ASSIGNED
 
         # Effects
         match label:
             case cfg.BURNED:
-                assert _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
-                assert address == TemplateVar[Account](
-                    ARC54_BURN_ADDRESS
-                ), err.INVALID_BURNING_ADDRESS
+                if not is_unset:
+                    assert _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
+                    assert address == TemplateVar[Account](
+                        ARC54_BURN_ADDRESS
+                    ), err.INVALID_BURNING_ADDRESS
                 self.circulating_supply[asset].burned_addr = address
             case cfg.CUSTOM_1:
                 self.circulating_supply[asset].custom_1_addr = address
@@ -180,17 +202,20 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         if not _asa_exists(asset):
             circulating_supply = UInt64(0)
         else:
+            reserve = asset.reserve
             reserve_balance = (
                 UInt64(0)
-                if asset.reserve == Global.zero_address
-                or not asset.reserve.is_opted_in(asset)
-                else asset.balance(asset.reserve)
+                if reserve == Global.zero_address or not reserve.is_opted_in(asset)
+                else asset.balance(reserve)
             )
 
+            # The Reserve Address can be changed after the labels are set: a label
+            # assigned to the current Reserve Address is counted once, as reserve
             burned_addr = self.circulating_supply[asset].burned_addr
             burned_balance = (
                 UInt64(0)
                 if burned_addr == Global.zero_address
+                or burned_addr == reserve
                 or not burned_addr.is_opted_in(asset)
                 else asset.balance(burned_addr)
             )
@@ -199,6 +224,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             custom_balance_1 = (
                 UInt64(0)
                 if custom_1_addr == Global.zero_address
+                or custom_1_addr == reserve
                 or not custom_1_addr.is_opted_in(asset)
                 else asset.balance(custom_1_addr)
             )
@@ -207,6 +233,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             custom_balance_2 = (
                 UInt64(0)
                 if custom_2_addr == Global.zero_address
+                or custom_2_addr == reserve
                 or not custom_2_addr.is_opted_in(asset)
                 else asset.balance(custom_2_addr)
             )
@@ -215,6 +242,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             custom_balance_3 = (
                 UInt64(0)
                 if custom_3_addr == Global.zero_address
+                or custom_3_addr == reserve
                 or not custom_3_addr.is_opted_in(asset)
                 else asset.balance(custom_3_addr)
             )
@@ -223,6 +251,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             custom_balance_4 = (
                 UInt64(0)
                 if custom_4_addr == Global.zero_address
+                or custom_4_addr == reserve
                 or not custom_4_addr.is_opted_in(asset)
                 else asset.balance(custom_4_addr)
             )

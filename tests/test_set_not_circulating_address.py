@@ -8,6 +8,7 @@ from algokit_utils import (
     PaymentParams,
     SigningAccount,
 )
+from algosdk.constants import ZERO_ADDRESS
 
 from smart_contracts import errors as err
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
@@ -18,6 +19,19 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
 from smart_contracts.circulating_supply import config as cfg
 
 from .conftest import CONFIG_MBR
+
+
+def _set_not_circulating_address(
+    client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    address: str,
+    label: str,
+) -> None:
+    client.send.set_not_circulating_address(
+        args=SetNotCirculatingAddressArgs(asset=asset, address=address, label=label),
+        params=CommonAppCallParams(sender=asset_manager.address),
+    )
 
 
 def test_pass_set_not_circulating_address(
@@ -84,6 +98,84 @@ def test_pass_set_not_circulating_address(
     assert config.custom_2_addr == custom_balance_2.address
     assert config.custom_3_addr == custom_balance_3.address
     assert config.custom_4_addr == custom_balance_4.address
+
+
+def test_pass_reassign_label(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    custom_balance_1: SigningAccount,
+    custom_balance_2: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    # The same address can be assigned again to the same label
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_2.address, cfg.CUSTOM_1
+    )
+
+    config = client.state.box.circulating_supply.get_value(asset)
+    assert config.custom_1_addr == custom_balance_2.address
+
+
+def test_pass_unset_label(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    burned_balance: SigningAccount,
+    custom_balance_1: SigningAccount,
+    custom_balance_2: SigningAccount,
+    custom_balance_3: SigningAccount,
+    custom_balance_4: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    labels = [
+        (cfg.BURNED, burned_balance),
+        (cfg.CUSTOM_1, custom_balance_1),
+        (cfg.CUSTOM_2, custom_balance_2),
+        (cfg.CUSTOM_3, custom_balance_3),
+        (cfg.CUSTOM_4, custom_balance_4),
+    ]
+    for label, account in labels:
+        _set_not_circulating_address(
+            client, asset_manager, asset, account.address, label
+        )
+    for label, _account in labels:
+        _set_not_circulating_address(client, asset_manager, asset, ZERO_ADDRESS, label)
+
+    config = client.state.box.circulating_supply.get_value(asset)
+    assert config.burned_addr == ZERO_ADDRESS
+    assert config.custom_1_addr == ZERO_ADDRESS
+    assert config.custom_2_addr == ZERO_ADDRESS
+    assert config.custom_3_addr == ZERO_ADDRESS
+    assert config.custom_4_addr == ZERO_ADDRESS
+
+
+def test_pass_move_address_to_another_label(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    custom_balance_1: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    _set_not_circulating_address(
+        client, asset_manager, asset, ZERO_ADDRESS, cfg.CUSTOM_1
+    )
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_2
+    )
+
+    config = client.state.box.circulating_supply.get_value(asset)
+    assert config.custom_1_addr == ZERO_ADDRESS
+    assert config.custom_2_addr == custom_balance_1.address
 
 
 def test_fail_unauthorized(
@@ -219,4 +311,46 @@ def test_fail_invalid_burning_address(
                 label=cfg.BURNED,
             ),
             params=CommonAppCallParams(sender=asset_manager.address),
+        )
+
+
+def test_fail_address_already_assigned(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    burned_balance: SigningAccount,
+    custom_balance_1: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    _set_not_circulating_address(
+        client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    with pytest.raises(LogicError, match=err.ADDRESS_ALREADY_ASSIGNED):
+        _set_not_circulating_address(
+            client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_2
+        )
+
+    # The ARC-54 burn address assigned to a custom label can not be burned too
+    _set_not_circulating_address(
+        client, asset_manager, asset, burned_balance.address, cfg.CUSTOM_3
+    )
+    with pytest.raises(LogicError, match=err.ADDRESS_ALREADY_ASSIGNED):
+        _set_not_circulating_address(
+            client, asset_manager, asset, burned_balance.address, cfg.BURNED
+        )
+
+
+def test_fail_reserve_address(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    reserve_with_balance: SigningAccount,
+) -> None:
+    with pytest.raises(LogicError, match=err.ADDRESS_IS_RESERVE):
+        _set_not_circulating_address(
+            asset_circulating_supply_client,
+            asset_manager,
+            asset,
+            reserve_with_balance.address,
+            cfg.CUSTOM_1,
         )

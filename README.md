@@ -22,6 +22,8 @@ circulating_supply = total - reserve - burned - custom_1 - custom_2 - custom_3 -
 | `custom_1-4` | Any address (e.g. treasury, vesting, locked, team wallets) | ASA Manager                            |
 
 Unset labels (Zero Address), and addresses not opted in to the ASA, count as zero.
+A labelled address that is also the current Reserve Address is counted once, as
+reserve (the Reserve Address can be changed after the labels are set).
 If the ASA has been destroyed, the circulating supply is `0`.
 
 Each ASA configuration is stored in a box (keyed by the ASA ID) funded by the ASA
@@ -45,7 +47,9 @@ the MBR.
 `set_not_circulating_address` requires the address to be opted in to the ASA. The
 `burned` label also requires the ASA to have no Clawback Address
 ([ARC-54](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0054.md)
-compliance) and only accepts the network ARC-54 burn address.
+compliance) and only accepts the network ARC-54 burn address. An address can be
+assigned to one label only, and the current Reserve Address can not be assigned
+to a label. Assigning the Zero Address unsets a label.
 
 ## Reference Implementation
 
@@ -155,7 +159,8 @@ circulating_supply_client.send.set_not_circulating_address(
 ```
 
 A label can be reassigned at any time by calling `set_not_circulating_address`
-again. To reset all labels, delete and re-initialize the configuration.
+again, or unset by assigning the Zero Address
+(`AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ`).
 
 > [!NOTE]
 > The ARC-54 burn address must be opted in to the ASA before it can be labelled
