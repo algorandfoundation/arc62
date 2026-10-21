@@ -1,6 +1,7 @@
 import dataclasses
 import importlib
 import logging
+import re
 import subprocess
 import sys
 from collections.abc import Callable
@@ -152,6 +153,35 @@ def build(output_dir: Path, contract_path: Path) -> Path:
                     raise Exception(
                         f"Could not generate typed client:\n{generate_result.stdout}"
                     )
+
+        # Generate Python AVM Clients (on-chain)
+        for file_name in app_spec_file_names:
+            logger.info(f"Generating AVM Client (on-chain) for {file_name}")
+            puyapy_result = subprocess.run(
+                [
+                    "puyapy-clientgen",
+                    str(output_dir / file_name),
+                    "--out-dir",
+                    str(output_dir),
+                ],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+            )
+            if puyapy_result.returncode:
+                raise Exception(
+                    f"Could not generate client with puyapy-clientgen:\n{puyapy_result.stdout}"
+                )
+
+            # Apply naming convention: {contract_name}_avm_client.py
+            contract_name = file_name.removesuffix(".arc56.json")
+            generated_file = output_dir / f"client_{contract_name}.py"
+            snake_case_name = re.sub(r"(?<!^)(?=[A-Z])", "_", contract_name).lower()
+            if not generated_file.exists():
+                raise FileNotFoundError(
+                    f"Expected generated AVM client '{generated_file.name}' was not created by puyapy-clientgen"
+                )
+            generated_file.rename(output_dir / f"{snake_case_name}_avm_client.py")
     if client_file:
         return output_dir / client_file
     return output_dir

@@ -105,6 +105,11 @@ Clients for other languages (e.g. TypeScript) can be generated from the
 algokit generate client smart_contracts/artifacts/circulating_supply/CirculatingSupply.arc56.json --output client.ts
 ```
 
+Smart contracts written in [Algorand Python](https://github.com/algorandfoundation/puya)
+can call the App with the generated AVM client
+[`circulating_supply_avm_client.py`](smart_contracts/artifacts/circulating_supply/circulating_supply_avm_client.py)
+(see [From a smart contract](#from-a-smart-contract)).
+
 ### Get the circulating supply
 
 Read-only methods are simulated, so no signature or fee is required: any address
@@ -169,6 +174,34 @@ circulating_supply = result.returns[0].value
 > [!NOTE]
 > Disable automatic resource population for this group: with AlgoKit Utils 4.2.3
 > it repeats the ASA reference and exceeds the 8 references limit.
+
+#### From a smart contract
+
+The AVM client lets an Algorand Python contract call the getter with an inner
+transaction:
+
+```python
+from algopy import ARC4Contract, Application, UInt64, arc4
+
+from smart_contracts.artifacts.circulating_supply.circulating_supply_avm_client import (
+    CirculatingSupply,
+)
+
+
+class Caller(ARC4Contract):
+    @arc4.abimethod
+    def circulating_supply(self, app: Application, asset_id: UInt64) -> UInt64:
+        result, _txn = arc4.abi_call(
+            CirculatingSupply.arc62_get_circulating_supply,
+            arc4.UInt64(asset_id),
+            app_id=app,
+        )
+        return result.as_uint64()
+```
+
+The outer transaction must provide the getter resources (see
+[Calls without simulation](#calls-without-simulation)) and cover the inner
+transaction fee.
 
 ### Configure an ASA
 
