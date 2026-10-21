@@ -314,7 +314,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
 
         return circulating_supply
 
-    @abimethod
+    @abimethod(readonly=True)
     def extra_resources(self) -> None:
         """
         Non-normative: Placeholder method to acquire AVM extra resources.

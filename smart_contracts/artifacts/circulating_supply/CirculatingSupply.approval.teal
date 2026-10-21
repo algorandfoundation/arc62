@@ -22,7 +22,7 @@ main:
 
 main_extra_resources_route@11:
     // smart_contracts/circulating_supply/contract.py:317
-    // @abimethod
+    // @abimethod(readonly=True)
     intc_1 // 1
     return
 
