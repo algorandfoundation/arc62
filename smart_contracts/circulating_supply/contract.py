@@ -7,6 +7,7 @@ from algopy import (
     TemplateVar,
     Txn,
     UInt64,
+    arc4,
     gtxn,
     itxn,
     op,
@@ -17,7 +18,11 @@ from algopy.arc4 import abimethod
 
 import smart_contracts.errors as err
 from smart_contracts.arc62_interface import Arc62Interface
-from smart_contracts.avm_types import CirculatingSupplyConfig
+from smart_contracts.avm_types import (
+    Arc62ConfigDeleted,
+    Arc62ConfigUpdated,
+    CirculatingSupplyConfig,
+)
 from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 from . import config as cfg
@@ -42,6 +47,21 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
 
     def __init__(self) -> None:
         self.circulating_supply = BoxMap(Asset, CirculatingSupplyConfig, key_prefix="")
+
+    def _emit_config_updated(self, asset: Asset) -> None:
+        config = self.circulating_supply[asset].copy()
+        arc4.emit(
+            Arc62ConfigUpdated(
+                asset_id=asset.id,
+                round=Global.round,
+                timestamp=Global.latest_timestamp,
+                burned_addr=config.burned_addr,
+                custom_1_addr=config.custom_1_addr,
+                custom_2_addr=config.custom_2_addr,
+                custom_3_addr=config.custom_3_addr,
+                custom_4_addr=config.custom_4_addr,
+            )
+        )
 
     @abimethod
     def init_config(self, asset: Asset, mbr_payment: gtxn.PaymentTransaction) -> UInt64:
@@ -80,6 +100,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         mbr_delta_amount = Global.current_application_address.min_balance - mbr_i
         assert mbr_payment.amount >= mbr_delta_amount, err.INVALID_MBR_AMOUNT
 
+        self._emit_config_updated(asset)
         return mbr_delta_amount
 
     @abimethod
@@ -99,12 +120,12 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         # Preconditions
         assert Txn.sender == asset.manager, err.UNAUTHORIZED
         assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
+        config = self.circulating_supply[asset].copy()
         is_unset = address == Global.zero_address
         if not is_unset:
             assert address.is_opted_in(asset), err.NOT_OPTED_IN
             assert address != asset.reserve, err.ADDRESS_IS_RESERVE
             # An address can be assigned to one label only
-            config = self.circulating_supply[asset].copy()
             assert (
                 label == cfg.BURNED or address != config.burned_addr
             ), err.ADDRESS_ALREADY_ASSIGNED
@@ -141,6 +162,10 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             case _:
                 op.err(err.INVALID_LABEL)
 
+        # Handle Not Idempotent
+        if self.circulating_supply[asset] != config:
+            self._emit_config_updated(asset)
+
     @abimethod
     def delete_config(self, asset: Asset) -> UInt64:
         """
@@ -155,7 +180,8 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         """
         # Preconditions
         assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
-        if _asa_exists(asset):
+        asa_exists = _asa_exists(asset)
+        if asa_exists:
             assert Txn.sender == asset.manager, err.UNAUTHORIZED
 
         # Delete ASA Circulating Supply Configuration
@@ -165,6 +191,15 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
 
         # Refund MBR
         itxn.Payment(receiver=Txn.sender, amount=mbr_delta_amount).submit()
+
+        arc4.emit(
+            Arc62ConfigDeleted(
+                asset_id=asset.id,
+                round=Global.round,
+                timestamp=Global.latest_timestamp,
+                asa_exists=asa_exists,
+            )
+        )
 
         return mbr_delta_amount
 

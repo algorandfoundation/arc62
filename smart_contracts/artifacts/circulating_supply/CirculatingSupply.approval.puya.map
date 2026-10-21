@@ -3,7 +3,7 @@
   "sources": [
     "../../circulating_supply/contract.py"
   ],
-  "mappings": "AAqCA;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;AAAA;AAyOK;AAAA;;;;;;;;;AAjOA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAeO;;AAAc;;AAAA;;AAAA;AAAd;AADJ;AAGO;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAP;AAEI;;AAAA;;AAAwB;;AAAxB;AADJ;AAKQ;;AAAA;;AAAA;AACE;;AACD;;;AADC;AAAA;AAGmC;;AAA7C;;AAAA;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;;AAAA;;AAAA;AAGmB;;AAAA;;AAAA;AAAA;AAAA;AACZ;AAAA;;AAAA;;AAAA;AAAP;AAnCH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAuCA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAeU;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AACO;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAP;AACsB;;AAAX;AAAA;AAAA;;AACR;;;AACQ;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAP;AACkB;;AAAA;AAAX;AAAP;AAES;AAAA;AAAA;AAAA;;AAAA;AAEL;;AAAS;AAAT;AAAA;;AAAkC;;AAAA;;;AAAX;;AAAA;AAAvB;;;;AADJ;AAII;;AAAS;AAAT;AAAA;;AAAoC;;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;AAAT;AAAA;;AAAoC;;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;;AAAT;AAAA;;AAAoC;;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;;AAAT;AAAA;;AAAoC;;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAMK;AAOA;AAEA;AAEA;;AAEA;;AAdT;;AAAA;;;;;;;;;;;;AAiBQ;AAFA;;;AAAA;;AAAA;AAvDX;AAAA;AAqDW;;AAAA;;AAAA;;;AAFA;;AAAA;;AAAA;;;AAFA;AAAA;;AAAA;;;AAPG;;AAAA;;AA7FI;;AAAA;;AAAA;AAAA;;AACZ;;AAAW;;AAAY;;AAAZ;AAAX;;;AA6FS;AACO;;AAAW;;AAAX;AAAP;AAGJ;AAAA;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;AAYX;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAaU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AAjIe;;AAAA;;AAkIvB;;AACmB;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AAGI;;AAAA;;AAAA;AACR;AAAA;;AAC2B;;AAAA;;AAAA;AAAR;AAGnB;AAAsB;;;;;;;;AAAtB;;;AAAA;;;AAAA;AAvBH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AA2BA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAWU;AAAA;AAAA;AAAA;;AAAP;AACO;AAAA;AAZV;AAAA;AAAA;AAAA;AAAA;AAAA;;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAcU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AA3Ke;;AAAA;;AA8KZ;;;;AACsB;AAlB5B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAoBiB;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAGQ;;AAAX;AAAA;;AAAsC;;AAAA;;AAAA;;AAAA;;AAAJ;;;AADrC;;AAOU;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAf;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;AAHH;AAQA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;AAJK;;AAAA;;AAAA;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AAXA;;AAAA;;AAAA;;AAAA;;;;;AA8ET;;AAAA;;AAAA;AACE;;AAAA;;AAAA;AADF;AAGJ;AACa;;;;;;AADb;;;AAAA;;;AAAA;AAZH;AAAA",
+  "mappings": "AA0CA;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;AAAA;AAuQK;AAAA;;;;;;;;;AAhPA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAeO;;AAAc;;AAAA;;AAAA;AAAd;AADJ;AAGO;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAP;AAEI;;AAAA;;AAAwB;;AAAxB;AADJ;AAKQ;;AAAA;;AAAA;AACE;;AACD;;;AADC;AAAA;AAGmC;;AAA7C;;AAAA;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;AAAA;;AAAA;AAC+C;;AAA/C;;AAAA;;;AAAA;;AAAA;AAGmB;;AAAA;;AAAA;AAAA;AAAA;AACZ;AAAA;;AAAA;;AAAA;AAAP;AAEA;AAAA;;;AArCH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAwCA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAeU;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AACO;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAP;AACS;AAAA;AAAA;AACa;;AAAX;AAAA;AAAA;;AACR;;;AACQ;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAP;AACkB;;AAAA;AAAX;AAAP;AAGI;;AAAS;AAAT;AAAA;;AAAkC;AAAA;;;AAAX;;AAAA;AAAvB;;;;AADJ;AAII;;AAAS;AAAT;AAAA;;AAAoC;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;AAAT;AAAA;;AAAoC;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;;AAAT;AAAA;;AAAoC;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAII;;AAAS;;AAAT;AAAA;;AAAoC;AAAA;;;AAAX;;AAAA;AAAzB;;;;AADJ;AAMK;AAOA;AAEA;AAEA;;AAEA;;AAdT;;AAAA;;;;;;;;;;;;AAiBQ;AAFA;;AAAA;;;AAAA;;AAAA;AAKL;AAAA;AAAA;AAAA;AAAX;;AACY;;AAAA;;;AA7DP;AAAA;AAqDW;;AAAA;;AAAA;;AAAA;;;AAFA;;AAAA;;AAAA;;AAAA;;;AAFA;;AAAA;AAAA;;AAAA;;;AAPG;;AAAA;;AA7GI;;AAAA;;AAAA;AAAA;;AACZ;;AAAW;;AAAY;;AAAZ;AAAX;;;AA6GS;AACO;;AAAW;;AAAX;AAAP;AAGJ;;AAAA;AAAA;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;AAgBX;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAaU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AArJe;;AAAA;AAAA;;AAAA;AAuJvB;;AACmB;;AAAc;;AAAA;;AAAA;AAAd;AAAP;AAGI;;AAAA;;AAAA;AACR;;AAAA;AAAA;;AAAA;;AAC2B;;AAAA;;AAAA;AAAR;AAGnB;AAAsB;;;;;;;;AAAtB;;;AAAA;;;AAAA;AAMkB;;AADJ;;AAFV;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;;AAAA;AAAA;AADJ;;;;;;AAAA;AAAA;AAAA;AA1BH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAqCA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAWU;AAAA;AAAA;AAAA;;AAAP;AACO;AAAA;AAZV;AAAA;AAAA;AAAA;AAAA;AAAA;;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAcU;AAAA;AAAA;;AAAA;AAAA;;AAAP;AAzMe;;AAAA;;AA4MZ;;;;AACsB;AAlB5B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAoBiB;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAGQ;;AAAX;AAAA;;AAAsC;;AAAA;;AAAA;;AAAA;;AAAJ;;;AADrC;;AAOU;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAf;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;;AAHH;;;AAOY;AAAA;AAAA;;;AAAA;AAGQ;;AAAjB;AAAA;;AACA;AAAA;;AAAA;AADA;;AAEI;AAAA;;AAAA;;AAAA;;AAAJ;;;AAHH;AAQA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;AAJK;;AAAA;;AAAA;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AATA;;AAAA;;AAAA;;;;;;AAXA;;AAAA;;AAAA;;AAAA;;;;;AA8ET;;AAAA;;AAAA;AACE;;AAAA;;AAAA;AADF;AAGJ;AACa;;;;;;AADb;;;AAAA;;;AAAA;AAZH;AAAA;AAtQD;;;AACqC;;AAAA;AAAxB;AAAA;AAAA;AAIK;;AACI;;AACE;;AAAA;;;AACE;;AAAA;;;AACA;;AAAA;;;AACA;;AAAA;;;AACA;;AAAA;;;AARlB;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AADJ;;;;;;AAAA;AAAA;AAAA;",
   "op_pc_offset": 2,
   "pc_events": {
     "0": {
@@ -425,193 +425,220 @@
       ]
     },
     "107": {
-      "op": "swap",
+      "op": "dig 1",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
-        "asset#0"
+        "asset#0 (copy)"
       ]
     },
-    "108": {
+    "109": {
       "op": "itob",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0"
       ]
     },
-    "109": {
+    "110": {
       "op": "dup",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)"
       ]
     },
-    "110": {
+    "111": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
+        "asset#0",
         "encoded_value%0#0",
         "maybe_exists%0#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "_%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "111": {
+    "112": {
       "op": "bury 1",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "113": {
+    "114": {
       "op": "!",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_payment#0",
         "tmp%2#1"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "tmp%2#1"
       ]
     },
-    "114": {
+    "115": {
       "error": "Circulating supply config already exists for this ASA",
       "op": "assert // Circulating supply config already exists for this ASA",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0"
       ]
     },
-    "115": {
+    "116": {
       "op": "dig 1",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_payment#0 (copy)"
       ]
     },
-    "117": {
+    "118": {
       "op": "gtxns Receiver",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_payment#0",
         "tmp%3#1"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "tmp%3#1"
       ]
     },
-    "119": {
+    "120": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_payment#0",
         "tmp%3#1",
         "tmp%4#1"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "tmp%3#1",
         "tmp%4#1"
-      ]
-    },
-    "121": {
-      "op": "==",
-      "defined_out": [
-        "encoded_value%0#0",
-        "mbr_payment#0",
-        "tmp%5#1"
-      ],
-      "stack_out": [
-        "mbr_payment#0",
-        "encoded_value%0#0",
-        "tmp%5#1"
       ]
     },
     "122": {
+      "op": "==",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "mbr_payment#0",
+        "tmp%5#1"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_payment#0",
+        "encoded_value%0#0",
+        "tmp%5#1"
+      ]
+    },
+    "123": {
       "error": "Invalid circulating supply config MBR receiver",
       "op": "assert // Invalid circulating supply config MBR receiver",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0"
       ]
     },
-    "123": {
+    "124": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_payment#0",
         "tmp%6#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "tmp%6#0"
       ]
     },
-    "125": {
+    "126": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
+        "asset#0",
         "check%1#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "check%1#0"
       ]
     },
-    "127": {
+    "128": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "128": {
+    "129": {
       "op": "dig 1",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "encoded_value%0#0 (copy)"
       ]
     },
-    "130": {
+    "131": {
       "op": "pushint 160",
       "defined_out": [
         "160",
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_i#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -619,47 +646,53 @@
         "160"
       ]
     },
-    "133": {
+    "134": {
       "op": "box_create",
       "defined_out": [
         "_exists#0",
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "_exists#0"
       ]
     },
-    "134": {
+    "135": {
       "op": "pop",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "135": {
+    "136": {
       "op": "global ZeroAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%8#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "tmp%8#0"
       ]
     },
-    "137": {
+    "138": {
       "op": "dig 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -667,10 +700,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "139": {
+    "140": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_i#0",
@@ -678,6 +712,7 @@
         "tmp%8#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -686,9 +721,10 @@
         "0"
       ]
     },
-    "140": {
+    "141": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -697,33 +733,37 @@
         "tmp%8#0"
       ]
     },
-    "142": {
+    "143": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "143": {
+    "144": {
       "op": "global ZeroAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%9#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "tmp%9#0"
       ]
     },
-    "145": {
+    "146": {
       "op": "dig 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -731,10 +771,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "147": {
+    "148": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_i#0",
@@ -742,6 +783,7 @@
         "tmp%9#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -750,9 +792,10 @@
         "32"
       ]
     },
-    "148": {
+    "149": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -761,33 +804,37 @@
         "tmp%9#0"
       ]
     },
-    "150": {
+    "151": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "151": {
+    "152": {
       "op": "global ZeroAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%10#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "tmp%10#0"
       ]
     },
-    "153": {
+    "154": {
       "op": "dig 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -795,10 +842,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "155": {
+    "156": {
       "op": "pushint 64",
       "defined_out": [
         "64",
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_i#0",
@@ -806,6 +854,7 @@
         "tmp%10#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -814,9 +863,10 @@
         "64"
       ]
     },
-    "157": {
+    "158": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -825,33 +875,37 @@
         "tmp%10#0"
       ]
     },
-    "159": {
+    "160": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "160": {
+    "161": {
       "op": "global ZeroAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%11#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "tmp%11#0"
       ]
     },
-    "162": {
+    "163": {
       "op": "dig 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -859,10 +913,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "164": {
+    "165": {
       "op": "pushint 96",
       "defined_out": [
         "96",
+        "asset#0",
         "encoded_value%0#0",
         "encoded_value%0#0 (copy)",
         "mbr_i#0",
@@ -870,6 +925,7 @@
         "tmp%11#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -878,9 +934,10 @@
         "96"
       ]
     },
-    "166": {
+    "167": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
@@ -889,49 +946,55 @@
         "tmp%11#0"
       ]
     },
-    "168": {
+    "169": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "169": {
+    "170": {
       "op": "global ZeroAddress",
       "defined_out": [
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%12#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "tmp%12#0"
       ]
     },
-    "171": {
+    "172": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "tmp%12#0",
         "encoded_value%0#0"
       ]
     },
-    "173": {
+    "174": {
       "op": "pushint 128",
       "defined_out": [
         "128",
+        "asset#0",
         "encoded_value%0#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%12#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "tmp%12#0",
@@ -939,9 +1002,10 @@
         "128"
       ]
     },
-    "176": {
+    "177": {
       "op": "uncover 2",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "encoded_value%0#0",
@@ -949,120 +1013,151 @@
         "tmp%12#0"
       ]
     },
-    "178": {
+    "179": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0"
       ]
     },
-    "179": {
+    "180": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
+        "asset#0",
         "mbr_i#0",
         "mbr_payment#0",
         "tmp%13#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "tmp%13#0"
       ]
     },
-    "181": {
+    "182": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
+        "asset#0",
         "check%2#0",
         "mbr_i#0",
         "mbr_payment#0",
         "value%2#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "value%2#0",
         "check%2#0"
       ]
     },
-    "183": {
+    "184": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_i#0",
         "value%2#0"
       ]
     },
-    "184": {
+    "185": {
       "op": "swap",
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "value%2#0",
         "mbr_i#0"
       ]
     },
-    "185": {
+    "186": {
       "op": "-",
       "defined_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "mbr_payment#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_payment#0",
         "mbr_delta_amount#0"
       ]
     },
-    "186": {
+    "187": {
       "op": "swap",
       "stack_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "mbr_payment#0"
       ]
     },
-    "187": {
+    "188": {
       "op": "gtxns Amount",
       "defined_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "tmp%15#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "tmp%15#0"
       ]
     },
-    "189": {
+    "190": {
       "op": "dig 1",
       "defined_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "mbr_delta_amount#0 (copy)",
         "tmp%15#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "tmp%15#0",
         "mbr_delta_amount#0 (copy)"
       ]
     },
-    "191": {
+    "192": {
       "op": ">=",
       "defined_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "tmp%16#0"
       ],
       "stack_out": [
+        "asset#0",
         "mbr_delta_amount#0",
         "tmp%16#0"
       ]
     },
-    "192": {
+    "193": {
       "error": "Invalid circulating supply config MBR amount",
       "op": "assert // Invalid circulating supply config MBR amount",
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "194": {
+      "op": "swap",
+      "stack_out": [
+        "mbr_delta_amount#0",
+        "asset#0"
+      ]
+    },
+    "195": {
+      "callsub": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
+      "op": "callsub _emit_config_updated",
       "stack_out": [
         "mbr_delta_amount#0"
       ]
     },
-    "193": {
+    "198": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -1071,7 +1166,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "194": {
+    "199": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1082,14 +1177,14 @@
         "0x151f7c75"
       ]
     },
-    "195": {
+    "200": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "196": {
+    "201": {
       "op": "concat",
       "defined_out": [
         "tmp%5#0"
@@ -1098,21 +1193,21 @@
         "tmp%5#0"
       ]
     },
-    "197": {
+    "202": {
       "op": "log",
       "stack_out": []
     },
-    "198": {
+    "203": {
       "op": "intc_1 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "199": {
+    "204": {
       "op": "return",
       "stack_out": []
     },
-    "200": {
+    "205": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.set_not_circulating_address[routing]",
       "params": {},
       "block": "set_not_circulating_address",
@@ -1122,25 +1217,17 @@
         "clawback#0"
       ]
     },
-    "201": {
-      "op": "dup",
-      "stack_out": [
-        "clawback#0",
-        "config#0"
-      ]
-    },
-    "202": {
+    "206": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0"
       ]
     },
-    "205": {
+    "209": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -1148,12 +1235,11 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ]
     },
-    "206": {
+    "210": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -1161,12 +1247,11 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0",
         "len%0#0"
       ]
     },
-    "207": {
+    "211": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1175,13 +1260,12 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0",
         "len%0#0",
         "8"
       ]
     },
-    "208": {
+    "212": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -1189,47 +1273,43 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0",
         "eq%0#0"
       ]
     },
-    "209": {
+    "213": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "tmp%0#0"
       ]
     },
-    "210": {
+    "214": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0"
       ]
     },
-    "211": {
+    "215": {
       "op": "dup",
       "defined_out": [
         "asset#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "asset#0"
       ]
     },
-    "212": {
+    "216": {
       "op": "txna ApplicationArgs 2"
     },
-    "215": {
+    "219": {
       "op": "dup",
       "defined_out": [
         "address#0",
@@ -1237,14 +1317,13 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "asset#0",
         "address#0",
         "address#0"
       ]
     },
-    "216": {
+    "220": {
       "op": "cover 2",
       "defined_out": [
         "address#0",
@@ -1252,14 +1331,13 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
         "address#0"
       ]
     },
-    "218": {
+    "222": {
       "op": "dup",
       "defined_out": [
         "address#0",
@@ -1268,7 +1346,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1276,7 +1353,7 @@
         "address#0 (copy)"
       ]
     },
-    "219": {
+    "223": {
       "op": "len",
       "defined_out": [
         "address#0",
@@ -1285,7 +1362,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1293,7 +1369,7 @@
         "len%1#0"
       ]
     },
-    "220": {
+    "224": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -1303,7 +1379,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1312,7 +1387,7 @@
         "32"
       ]
     },
-    "221": {
+    "225": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -1321,7 +1396,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1329,19 +1403,18 @@
         "eq%1#0"
       ]
     },
-    "222": {
+    "226": {
       "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
         "address#0"
       ]
     },
-    "223": {
+    "227": {
       "op": "txna ApplicationArgs 3",
       "defined_out": [
         "address#0",
@@ -1350,7 +1423,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1358,7 +1430,7 @@
         "tmp%4#0"
       ]
     },
-    "226": {
+    "230": {
       "op": "dup",
       "defined_out": [
         "address#0",
@@ -1368,7 +1440,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1377,11 +1448,10 @@
         "tmp%4#0 (copy)"
       ]
     },
-    "227": {
+    "231": {
       "op": "intc_0 // 0",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1391,7 +1461,7 @@
         "0"
       ]
     },
-    "228": {
+    "232": {
       "error": "invalid array length header",
       "op": "extract_uint16 // on error: invalid array length header",
       "defined_out": [
@@ -1402,7 +1472,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1411,7 +1480,7 @@
         "aggregate%array_length%0#0"
       ]
     },
-    "229": {
+    "233": {
       "op": "pushint 2",
       "defined_out": [
         "2",
@@ -1422,7 +1491,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1432,7 +1500,7 @@
         "2"
       ]
     },
-    "231": {
+    "235": {
       "op": "+",
       "defined_out": [
         "add%0#0",
@@ -1442,7 +1510,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1451,11 +1518,10 @@
         "add%0#0"
       ]
     },
-    "232": {
+    "236": {
       "op": "dig 1",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1465,7 +1531,7 @@
         "tmp%4#0 (copy)"
       ]
     },
-    "234": {
+    "238": {
       "op": "len",
       "defined_out": [
         "add%0#0",
@@ -1476,7 +1542,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1486,7 +1551,7 @@
         "len%2#0"
       ]
     },
-    "235": {
+    "239": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -1496,7 +1561,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1505,12 +1569,11 @@
         "eq%2#0"
       ]
     },
-    "236": {
+    "240": {
       "error": "invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
       "op": "assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1518,7 +1581,7 @@
         "tmp%4#0"
       ]
     },
-    "237": {
+    "241": {
       "op": "extract 2 0",
       "defined_out": [
         "address#0",
@@ -1527,7 +1590,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "address#0",
         "asset#0",
@@ -1535,7 +1597,7 @@
         "label#0"
       ]
     },
-    "240": {
+    "244": {
       "op": "cover 3",
       "defined_out": [
         "address#0",
@@ -1544,7 +1606,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1552,7 +1613,7 @@
         "address#0"
       ]
     },
-    "242": {
+    "246": {
       "op": "txn Sender",
       "defined_out": [
         "address#0",
@@ -1562,7 +1623,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1571,7 +1631,7 @@
         "tmp%0#1"
       ]
     },
-    "244": {
+    "248": {
       "op": "dig 2",
       "defined_out": [
         "address#0",
@@ -1582,7 +1642,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1592,7 +1651,7 @@
         "asset#0 (copy)"
       ]
     },
-    "246": {
+    "250": {
       "op": "asset_params_get AssetManager",
       "defined_out": [
         "address#0",
@@ -1604,7 +1663,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1615,12 +1673,11 @@
         "check%0#0"
       ]
     },
-    "248": {
+    "252": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1630,7 +1687,7 @@
         "value%0#0"
       ]
     },
-    "249": {
+    "253": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -1640,7 +1697,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1649,12 +1705,11 @@
         "tmp%1#1"
       ]
     },
-    "250": {
+    "254": {
       "error": "Unauthorized",
       "op": "assert // Unauthorized",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1662,11 +1717,10 @@
         "address#0"
       ]
     },
-    "251": {
+    "255": {
       "op": "swap",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1674,7 +1728,7 @@
         "asset#0"
       ]
     },
-    "252": {
+    "256": {
       "op": "itob",
       "defined_out": [
         "address#0",
@@ -1684,7 +1738,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1692,11 +1745,10 @@
         "encoded_value%0#0"
       ]
     },
-    "253": {
+    "257": {
       "op": "dup",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1705,7 +1757,7 @@
         "encoded_value%0#0"
       ]
     },
-    "254": {
+    "258": {
       "op": "cover 2",
       "defined_out": [
         "address#0",
@@ -1715,7 +1767,6 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
@@ -1724,7 +1775,27 @@
         "encoded_value%0#0"
       ]
     },
-    "256": {
+    "260": {
+      "op": "dup",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "label#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "address#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "261": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -1736,350 +1807,43 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
         "address#0",
+        "encoded_value%0#0",
         "_%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "257": {
+    "262": {
       "op": "bury 1",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
         "address#0",
+        "encoded_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "259": {
+    "264": {
       "error": "Circulating supply config does not exist for this ASA",
       "op": "assert // Circulating supply config does not exist for this ASA",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
-        "address#0"
-      ]
-    },
-    "260": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "label#0",
-        "tmp%2#1"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "tmp%2#1"
-      ]
-    },
-    "262": {
-      "op": "==",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "is_unset#0"
-      ]
-    },
-    "263": {
-      "op": "dup",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "is_unset#0"
-      ]
-    },
-    "264": {
-      "op": "cover 4",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "is_unset#0"
-      ]
-    },
-    "266": {
-      "op": "bnz set_not_circulating_address_after_if_else@23",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
         "address#0",
         "encoded_value%0#0"
       ]
     },
-    "269": {
-      "op": "dig 1",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0"
-      ]
-    },
-    "271": {
-      "op": "dup",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "address#0 (copy)"
-      ]
-    },
-    "272": {
-      "op": "dig 6",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "address#0 (copy)",
-        "asset#0"
-      ]
-    },
-    "274": {
-      "op": "dup",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "address#0 (copy)",
-        "asset#0 (copy)",
-        "asset#0 (copy)"
-      ]
-    },
-    "275": {
-      "op": "cover 2",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "asset#0",
-        "address#0 (copy)",
-        "asset#0 (copy)"
-      ]
-    },
-    "277": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "label#0",
-        "tmp%4#1",
-        "tmp%5#1"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "asset#0",
-        "tmp%4#1",
-        "tmp%5#1"
-      ]
-    },
-    "279": {
-      "op": "bury 1",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "asset#0",
-        "tmp%5#1"
-      ]
-    },
-    "281": {
-      "error": "Address is not opted-in the ASA",
-      "op": "assert // Address is not opted-in the ASA",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "asset#0"
-      ]
-    },
-    "282": {
-      "op": "asset_params_get AssetReserve",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "check%1#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "label#0",
-        "value%1#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "value%1#0",
-        "check%1#0"
-      ]
-    },
-    "284": {
-      "error": "asset exists",
-      "op": "assert // asset exists",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "address#0",
-        "value%1#0"
-      ]
-    },
-    "285": {
-      "op": "!=",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "is_unset#0",
-        "label#0",
-        "tmp%6#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "tmp%6#0"
-      ]
-    },
-    "286": {
-      "error": "Address is the ASA Reserve Address",
-      "op": "assert // Address is the ASA Reserve Address",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "287": {
-      "op": "dup",
-      "defined_out": [
-        "address#0",
-        "asset#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)",
-        "is_unset#0",
-        "label#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)"
-      ]
-    },
-    "288": {
+    "265": {
       "op": "box_get",
       "defined_out": [
         "address#0",
@@ -2087,40 +1851,75 @@
         "asset#0",
         "config#0",
         "encoded_value%0#0",
-        "is_unset#0",
         "label#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
-        "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "address#0",
         "config#0",
         "aggregate%box_get%1#0"
       ]
     },
-    "289": {
-      "op": "swap",
+    "266": {
+      "op": "pop",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
-        "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
-        "aggregate%box_get%1#0",
+        "address#0",
         "config#0"
       ]
     },
-    "290": {
-      "op": "bury 7",
+    "267": {
+      "op": "swap",
       "defined_out": [
         "address#0",
-        "aggregate%box_get%1#0",
+        "asset#0",
+        "config#0",
+        "encoded_value%0#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0"
+      ]
+    },
+    "268": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "config#0",
+        "encoded_value%0#0",
+        "label#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "tmp%2#1"
+      ]
+    },
+    "270": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
         "asset#0",
         "config#0",
         "encoded_value%0#0",
@@ -2129,30 +1928,259 @@
       ],
       "stack_out": [
         "clawback#0",
+        "asset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
         "config#0",
+        "is_unset#0"
+      ]
+    },
+    "271": {
+      "op": "dup",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "is_unset#0",
+        "is_unset#0"
+      ]
+    },
+    "272": {
+      "op": "cover 5",
+      "stack_out": [
+        "clawback#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
-        "aggregate%box_get%1#0"
+        "config#0",
+        "is_unset#0"
       ]
     },
-    "292": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
+    "274": {
+      "op": "bnz set_not_circulating_address_after_if_else@23",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "277": {
+      "op": "dig 2",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0"
+      ]
+    },
+    "279": {
+      "op": "dup",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "address#0 (copy)"
+      ]
+    },
+    "280": {
+      "op": "dig 7",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "address#0 (copy)",
+        "asset#0"
+      ]
+    },
+    "282": {
+      "op": "dup",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "address#0 (copy)",
+        "asset#0 (copy)",
+        "asset#0 (copy)"
+      ]
+    },
+    "283": {
+      "op": "cover 2",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "asset#0",
+        "address#0 (copy)",
+        "asset#0 (copy)"
+      ]
+    },
+    "285": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "config#0",
+        "encoded_value%0#0",
+        "is_unset#0",
+        "label#0",
+        "tmp%4#1",
+        "tmp%5#1"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "asset#0",
+        "tmp%4#1",
+        "tmp%5#1"
+      ]
+    },
+    "287": {
+      "op": "bury 1",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "asset#0",
+        "tmp%5#1"
+      ]
+    },
+    "289": {
+      "error": "Address is not opted-in the ASA",
+      "op": "assert // Address is not opted-in the ASA",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "asset#0"
+      ]
+    },
+    "290": {
+      "op": "asset_params_get AssetReserve",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "check%1#0",
+        "config#0",
+        "encoded_value%0#0",
+        "is_unset#0",
+        "label#0",
+        "value%1#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "value%1#0",
+        "check%1#0"
+      ]
+    },
+    "292": {
+      "error": "asset exists",
+      "op": "assert // asset exists",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "address#0",
+        "value%1#0"
       ]
     },
     "293": {
-      "op": "dig 2",
+      "op": "!=",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "config#0",
+        "encoded_value%0#0",
+        "is_unset#0",
+        "label#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%6#0"
+      ]
+    },
+    "294": {
+      "error": "Address is the ASA Reserve Address",
+      "op": "assert // Address is the ASA Reserve Address",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "295": {
+      "op": "dig 3",
       "defined_out": [
         "address#0",
         "asset#0",
@@ -2164,16 +2192,16 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)"
       ]
     },
-    "295": {
+    "297": {
       "op": "bytec_1 // \"burned\"",
       "defined_out": [
         "\"burned\"",
@@ -2187,17 +2215,17 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)",
         "\"burned\""
       ]
     },
-    "296": {
+    "298": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -2210,32 +2238,19 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%7#0"
       ]
     },
-    "297": {
+    "299": {
       "op": "bnz set_not_circulating_address_bool_true@4",
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "299": {
-      "op": "dig 5",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
@@ -2245,6 +2260,28 @@
       ]
     },
     "301": {
+      "op": "dup",
+      "defined_out": [
+        "address#0",
+        "asset#0",
+        "config#0",
+        "config#0 (copy)",
+        "encoded_value%0#0",
+        "is_unset#0",
+        "label#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "config#0 (copy)"
+      ]
+    },
+    "302": {
       "op": "extract 0 32",
       "defined_out": [
         "address#0",
@@ -2257,30 +2294,30 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%0#0"
       ]
     },
-    "304": {
-      "op": "dig 2",
+    "305": {
+      "op": "dig 3",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%0#0",
         "address#0 (copy)"
       ]
     },
-    "306": {
+    "307": {
       "op": "!=",
       "defined_out": [
         "address#0",
@@ -2293,37 +2330,37 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%9#0"
       ]
     },
-    "307": {
+    "308": {
       "op": "bz set_not_circulating_address_bool_false@5",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "310": {
+    "311": {
       "block": "set_not_circulating_address_bool_true@4",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_1 // 1",
       "defined_out": [
@@ -2331,57 +2368,57 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%0#0"
       ]
     },
-    "311": {
+    "312": {
       "error": "Address is already assigned to another label",
       "block": "set_not_circulating_address_bool_merge@6",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%0#0"
       ],
       "op": "assert // Address is already assigned to another label",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "312": {
-      "op": "dig 2",
-      "defined_out": [
-        "label#0 (copy)"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "313": {
+      "op": "dig 3",
+      "defined_out": [
+        "label#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)"
       ]
     },
-    "314": {
+    "315": {
       "op": "bytec_2 // \"custom_1\"",
       "defined_out": [
         "\"custom_1\"",
@@ -2389,92 +2426,90 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)",
         "\"custom_1\""
       ]
     },
-    "315": {
+    "316": {
       "op": "==",
       "defined_out": [
         "tmp%10#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%10#0"
       ]
     },
-    "316": {
+    "317": {
       "op": "bnz set_not_circulating_address_bool_true@8",
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "318": {
-      "op": "dig 5",
-      "defined_out": [
-        "config#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
         "config#0"
+      ]
+    },
+    "319": {
+      "op": "dup",
+      "defined_out": [
+        "config#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "config#0 (copy)"
       ]
     },
     "320": {
       "op": "extract 32 32",
       "defined_out": [
-        "aggregate%extract%1#0",
-        "config#0"
+        "aggregate%extract%1#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%1#0"
       ]
     },
     "323": {
-      "op": "dig 2",
+      "op": "dig 3",
       "defined_out": [
         "address#0 (copy)",
-        "aggregate%extract%1#0",
-        "config#0"
+        "aggregate%extract%1#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%1#0",
         "address#0 (copy)"
       ]
@@ -2482,17 +2517,16 @@
     "325": {
       "op": "!=",
       "defined_out": [
-        "config#0",
         "tmp%12#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%12#0"
       ]
     },
@@ -2500,24 +2534,24 @@
       "op": "bz set_not_circulating_address_bool_false@9",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
     "329": {
       "block": "set_not_circulating_address_bool_true@8",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_1 // 1",
       "defined_out": [
@@ -2525,12 +2559,12 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%1#0"
       ]
     },
@@ -2539,39 +2573,39 @@
       "block": "set_not_circulating_address_bool_merge@10",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%1#0"
       ],
       "op": "assert // Address is already assigned to another label",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "331": {
-      "op": "dig 2",
-      "defined_out": [
-        "label#0 (copy)"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "331": {
+      "op": "dig 3",
+      "defined_out": [
+        "label#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)"
       ]
     },
@@ -2583,12 +2617,12 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)",
         "\"custom_2\""
       ]
@@ -2600,12 +2634,12 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%13#0"
       ]
     },
@@ -2613,105 +2647,102 @@
       "op": "bnz set_not_circulating_address_bool_true@12",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
     "337": {
-      "op": "dig 5",
+      "op": "dup",
       "defined_out": [
-        "config#0"
+        "config#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
-        "config#0"
+        "config#0",
+        "config#0 (copy)"
       ]
     },
-    "339": {
+    "338": {
       "op": "extract 64 32",
       "defined_out": [
-        "aggregate%extract%2#0",
-        "config#0"
+        "aggregate%extract%2#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%2#0"
       ]
     },
-    "342": {
-      "op": "dig 2",
+    "341": {
+      "op": "dig 3",
       "defined_out": [
         "address#0 (copy)",
-        "aggregate%extract%2#0",
-        "config#0"
+        "aggregate%extract%2#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%2#0",
         "address#0 (copy)"
       ]
     },
-    "344": {
+    "343": {
       "op": "!=",
       "defined_out": [
-        "config#0",
         "tmp%15#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%15#0"
       ]
     },
-    "345": {
+    "344": {
       "op": "bz set_not_circulating_address_bool_false@13",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "348": {
+    "347": {
       "block": "set_not_circulating_address_bool_true@12",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_1 // 1",
       "defined_out": [
@@ -2719,57 +2750,57 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%2#0"
       ]
     },
-    "349": {
+    "348": {
       "error": "Address is already assigned to another label",
       "block": "set_not_circulating_address_bool_merge@14",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%2#0"
       ],
       "op": "assert // Address is already assigned to another label",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "350": {
-      "op": "dig 2",
-      "defined_out": [
-        "label#0 (copy)"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "349": {
+      "op": "dig 3",
+      "defined_out": [
+        "label#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)"
       ]
     },
-    "352": {
+    "351": {
       "op": "bytec 4 // \"custom_3\"",
       "defined_out": [
         "\"custom_3\"",
@@ -2777,135 +2808,132 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)",
         "\"custom_3\""
       ]
     },
-    "354": {
+    "353": {
       "op": "==",
       "defined_out": [
         "tmp%16#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%16#0"
       ]
     },
-    "355": {
+    "354": {
       "op": "bnz set_not_circulating_address_bool_true@16",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "356": {
+      "op": "dup",
+      "defined_out": [
+        "config#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "config#0 (copy)"
       ]
     },
     "357": {
-      "op": "dig 5",
-      "defined_out": [
-        "config#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "config#0"
-      ]
-    },
-    "359": {
       "op": "extract 96 32",
       "defined_out": [
-        "aggregate%extract%3#0",
-        "config#0"
+        "aggregate%extract%3#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%3#0"
       ]
     },
-    "362": {
-      "op": "dig 2",
+    "360": {
+      "op": "dig 3",
       "defined_out": [
         "address#0 (copy)",
-        "aggregate%extract%3#0",
-        "config#0"
+        "aggregate%extract%3#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%3#0",
         "address#0 (copy)"
       ]
     },
-    "364": {
+    "362": {
       "op": "!=",
       "defined_out": [
-        "config#0",
         "tmp%18#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%18#0"
       ]
     },
-    "365": {
+    "363": {
       "op": "bz set_not_circulating_address_bool_false@17",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "368": {
+    "366": {
       "block": "set_not_circulating_address_bool_true@16",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_1 // 1",
       "defined_out": [
@@ -2913,57 +2941,57 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%3#0"
       ]
     },
-    "369": {
+    "367": {
       "error": "Address is already assigned to another label",
       "block": "set_not_circulating_address_bool_merge@18",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%3#0"
       ],
       "op": "assert // Address is already assigned to another label",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "370": {
-      "op": "dig 2",
-      "defined_out": [
-        "label#0 (copy)"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "368": {
+      "op": "dig 3",
+      "defined_out": [
+        "label#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)"
       ]
     },
-    "372": {
+    "370": {
       "op": "bytec 5 // \"custom_4\"",
       "defined_out": [
         "\"custom_4\"",
@@ -2971,52 +2999,36 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "label#0 (copy)",
         "\"custom_4\""
       ]
     },
-    "374": {
+    "372": {
       "op": "==",
       "defined_out": [
         "tmp%19#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%19#0"
       ]
     },
-    "375": {
+    "373": {
       "op": "bnz set_not_circulating_address_bool_true@20",
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "377": {
-      "op": "dig 5",
-      "defined_out": [
-        "config#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
@@ -3025,81 +3037,94 @@
         "config#0"
       ]
     },
-    "379": {
+    "375": {
+      "op": "dup",
+      "defined_out": [
+        "config#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "config#0 (copy)"
+      ]
+    },
+    "376": {
       "op": "extract 128 32",
       "defined_out": [
-        "aggregate%extract%4#0",
-        "config#0"
+        "aggregate%extract%4#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%4#0"
       ]
     },
-    "382": {
-      "op": "dig 2",
+    "379": {
+      "op": "dig 3",
       "defined_out": [
         "address#0 (copy)",
-        "aggregate%extract%4#0",
-        "config#0"
+        "aggregate%extract%4#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "aggregate%extract%4#0",
         "address#0 (copy)"
       ]
     },
-    "384": {
+    "381": {
       "op": "!=",
       "defined_out": [
-        "config#0",
         "tmp%21#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%21#0"
       ]
     },
-    "385": {
+    "382": {
       "op": "bz set_not_circulating_address_bool_false@21",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "388": {
+    "385": {
       "block": "set_not_circulating_address_bool_true@20",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_1 // 1",
       "defined_out": [
@@ -3107,50 +3132,50 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%4#0"
       ]
     },
-    "389": {
+    "386": {
       "error": "Address is already assigned to another label",
       "block": "set_not_circulating_address_bool_merge@22",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%4#0"
       ],
       "op": "assert // Address is already assigned to another label",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "390": {
+    "387": {
       "block": "set_not_circulating_address_after_if_else@23",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "bytec_1 // \"burned\"",
       "defined_out": [
@@ -3158,16 +3183,16 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\""
       ]
     },
-    "391": {
+    "388": {
       "op": "bytec_2 // \"custom_1\"",
       "defined_out": [
         "\"burned\"",
@@ -3175,17 +3200,17 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\"",
         "\"custom_1\""
       ]
     },
-    "392": {
+    "389": {
       "op": "bytec_3 // \"custom_2\"",
       "defined_out": [
         "\"burned\"",
@@ -3194,18 +3219,18 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\"",
         "\"custom_1\"",
         "\"custom_2\""
       ]
     },
-    "393": {
+    "390": {
       "op": "bytec 4 // \"custom_3\"",
       "defined_out": [
         "\"burned\"",
@@ -3215,19 +3240,19 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\"",
         "\"custom_1\"",
         "\"custom_2\"",
         "\"custom_3\""
       ]
     },
-    "395": {
+    "392": {
       "op": "bytec 5 // \"custom_4\"",
       "defined_out": [
         "\"burned\"",
@@ -3238,12 +3263,12 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\"",
         "\"custom_1\"",
         "\"custom_2\"",
@@ -3251,8 +3276,8 @@
         "\"custom_4\""
       ]
     },
-    "397": {
-      "op": "uncover 7",
+    "394": {
+      "op": "uncover 8",
       "defined_out": [
         "\"burned\"",
         "\"custom_1\"",
@@ -3263,11 +3288,11 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "\"burned\"",
         "\"custom_1\"",
         "\"custom_2\"",
@@ -3276,78 +3301,183 @@
         "label#0"
       ]
     },
-    "399": {
+    "396": {
       "op": "match set_not_circulating_address_switch_case_0@24 set_not_circulating_address_switch_case_1@27 set_not_circulating_address_switch_case_2@28 set_not_circulating_address_switch_case_3@29 set_not_circulating_address_switch_case_4@30",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "411": {
+    "408": {
       "error": "Invalid label",
       "op": "err // Invalid label"
     },
-    "412": {
+    "409": {
       "block": "set_not_circulating_address_switch_case_4@30",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "411": {
       "op": "pushint 128",
       "defined_out": [
         "128",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
         "128"
       ]
     },
-    "415": {
-      "op": "uncover 2",
+    "414": {
+      "op": "uncover 4",
       "defined_out": [
         "128",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
         "128",
         "address#0"
       ]
     },
-    "417": {
+    "416": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "417": {
+      "block": "set_not_circulating_address_switch_case_next@32",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "swap",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
         "config#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "418": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%2#0",
+        "aggregate%box_get%3#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "config#0",
+        "aggregate%box_get%2#0",
+        "aggregate%box_get%3#0"
+      ]
+    },
+    "419": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "config#0",
+        "aggregate%box_get%2#0"
+      ]
+    },
+    "420": {
+      "op": "!=",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "tmp%24#0"
+      ]
+    },
+    "421": {
+      "op": "bz set_not_circulating_address_after_if_else@34",
+      "stack_out": [
+        "clawback#0",
         "asset#0",
         "is_unset#0"
       ]
     },
-    "418": {
-      "block": "set_not_circulating_address_switch_case_next@32",
+    "423": {
+      "op": "dig 1",
+      "defined_out": [
+        "asset#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "asset#0"
+      ]
+    },
+    "425": {
+      "callsub": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
+      "op": "callsub _emit_config_updated",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0"
+      ]
+    },
+    "428": {
+      "block": "set_not_circulating_address_after_if_else@34",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0"
       ],
@@ -3357,238 +3487,290 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "1"
       ]
     },
-    "419": {
+    "429": {
       "op": "return",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0"
       ]
     },
-    "420": {
+    "430": {
       "block": "set_not_circulating_address_switch_case_3@29",
       "stack_in": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "pushint 96",
-      "defined_out": [
-        "96",
-        "encoded_value%0#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
-        "96"
-      ]
-    },
-    "422": {
-      "op": "uncover 2",
+        "config#0"
+      ],
+      "op": "dig 1",
       "defined_out": [
-        "96",
-        "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "encoded_value%0#0",
-        "96",
-        "address#0"
-      ]
-    },
-    "424": {
-      "error": "index out of bounds",
-      "op": "box_replace // on error: index out of bounds",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0"
-      ]
-    },
-    "425": {
-      "op": "b set_not_circulating_address_switch_case_next@32"
-    },
-    "427": {
-      "block": "set_not_circulating_address_switch_case_2@28",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "pushint 64",
-      "defined_out": [
-        "64",
-        "encoded_value%0#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
-        "64"
-      ]
-    },
-    "429": {
-      "op": "uncover 2",
-      "defined_out": [
-        "64",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "stack_out": [
-        "clawback#0",
         "config#0",
-        "asset#0",
-        "is_unset#0",
-        "encoded_value%0#0",
-        "64",
-        "address#0"
-      ]
-    },
-    "431": {
-      "error": "index out of bounds",
-      "op": "box_replace // on error: index out of bounds",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0"
+        "encoded_value%0#0 (copy)"
       ]
     },
     "432": {
-      "op": "b set_not_circulating_address_switch_case_next@32"
-    },
-    "434": {
-      "block": "set_not_circulating_address_switch_case_1@27",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_3 // 32",
+      "op": "pushint 96",
       "defined_out": [
-        "32",
-        "encoded_value%0#0"
+        "96",
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
-        "32"
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "96"
       ]
     },
-    "435": {
-      "op": "uncover 2",
+    "434": {
+      "op": "uncover 4",
       "defined_out": [
-        "32",
+        "96",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "encoded_value%0#0",
-        "32",
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "96",
         "address#0"
       ]
     },
-    "437": {
+    "436": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
-        "is_unset#0"
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "438": {
+    "437": {
       "op": "b set_not_circulating_address_switch_case_next@32"
     },
-    "440": {
-      "block": "set_not_circulating_address_switch_case_0@24",
+    "439": {
+      "block": "set_not_circulating_address_switch_case_2@28",
       "stack_in": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dig 2",
-      "defined_out": [
-        "is_unset#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
-        "is_unset#0"
-      ]
-    },
-    "442": {
-      "op": "bnz set_not_circulating_address_after_if_else@26",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "444": {
-      "op": "dig 3",
+        "config#0"
+      ],
+      "op": "dig 1",
       "defined_out": [
-        "asset#0",
-        "is_unset#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
-        "asset#0"
+        "config#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "441": {
+      "op": "pushint 64",
+      "defined_out": [
+        "64",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "64"
+      ]
+    },
+    "443": {
+      "op": "uncover 4",
+      "defined_out": [
+        "64",
+        "address#0",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "64",
+        "address#0"
+      ]
+    },
+    "445": {
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
     "446": {
+      "op": "b set_not_circulating_address_switch_case_next@32"
+    },
+    "448": {
+      "block": "set_not_circulating_address_switch_case_1@27",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "450": {
+      "op": "intc_3 // 32",
+      "defined_out": [
+        "32",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "32"
+      ]
+    },
+    "451": {
+      "op": "uncover 4",
+      "defined_out": [
+        "32",
+        "address#0",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
+        "32",
+        "address#0"
+      ]
+    },
+    "453": {
+      "error": "index out of bounds",
+      "op": "box_replace // on error: index out of bounds",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "454": {
+      "op": "b set_not_circulating_address_switch_case_next@32"
+    },
+    "456": {
+      "block": "set_not_circulating_address_switch_case_0@24",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "dig 3",
+      "defined_out": [
+        "is_unset#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "is_unset#0"
+      ]
+    },
+    "458": {
+      "op": "bnz set_not_circulating_address_after_if_else@26",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "460": {
+      "op": "dig 4",
+      "defined_out": [
+        "asset#0",
+        "is_unset#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "asset#0"
+      ]
+    },
+    "462": {
       "op": "asset_params_get AssetClawback",
       "defined_out": [
         "asset#0",
@@ -3598,29 +3780,29 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "clawback#0",
         "exists#0"
       ]
     },
-    "448": {
+    "464": {
       "op": "swap",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "exists#0",
         "clawback#0"
       ]
     },
-    "449": {
+    "465": {
       "op": "bury 7",
       "defined_out": [
         "asset#0",
@@ -3630,38 +3812,38 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "exists#0"
       ]
     },
-    "451": {
-      "op": "bz set_not_circulating_address_bool_false@36",
+    "467": {
+      "op": "bz set_not_circulating_address_bool_false@38",
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "453": {
-      "op": "dig 5",
-      "stack_out": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "469": {
+      "op": "dig 5",
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
         "clawback#0"
       ]
     },
-    "455": {
+    "471": {
       "op": "global ZeroAddress",
       "defined_out": [
         "asset#0",
@@ -3671,16 +3853,16 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "clawback#0",
         "tmp%2#1"
       ]
     },
-    "457": {
+    "473": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -3690,26 +3872,26 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%3#0"
       ]
     },
-    "458": {
-      "op": "bz set_not_circulating_address_bool_false@36",
+    "474": {
+      "op": "bz set_not_circulating_address_bool_false@38",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "460": {
+    "476": {
       "op": "intc_1 // 1",
       "defined_out": [
         "and_result%0#0",
@@ -3719,53 +3901,53 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "and_result%0#0"
       ]
     },
-    "461": {
+    "477": {
       "error": "The ASA must not have a clawback address",
-      "block": "set_not_circulating_address_bool_merge@37",
+      "block": "set_not_circulating_address_bool_merge@39",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "and_result%0#0"
       ],
       "op": "assert // The ASA must not have a clawback address",
       "defined_out": [],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "462": {
-      "op": "dig 1",
+    "478": {
+      "op": "dig 2",
       "defined_out": [
         "address#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "address#0 (copy)"
       ]
     },
-    "464": {
+    "480": {
       "op": "bytec 6 // TMPL_ARC54_BURN_ADDRESS",
       "defined_out": [
         "TMPL_ARC54_BURN_ADDRESS",
@@ -3773,250 +3955,268 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "address#0 (copy)",
         "TMPL_ARC54_BURN_ADDRESS"
       ]
     },
-    "466": {
+    "482": {
       "op": "==",
       "defined_out": [
         "tmp%23#0"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "tmp%23#0"
       ]
     },
-    "467": {
+    "483": {
       "error": "Invalid ARC-54 burning address",
       "op": "assert // Invalid ARC-54 burning address",
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ]
     },
-    "468": {
+    "484": {
       "block": "set_not_circulating_address_after_if_else@26",
       "stack_in": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
       ],
+      "op": "dig 1",
+      "defined_out": [
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "486": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
         "0"
       ]
     },
-    "469": {
-      "op": "uncover 2",
+    "487": {
+      "op": "uncover 4",
       "defined_out": [
         "0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0 (copy)"
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "encoded_value%0#0",
+        "config#0",
+        "encoded_value%0#0 (copy)",
         "0",
         "address#0"
       ]
     },
-    "471": {
+    "489": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
         "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0"
-      ]
-    },
-    "472": {
-      "op": "b set_not_circulating_address_switch_case_next@32"
-    },
-    "474": {
-      "block": "set_not_circulating_address_bool_false@36",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "and_result%0#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "address#0",
         "encoded_value%0#0",
-        "and_result%0#0"
-      ]
-    },
-    "475": {
-      "op": "b set_not_circulating_address_bool_merge@37"
-    },
-    "477": {
-      "block": "set_not_circulating_address_bool_false@21",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "or_result%4#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "or_result%4#0"
-      ]
-    },
-    "478": {
-      "op": "b set_not_circulating_address_bool_merge@22"
-    },
-    "481": {
-      "block": "set_not_circulating_address_bool_false@17",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "or_result%3#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "or_result%3#0"
-      ]
-    },
-    "482": {
-      "op": "b set_not_circulating_address_bool_merge@18"
-    },
-    "485": {
-      "block": "set_not_circulating_address_bool_false@13",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "or_result%2#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "or_result%2#0"
-      ]
-    },
-    "486": {
-      "op": "b set_not_circulating_address_bool_merge@14"
-    },
-    "489": {
-      "block": "set_not_circulating_address_bool_false@9",
-      "stack_in": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "or_result%1#0"
-      ],
-      "stack_out": [
-        "clawback#0",
-        "config#0",
-        "asset#0",
-        "is_unset#0",
-        "label#0",
-        "address#0",
-        "encoded_value%0#0",
-        "or_result%1#0"
+        "config#0"
       ]
     },
     "490": {
-      "op": "b set_not_circulating_address_bool_merge@10"
+      "op": "b set_not_circulating_address_switch_case_next@32"
     },
     "493": {
-      "block": "set_not_circulating_address_bool_false@5",
+      "block": "set_not_circulating_address_bool_false@38",
       "stack_in": [
         "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "and_result%0#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "address#0",
+        "encoded_value%0#0",
         "config#0",
+        "and_result%0#0"
+      ]
+    },
+    "494": {
+      "op": "b set_not_circulating_address_bool_merge@39"
+    },
+    "496": {
+      "block": "set_not_circulating_address_bool_false@21",
+      "stack_in": [
+        "clawback#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%4#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "or_result%4#0"
+      ]
+    },
+    "497": {
+      "op": "b set_not_circulating_address_bool_merge@22"
+    },
+    "500": {
+      "block": "set_not_circulating_address_bool_false@17",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%3#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "or_result%3#0"
+      ]
+    },
+    "501": {
+      "op": "b set_not_circulating_address_bool_merge@18"
+    },
+    "504": {
+      "block": "set_not_circulating_address_bool_false@13",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%2#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "or_result%2#0"
+      ]
+    },
+    "505": {
+      "op": "b set_not_circulating_address_bool_merge@14"
+    },
+    "508": {
+      "block": "set_not_circulating_address_bool_false@9",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%1#0"
+      ],
+      "stack_out": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0",
+        "or_result%1#0"
+      ]
+    },
+    "509": {
+      "op": "b set_not_circulating_address_bool_merge@10"
+    },
+    "512": {
+      "block": "set_not_circulating_address_bool_false@5",
+      "stack_in": [
+        "clawback#0",
+        "asset#0",
+        "is_unset#0",
+        "label#0",
+        "address#0",
+        "encoded_value%0#0",
+        "config#0"
       ],
       "op": "intc_0 // 0",
       "defined_out": [
@@ -4024,19 +4224,19 @@
       ],
       "stack_out": [
         "clawback#0",
-        "config#0",
         "asset#0",
         "is_unset#0",
         "label#0",
         "address#0",
         "encoded_value%0#0",
+        "config#0",
         "or_result%0#0"
       ]
     },
-    "494": {
+    "513": {
       "op": "b set_not_circulating_address_bool_merge@6"
     },
-    "497": {
+    "516": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.delete_config[routing]",
       "params": {},
       "block": "delete_config",
@@ -4049,7 +4249,7 @@
         "tmp%0#0"
       ]
     },
-    "500": {
+    "519": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -4060,7 +4260,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "501": {
+    "520": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -4071,7 +4271,7 @@
         "len%0#0"
       ]
     },
-    "502": {
+    "521": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -4084,7 +4284,7 @@
         "8"
       ]
     },
-    "503": {
+    "522": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -4095,14 +4295,14 @@
         "eq%0#0"
       ]
     },
-    "504": {
+    "523": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "505": {
+    "524": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -4111,7 +4311,7 @@
         "asset#0"
       ]
     },
-    "506": {
+    "525": {
       "op": "dupn 2",
       "defined_out": [
         "asset#0",
@@ -4123,7 +4323,7 @@
         "asset#0 (copy)"
       ]
     },
-    "508": {
+    "527": {
       "op": "itob",
       "defined_out": [
         "asset#0",
@@ -4135,7 +4335,7 @@
         "encoded_value%0#0"
       ]
     },
-    "509": {
+    "528": {
       "op": "dup",
       "stack_out": [
         "asset#0",
@@ -4144,7 +4344,7 @@
         "encoded_value%0#0"
       ]
     },
-    "510": {
+    "529": {
       "op": "cover 2",
       "defined_out": [
         "asset#0",
@@ -4157,7 +4357,7 @@
         "encoded_value%0#0"
       ]
     },
-    "512": {
+    "531": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -4173,7 +4373,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "513": {
+    "532": {
       "op": "bury 1",
       "stack_out": [
         "asset#0",
@@ -4182,7 +4382,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "515": {
+    "534": {
       "error": "Circulating supply config does not exist for this ASA",
       "op": "assert // Circulating supply config does not exist for this ASA",
       "stack_out": [
@@ -4191,7 +4391,7 @@
         "asset#0"
       ]
     },
-    "516": {
+    "535": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
@@ -4206,96 +4406,134 @@
         "exists#0"
       ]
     },
-    "518": {
-      "op": "bury 1",
+    "537": {
+      "op": "dup",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "_creator#0",
+        "exists#0",
+        "exists#0 (copy)"
+      ]
+    },
+    "538": {
+      "op": "uncover 2",
+      "defined_out": [
+        "_creator#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "exists#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0",
+        "_creator#0"
+      ]
+    },
+    "540": {
+      "op": "pop",
+      "stack_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "exists#0",
+        "exists#0"
+      ]
+    },
+    "541": {
+      "op": "bz delete_config_after_if_else@3",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
         "exists#0"
       ]
     },
-    "520": {
-      "op": "bz delete_config_after_if_else@3",
-      "stack_out": [
-        "asset#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "522": {
+    "543": {
       "op": "txn Sender",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1"
       ],
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1"
       ]
     },
-    "524": {
-      "op": "dig 2",
+    "545": {
+      "op": "dig 3",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1",
         "asset#0"
       ]
     },
-    "526": {
+    "547": {
       "op": "asset_params_get AssetManager",
       "defined_out": [
         "asset#0",
         "check%0#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1",
         "value%0#0"
       ],
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1",
         "value%0#0",
         "check%0#0"
       ]
     },
-    "528": {
+    "549": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%1#1",
         "value%0#0"
       ]
     },
-    "529": {
+    "550": {
       "op": "==",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%2#1"
       ],
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%2#1"
       ]
     },
-    "530": {
+    "551": {
       "error": "Unauthorized",
       "op": "assert // Unauthorized",
       "stack_out": [
         "asset#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "exists#0"
       ]
     },
-    "531": {
+    "552": {
       "block": "delete_config_after_if_else@3",
       "stack_in": [
         "asset#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "exists#0"
       ],
       "op": "global CurrentApplicationAddress",
       "defined_out": [
@@ -4304,10 +4542,11 @@
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "tmp%3#1"
       ]
     },
-    "533": {
+    "554": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%1#0",
@@ -4316,211 +4555,510 @@
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "mbr_i#0",
         "check%1#0"
       ]
     },
-    "535": {
+    "556": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0",
+        "exists#0",
         "mbr_i#0"
       ]
     },
-    "536": {
-      "op": "swap",
+    "557": {
+      "op": "uncover 2",
       "defined_out": [
         "encoded_value%0#0",
         "mbr_i#0"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
         "mbr_i#0",
         "encoded_value%0#0"
       ]
     },
-    "537": {
+    "559": {
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0 (copy)",
+        "mbr_i#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "560": {
+      "op": "cover 2",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
+        "mbr_i#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "562": {
       "op": "box_del",
       "defined_out": [
+        "encoded_value%0#0",
         "mbr_i#0",
         "{box_del}"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_i#0",
         "{box_del}"
       ]
     },
-    "538": {
+    "563": {
       "op": "pop",
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_i#0"
       ]
     },
-    "539": {
+    "564": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
+        "encoded_value%0#0",
         "mbr_i#0",
         "tmp%4#1"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_i#0",
         "tmp%4#1"
       ]
     },
-    "541": {
+    "566": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%2#0",
+        "encoded_value%0#0",
         "mbr_i#0",
         "value%2#0"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_i#0",
         "value%2#0",
         "check%2#0"
       ]
     },
-    "543": {
+    "568": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_i#0",
         "value%2#0"
       ]
     },
-    "544": {
+    "569": {
       "op": "-",
       "defined_out": [
+        "encoded_value%0#0",
         "mbr_delta_amount#0"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0"
       ]
     },
-    "545": {
+    "570": {
       "op": "itxn_begin"
     },
-    "546": {
+    "571": {
       "op": "txn Sender",
       "defined_out": [
+        "encoded_value%0#0",
         "inner_txn_params%0%%param_Receiver_idx_0#0",
         "mbr_delta_amount#0"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "548": {
+    "573": {
       "op": "dig 1",
       "defined_out": [
+        "encoded_value%0#0",
         "inner_txn_params%0%%param_Receiver_idx_0#0",
         "mbr_delta_amount#0",
         "mbr_delta_amount#0 (copy)"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "inner_txn_params%0%%param_Receiver_idx_0#0",
         "mbr_delta_amount#0 (copy)"
       ]
     },
-    "550": {
+    "575": {
       "op": "itxn_field Amount",
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "552": {
+    "577": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0"
       ]
     },
-    "554": {
+    "579": {
       "op": "intc_1 // pay",
       "defined_out": [
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "pay"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "pay"
       ]
     },
-    "555": {
+    "580": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0"
       ]
     },
-    "557": {
+    "582": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0"
       ],
       "stack_out": [
         "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
         "mbr_delta_amount#0",
         "0"
       ]
     },
-    "558": {
+    "583": {
       "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0"
+      ]
+    },
+    "585": {
+      "op": "itxn_submit"
+    },
+    "586": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0"
+      ]
+    },
+    "588": {
+      "op": "global Round",
+      "defined_out": [
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%6#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0",
+        "tmp%6#0"
+      ]
+    },
+    "590": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%1#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "encoded_value%0#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "591": {
+      "op": "uncover 3",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0",
+        "aggregate%val_as_bytes%1#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "593": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "594": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "tmp%7#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "595": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%1#0",
+        "tmp%7#0"
+      ]
+    },
+    "596": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ]
+    },
+    "597": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "598": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "aggregate%head%2#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%2#0",
+        "0x00"
+      ]
+    },
+    "601": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "exists#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%2#0",
+        "0x00",
+        "0"
+      ]
+    },
+    "602": {
+      "op": "uncover 4",
+      "defined_out": [
+        "0",
+        "0x00",
+        "aggregate%head%2#0",
+        "exists#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%2#0",
+        "0x00",
+        "0",
+        "exists#0"
+      ]
+    },
+    "604": {
+      "op": "setbit",
+      "defined_out": [
+        "aggregate%encoded_bool%0#0",
+        "aggregate%head%2#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%2#0",
+        "aggregate%encoded_bool%0#0"
+      ]
+    },
+    "605": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "606": {
+      "op": "pushbytes 0xc4b5e8e7 // method \"Arc62ConfigDeleted(uint64,uint64,uint64,bool)\"",
+      "defined_out": [
+        "Method(Arc62ConfigDeleted(uint64,uint64,uint64,bool))",
+        "aggregate%head%3#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "aggregate%head%3#0",
+        "Method(Arc62ConfigDeleted(uint64,uint64,uint64,bool))"
+      ]
+    },
+    "612": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "Method(Arc62ConfigDeleted(uint64,uint64,uint64,bool))",
+        "aggregate%head%3#0"
+      ]
+    },
+    "613": {
+      "op": "concat",
+      "defined_out": [
+        "event%0#0",
+        "mbr_delta_amount#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "mbr_delta_amount#0",
+        "event%0#0"
+      ]
+    },
+    "614": {
+      "op": "log",
       "stack_out": [
         "asset#0",
         "mbr_delta_amount#0"
       ]
     },
-    "560": {
-      "op": "itxn_submit"
-    },
-    "561": {
+    "615": {
       "op": "itob",
       "defined_out": [
-        "aggregate%val_as_bytes%0#0"
+        "aggregate%val_as_bytes%3#0"
       ],
       "stack_out": [
         "asset#0",
-        "aggregate%val_as_bytes%0#0"
+        "aggregate%val_as_bytes%3#0"
       ]
     },
-    "562": {
+    "616": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
-        "aggregate%val_as_bytes%0#0"
+        "aggregate%val_as_bytes%3#0"
       ],
       "stack_out": [
         "asset#0",
-        "aggregate%val_as_bytes%0#0",
+        "aggregate%val_as_bytes%3#0",
         "0x151f7c75"
       ]
     },
-    "563": {
+    "617": {
       "op": "swap",
       "stack_out": [
         "asset#0",
         "0x151f7c75",
-        "aggregate%val_as_bytes%0#0"
+        "aggregate%val_as_bytes%3#0"
       ]
     },
-    "564": {
+    "618": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -4530,13 +5068,13 @@
         "tmp%4#0"
       ]
     },
-    "565": {
+    "619": {
       "op": "log",
       "stack_out": [
         "asset#0"
       ]
     },
-    "566": {
+    "620": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -4546,13 +5084,13 @@
         "1"
       ]
     },
-    "567": {
+    "621": {
       "op": "return",
       "stack_out": [
         "asset#0"
       ]
     },
-    "568": {
+    "622": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.get_config[routing]",
       "params": {},
       "block": "get_config",
@@ -4565,7 +5103,7 @@
         "tmp%0#0"
       ]
     },
-    "571": {
+    "625": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -4576,7 +5114,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "572": {
+    "626": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -4587,7 +5125,7 @@
         "len%0#0"
       ]
     },
-    "573": {
+    "627": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -4600,7 +5138,7 @@
         "8"
       ]
     },
-    "574": {
+    "628": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -4611,14 +5149,14 @@
         "eq%0#0"
       ]
     },
-    "575": {
+    "629": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "576": {
+    "630": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -4627,7 +5165,7 @@
         "asset#0"
       ]
     },
-    "577": {
+    "631": {
       "op": "itob",
       "defined_out": [
         "encoded_value%0#0"
@@ -4636,7 +5174,7 @@
         "encoded_value%0#0"
       ]
     },
-    "578": {
+    "632": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0",
@@ -4647,7 +5185,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "579": {
+    "633": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -4660,21 +5198,21 @@
         "maybe_exists%0#0"
       ]
     },
-    "580": {
+    "634": {
       "op": "bury 1",
       "stack_out": [
         "encoded_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "582": {
+    "636": {
       "error": "Circulating supply config does not exist for this ASA",
       "op": "assert // Circulating supply config does not exist for this ASA",
       "stack_out": [
         "encoded_value%0#0"
       ]
     },
-    "583": {
+    "637": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -4685,13 +5223,13 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "584": {
+    "638": {
       "op": "pop",
       "stack_out": [
         "aggregate%box_get%0#0"
       ]
     },
-    "585": {
+    "639": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -4702,14 +5240,14 @@
         "0x151f7c75"
       ]
     },
-    "586": {
+    "640": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%box_get%0#0"
       ]
     },
-    "587": {
+    "641": {
       "op": "concat",
       "defined_out": [
         "tmp%3#0"
@@ -4718,11 +5256,11 @@
         "tmp%3#0"
       ]
     },
-    "588": {
+    "642": {
       "op": "log",
       "stack_out": []
     },
-    "589": {
+    "643": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -4731,11 +5269,11 @@
         "1"
       ]
     },
-    "590": {
+    "644": {
       "op": "return",
       "stack_out": []
     },
-    "591": {
+    "645": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.arc62_get_circulating_supply[routing]",
       "params": {},
       "block": "arc62_get_circulating_supply",
@@ -4745,7 +5283,7 @@
         "reserve#0"
       ]
     },
-    "592": {
+    "646": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
@@ -4755,7 +5293,7 @@
         "tmp%0#0"
       ]
     },
-    "595": {
+    "649": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -4767,7 +5305,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "596": {
+    "650": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -4779,7 +5317,7 @@
         "len%0#0"
       ]
     },
-    "597": {
+    "651": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -4793,7 +5331,7 @@
         "8"
       ]
     },
-    "598": {
+    "652": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -4805,7 +5343,7 @@
         "eq%0#0"
       ]
     },
-    "599": {
+    "653": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
@@ -4813,7 +5351,7 @@
         "tmp%0#0"
       ]
     },
-    "600": {
+    "654": {
       "op": "btoi",
       "defined_out": [
         "asset_id#0"
@@ -4823,7 +5361,7 @@
         "asset_id#0"
       ]
     },
-    "601": {
+    "655": {
       "op": "dupn 2",
       "defined_out": [
         "asset_id#0",
@@ -4836,7 +5374,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "603": {
+    "657": {
       "op": "itob",
       "defined_out": [
         "asset_id#0",
@@ -4849,7 +5387,7 @@
         "encoded_value%0#0"
       ]
     },
-    "604": {
+    "658": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -4859,7 +5397,7 @@
         "encoded_value%0#0"
       ]
     },
-    "605": {
+    "659": {
       "op": "cover 2",
       "defined_out": [
         "asset_id#0",
@@ -4873,7 +5411,7 @@
         "encoded_value%0#0"
       ]
     },
-    "607": {
+    "661": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -4890,7 +5428,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "608": {
+    "662": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -4900,7 +5438,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "610": {
+    "664": {
       "error": "Circulating supply config does not exist for this ASA",
       "op": "assert // Circulating supply config does not exist for this ASA",
       "stack_out": [
@@ -4910,7 +5448,7 @@
         "asset_id#0"
       ]
     },
-    "611": {
+    "665": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
@@ -4926,7 +5464,7 @@
         "exists#0"
       ]
     },
-    "613": {
+    "667": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -4935,7 +5473,7 @@
         "exists#0"
       ]
     },
-    "615": {
+    "669": {
       "op": "bnz arc62_get_circulating_supply_else_body@3",
       "stack_out": [
         "reserve#0",
@@ -4943,13 +5481,13 @@
         "encoded_value%0#0"
       ]
     },
-    "617": {
+    "671": {
       "op": "popn 2",
       "stack_out": [
         "reserve#0"
       ]
     },
-    "619": {
+    "673": {
       "op": "intc_0 // 0",
       "defined_out": [
         "circulating_supply#0"
@@ -4959,7 +5497,7 @@
         "circulating_supply#0"
       ]
     },
-    "620": {
+    "674": {
       "block": "arc62_get_circulating_supply_after_if_else@33",
       "stack_in": [
         "reserve#0",
@@ -4974,7 +5512,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "621": {
+    "675": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -4986,7 +5524,7 @@
         "0x151f7c75"
       ]
     },
-    "622": {
+    "676": {
       "op": "swap",
       "stack_out": [
         "reserve#0",
@@ -4994,7 +5532,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "623": {
+    "677": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -5004,13 +5542,13 @@
         "tmp%4#0"
       ]
     },
-    "624": {
+    "678": {
       "op": "log",
       "stack_out": [
         "reserve#0"
       ]
     },
-    "625": {
+    "679": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -5020,13 +5558,13 @@
         "1"
       ]
     },
-    "626": {
+    "680": {
       "op": "return",
       "stack_out": [
         "reserve#0"
       ]
     },
-    "627": {
+    "681": {
       "block": "arc62_get_circulating_supply_else_body@3",
       "stack_in": [
         "reserve#0",
@@ -5044,7 +5582,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "629": {
+    "683": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
         "check%0#0",
@@ -5058,7 +5596,7 @@
         "check%0#0"
       ]
     },
-    "631": {
+    "685": {
       "op": "swap",
       "stack_out": [
         "reserve#0",
@@ -5068,7 +5606,7 @@
         "reserve#0"
       ]
     },
-    "632": {
+    "686": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -5079,7 +5617,7 @@
         "reserve#0 (copy)"
       ]
     },
-    "633": {
+    "687": {
       "op": "cover 2",
       "stack_out": [
         "reserve#0",
@@ -5090,7 +5628,7 @@
         "reserve#0"
       ]
     },
-    "635": {
+    "689": {
       "op": "bury 5",
       "defined_out": [
         "check%0#0",
@@ -5104,7 +5642,7 @@
         "check%0#0"
       ]
     },
-    "637": {
+    "691": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -5114,7 +5652,7 @@
         "reserve#0"
       ]
     },
-    "638": {
+    "692": {
       "op": "global ZeroAddress",
       "defined_out": [
         "reserve#0",
@@ -5128,7 +5666,7 @@
         "tmp%1#1"
       ]
     },
-    "640": {
+    "694": {
       "op": "==",
       "defined_out": [
         "reserve#0",
@@ -5141,7 +5679,7 @@
         "tmp%2#1"
       ]
     },
-    "641": {
+    "695": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@5",
       "stack_out": [
         "reserve#0",
@@ -5149,7 +5687,7 @@
         "encoded_value%0#0"
       ]
     },
-    "643": {
+    "697": {
       "op": "dig 2",
       "stack_out": [
         "reserve#0",
@@ -5158,7 +5696,7 @@
         "reserve#0"
       ]
     },
-    "645": {
+    "699": {
       "op": "dig 2",
       "stack_out": [
         "reserve#0",
@@ -5168,7 +5706,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "647": {
+    "701": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "reserve#0",
@@ -5183,7 +5721,7 @@
         "tmp%4#1"
       ]
     },
-    "649": {
+    "703": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -5192,7 +5730,7 @@
         "tmp%4#1"
       ]
     },
-    "651": {
+    "705": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@6",
       "stack_out": [
         "reserve#0",
@@ -5200,7 +5738,7 @@
         "encoded_value%0#0"
       ]
     },
-    "654": {
+    "708": {
       "block": "arc62_get_circulating_supply_ternary_true@5",
       "stack_in": [
         "reserve#0",
@@ -5218,7 +5756,7 @@
         "reserve_balance#0"
       ]
     },
-    "655": {
+    "709": {
       "op": "swap",
       "defined_out": [
         "reserve_balance#0"
@@ -5230,7 +5768,7 @@
         "encoded_value%0#0"
       ]
     },
-    "656": {
+    "710": {
       "block": "arc62_get_circulating_supply_ternary_merge@7",
       "stack_in": [
         "reserve#0",
@@ -5250,7 +5788,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "657": {
+    "711": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -5265,7 +5803,7 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "658": {
+    "712": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -5276,7 +5814,7 @@
         "aggregate%box_get%0#0"
       ]
     },
-    "659": {
+    "713": {
       "op": "extract 0 32",
       "defined_out": [
         "burned_addr#0"
@@ -5289,7 +5827,7 @@
         "burned_addr#0"
       ]
     },
-    "662": {
+    "716": {
       "op": "dup",
       "defined_out": [
         "burned_addr#0"
@@ -5303,7 +5841,7 @@
         "burned_addr#0"
       ]
     },
-    "663": {
+    "717": {
       "op": "global ZeroAddress",
       "defined_out": [
         "burned_addr#0",
@@ -5319,7 +5857,7 @@
         "tmp%6#0"
       ]
     },
-    "665": {
+    "719": {
       "op": "==",
       "defined_out": [
         "burned_addr#0",
@@ -5334,7 +5872,7 @@
         "tmp%7#0"
       ]
     },
-    "666": {
+    "720": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@10",
       "stack_out": [
         "reserve#0",
@@ -5344,7 +5882,7 @@
         "burned_addr#0"
       ]
     },
-    "668": {
+    "722": {
       "op": "dup",
       "defined_out": [
         "burned_addr#0",
@@ -5359,7 +5897,7 @@
         "burned_addr#0 (copy)"
       ]
     },
-    "669": {
+    "723": {
       "op": "dig 5",
       "defined_out": [
         "burned_addr#0",
@@ -5376,7 +5914,7 @@
         "reserve#0"
       ]
     },
-    "671": {
+    "725": {
       "op": "==",
       "defined_out": [
         "burned_addr#0",
@@ -5392,7 +5930,7 @@
         "tmp%8#0"
       ]
     },
-    "672": {
+    "726": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@10",
       "stack_out": [
         "reserve#0",
@@ -5402,7 +5940,7 @@
         "burned_addr#0"
       ]
     },
-    "674": {
+    "728": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -5413,7 +5951,7 @@
         "burned_addr#0 (copy)"
       ]
     },
-    "675": {
+    "729": {
       "op": "dig 4",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -5431,7 +5969,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "677": {
+    "731": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "burned_addr#0",
@@ -5449,7 +5987,7 @@
         "tmp%10#0"
       ]
     },
-    "679": {
+    "733": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -5460,7 +5998,7 @@
         "tmp%10#0"
       ]
     },
-    "681": {
+    "735": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@11",
       "stack_out": [
         "reserve#0",
@@ -5470,7 +6008,7 @@
         "burned_addr#0"
       ]
     },
-    "684": {
+    "738": {
       "block": "arc62_get_circulating_supply_ternary_true@10",
       "stack_in": [
         "reserve#0",
@@ -5488,7 +6026,7 @@
         "encoded_value%0#0"
       ]
     },
-    "685": {
+    "739": {
       "op": "intc_0 // 0",
       "defined_out": [
         "burned_balance#0"
@@ -5501,7 +6039,7 @@
         "burned_balance#0"
       ]
     },
-    "686": {
+    "740": {
       "op": "cover 2",
       "defined_out": [
         "burned_balance#0"
@@ -5514,7 +6052,7 @@
         "encoded_value%0#0"
       ]
     },
-    "688": {
+    "742": {
       "block": "arc62_get_circulating_supply_ternary_merge@12",
       "stack_in": [
         "reserve#0",
@@ -5536,7 +6074,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "689": {
+    "743": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%2#0",
@@ -5552,7 +6090,7 @@
         "aggregate%box_get%3#0"
       ]
     },
-    "690": {
+    "744": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -5564,7 +6102,7 @@
         "aggregate%box_get%2#0"
       ]
     },
-    "691": {
+    "745": {
       "op": "extract 32 32",
       "defined_out": [
         "custom_1_addr#0"
@@ -5578,7 +6116,7 @@
         "custom_1_addr#0"
       ]
     },
-    "694": {
+    "748": {
       "op": "dup",
       "defined_out": [
         "custom_1_addr#0"
@@ -5593,7 +6131,7 @@
         "custom_1_addr#0"
       ]
     },
-    "695": {
+    "749": {
       "op": "global ZeroAddress",
       "defined_out": [
         "custom_1_addr#0",
@@ -5610,7 +6148,7 @@
         "tmp%12#0"
       ]
     },
-    "697": {
+    "751": {
       "op": "==",
       "defined_out": [
         "custom_1_addr#0",
@@ -5626,7 +6164,7 @@
         "tmp%13#0"
       ]
     },
-    "698": {
+    "752": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@15",
       "stack_out": [
         "reserve#0",
@@ -5637,7 +6175,7 @@
         "custom_1_addr#0"
       ]
     },
-    "700": {
+    "754": {
       "op": "dup",
       "defined_out": [
         "custom_1_addr#0",
@@ -5653,7 +6191,7 @@
         "custom_1_addr#0 (copy)"
       ]
     },
-    "701": {
+    "755": {
       "op": "dig 6",
       "defined_out": [
         "custom_1_addr#0",
@@ -5671,7 +6209,7 @@
         "reserve#0"
       ]
     },
-    "703": {
+    "757": {
       "op": "==",
       "defined_out": [
         "custom_1_addr#0",
@@ -5688,7 +6226,7 @@
         "tmp%14#0"
       ]
     },
-    "704": {
+    "758": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@15",
       "stack_out": [
         "reserve#0",
@@ -5699,7 +6237,7 @@
         "custom_1_addr#0"
       ]
     },
-    "706": {
+    "760": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -5711,7 +6249,7 @@
         "custom_1_addr#0 (copy)"
       ]
     },
-    "707": {
+    "761": {
       "op": "dig 5",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -5730,7 +6268,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "709": {
+    "763": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "custom_1_addr#0",
@@ -5749,7 +6287,7 @@
         "tmp%16#0"
       ]
     },
-    "711": {
+    "765": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -5761,7 +6299,7 @@
         "tmp%16#0"
       ]
     },
-    "713": {
+    "767": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@16",
       "stack_out": [
         "reserve#0",
@@ -5772,7 +6310,7 @@
         "custom_1_addr#0"
       ]
     },
-    "716": {
+    "770": {
       "block": "arc62_get_circulating_supply_ternary_true@15",
       "stack_in": [
         "reserve#0",
@@ -5792,7 +6330,7 @@
         "encoded_value%0#0"
       ]
     },
-    "717": {
+    "771": {
       "op": "intc_0 // 0",
       "defined_out": [
         "custom_balance_1#0"
@@ -5806,7 +6344,7 @@
         "custom_balance_1#0"
       ]
     },
-    "718": {
+    "772": {
       "op": "cover 4",
       "defined_out": [
         "custom_balance_1#0"
@@ -5820,7 +6358,7 @@
         "encoded_value%0#0"
       ]
     },
-    "720": {
+    "774": {
       "block": "arc62_get_circulating_supply_ternary_merge@17",
       "stack_in": [
         "reserve#0",
@@ -5844,7 +6382,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "721": {
+    "775": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%4#0",
@@ -5861,7 +6399,7 @@
         "aggregate%box_get%5#0"
       ]
     },
-    "722": {
+    "776": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -5874,7 +6412,7 @@
         "aggregate%box_get%4#0"
       ]
     },
-    "723": {
+    "777": {
       "op": "extract 64 32",
       "defined_out": [
         "custom_2_addr#0"
@@ -5889,7 +6427,7 @@
         "custom_2_addr#0"
       ]
     },
-    "726": {
+    "780": {
       "op": "dup",
       "defined_out": [
         "custom_2_addr#0"
@@ -5905,7 +6443,7 @@
         "custom_2_addr#0"
       ]
     },
-    "727": {
+    "781": {
       "op": "global ZeroAddress",
       "defined_out": [
         "custom_2_addr#0",
@@ -5923,7 +6461,7 @@
         "tmp%18#0"
       ]
     },
-    "729": {
+    "783": {
       "op": "==",
       "defined_out": [
         "custom_2_addr#0",
@@ -5940,7 +6478,7 @@
         "tmp%19#0"
       ]
     },
-    "730": {
+    "784": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@20",
       "stack_out": [
         "reserve#0",
@@ -5952,7 +6490,7 @@
         "custom_2_addr#0"
       ]
     },
-    "732": {
+    "786": {
       "op": "dup",
       "defined_out": [
         "custom_2_addr#0",
@@ -5969,7 +6507,7 @@
         "custom_2_addr#0 (copy)"
       ]
     },
-    "733": {
+    "787": {
       "op": "dig 7",
       "defined_out": [
         "custom_2_addr#0",
@@ -5988,7 +6526,7 @@
         "reserve#0"
       ]
     },
-    "735": {
+    "789": {
       "op": "==",
       "defined_out": [
         "custom_2_addr#0",
@@ -6006,7 +6544,7 @@
         "tmp%20#0"
       ]
     },
-    "736": {
+    "790": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@20",
       "stack_out": [
         "reserve#0",
@@ -6018,7 +6556,7 @@
         "custom_2_addr#0"
       ]
     },
-    "738": {
+    "792": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -6031,7 +6569,7 @@
         "custom_2_addr#0 (copy)"
       ]
     },
-    "739": {
+    "793": {
       "op": "dig 5",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -6051,7 +6589,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "741": {
+    "795": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "custom_2_addr#0",
@@ -6071,7 +6609,7 @@
         "tmp%22#0"
       ]
     },
-    "743": {
+    "797": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -6084,7 +6622,7 @@
         "tmp%22#0"
       ]
     },
-    "745": {
+    "799": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@21",
       "stack_out": [
         "reserve#0",
@@ -6096,7 +6634,7 @@
         "custom_2_addr#0"
       ]
     },
-    "748": {
+    "802": {
       "block": "arc62_get_circulating_supply_ternary_true@20",
       "stack_in": [
         "reserve#0",
@@ -6118,7 +6656,7 @@
         "encoded_value%0#0"
       ]
     },
-    "749": {
+    "803": {
       "op": "intc_0 // 0",
       "defined_out": [
         "custom_balance_2#0"
@@ -6133,7 +6671,7 @@
         "custom_balance_2#0"
       ]
     },
-    "750": {
+    "804": {
       "op": "cover 5",
       "defined_out": [
         "custom_balance_2#0"
@@ -6148,7 +6686,7 @@
         "encoded_value%0#0"
       ]
     },
-    "752": {
+    "806": {
       "block": "arc62_get_circulating_supply_ternary_merge@22",
       "stack_in": [
         "reserve#0",
@@ -6174,7 +6712,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "753": {
+    "807": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%6#0",
@@ -6192,7 +6730,7 @@
         "aggregate%box_get%7#0"
       ]
     },
-    "754": {
+    "808": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -6206,7 +6744,7 @@
         "aggregate%box_get%6#0"
       ]
     },
-    "755": {
+    "809": {
       "op": "extract 96 32",
       "defined_out": [
         "custom_3_addr#0"
@@ -6222,7 +6760,7 @@
         "custom_3_addr#0"
       ]
     },
-    "758": {
+    "812": {
       "op": "dup",
       "defined_out": [
         "custom_3_addr#0"
@@ -6239,7 +6777,7 @@
         "custom_3_addr#0"
       ]
     },
-    "759": {
+    "813": {
       "op": "global ZeroAddress",
       "defined_out": [
         "custom_3_addr#0",
@@ -6258,7 +6796,7 @@
         "tmp%24#0"
       ]
     },
-    "761": {
+    "815": {
       "op": "==",
       "defined_out": [
         "custom_3_addr#0",
@@ -6276,7 +6814,7 @@
         "tmp%25#0"
       ]
     },
-    "762": {
+    "816": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@25",
       "stack_out": [
         "reserve#0",
@@ -6289,7 +6827,7 @@
         "custom_3_addr#0"
       ]
     },
-    "764": {
+    "818": {
       "op": "dup",
       "defined_out": [
         "custom_3_addr#0",
@@ -6307,7 +6845,7 @@
         "custom_3_addr#0 (copy)"
       ]
     },
-    "765": {
+    "819": {
       "op": "dig 8",
       "defined_out": [
         "custom_3_addr#0",
@@ -6327,7 +6865,7 @@
         "reserve#0"
       ]
     },
-    "767": {
+    "821": {
       "op": "==",
       "defined_out": [
         "custom_3_addr#0",
@@ -6346,7 +6884,7 @@
         "tmp%26#0"
       ]
     },
-    "768": {
+    "822": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@25",
       "stack_out": [
         "reserve#0",
@@ -6359,7 +6897,7 @@
         "custom_3_addr#0"
       ]
     },
-    "770": {
+    "824": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -6373,7 +6911,7 @@
         "custom_3_addr#0 (copy)"
       ]
     },
-    "771": {
+    "825": {
       "op": "dig 5",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -6394,7 +6932,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "773": {
+    "827": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "custom_3_addr#0",
@@ -6415,7 +6953,7 @@
         "tmp%28#0"
       ]
     },
-    "775": {
+    "829": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -6429,7 +6967,7 @@
         "tmp%28#0"
       ]
     },
-    "777": {
+    "831": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@26",
       "stack_out": [
         "reserve#0",
@@ -6442,7 +6980,7 @@
         "custom_3_addr#0"
       ]
     },
-    "780": {
+    "834": {
       "block": "arc62_get_circulating_supply_ternary_true@25",
       "stack_in": [
         "reserve#0",
@@ -6466,7 +7004,7 @@
         "encoded_value%0#0"
       ]
     },
-    "781": {
+    "835": {
       "op": "intc_0 // 0",
       "defined_out": [
         "custom_balance_3#0"
@@ -6482,7 +7020,7 @@
         "custom_balance_3#0"
       ]
     },
-    "782": {
+    "836": {
       "op": "cover 6",
       "defined_out": [
         "custom_balance_3#0"
@@ -6498,7 +7036,7 @@
         "encoded_value%0#0"
       ]
     },
-    "784": {
+    "838": {
       "block": "arc62_get_circulating_supply_ternary_merge@27",
       "stack_in": [
         "reserve#0",
@@ -6527,7 +7065,7 @@
         "aggregate%box_get%9#0"
       ]
     },
-    "785": {
+    "839": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -6541,7 +7079,7 @@
         "aggregate%box_get%8#0"
       ]
     },
-    "786": {
+    "840": {
       "op": "extract 128 32",
       "defined_out": [
         "custom_4_addr#0"
@@ -6557,7 +7095,7 @@
         "custom_4_addr#0"
       ]
     },
-    "789": {
+    "843": {
       "op": "dup",
       "defined_out": [
         "custom_4_addr#0"
@@ -6574,7 +7112,7 @@
         "custom_4_addr#0"
       ]
     },
-    "790": {
+    "844": {
       "op": "global ZeroAddress",
       "defined_out": [
         "custom_4_addr#0",
@@ -6593,7 +7131,7 @@
         "tmp%30#0"
       ]
     },
-    "792": {
+    "846": {
       "op": "==",
       "defined_out": [
         "custom_4_addr#0",
@@ -6611,7 +7149,7 @@
         "tmp%31#0"
       ]
     },
-    "793": {
+    "847": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@30",
       "stack_out": [
         "reserve#0",
@@ -6624,7 +7162,7 @@
         "custom_4_addr#0"
       ]
     },
-    "795": {
+    "849": {
       "op": "dup",
       "defined_out": [
         "custom_4_addr#0",
@@ -6642,7 +7180,7 @@
         "custom_4_addr#0 (copy)"
       ]
     },
-    "796": {
+    "850": {
       "op": "dig 8",
       "defined_out": [
         "custom_4_addr#0",
@@ -6662,7 +7200,7 @@
         "reserve#0"
       ]
     },
-    "798": {
+    "852": {
       "op": "==",
       "defined_out": [
         "custom_4_addr#0",
@@ -6681,7 +7219,7 @@
         "tmp%32#0"
       ]
     },
-    "799": {
+    "853": {
       "op": "bnz arc62_get_circulating_supply_ternary_true@30",
       "stack_out": [
         "reserve#0",
@@ -6694,7 +7232,7 @@
         "custom_4_addr#0"
       ]
     },
-    "801": {
+    "855": {
       "op": "dup",
       "stack_out": [
         "reserve#0",
@@ -6708,7 +7246,7 @@
         "custom_4_addr#0 (copy)"
       ]
     },
-    "802": {
+    "856": {
       "op": "dig 4",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -6729,7 +7267,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "804": {
+    "858": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "custom_4_addr#0",
@@ -6750,7 +7288,7 @@
         "tmp%34#0"
       ]
     },
-    "806": {
+    "860": {
       "op": "bury 1",
       "stack_out": [
         "reserve#0",
@@ -6764,7 +7302,7 @@
         "tmp%34#0"
       ]
     },
-    "808": {
+    "862": {
       "op": "bnz arc62_get_circulating_supply_ternary_false@31",
       "stack_out": [
         "reserve#0",
@@ -6777,7 +7315,7 @@
         "custom_4_addr#0"
       ]
     },
-    "810": {
+    "864": {
       "block": "arc62_get_circulating_supply_ternary_true@30",
       "stack_in": [
         "reserve#0",
@@ -6801,7 +7339,7 @@
         "reserve_balance#0"
       ]
     },
-    "811": {
+    "865": {
       "op": "intc_0 // 0",
       "defined_out": [
         "custom_balance_4#0"
@@ -6817,7 +7355,7 @@
         "custom_balance_4#0"
       ]
     },
-    "812": {
+    "866": {
       "block": "arc62_get_circulating_supply_ternary_merge@32",
       "stack_in": [
         "reserve#0",
@@ -6844,7 +7382,7 @@
         "asset_id#0"
       ]
     },
-    "814": {
+    "868": {
       "op": "asset_params_get AssetTotal",
       "defined_out": [
         "check%7#0",
@@ -6862,7 +7400,7 @@
         "check%7#0"
       ]
     },
-    "816": {
+    "870": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -6876,7 +7414,7 @@
         "value%7#0"
       ]
     },
-    "817": {
+    "871": {
       "op": "uncover 2",
       "defined_out": [
         "reserve_balance#0",
@@ -6893,7 +7431,7 @@
         "reserve_balance#0"
       ]
     },
-    "819": {
+    "873": {
       "op": "-",
       "defined_out": [
         "tmp%35#0"
@@ -6908,7 +7446,7 @@
         "tmp%35#0"
       ]
     },
-    "820": {
+    "874": {
       "op": "uncover 2",
       "defined_out": [
         "burned_balance#0",
@@ -6924,7 +7462,7 @@
         "burned_balance#0"
       ]
     },
-    "822": {
+    "876": {
       "op": "-",
       "defined_out": [
         "tmp%36#0"
@@ -6938,7 +7476,7 @@
         "tmp%36#0"
       ]
     },
-    "823": {
+    "877": {
       "op": "uncover 2",
       "defined_out": [
         "custom_balance_1#0",
@@ -6953,7 +7491,7 @@
         "custom_balance_1#0"
       ]
     },
-    "825": {
+    "879": {
       "op": "-",
       "defined_out": [
         "tmp%37#0"
@@ -6966,7 +7504,7 @@
         "tmp%37#0"
       ]
     },
-    "826": {
+    "880": {
       "op": "uncover 2",
       "defined_out": [
         "custom_balance_2#0",
@@ -6980,7 +7518,7 @@
         "custom_balance_2#0"
       ]
     },
-    "828": {
+    "882": {
       "op": "-",
       "defined_out": [
         "tmp%38#0"
@@ -6992,7 +7530,7 @@
         "tmp%38#0"
       ]
     },
-    "829": {
+    "883": {
       "op": "uncover 2",
       "defined_out": [
         "custom_balance_3#0",
@@ -7005,7 +7543,7 @@
         "custom_balance_3#0"
       ]
     },
-    "831": {
+    "885": {
       "op": "-",
       "defined_out": [
         "tmp%39#0"
@@ -7016,7 +7554,7 @@
         "tmp%39#0"
       ]
     },
-    "832": {
+    "886": {
       "op": "swap",
       "defined_out": [
         "custom_balance_4#0",
@@ -7028,7 +7566,7 @@
         "custom_balance_4#0"
       ]
     },
-    "833": {
+    "887": {
       "op": "-",
       "defined_out": [
         "circulating_supply#0"
@@ -7038,10 +7576,10 @@
         "circulating_supply#0"
       ]
     },
-    "834": {
+    "888": {
       "op": "b arc62_get_circulating_supply_after_if_else@33"
     },
-    "837": {
+    "891": {
       "block": "arc62_get_circulating_supply_ternary_false@31",
       "stack_in": [
         "reserve#0",
@@ -7070,7 +7608,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "839": {
+    "893": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%6#0",
@@ -7088,7 +7626,7 @@
         "check%6#0"
       ]
     },
-    "841": {
+    "895": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7105,10 +7643,10 @@
         "custom_balance_4#0"
       ]
     },
-    "842": {
+    "896": {
       "op": "b arc62_get_circulating_supply_ternary_merge@32"
     },
-    "844": {
+    "898": {
       "block": "arc62_get_circulating_supply_ternary_false@26",
       "stack_in": [
         "reserve#0",
@@ -7137,7 +7675,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "846": {
+    "900": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%5#0",
@@ -7155,7 +7693,7 @@
         "check%5#0"
       ]
     },
-    "848": {
+    "902": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7172,7 +7710,7 @@
         "custom_balance_3#0"
       ]
     },
-    "849": {
+    "903": {
       "op": "cover 6",
       "defined_out": [
         "custom_balance_3#0"
@@ -7188,10 +7726,10 @@
         "encoded_value%0#0"
       ]
     },
-    "851": {
+    "905": {
       "op": "b arc62_get_circulating_supply_ternary_merge@27"
     },
-    "854": {
+    "908": {
       "block": "arc62_get_circulating_supply_ternary_false@21",
       "stack_in": [
         "reserve#0",
@@ -7218,7 +7756,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "856": {
+    "910": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%4#0",
@@ -7235,7 +7773,7 @@
         "check%4#0"
       ]
     },
-    "858": {
+    "912": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7251,7 +7789,7 @@
         "custom_balance_2#0"
       ]
     },
-    "859": {
+    "913": {
       "op": "cover 5",
       "defined_out": [
         "custom_balance_2#0"
@@ -7266,10 +7804,10 @@
         "encoded_value%0#0"
       ]
     },
-    "861": {
+    "915": {
       "op": "b arc62_get_circulating_supply_ternary_merge@22"
     },
-    "864": {
+    "918": {
       "block": "arc62_get_circulating_supply_ternary_false@16",
       "stack_in": [
         "reserve#0",
@@ -7294,7 +7832,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "866": {
+    "920": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%3#0",
@@ -7310,7 +7848,7 @@
         "check%3#0"
       ]
     },
-    "868": {
+    "922": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7325,7 +7863,7 @@
         "custom_balance_1#0"
       ]
     },
-    "869": {
+    "923": {
       "op": "cover 4",
       "defined_out": [
         "custom_balance_1#0"
@@ -7339,10 +7877,10 @@
         "encoded_value%0#0"
       ]
     },
-    "871": {
+    "925": {
       "op": "b arc62_get_circulating_supply_ternary_merge@17"
     },
-    "874": {
+    "928": {
       "block": "arc62_get_circulating_supply_ternary_false@11",
       "stack_in": [
         "reserve#0",
@@ -7365,7 +7903,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "876": {
+    "930": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%2#0",
@@ -7380,7 +7918,7 @@
         "check%2#0"
       ]
     },
-    "878": {
+    "932": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7394,7 +7932,7 @@
         "burned_balance#0"
       ]
     },
-    "879": {
+    "933": {
       "op": "cover 2",
       "defined_out": [
         "burned_balance#0"
@@ -7407,10 +7945,10 @@
         "encoded_value%0#0"
       ]
     },
-    "881": {
+    "935": {
       "op": "b arc62_get_circulating_supply_ternary_merge@12"
     },
-    "884": {
+    "938": {
       "block": "arc62_get_circulating_supply_ternary_false@6",
       "stack_in": [
         "reserve#0",
@@ -7428,7 +7966,7 @@
         "reserve#0"
       ]
     },
-    "886": {
+    "940": {
       "op": "dig 2",
       "defined_out": [
         "asset_id#0 (copy)",
@@ -7442,7 +7980,7 @@
         "asset_id#0 (copy)"
       ]
     },
-    "888": {
+    "942": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%1#0",
@@ -7457,7 +7995,7 @@
         "check%1#0"
       ]
     },
-    "890": {
+    "944": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "defined_out": [
@@ -7471,7 +8009,7 @@
         "reserve_balance#0"
       ]
     },
-    "891": {
+    "945": {
       "op": "swap",
       "defined_out": [
         "reserve#0",
@@ -7484,10 +8022,10 @@
         "encoded_value%0#0"
       ]
     },
-    "892": {
+    "946": {
       "op": "b arc62_get_circulating_supply_ternary_merge@7"
     },
-    "895": {
+    "949": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.withdraw_balance_excess[routing]",
       "params": {},
       "block": "withdraw_balance_excess",
@@ -7500,7 +8038,7 @@
         "tmp%0#0"
       ]
     },
-    "897": {
+    "951": {
       "op": "acct_params_get AcctBalance",
       "defined_out": [
         "check%0#0",
@@ -7511,14 +8049,14 @@
         "check%0#0"
       ]
     },
-    "899": {
+    "953": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
         "value%0#0"
       ]
     },
-    "900": {
+    "954": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%1#0",
@@ -7529,7 +8067,7 @@
         "tmp%1#0"
       ]
     },
-    "902": {
+    "956": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%1#0",
@@ -7542,7 +8080,7 @@
         "check%1#0"
       ]
     },
-    "904": {
+    "958": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -7550,7 +8088,7 @@
         "value%1#0"
       ]
     },
-    "905": {
+    "959": {
       "op": "-",
       "defined_out": [
         "excess_balance#0"
@@ -7559,10 +8097,10 @@
         "excess_balance#0"
       ]
     },
-    "906": {
+    "960": {
       "op": "itxn_begin"
     },
-    "907": {
+    "961": {
       "op": "global CreatorAddress",
       "defined_out": [
         "excess_balance#0",
@@ -7573,14 +8111,14 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "909": {
+    "963": {
       "op": "itxn_field Receiver"
     },
-    "911": {
+    "965": {
       "op": "itxn_field Amount",
       "stack_out": []
     },
-    "913": {
+    "967": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay"
@@ -7589,11 +8127,11 @@
         "pay"
       ]
     },
-    "914": {
+    "968": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "916": {
+    "970": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -7602,14 +8140,14 @@
         "0"
       ]
     },
-    "917": {
+    "971": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "919": {
+    "973": {
       "op": "itxn_submit"
     },
-    "920": {
+    "974": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -7618,9 +8156,545 @@
         "1"
       ]
     },
-    "921": {
+    "975": {
       "op": "return",
       "stack_out": []
+    },
+    "976": {
+      "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
+      "params": {
+        "asset#0": "uint64"
+      },
+      "block": "_emit_config_updated",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "979": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0 (copy)"
+      ]
+    },
+    "981": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "982": {
+      "op": "dup",
+      "defined_out": [
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "983": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%1#0",
+        "config#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "984": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0"
+      ]
+    },
+    "985": {
+      "op": "global Round",
+      "defined_out": [
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0"
+      ]
+    },
+    "987": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "989": {
+      "op": "dig 2",
+      "defined_out": [
+        "config#0",
+        "config#0 (copy)",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "config#0 (copy)"
+      ]
+    },
+    "991": {
+      "op": "extract 0 32",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0"
+      ]
+    },
+    "994": {
+      "op": "dig 3",
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "config#0 (copy)"
+      ]
+    },
+    "996": {
+      "op": "extract 32 32",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0"
+      ]
+    },
+    "999": {
+      "op": "dig 4",
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "config#0 (copy)"
+      ]
+    },
+    "1001": {
+      "op": "extract 64 32",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0"
+      ]
+    },
+    "1004": {
+      "op": "dig 5",
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "config#0 (copy)"
+      ]
+    },
+    "1006": {
+      "op": "extract 96 32",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "config#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "config#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0"
+      ]
+    },
+    "1009": {
+      "op": "uncover 6",
+      "stack_out": [
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "config#0"
+      ]
+    },
+    "1011": {
+      "op": "extract 128 32",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0"
+      ]
+    },
+    "1014": {
+      "op": "uncover 6",
+      "stack_out": [
+        "encoded_value%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "tmp%0#0"
+      ]
+    },
+    "1016": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%val_as_bytes%1#0",
+        "encoded_value%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "1017": {
+      "op": "uncover 7",
+      "stack_out": [
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%val_as_bytes%1#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "1019": {
+      "op": "swap",
+      "stack_out": [
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "1020": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%1#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0",
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "1021": {
+      "op": "uncover 6",
+      "stack_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%1#0",
+        "tmp%1#0"
+      ]
+    },
+    "1023": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ]
+    },
+    "1024": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%2#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%0#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "1025": {
+      "op": "uncover 5",
+      "stack_out": [
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%2#0",
+        "aggregate%extract%0#0"
+      ]
+    },
+    "1027": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%3#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "1028": {
+      "op": "uncover 4",
+      "stack_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%3#0",
+        "aggregate%extract%1#0"
+      ]
+    },
+    "1030": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%4#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%4#0"
+      ]
+    },
+    "1031": {
+      "op": "uncover 3",
+      "stack_out": [
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%4#0",
+        "aggregate%extract%2#0"
+      ]
+    },
+    "1033": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%5#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%3#0",
+        "aggregate%extract%4#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "1034": {
+      "op": "uncover 2",
+      "stack_out": [
+        "aggregate%extract%4#0",
+        "aggregate%head%5#0",
+        "aggregate%extract%3#0"
+      ]
+    },
+    "1036": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%4#0",
+        "aggregate%head%6#0"
+      ],
+      "stack_out": [
+        "aggregate%extract%4#0",
+        "aggregate%head%6#0"
+      ]
+    },
+    "1037": {
+      "op": "swap",
+      "stack_out": [
+        "aggregate%head%6#0",
+        "aggregate%extract%4#0"
+      ]
+    },
+    "1038": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%7#0"
+      ],
+      "stack_out": [
+        "aggregate%head%7#0"
+      ]
+    },
+    "1039": {
+      "op": "pushbytes 0xe9d100e4 // method \"Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address)\"",
+      "defined_out": [
+        "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))",
+        "aggregate%head%7#0"
+      ],
+      "stack_out": [
+        "aggregate%head%7#0",
+        "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))"
+      ]
+    },
+    "1045": {
+      "op": "swap",
+      "stack_out": [
+        "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))",
+        "aggregate%head%7#0"
+      ]
+    },
+    "1046": {
+      "op": "concat",
+      "defined_out": [
+        "event%0#0"
+      ],
+      "stack_out": [
+        "event%0#0"
+      ]
+    },
+    "1047": {
+      "op": "log",
+      "stack_out": []
+    },
+    "1048": {
+      "retsub": true,
+      "op": "retsub"
     }
   }
 }

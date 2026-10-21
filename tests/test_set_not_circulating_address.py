@@ -6,6 +6,7 @@ from algokit_utils import (
     CommonAppCallParams,
     LogicError,
     PaymentParams,
+    SendAppTransactionResult,
     SigningAccount,
 )
 from algosdk.constants import ZERO_ADDRESS
@@ -18,7 +19,7 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
 )
 from smart_contracts.circulating_supply import config as cfg
 
-from .conftest import CONFIG_MBR
+from .conftest import ARC62_CONFIG_UPDATED, CONFIG_MBR, get_arc28_events
 
 
 def _set_not_circulating_address(
@@ -27,8 +28,8 @@ def _set_not_circulating_address(
     asset: int,
     address: str,
     label: str,
-) -> None:
-    client.send.set_not_circulating_address(
+) -> SendAppTransactionResult[None]:
+    return client.send.set_not_circulating_address(
         args=SetNotCirculatingAddressArgs(asset=asset, address=address, label=label),
         params=CommonAppCallParams(sender=asset_manager.address),
     )
@@ -176,6 +177,53 @@ def test_pass_move_address_to_another_label(
     config = client.state.box.circulating_supply.get_value(asset)
     assert config.custom_1_addr == ZERO_ADDRESS
     assert config.custom_2_addr == custom_balance_1.address
+
+
+def test_pass_set_not_circulating_address_event(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    custom_balance_1: SigningAccount,
+) -> None:
+    result = _set_not_circulating_address(
+        asset_circulating_supply_client,
+        asset_manager,
+        asset,
+        custom_balance_1.address,
+        cfg.CUSTOM_1,
+    )
+
+    events = get_arc28_events(result, ARC62_CONFIG_UPDATED)
+    assert len(events) == 1
+    asset_id, event_round, timestamp, *config = events[0]
+    assert asset_id == asset
+    assert event_round == result.confirmation["confirmed-round"]
+    assert timestamp > 0
+    assert config == [
+        ZERO_ADDRESS,
+        custom_balance_1.address,
+        ZERO_ADDRESS,
+        ZERO_ADDRESS,
+        ZERO_ADDRESS,
+    ]
+
+
+def test_pass_idempotent_set_no_event(
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    custom_balance_1: SigningAccount,
+) -> None:
+    def set_custom_1_events(address: str) -> list[list[object]]:
+        result = _set_not_circulating_address(
+            asset_circulating_supply_client, asset_manager, asset, address, cfg.CUSTOM_1
+        )
+        return get_arc28_events(result, ARC62_CONFIG_UPDATED)
+
+    assert len(set_custom_1_events(custom_balance_1.address)) == 1
+    assert not set_custom_1_events(custom_balance_1.address)
+    assert len(set_custom_1_events(ZERO_ADDRESS)) == 1
+    assert not set_custom_1_events(ZERO_ADDRESS)
 
 
 def test_fail_unauthorized(
