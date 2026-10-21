@@ -42,6 +42,22 @@ def _is_arc54_compliant(asa: Asset) -> bool:
     return exists and clawback == Global.zero_address
 
 
+@subroutine
+def _balance(asa: Asset, address: Account) -> UInt64:
+    if address == Global.zero_address or not address.is_opted_in(asa):
+        return UInt64(0)
+    return asa.balance(address)
+
+
+@subroutine
+def _label_balance(asa: Asset, address: Account, reserve: Account) -> UInt64:
+    # The Reserve Address can be changed after the labels are set: a label
+    # assigned to the current Reserve Address is counted once, as reserve
+    if address == reserve:
+        return UInt64(0)
+    return _balance(asa, address)
+
+
 class CirculatingSupply(Arc62Interface, avm_version=13):
     """
     Singleton Application providing ARC-62 getter for ASA Circulating Supply
@@ -110,12 +126,12 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         self, asset: Asset, address: Account, label: String
     ) -> None:
         """
-        Non-normative: Set non-circulating supply addresses
+        Non-normative: Set not-circulating supply addresses
         Authorization: ASA Manager Address.
 
         Args:
             asset: ASA ID of the circulating supply
-            address: Address to assign to the non-circulating supply label to (the
+            address: Address to assign to the not-circulating supply label to (the
                 Zero Address unsets the label)
             label: Not-circulating supply label selector
         """
@@ -249,67 +265,15 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             circulating_supply = UInt64(0)
         else:
             reserve = asset.reserve
-            reserve_balance = (
-                UInt64(0)
-                if reserve == Global.zero_address or not reserve.is_opted_in(asset)
-                else asset.balance(reserve)
-            )
-
-            # The Reserve Address can be changed after the labels are set: a label
-            # assigned to the current Reserve Address is counted once, as reserve
-            burned_addr = self.circulating_supply[asset].burned_addr
-            burned_balance = (
-                UInt64(0)
-                if burned_addr == Global.zero_address
-                or burned_addr == reserve
-                or not burned_addr.is_opted_in(asset)
-                else asset.balance(burned_addr)
-            )
-
-            custom_1_addr = self.circulating_supply[asset].custom_1_addr
-            custom_balance_1 = (
-                UInt64(0)
-                if custom_1_addr == Global.zero_address
-                or custom_1_addr == reserve
-                or not custom_1_addr.is_opted_in(asset)
-                else asset.balance(custom_1_addr)
-            )
-
-            custom_2_addr = self.circulating_supply[asset].custom_2_addr
-            custom_balance_2 = (
-                UInt64(0)
-                if custom_2_addr == Global.zero_address
-                or custom_2_addr == reserve
-                or not custom_2_addr.is_opted_in(asset)
-                else asset.balance(custom_2_addr)
-            )
-
-            custom_3_addr = self.circulating_supply[asset].custom_3_addr
-            custom_balance_3 = (
-                UInt64(0)
-                if custom_3_addr == Global.zero_address
-                or custom_3_addr == reserve
-                or not custom_3_addr.is_opted_in(asset)
-                else asset.balance(custom_3_addr)
-            )
-
-            custom_4_addr = self.circulating_supply[asset].custom_4_addr
-            custom_balance_4 = (
-                UInt64(0)
-                if custom_4_addr == Global.zero_address
-                or custom_4_addr == reserve
-                or not custom_4_addr.is_opted_in(asset)
-                else asset.balance(custom_4_addr)
-            )
-
+            config = self.circulating_supply[asset].copy()
             circulating_supply = (
                 asset.total
-                - reserve_balance
-                - burned_balance
-                - custom_balance_1
-                - custom_balance_2
-                - custom_balance_3
-                - custom_balance_4
+                - _balance(asset, reserve)
+                - _label_balance(asset, config.burned_addr, reserve)
+                - _label_balance(asset, config.custom_1_addr, reserve)
+                - _label_balance(asset, config.custom_2_addr, reserve)
+                - _label_balance(asset, config.custom_3_addr, reserve)
+                - _label_balance(asset, config.custom_4_addr, reserve)
             )
 
         return circulating_supply
