@@ -1,6 +1,7 @@
 import pytest
 from algokit_utils import (
     AlgorandClient,
+    AssetConfigParams,
     AssetCreateParams,
     AssetDestroyParams,
     AssetOptInParams,
@@ -245,6 +246,38 @@ def test_fail_asa_not_exist(
             ZERO_ADDRESS,
             cfg.CUSTOM_1,
         )
+
+
+def test_pass_manager_change(
+    algorand: AlgorandClient,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_creator: SigningAccount,
+    asset_manager: SigningAccount,
+    asset_reserve: SigningAccount,
+    asset: int,
+    custom_balance_1: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    algorand.send.asset_config(
+        AssetConfigParams(
+            sender=asset_manager.address,
+            asset_id=asset,
+            manager=asset_creator.address,
+            reserve=asset_reserve.address,
+        )
+    )
+
+    # The previous ASA Manager is no longer authorized
+    with pytest.raises(LogicError, match=err.UNAUTHORIZED):
+        _set_not_circulating_address(
+            client, asset_manager, asset, custom_balance_1.address, cfg.CUSTOM_1
+        )
+
+    _set_not_circulating_address(
+        client, asset_creator, asset, custom_balance_1.address, cfg.CUSTOM_1
+    )
+    config = client.state.box.circulating_supply.get_value(asset)
+    assert config.custom_1_addr == custom_balance_1.address
 
 
 def test_fail_unauthorized(
