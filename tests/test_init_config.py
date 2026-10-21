@@ -13,7 +13,7 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     CirculatingSupplyClient,
     InitConfigArgs,
 )
-from tests.conftest import CONFIG_MBR
+from tests.conftest import ARC62_CONFIG_UPDATED, CONFIG_MBR, get_arc28_events
 
 
 def test_pass_init_config(
@@ -30,6 +30,32 @@ def test_pass_init_config(
     assert config.custom_2_addr == ZERO_ADDRESS
     assert config.custom_3_addr == ZERO_ADDRESS
     assert config.custom_4_addr == ZERO_ADDRESS
+
+
+def test_pass_init_config_event(
+    circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+) -> None:
+    mbr_payment = circulating_supply_client.algorand.create_transaction.payment(
+        PaymentParams(
+            sender=asset_manager.address,
+            receiver=circulating_supply_client.app_address,
+            amount=CONFIG_MBR,
+        )
+    )
+    result = circulating_supply_client.send.init_config(
+        args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
+        params=CommonAppCallParams(sender=asset_manager.address),
+    )
+
+    events = get_arc28_events(result, ARC62_CONFIG_UPDATED)
+    assert len(events) == 1
+    asset_id, event_round, timestamp, *config = events[0]
+    assert asset_id == asset
+    assert event_round == result.confirmation["confirmed-round"]
+    assert timestamp > 0
+    assert config == 5 * [ZERO_ADDRESS]
 
 
 def test_fail_unauthorized(

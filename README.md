@@ -51,6 +51,20 @@ compliance) and only accepts the network ARC-54 burn address. An address can be
 assigned to one label only, and the current Reserve Address can not be assigned
 to a label. Assigning the Zero Address unsets a label.
 
+### Events
+
+The App emits [ARC-28](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0028.md)
+events on every configuration change:
+
+| Event                                                                              | Selector   | Emitted by                                                          |
+|:-----------------------------------------------------------------------------------|:-----------|:--------------------------------------------------------------------|
+| `Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address)` | `e9d100e4` | `init_config`, `set_not_circulating_address` (if the label changes) |
+| `Arc62ConfigDeleted(uint64,uint64,uint64,bool)`                                    | `c4b5e8e7` | `delete_config`                                                     |
+
+Both events start with the ASA ID, the round, and the timestamp of the change.
+`Arc62ConfigUpdated` carries the resulting configuration addresses (`burned`,
+`custom_1`, …, `custom_4`), `Arc62ConfigDeleted` whether the ASA still existed.
+
 ## Reference Implementation
 
 The trusted deployments of the _singleton_ ASA Circulating Supply App are:

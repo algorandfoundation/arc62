@@ -15,7 +15,7 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     DeleteConfigArgs,
 )
 
-from .conftest import CONFIG_MBR
+from .conftest import ARC62_CONFIG_DELETED, CONFIG_MBR, get_arc28_events
 
 
 def test_pass_delete_config(
@@ -41,6 +41,14 @@ def test_pass_delete_config(
 
     # Verify MBR was returned
     assert result.abi_return == CONFIG_MBR
+
+    events = get_arc28_events(result, ARC62_CONFIG_DELETED)
+    assert len(events) == 1
+    asset_id, event_round, timestamp, asa_exists = events[0]
+    assert asset_id == asset
+    assert event_round == result.confirmation["confirmed-round"]
+    assert timestamp > 0
+    assert asa_exists
 
     with pytest.raises(AlgodHTTPError, match="box not found"):
         asset_circulating_supply_client.state.box.circulating_supply.get_value(asset)
@@ -74,6 +82,12 @@ def test_pass_delete_config_for_deleted_asset(
     )
 
     assert result.abi_return == CONFIG_MBR
+
+    events = get_arc28_events(result, ARC62_CONFIG_DELETED)
+    assert len(events) == 1
+    asset_id, _event_round, _timestamp, asa_exists = events[0]
+    assert asset_id == asset
+    assert not asa_exists
 
 
 def test_fail_unauthorized(

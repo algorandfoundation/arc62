@@ -1,3 +1,4 @@
+import base64
 from typing import Final
 
 import pytest
@@ -10,10 +11,12 @@ from algokit_utils import (
     AssetTransferParams,
     CommonAppCallParams,
     PaymentParams,
+    SendSingleTransactionResult,
     SigningAccount,
 )
 from algokit_utils.config import config
-from algosdk.encoding import decode_address
+from algosdk import abi
+from algosdk.encoding import checksum, decode_address
 
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
@@ -32,6 +35,12 @@ CUSTOM_BALANCE_1: Final[int] = 3
 CUSTOM_BALANCE_2: Final[int] = 4
 CUSTOM_BALANCE_3: Final[int] = 5
 CUSTOM_BALANCE_4: Final[int] = 6
+
+# ARC-28 Events
+ARC62_CONFIG_UPDATED: Final[str] = (
+    "Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address)"
+)
+ARC62_CONFIG_DELETED: Final[str] = "Arc62ConfigDeleted(uint64,uint64,uint64,bool)"
 
 config.configure(
     debug=False,
@@ -74,6 +83,16 @@ def _create_account_with_asset_balance(
     )
     assert algorand.asset.get_account_information(receiver, asset).balance == amount
     return receiver
+
+
+def get_arc28_events(
+    result: SendSingleTransactionResult, signature: str
+) -> list[list[object]]:
+    """Decode the ARC-28 events with the given signature logged by the App call"""
+    selector = checksum(signature.encode())[:4]
+    args_type = abi.ABIType.from_string(signature[signature.index("(") :])
+    logs = [base64.b64decode(log) for log in result.confirmation.get("logs", [])]
+    return [args_type.decode(log[4:]) for log in logs if log[:4] == selector]
 
 
 @pytest.fixture(scope="session")
