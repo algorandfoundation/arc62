@@ -275,7 +275,7 @@ def test_fail_config_not_exists(
     circulating_supply_client: CirculatingSupplyClient,
     asset: int,
 ) -> None:
-    with pytest.raises(LogicError, match=err.CONFIG_NOT_EXISTS):
+    with pytest.raises(LogicError, match=err.CONFIG_NOT_EXIST):
         circulating_supply_client.send.arc62_get_circulating_supply(
             args=Arc62GetCirculatingSupplyArgs(asset_id=asset),
         )

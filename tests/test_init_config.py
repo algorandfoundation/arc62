@@ -1,6 +1,7 @@
 import pytest
 from algokit_utils import (
     AlgoAmount,
+    AssetDestroyParams,
     CommonAppCallParams,
     LogicError,
     PaymentParams,
@@ -58,6 +59,29 @@ def test_pass_init_config_event(
     assert config == 5 * [ZERO_ADDRESS]
 
 
+def test_fail_asa_not_exist(
+    circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+) -> None:
+    circulating_supply_client.algorand.send.asset_destroy(
+        AssetDestroyParams(sender=asset_manager.address, asset_id=asset)
+    )
+    mbr_payment = circulating_supply_client.algorand.create_transaction.payment(
+        PaymentParams(
+            sender=asset_manager.address,
+            receiver=circulating_supply_client.app_address,
+            amount=CONFIG_MBR,
+        )
+    )
+
+    with pytest.raises(LogicError, match=err.ASA_NOT_EXIST):
+        circulating_supply_client.send.init_config(
+            args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
+            params=CommonAppCallParams(sender=asset_manager.address),
+        )
+
+
 def test_fail_unauthorized(
     circulating_supply_client: CirculatingSupplyClient,
     asset_creator: SigningAccount,
@@ -91,7 +115,7 @@ def test_fail_config_exists(
         )
     )
 
-    with pytest.raises(LogicError, match=err.CONFIG_EXISTS):
+    with pytest.raises(LogicError, match=err.CONFIG_EXIST):
         asset_circulating_supply_client.send.init_config(
             args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
             params=CommonAppCallParams(sender=asset_manager.address),
@@ -111,7 +135,7 @@ def test_fail_invalid_mbr_receiver(
         )
     )
 
-    with pytest.raises(LogicError, match=err.INVALID_MBR_RECEIVER):
+    with pytest.raises(LogicError, match=err.MBR_RECEIVER_INVALID):
         circulating_supply_client.send.init_config(
             args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
             params=CommonAppCallParams(sender=asset_manager.address),
@@ -131,7 +155,7 @@ def test_fail_invalid_mbr_amount(
         )
     )
 
-    with pytest.raises(LogicError, match=err.INVALID_MBR_AMOUNT):
+    with pytest.raises(LogicError, match=err.MBR_AMOUNT_INVALID):
         circulating_supply_client.send.init_config(
             args=InitConfigArgs(asset=asset, mbr_payment=mbr_payment),
             params=CommonAppCallParams(sender=asset_manager.address),
