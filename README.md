@@ -44,6 +44,12 @@ is deleted.
 ¹ If the ASA has been destroyed, anyone can delete its configuration and claim
 the MBR.
 
+> [!WARNING]
+> If the ASA Manager Address is cleared (Zero Address), the configuration can no
+> longer be changed or deleted, and its MBR stays locked in the App, since an ASA
+> without a Manager can not be destroyed either. Delete the configuration first
+> if the MBR must be recovered.
+
 `set_not_circulating_address` requires the address to be opted in to the ASA. The
 `burned` label also requires the ASA to have no Clawback Address
 ([ARC-54](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0054.md)
