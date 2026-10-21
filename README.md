@@ -83,15 +83,15 @@ The trusted deployments of the _singleton_ ASA Circulating Supply App are:
 
 | NETWORK  |            GENESIS HASH (`base64`)             |    APP ID    | CREATOR ADDRESS                                              |
 |:---------|:----------------------------------------------:|:------------:|:-------------------------------------------------------------|
-| Main Net | `wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=` | `3748307760` | `XODGWLOMKUPTGL3ZV53H3GZZWMCTJVQ5B2BZICFD3STSLA2LPSH6V6RW3I` |
-| Test Net | `SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=` | `774613064`  | `Q3ROBYOB5QODCSNZKDYLH33NO5V4FN3YKMOHE43RPPC2LUPG56DNSU446I` |
+| Main Net | `wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=` | `3749374065` | `XODGWLOMKUPTGL3ZV53H3GZZWMCTJVQ5B2BZICFD3STSLA2LPSH6V6RW3I` |
+| Test Net | `SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=` | `774666409`  | `Q3ROBYOB5QODCSNZKDYLH33NO5V4FN3YKMOHE43RPPC2LUPG56DNSU446I` |
 
 The ARC-54 burn addresses accepted for the `burned` label are:
 
-| NETWORK  | ARC-54 BURN ADDRESS                                          |
-|:---------|:-------------------------------------------------------------|
-| Main Net | `BNFIREKGRXEHCFOEQLTX3PU5SUCMRKDU7WHNBGZA4SXPW42OAHZBP7BPHY` |
-| Test Net | `3TKF2GMZJ5VZ4BQVQGC72BJ63WFN4QBPU2EUD4NQYHFLC3NE5D7GXHXYOQ` |
+| NETWORK  |            GENESIS HASH (`base64`)             | ARC-54 BURN ADDRESS                                          |
+|:---------|:----------------------------------------------:|:-------------------------------------------------------------|
+| Main Net | `wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=` | `BNFIREKGRXEHCFOEQLTX3PU5SUCMRKDU7WHNBGZA4SXPW42OAHZBP7BPHY` |
+| Test Net | `SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=` | `3TKF2GMZJ5VZ4BQVQGC72BJ63WFN4QBPU2EUD4NQYHFLC3NE5D7GXHXYOQ` |
 
 ## Usage
 
@@ -127,12 +127,12 @@ algorand = AlgorandClient.testnet()
 
 circulating_supply_client = CirculatingSupplyClient(
     algorand=algorand,
-    app_id=774613064,
+    app_id=774666409,
     default_sender="<ANY-ADDRESS>",
 )
 
 circulating_supply = circulating_supply_client.send.arc62_get_circulating_supply(
-    args=Arc62GetCirculatingSupplyArgs(asset_id=774613081),
+    args=Arc62GetCirculatingSupplyArgs(asset_id=774667379),
 ).abi_return
 ```
 
@@ -220,7 +220,7 @@ asset_manager = algorand.account.from_mnemonic(mnemonic="<ASA-MANAGER-MNEMONIC>"
 
 circulating_supply_client = CirculatingSupplyClient(
     algorand=algorand,
-    app_id=774613064,
+    app_id=774666409,
     default_sender=asset_manager.address,
     default_signer=asset_manager.signer,
 )
