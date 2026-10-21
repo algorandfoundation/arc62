@@ -2,6 +2,7 @@ import pytest
 from algokit_utils import (
     AlgorandClient,
     AssetCreateParams,
+    AssetDestroyParams,
     AssetOptInParams,
     CommonAppCallParams,
     LogicError,
@@ -226,6 +227,26 @@ def test_pass_idempotent_set_no_event(
     assert not set_custom_1_events(ZERO_ADDRESS)
 
 
+def test_fail_asa_not_exist(
+    algorand: AlgorandClient,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+) -> None:
+    algorand.send.asset_destroy(
+        AssetDestroyParams(sender=asset_manager.address, asset_id=asset)
+    )
+
+    with pytest.raises(LogicError, match=err.ASA_NOT_EXIST):
+        _set_not_circulating_address(
+            asset_circulating_supply_client,
+            asset_manager,
+            asset,
+            ZERO_ADDRESS,
+            cfg.CUSTOM_1,
+        )
+
+
 def test_fail_unauthorized(
     asset_circulating_supply_client: CirculatingSupplyClient,
     asset_creator: SigningAccount,
@@ -249,7 +270,7 @@ def test_fail_config_not_exists(
     burned_balance: SigningAccount,
     circulating_supply_client: CirculatingSupplyClient,
 ) -> None:
-    with pytest.raises(LogicError, match=err.CONFIG_NOT_EXISTS):
+    with pytest.raises(LogicError, match=err.CONFIG_NOT_EXIST):
         circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
                 asset=asset,
@@ -265,7 +286,7 @@ def test_fail_not_opted_in(
     asset_manager: SigningAccount,
     asset: int,
 ) -> None:
-    with pytest.raises(LogicError, match=err.NOT_OPTED_IN):
+    with pytest.raises(LogicError, match=err.ADDRESS_NOT_OPTED_IN):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
                 asset=asset,
@@ -282,7 +303,7 @@ def test_fail_invalid_label(
     asset: int,
     burned_balance: SigningAccount,
 ) -> None:
-    with pytest.raises(LogicError, match=err.INVALID_LABEL):
+    with pytest.raises(LogicError, match=err.LABEL_INVALID):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
                 asset=asset,
@@ -351,7 +372,7 @@ def test_fail_invalid_burning_address(
     custom_balance_1: SigningAccount,
     asset_circulating_supply_client: CirculatingSupplyClient,
 ) -> None:
-    with pytest.raises(LogicError, match=err.INVALID_BURNING_ADDRESS):
+    with pytest.raises(LogicError, match=err.BURNED_ADDRESS_INVALID):
         asset_circulating_supply_client.send.set_not_circulating_address(
             args=SetNotCirculatingAddressArgs(
                 asset=asset,

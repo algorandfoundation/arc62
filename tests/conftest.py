@@ -13,10 +13,13 @@ from algokit_utils import (
     PaymentParams,
     SendSingleTransactionResult,
     SigningAccount,
+    TransactionComposer,
 )
 from algokit_utils.config import config
 from algosdk import abi
 from algosdk.encoding import checksum, decode_address
+from algosdk.transaction import SignedTransaction
+from algosdk.v2client.models import SimulateRequest, SimulateRequestTransactionGroup
 
 from smart_contracts.artifacts.circulating_supply.circulating_supply_client import (
     CirculatingSupplyClient,
@@ -93,6 +96,31 @@ def get_arc28_events(
     args_type = abi.ABIType.from_string(signature[signature.index("(") :])
     logs = [base64.b64decode(log) for log in result.confirmation.get("logs", [])]
     return [args_type.decode(log[4:]) for log in logs if log[:4] == selector]
+
+
+def get_arc65_errors(
+    algorand: AlgorandClient, composer: TransactionComposer
+) -> list[str]:
+    """Simulate a failing Group and return the ARC-65 errors logged by its App calls"""
+    signed_txns = [
+        SignedTransaction(txn_with_signer.txn, None)
+        for txn_with_signer in composer.build().atc.build_group()
+    ]
+    response = algorand.client.algod.simulate_transactions(
+        SimulateRequest(
+            txn_groups=[SimulateRequestTransactionGroup(txns=signed_txns)],
+            allow_empty_signatures=True,
+            allow_unnamed_resources=True,
+        )
+    )
+    group = response["txn-groups"][0]
+    assert group.get("failure-message"), "The Group did not fail"
+    logs = [
+        base64.b64decode(log)
+        for result in group["txn-results"]
+        for log in result["txn-result"].get("logs", [])
+    ]
+    return [log.decode() for log in logs if log.startswith((b"ERR:", b"AER:"))]
 
 
 @pytest.fixture(scope="session")

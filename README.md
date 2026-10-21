@@ -65,6 +65,12 @@ Both events start with the ASA ID, the round, and the timestamp of the change.
 `Arc62ConfigUpdated` carries the resulting configuration addresses (`burned`,
 `custom_1`, …, `custom_4`), `Arc62ConfigDeleted` whether the ASA still existed.
 
+### Errors
+
+Failed calls return [ARC-65](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0065.md)
+errors: the App logs `ERR:<code>` (e.g. `ERR:unauthorized`) before failing. The
+error codes are defined in [`errors.py`](smart_contracts/errors.py).
+
 ## Reference Implementation
 
 The trusted deployments of the _singleton_ ASA Circulating Supply App are:

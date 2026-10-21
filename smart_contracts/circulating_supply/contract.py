@@ -10,6 +10,8 @@ from algopy import (
     arc4,
     gtxn,
     itxn,
+    logged_assert,
+    logged_err,
     op,
     size_of,
     subroutine,
@@ -77,13 +79,13 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             MBR (in microALGO) for the circulating supply configuration initialization
         """
         # Preconditions
-        assert (
-            Txn.sender == asset.manager
-        ), err.UNAUTHORIZED  # Implicit ASA existence check
-        assert asset not in self.circulating_supply, err.CONFIG_EXISTS
-        assert (
-            mbr_payment.receiver == Global.current_application_address
-        ), err.INVALID_MBR_RECEIVER
+        logged_assert(_asa_exists(asset), err.ASA_NOT_EXIST)
+        logged_assert(Txn.sender == asset.manager, err.UNAUTHORIZED)
+        logged_assert(asset not in self.circulating_supply, err.CONFIG_EXIST)
+        logged_assert(
+            mbr_payment.receiver == Global.current_application_address,
+            err.MBR_RECEIVER_INVALID,
+        )
 
         # Initialize ASA Circulating Supply Configuration
         mbr_i = Global.current_application_address.min_balance
@@ -98,7 +100,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
 
         # Postconditions
         mbr_delta_amount = Global.current_application_address.min_balance - mbr_i
-        assert mbr_payment.amount >= mbr_delta_amount, err.INVALID_MBR_AMOUNT
+        logged_assert(mbr_payment.amount >= mbr_delta_amount, err.MBR_AMOUNT_INVALID)
 
         self._emit_config_updated(asset)
         return mbr_delta_amount
@@ -118,38 +120,47 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             label: Not-circulating supply label selector
         """
         # Preconditions
-        assert Txn.sender == asset.manager, err.UNAUTHORIZED
-        assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
+        logged_assert(_asa_exists(asset), err.ASA_NOT_EXIST)
+        logged_assert(Txn.sender == asset.manager, err.UNAUTHORIZED)
+        logged_assert(asset in self.circulating_supply, err.CONFIG_NOT_EXIST)
         config = self.circulating_supply[asset].copy()
         is_unset = address == Global.zero_address
         if not is_unset:
-            assert address.is_opted_in(asset), err.NOT_OPTED_IN
-            assert address != asset.reserve, err.ADDRESS_IS_RESERVE
+            logged_assert(address.is_opted_in(asset), err.ADDRESS_NOT_OPTED_IN)
+            logged_assert(address != asset.reserve, err.ADDRESS_IS_RESERVE)
             # An address can be assigned to one label only
-            assert (
-                label == cfg.BURNED or address != config.burned_addr
-            ), err.ADDRESS_ALREADY_ASSIGNED
-            assert (
-                label == cfg.CUSTOM_1 or address != config.custom_1_addr
-            ), err.ADDRESS_ALREADY_ASSIGNED
-            assert (
-                label == cfg.CUSTOM_2 or address != config.custom_2_addr
-            ), err.ADDRESS_ALREADY_ASSIGNED
-            assert (
-                label == cfg.CUSTOM_3 or address != config.custom_3_addr
-            ), err.ADDRESS_ALREADY_ASSIGNED
-            assert (
-                label == cfg.CUSTOM_4 or address != config.custom_4_addr
-            ), err.ADDRESS_ALREADY_ASSIGNED
+            logged_assert(
+                label == cfg.BURNED or address != config.burned_addr,
+                err.ADDRESS_ALREADY_ASSIGNED,
+            )
+            logged_assert(
+                label == cfg.CUSTOM_1 or address != config.custom_1_addr,
+                err.ADDRESS_ALREADY_ASSIGNED,
+            )
+            logged_assert(
+                label == cfg.CUSTOM_2 or address != config.custom_2_addr,
+                err.ADDRESS_ALREADY_ASSIGNED,
+            )
+            logged_assert(
+                label == cfg.CUSTOM_3 or address != config.custom_3_addr,
+                err.ADDRESS_ALREADY_ASSIGNED,
+            )
+            logged_assert(
+                label == cfg.CUSTOM_4 or address != config.custom_4_addr,
+                err.ADDRESS_ALREADY_ASSIGNED,
+            )
 
         # Effects
         match label:
             case cfg.BURNED:
                 if not is_unset:
-                    assert _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
-                    assert address == TemplateVar[Account](
-                        ARC54_BURN_ADDRESS
-                    ), err.INVALID_BURNING_ADDRESS
+                    logged_assert(
+                        _is_arc54_compliant(asset), err.ASA_NOT_ARC54_COMPLIANT
+                    )
+                    logged_assert(
+                        address == TemplateVar[Account](ARC54_BURN_ADDRESS),
+                        err.BURNED_ADDRESS_INVALID,
+                    )
                 self.circulating_supply[asset].burned_addr = address
             case cfg.CUSTOM_1:
                 self.circulating_supply[asset].custom_1_addr = address
@@ -160,7 +171,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             case cfg.CUSTOM_4:
                 self.circulating_supply[asset].custom_4_addr = address
             case _:
-                op.err(err.INVALID_LABEL)
+                logged_err(err.LABEL_INVALID)
 
         # Handle Not Idempotent
         if self.circulating_supply[asset] != config:
@@ -179,10 +190,10 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
             MBR (in microALGO) for the circulating supply configuration deletion
         """
         # Preconditions
-        assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
+        logged_assert(asset in self.circulating_supply, err.CONFIG_NOT_EXIST)
         asa_exists = _asa_exists(asset)
         if asa_exists:
-            assert Txn.sender == asset.manager, err.UNAUTHORIZED
+            logged_assert(Txn.sender == asset.manager, err.UNAUTHORIZED)
 
         # Delete ASA Circulating Supply Configuration
         mbr_i = Global.current_application_address.min_balance
@@ -214,7 +225,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         Returns:
             ASA circulating supply configuration
         """
-        assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
+        logged_assert(asset in self.circulating_supply, err.CONFIG_NOT_EXIST)
         return self.circulating_supply[asset]
 
     @abimethod(readonly=True)
@@ -231,7 +242,7 @@ class CirculatingSupply(Arc62Interface, avm_version=13):
         asset = Asset(asset_id)
 
         # Preconditions
-        assert asset in self.circulating_supply, err.CONFIG_NOT_EXISTS
+        logged_assert(asset in self.circulating_supply, err.CONFIG_NOT_EXIST)
 
         # Effects
         if not _asa_exists(asset):
