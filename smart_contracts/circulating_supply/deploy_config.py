@@ -46,13 +46,14 @@ from smart_contracts.artifacts.circulating_supply.circulating_supply_client impo
     InitConfigArgs,
     SetNotCirculatingAddressArgs,
 )
+from smart_contracts.circulating_supply import config as cfg
 from smart_contracts.circulating_supply.config import ARC2_PREFIX, BURNED, CUSTOM_1
 from smart_contracts.template_vars import ARC54_BURN_ADDRESS
 
 logger = logging.getLogger(__name__)
 
-ACCOUNT_MBR = AlgoAmount(micro_algo=100_000)
-CONFIG_MBR = AlgoAmount(micro_algo=69_700)
+ACCOUNT_MBR = AlgoAmount(micro_algo=cfg.ACCOUNT_MBR)
+CONFIG_MBR = AlgoAmount(micro_algo=cfg.CONFIG_MBR)
 
 # ==============================================================================
 # ASSET CREATION PARAMETERS
@@ -81,24 +82,17 @@ BACKWARD_METADATA_FLAGS = MetadataFlags(
     irreversible=IrreversibleFlags(immutable=False),
 )
 
-ARC3_METADATA_JSON = {
-    "name": ASA_NAME,
-    "description": "ASA with ARC'62 Circulating Supply",
-    "decimals": ASA_DECIMALS,
-    "unitName": ASA_UNIT_NAME,
-    "properties": {
-        "arc-62": {"application-id": 0}  # Update after Smart ASA App deployment
-    },
-}
-
 DEPRECATED_BY = 0
 
-# ==============================================================================
-# ARC-2 NOTE
-# ==============================================================================
-ARC2_DATA: dict[str, int] = {
-    "application-id": 0
-}  # Update after Smart ASA App deployment
+
+def _arc3_metadata_json(app_id: int) -> dict[str, object]:
+    return {
+        "name": ASA_NAME,
+        "description": "ASA with ARC-62 Circulating Supply",
+        "decimals": ASA_DECIMALS,
+        "unitName": ASA_UNIT_NAME,
+        "properties": {"arc-62": {"application-id": app_id}},
+    }
 
 
 def _asset_opt_in(
@@ -273,11 +267,6 @@ def deploy() -> None:
             )
         )
 
-    # Update Asset Metadata
-    ARC3_METADATA_JSON["properties"]["arc-62"][
-        "application-id"
-    ] = circulating_supply_client.app_id
-
     # ARC-3 Circulating Supply App discovery
     # https://dev.algorand.co/arc-standards/arc-0062/#circulating-supply-application-discovery
     arc90_uri = Arc90Uri(
@@ -287,7 +276,7 @@ def deploy() -> None:
         compliance=Arc90Compliance((54, 62, 89)),  # ARC-54, ARC-62, ARC-89
     )
     assert arc90_uri.is_partial
-    logger.info(f"Smart ASA Metadata Partial URI: {arc90_uri.to_uri()}")
+    logger.info(f"ARC-89 Asset Metadata Partial URI: {arc90_uri.to_uri()}")
 
     logger.info("Creating ARC-3 discovery Circulating Supply ASA...")
     arc3_asset_id = algorand.send.asset_create(
@@ -309,7 +298,7 @@ def deploy() -> None:
     logger.info("Uploading ARC-3 metadata on the ASA Metadata Registry...")
     asa_metadata = AssetMetadata.from_json(
         asset_id=arc3_asset_id,
-        json_obj=ARC3_METADATA_JSON,
+        json_obj=_arc3_metadata_json(circulating_supply_client.app_id),
         flags=METADATA_FLAGS,
         deprecated_by=DEPRECATED_BY,
         arc3_compliant=METADATA_FLAGS.irreversible.arc3,
@@ -403,8 +392,8 @@ def deploy() -> None:
         params=CommonAppCallParams(sender=deployer.address),
     )
 
-    ARC2_DATA["application-id"] = circulating_supply_client.app_id
-    arc2_note = ARC2_PREFIX + ":j" + json.dumps(ARC2_DATA)
+    arc2_data = {"application-id": circulating_supply_client.app_id}
+    arc2_note = ARC2_PREFIX + ":j" + json.dumps(arc2_data)
     logger.info(
         f"Setting Circulating Supply App discovery with ARC-2 note: {arc2_note}"
     )
@@ -420,7 +409,7 @@ def deploy() -> None:
     logger.info("Uploading ARC-3 metadata on the ASA Metadata Registry...")
     asa_metadata = AssetMetadata.from_json(
         asset_id=arc2_asset_id,
-        json_obj=ARC3_METADATA_JSON,
+        json_obj=_arc3_metadata_json(circulating_supply_client.app_id),
         flags=BACKWARD_METADATA_FLAGS,
         deprecated_by=DEPRECATED_BY,
         arc3_compliant=BACKWARD_METADATA_FLAGS.irreversible.arc3,
