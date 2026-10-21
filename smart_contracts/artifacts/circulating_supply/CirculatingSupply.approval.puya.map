@@ -3,7 +3,7 @@
   "sources": [
     "../../circulating_supply/contract.py"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 2,
   "pc_events": {
     "0": {
@@ -177,6 +177,146 @@
       "stack_out": []
     },
     "79": {
+      "subroutine": "smart_contracts.circulating_supply.contract._balance",
+      "params": {
+        "asa#0": "uint64",
+        "address#0": "bytes"
+      },
+      "block": "_balance",
+      "stack_in": [],
+      "op": "proto 2 1"
+    },
+    "82": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "address#0 (copy)"
+      ],
+      "stack_out": [
+        "address#0 (copy)"
+      ]
+    },
+    "84": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "address#0 (copy)",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "address#0 (copy)",
+        "tmp%0#0"
+      ]
+    },
+    "86": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "87": {
+      "op": "bnz _balance_if_body@2",
+      "stack_out": []
+    },
+    "89": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "address#0 (copy)"
+      ]
+    },
+    "91": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "address#0 (copy)",
+        "asa#0 (copy)"
+      ],
+      "stack_out": [
+        "address#0 (copy)",
+        "asa#0 (copy)"
+      ]
+    },
+    "93": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "tmp%3#0"
+      ]
+    },
+    "95": {
+      "op": "bury 1",
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "97": {
+      "op": "bnz _balance_after_if_else@3",
+      "stack_out": []
+    },
+    "99": {
+      "block": "_balance_if_body@2",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "100": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "101": {
+      "block": "_balance_after_if_else@3",
+      "stack_in": [],
+      "op": "frame_dig -1",
+      "defined_out": [
+        "address#0 (copy)"
+      ],
+      "stack_out": [
+        "address#0 (copy)"
+      ]
+    },
+    "103": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "address#0 (copy)",
+        "asa#0 (copy)"
+      ],
+      "stack_out": [
+        "address#0 (copy)",
+        "asa#0 (copy)"
+      ]
+    },
+    "105": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "check%0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "107": {
+      "error": "account opted into asset",
+      "op": "assert // account opted into asset",
+      "stack_out": [
+        "value%0#0"
+      ]
+    },
+    "108": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "109": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.init_config[routing]",
       "params": {},
       "block": "init_config",
@@ -189,7 +329,7 @@
         "tmp%0#0"
       ]
     },
-    "82": {
+    "112": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -200,7 +340,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "83": {
+    "113": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -211,7 +351,7 @@
         "len%0#0"
       ]
     },
-    "84": {
+    "114": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -224,7 +364,7 @@
         "8"
       ]
     },
-    "85": {
+    "115": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -235,14 +375,14 @@
         "eq%0#0"
       ]
     },
-    "86": {
+    "116": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "87": {
+    "117": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -251,7 +391,7 @@
         "asset#0"
       ]
     },
-    "88": {
+    "118": {
       "op": "dup",
       "defined_out": [
         "asset#0"
@@ -261,7 +401,7 @@
         "asset#0"
       ]
     },
-    "89": {
+    "119": {
       "op": "txn GroupIndex",
       "defined_out": [
         "asset#0",
@@ -273,7 +413,7 @@
         "tmp%2#0"
       ]
     },
-    "91": {
+    "121": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -287,7 +427,7 @@
         "1"
       ]
     },
-    "92": {
+    "122": {
       "op": "-",
       "defined_out": [
         "asset#0",
@@ -299,7 +439,7 @@
         "mbr_payment#0"
       ]
     },
-    "93": {
+    "123": {
       "op": "dup",
       "stack_out": [
         "asset#0",
@@ -308,7 +448,7 @@
         "mbr_payment#0"
       ]
     },
-    "94": {
+    "124": {
       "op": "cover 3",
       "defined_out": [
         "asset#0",
@@ -321,7 +461,7 @@
         "mbr_payment#0"
       ]
     },
-    "96": {
+    "126": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "asset#0",
@@ -335,7 +475,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "98": {
+    "128": {
       "op": "intc_1 // pay",
       "defined_out": [
         "asset#0",
@@ -351,7 +491,7 @@
         "pay"
       ]
     },
-    "99": {
+    "129": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -365,7 +505,7 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "100": {
+    "130": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -374,7 +514,7 @@
         "asset#0"
       ]
     },
-    "101": {
+    "131": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
@@ -389,7 +529,7 @@
         "exists#0"
       ]
     },
-    "103": {
+    "133": {
       "op": "bury 1",
       "stack_out": [
         "mbr_payment#0",
@@ -397,14 +537,14 @@
         "exists#0"
       ]
     },
-    "105": {
+    "135": {
       "op": "bnz init_config_after_assert@3",
       "stack_out": [
         "mbr_payment#0",
         "asset#0"
       ]
     },
-    "107": {
+    "137": {
       "op": "bytec 4 // \"ERR:asaNotExist\"",
       "defined_out": [
         "\"ERR:asaNotExist\"",
@@ -417,18 +557,18 @@
         "\"ERR:asaNotExist\""
       ]
     },
-    "109": {
+    "139": {
       "op": "log",
       "stack_out": [
         "mbr_payment#0",
         "asset#0"
       ]
     },
-    "110": {
+    "140": {
       "error": "ERR:asaNotExist",
       "op": "err // ERR:asaNotExist"
     },
-    "111": {
+    "141": {
       "block": "init_config_after_assert@3",
       "stack_in": [
         "mbr_payment#0",
@@ -444,7 +584,7 @@
         "tmp%1#1"
       ]
     },
-    "113": {
+    "143": {
       "op": "dig 1",
       "defined_out": [
         "asset#0 (copy)",
@@ -457,7 +597,7 @@
         "asset#0 (copy)"
       ]
     },
-    "115": {
+    "145": {
       "op": "asset_params_get AssetManager",
       "defined_out": [
         "check%0#0",
@@ -472,7 +612,7 @@
         "check%0#0"
       ]
     },
-    "117": {
+    "147": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -482,7 +622,7 @@
         "value%0#0"
       ]
     },
-    "118": {
+    "148": {
       "op": "==",
       "defined_out": [
         "tmp%2#1"
@@ -493,14 +633,14 @@
         "tmp%2#1"
       ]
     },
-    "119": {
+    "149": {
       "op": "bnz init_config_after_assert@5",
       "stack_out": [
         "mbr_payment#0",
         "asset#0"
       ]
     },
-    "121": {
+    "151": {
       "op": "bytec_3 // \"ERR:unauthorized\"",
       "defined_out": [
         "\"ERR:unauthorized\""
@@ -511,18 +651,18 @@
         "\"ERR:unauthorized\""
       ]
     },
-    "122": {
+    "152": {
       "op": "log",
       "stack_out": [
         "mbr_payment#0",
         "asset#0"
       ]
     },
-    "123": {
+    "153": {
       "error": "ERR:unauthorized",
       "op": "err // ERR:unauthorized"
     },
-    "124": {
+    "154": {
       "block": "init_config_after_assert@5",
       "stack_in": [
         "mbr_payment#0",
@@ -538,7 +678,7 @@
         "asset#0 (copy)"
       ]
     },
-    "125": {
+    "155": {
       "op": "itob",
       "defined_out": [
         "encoded_value%0#0"
@@ -549,7 +689,7 @@
         "encoded_value%0#0"
       ]
     },
-    "126": {
+    "156": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0"
@@ -561,7 +701,7 @@
         "encoded_value%0#0"
       ]
     },
-    "127": {
+    "157": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -576,7 +716,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "128": {
+    "158": {
       "op": "bury 1",
       "stack_out": [
         "mbr_payment#0",
@@ -585,7 +725,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "130": {
+    "160": {
       "op": "bz init_config_after_assert@7",
       "stack_out": [
         "mbr_payment#0",
@@ -593,7 +733,7 @@
         "encoded_value%0#0"
       ]
     },
-    "132": {
+    "162": {
       "op": "pushbytes \"ERR:configExist\"",
       "defined_out": [
         "\"ERR:configExist\"",
@@ -606,7 +746,7 @@
         "\"ERR:configExist\""
       ]
     },
-    "149": {
+    "179": {
       "op": "log",
       "stack_out": [
         "mbr_payment#0",
@@ -614,11 +754,11 @@
         "encoded_value%0#0"
       ]
     },
-    "150": {
+    "180": {
       "error": "ERR:configExist",
       "op": "err // ERR:configExist"
     },
-    "151": {
+    "181": {
       "block": "init_config_after_assert@7",
       "stack_in": [
         "mbr_payment#0",
@@ -636,7 +776,7 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "153": {
+    "183": {
       "op": "gtxns Receiver",
       "defined_out": [
         "tmp%4#1"
@@ -648,7 +788,7 @@
         "tmp%4#1"
       ]
     },
-    "155": {
+    "185": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%4#1",
@@ -662,7 +802,7 @@
         "tmp%5#1"
       ]
     },
-    "157": {
+    "187": {
       "op": "==",
       "defined_out": [
         "tmp%6#0"
@@ -674,7 +814,7 @@
         "tmp%6#0"
       ]
     },
-    "158": {
+    "188": {
       "op": "bnz init_config_after_assert@9",
       "stack_out": [
         "mbr_payment#0",
@@ -682,7 +822,7 @@
         "encoded_value%0#0"
       ]
     },
-    "160": {
+    "190": {
       "op": "pushbytes \"ERR:mbrReceiverInvalid\"",
       "defined_out": [
         "\"ERR:mbrReceiverInvalid\""
@@ -694,7 +834,7 @@
         "\"ERR:mbrReceiverInvalid\""
       ]
     },
-    "184": {
+    "214": {
       "op": "log",
       "stack_out": [
         "mbr_payment#0",
@@ -702,11 +842,11 @@
         "encoded_value%0#0"
       ]
     },
-    "185": {
+    "215": {
       "error": "ERR:mbrReceiverInvalid",
       "op": "err // ERR:mbrReceiverInvalid"
     },
-    "186": {
+    "216": {
       "block": "init_config_after_assert@9",
       "stack_in": [
         "mbr_payment#0",
@@ -724,7 +864,7 @@
         "tmp%7#0"
       ]
     },
-    "188": {
+    "218": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%1#0",
@@ -738,7 +878,7 @@
         "check%1#0"
       ]
     },
-    "190": {
+    "220": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -748,7 +888,7 @@
         "mbr_i#0"
       ]
     },
-    "191": {
+    "221": {
       "op": "swap",
       "defined_out": [
         "encoded_value%0#0",
@@ -761,7 +901,7 @@
         "encoded_value%0#0"
       ]
     },
-    "192": {
+    "222": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0",
@@ -776,7 +916,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "193": {
+    "223": {
       "op": "pushint 160",
       "defined_out": [
         "160",
@@ -793,7 +933,7 @@
         "160"
       ]
     },
-    "196": {
+    "226": {
       "op": "box_create",
       "defined_out": [
         "_exists#0",
@@ -808,7 +948,7 @@
         "_exists#0"
       ]
     },
-    "197": {
+    "227": {
       "op": "pop",
       "stack_out": [
         "mbr_payment#0",
@@ -817,7 +957,7 @@
         "encoded_value%0#0"
       ]
     },
-    "198": {
+    "228": {
       "op": "global ZeroAddress",
       "defined_out": [
         "encoded_value%0#0",
@@ -832,7 +972,7 @@
         "tmp%9#0"
       ]
     },
-    "200": {
+    "230": {
       "op": "dig 1",
       "stack_out": [
         "mbr_payment#0",
@@ -843,7 +983,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "202": {
+    "232": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -862,7 +1002,7 @@
         "0"
       ]
     },
-    "203": {
+    "233": {
       "op": "uncover 2",
       "stack_out": [
         "mbr_payment#0",
@@ -874,7 +1014,7 @@
         "tmp%9#0"
       ]
     },
-    "205": {
+    "235": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -884,7 +1024,7 @@
         "encoded_value%0#0"
       ]
     },
-    "206": {
+    "236": {
       "op": "global ZeroAddress",
       "defined_out": [
         "encoded_value%0#0",
@@ -899,7 +1039,7 @@
         "tmp%10#0"
       ]
     },
-    "208": {
+    "238": {
       "op": "dig 1",
       "stack_out": [
         "mbr_payment#0",
@@ -910,7 +1050,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "210": {
+    "240": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -929,7 +1069,7 @@
         "32"
       ]
     },
-    "211": {
+    "241": {
       "op": "uncover 2",
       "stack_out": [
         "mbr_payment#0",
@@ -941,7 +1081,7 @@
         "tmp%10#0"
       ]
     },
-    "213": {
+    "243": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -951,7 +1091,7 @@
         "encoded_value%0#0"
       ]
     },
-    "214": {
+    "244": {
       "op": "global ZeroAddress",
       "defined_out": [
         "encoded_value%0#0",
@@ -966,7 +1106,7 @@
         "tmp%11#0"
       ]
     },
-    "216": {
+    "246": {
       "op": "dig 1",
       "stack_out": [
         "mbr_payment#0",
@@ -977,7 +1117,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "218": {
+    "248": {
       "op": "pushint 64",
       "defined_out": [
         "64",
@@ -996,7 +1136,7 @@
         "64"
       ]
     },
-    "220": {
+    "250": {
       "op": "uncover 2",
       "stack_out": [
         "mbr_payment#0",
@@ -1008,7 +1148,7 @@
         "tmp%11#0"
       ]
     },
-    "222": {
+    "252": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -1018,7 +1158,7 @@
         "encoded_value%0#0"
       ]
     },
-    "223": {
+    "253": {
       "op": "global ZeroAddress",
       "defined_out": [
         "encoded_value%0#0",
@@ -1033,7 +1173,7 @@
         "tmp%12#0"
       ]
     },
-    "225": {
+    "255": {
       "op": "dig 1",
       "stack_out": [
         "mbr_payment#0",
@@ -1044,7 +1184,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "227": {
+    "257": {
       "op": "pushint 96",
       "defined_out": [
         "96",
@@ -1063,7 +1203,7 @@
         "96"
       ]
     },
-    "229": {
+    "259": {
       "op": "uncover 2",
       "stack_out": [
         "mbr_payment#0",
@@ -1075,7 +1215,7 @@
         "tmp%12#0"
       ]
     },
-    "231": {
+    "261": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -1085,10 +1225,10 @@
         "encoded_value%0#0"
       ]
     },
-    "232": {
+    "262": {
       "op": "pushint 128"
     },
-    "235": {
+    "265": {
       "op": "global ZeroAddress",
       "defined_out": [
         "128",
@@ -1105,7 +1245,7 @@
         "tmp%13#0"
       ]
     },
-    "237": {
+    "267": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -1114,7 +1254,7 @@
         "mbr_i#0"
       ]
     },
-    "238": {
+    "268": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "mbr_i#0",
@@ -1127,7 +1267,7 @@
         "tmp%14#0"
       ]
     },
-    "240": {
+    "270": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%2#0",
@@ -1142,7 +1282,7 @@
         "check%2#0"
       ]
     },
-    "242": {
+    "272": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -1152,7 +1292,7 @@
         "value%2#0"
       ]
     },
-    "243": {
+    "273": {
       "op": "swap",
       "stack_out": [
         "mbr_payment#0",
@@ -1161,7 +1301,7 @@
         "mbr_i#0"
       ]
     },
-    "244": {
+    "274": {
       "op": "-",
       "defined_out": [
         "mbr_delta_amount#0"
@@ -1172,7 +1312,7 @@
         "mbr_delta_amount#0"
       ]
     },
-    "245": {
+    "275": {
       "op": "dup",
       "defined_out": [
         "mbr_delta_amount#0"
@@ -1184,7 +1324,7 @@
         "mbr_delta_amount#0"
       ]
     },
-    "246": {
+    "276": {
       "op": "uncover 3",
       "defined_out": [
         "mbr_delta_amount#0",
@@ -1197,7 +1337,7 @@
         "mbr_payment#0"
       ]
     },
-    "248": {
+    "278": {
       "op": "gtxns Amount",
       "defined_out": [
         "mbr_delta_amount#0",
@@ -1210,7 +1350,7 @@
         "tmp%16#0"
       ]
     },
-    "250": {
+    "280": {
       "op": "<=",
       "defined_out": [
         "mbr_delta_amount#0",
@@ -1222,14 +1362,14 @@
         "tmp%17#0"
       ]
     },
-    "251": {
+    "281": {
       "op": "bnz init_config_after_assert@11",
       "stack_out": [
         "asset#0",
         "mbr_delta_amount#0"
       ]
     },
-    "253": {
+    "283": {
       "op": "pushbytes \"ERR:mbrAmountInvalid\"",
       "defined_out": [
         "\"ERR:mbrAmountInvalid\"",
@@ -1241,18 +1381,18 @@
         "\"ERR:mbrAmountInvalid\""
       ]
     },
-    "275": {
+    "305": {
       "op": "log",
       "stack_out": [
         "asset#0",
         "mbr_delta_amount#0"
       ]
     },
-    "276": {
+    "306": {
       "error": "ERR:mbrAmountInvalid",
       "op": "err // ERR:mbrAmountInvalid"
     },
-    "277": {
+    "307": {
       "block": "init_config_after_assert@11",
       "stack_in": [
         "asset#0",
@@ -1267,7 +1407,7 @@
         "asset#0"
       ]
     },
-    "278": {
+    "308": {
       "callsub": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
       "op": "callsub _emit_config_updated",
       "defined_out": [
@@ -1277,7 +1417,7 @@
         "mbr_delta_amount#0"
       ]
     },
-    "281": {
+    "311": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -1286,7 +1426,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "282": {
+    "312": {
       "op": "bytec_1 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1297,14 +1437,14 @@
         "0x151f7c75"
       ]
     },
-    "283": {
+    "313": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "284": {
+    "314": {
       "op": "concat",
       "defined_out": [
         "tmp%5#0"
@@ -1313,11 +1453,11 @@
         "tmp%5#0"
       ]
     },
-    "285": {
+    "315": {
       "op": "log",
       "stack_out": []
     },
-    "286": {
+    "316": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -1326,11 +1466,11 @@
         "1"
       ]
     },
-    "287": {
+    "317": {
       "op": "return",
       "stack_out": []
     },
-    "288": {
+    "318": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.set_not_circulating_address[routing]",
       "params": {},
       "block": "set_not_circulating_address",
@@ -1340,14 +1480,14 @@
         "clawback#0"
       ]
     },
-    "289": {
+    "319": {
       "op": "pushbytes \"\"",
       "stack_out": [
         "clawback#0",
         "is_unset#0"
       ]
     },
-    "291": {
+    "321": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
@@ -1358,7 +1498,7 @@
         "tmp%0#0"
       ]
     },
-    "294": {
+    "324": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -1371,7 +1511,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "295": {
+    "325": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -1384,7 +1524,7 @@
         "len%0#0"
       ]
     },
-    "296": {
+    "326": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1399,7 +1539,7 @@
         "8"
       ]
     },
-    "297": {
+    "327": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -1412,7 +1552,7 @@
         "eq%0#0"
       ]
     },
-    "298": {
+    "328": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
@@ -1421,7 +1561,7 @@
         "tmp%0#0"
       ]
     },
-    "299": {
+    "329": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -1432,7 +1572,7 @@
         "asset#0"
       ]
     },
-    "300": {
+    "330": {
       "op": "dup",
       "defined_out": [
         "asset#0"
@@ -1444,10 +1584,10 @@
         "asset#0"
       ]
     },
-    "301": {
+    "331": {
       "op": "txna ApplicationArgs 2"
     },
-    "304": {
+    "334": {
       "op": "dup",
       "defined_out": [
         "address#0",
@@ -1462,7 +1602,7 @@
         "address#0"
       ]
     },
-    "305": {
+    "335": {
       "op": "cover 2",
       "defined_out": [
         "address#0",
@@ -1477,7 +1617,7 @@
         "address#0"
       ]
     },
-    "307": {
+    "337": {
       "op": "len",
       "defined_out": [
         "address#0",
@@ -1493,7 +1633,7 @@
         "len%1#0"
       ]
     },
-    "308": {
+    "338": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -1511,7 +1651,7 @@
         "32"
       ]
     },
-    "309": {
+    "339": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -1527,7 +1667,7 @@
         "eq%1#0"
       ]
     },
-    "310": {
+    "340": {
       "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "stack_out": [
@@ -1538,7 +1678,7 @@
         "asset#0"
       ]
     },
-    "311": {
+    "341": {
       "op": "txna ApplicationArgs 3",
       "defined_out": [
         "address#0",
@@ -1554,7 +1694,7 @@
         "tmp%4#0"
       ]
     },
-    "314": {
+    "344": {
       "op": "dup",
       "defined_out": [
         "address#0",
@@ -1572,7 +1712,7 @@
         "tmp%4#0 (copy)"
       ]
     },
-    "315": {
+    "345": {
       "op": "intc_0 // 0",
       "stack_out": [
         "clawback#0",
@@ -1585,7 +1725,7 @@
         "0"
       ]
     },
-    "316": {
+    "346": {
       "error": "invalid array length header",
       "op": "extract_uint16 // on error: invalid array length header",
       "defined_out": [
@@ -1604,7 +1744,7 @@
         "aggregate%array_length%0#0"
       ]
     },
-    "317": {
+    "347": {
       "op": "pushint 2",
       "defined_out": [
         "2",
@@ -1624,7 +1764,7 @@
         "2"
       ]
     },
-    "319": {
+    "349": {
       "op": "+",
       "defined_out": [
         "add%0#0",
@@ -1642,7 +1782,7 @@
         "add%0#0"
       ]
     },
-    "320": {
+    "350": {
       "op": "dig 1",
       "stack_out": [
         "clawback#0",
@@ -1655,7 +1795,7 @@
         "tmp%4#0 (copy)"
       ]
     },
-    "322": {
+    "352": {
       "op": "len",
       "defined_out": [
         "add%0#0",
@@ -1675,7 +1815,7 @@
         "len%2#0"
       ]
     },
-    "323": {
+    "353": {
       "op": "==",
       "defined_out": [
         "address#0",
@@ -1693,7 +1833,7 @@
         "eq%2#0"
       ]
     },
-    "324": {
+    "354": {
       "error": "invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
       "op": "assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
       "stack_out": [
@@ -1705,7 +1845,7 @@
         "tmp%4#0"
       ]
     },
-    "325": {
+    "355": {
       "op": "extract 2 0",
       "defined_out": [
         "address#0",
@@ -1721,7 +1861,7 @@
         "label#0"
       ]
     },
-    "328": {
+    "358": {
       "op": "swap",
       "defined_out": [
         "address#0",
@@ -1737,7 +1877,7 @@
         "asset#0"
       ]
     },
-    "329": {
+    "359": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
@@ -1756,7 +1896,7 @@
         "exists#0"
       ]
     },
-    "331": {
+    "361": {
       "op": "bury 1",
       "stack_out": [
         "clawback#0",
@@ -1767,7 +1907,7 @@
         "exists#0"
       ]
     },
-    "333": {
+    "363": {
       "op": "bnz set_not_circulating_address_after_assert@3",
       "stack_out": [
         "clawback#0",
@@ -1777,7 +1917,7 @@
         "label#0"
       ]
     },
-    "335": {
+    "365": {
       "op": "bytec 4 // \"ERR:asaNotExist\"",
       "defined_out": [
         "\"ERR:asaNotExist\"",
@@ -1794,7 +1934,7 @@
         "\"ERR:asaNotExist\""
       ]
     },
-    "337": {
+    "367": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -1804,11 +1944,11 @@
         "label#0"
       ]
     },
-    "338": {
+    "368": {
       "error": "ERR:asaNotExist",
       "op": "err // ERR:asaNotExist"
     },
-    "339": {
+    "369": {
       "block": "set_not_circulating_address_after_assert@3",
       "stack_in": [
         "clawback#0",
@@ -1830,7 +1970,7 @@
         "tmp%1#1"
       ]
     },
-    "341": {
+    "371": {
       "op": "dig 3",
       "defined_out": [
         "asset#0",
@@ -1846,7 +1986,7 @@
         "asset#0"
       ]
     },
-    "343": {
+    "373": {
       "op": "asset_params_get AssetManager",
       "defined_out": [
         "asset#0",
@@ -1865,7 +2005,7 @@
         "check%0#0"
       ]
     },
-    "345": {
+    "375": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -1878,7 +2018,7 @@
         "value%0#0"
       ]
     },
-    "346": {
+    "376": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -1893,7 +2033,7 @@
         "tmp%2#1"
       ]
     },
-    "347": {
+    "377": {
       "op": "bnz set_not_circulating_address_after_assert@5",
       "stack_out": [
         "clawback#0",
@@ -1903,7 +2043,7 @@
         "label#0"
       ]
     },
-    "349": {
+    "379": {
       "op": "bytec_3 // \"ERR:unauthorized\"",
       "defined_out": [
         "\"ERR:unauthorized\"",
@@ -1918,7 +2058,7 @@
         "\"ERR:unauthorized\""
       ]
     },
-    "350": {
+    "380": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -1928,11 +2068,11 @@
         "label#0"
       ]
     },
-    "351": {
+    "381": {
       "error": "ERR:unauthorized",
       "op": "err // ERR:unauthorized"
     },
-    "352": {
+    "382": {
       "block": "set_not_circulating_address_after_assert@5",
       "stack_in": [
         "clawback#0",
@@ -1954,7 +2094,7 @@
         "asset#0"
       ]
     },
-    "354": {
+    "384": {
       "op": "itob",
       "defined_out": [
         "asset#0",
@@ -1969,7 +2109,7 @@
         "encoded_value%0#0"
       ]
     },
-    "355": {
+    "385": {
       "op": "dup",
       "defined_out": [
         "asset#0",
@@ -1985,7 +2125,7 @@
         "encoded_value%0#0"
       ]
     },
-    "356": {
+    "386": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -2004,7 +2144,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "357": {
+    "387": {
       "op": "bury 1",
       "stack_out": [
         "clawback#0",
@@ -2016,7 +2156,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "359": {
+    "389": {
       "op": "bnz set_not_circulating_address_after_assert@7",
       "stack_out": [
         "clawback#0",
@@ -2027,7 +2167,7 @@
         "encoded_value%0#0"
       ]
     },
-    "361": {
+    "391": {
       "op": "bytec_2 // \"ERR:configNotExist\"",
       "defined_out": [
         "\"ERR:configNotExist\"",
@@ -2044,7 +2184,7 @@
         "\"ERR:configNotExist\""
       ]
     },
-    "362": {
+    "392": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -2055,11 +2195,11 @@
         "encoded_value%0#0"
       ]
     },
-    "363": {
+    "393": {
       "error": "ERR:configNotExist",
       "op": "err // ERR:configNotExist"
     },
-    "364": {
+    "394": {
       "block": "set_not_circulating_address_after_assert@7",
       "stack_in": [
         "clawback#0",
@@ -2083,7 +2223,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "365": {
+    "395": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%1#0",
@@ -2100,7 +2240,7 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "366": {
+    "396": {
       "op": "swap",
       "stack_out": [
         "clawback#0",
@@ -2113,7 +2253,7 @@
         "config#0"
       ]
     },
-    "367": {
+    "397": {
       "op": "cover 3",
       "defined_out": [
         "aggregate%box_get%1#0",
@@ -2130,7 +2270,7 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "369": {
+    "399": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -2143,7 +2283,7 @@
         "encoded_value%0#0"
       ]
     },
-    "370": {
+    "400": {
       "op": "dig 3",
       "defined_out": [
         "address#0 (copy)",
@@ -2160,7 +2300,7 @@
         "address#0 (copy)"
       ]
     },
-    "372": {
+    "402": {
       "op": "global ZeroAddress",
       "defined_out": [
         "address#0 (copy)",
@@ -2179,7 +2319,7 @@
         "tmp%3#1"
       ]
     },
-    "374": {
+    "404": {
       "op": "==",
       "defined_out": [
         "config#0",
@@ -2196,7 +2336,7 @@
         "is_unset#0"
       ]
     },
-    "375": {
+    "405": {
       "op": "dup",
       "stack_out": [
         "clawback#0",
@@ -2210,7 +2350,7 @@
         "is_unset#0"
       ]
     },
-    "376": {
+    "406": {
       "op": "bury 7",
       "defined_out": [
         "config#0",
@@ -2227,7 +2367,7 @@
         "is_unset#0"
       ]
     },
-    "378": {
+    "408": {
       "op": "bnz set_not_circulating_address_after_if_else@43",
       "stack_out": [
         "clawback#0",
@@ -2239,7 +2379,7 @@
         "encoded_value%0#0"
       ]
     },
-    "381": {
+    "411": {
       "op": "dig 3",
       "stack_out": [
         "clawback#0",
@@ -2252,7 +2392,7 @@
         "address#0 (copy)"
       ]
     },
-    "383": {
+    "413": {
       "op": "dig 5",
       "defined_out": [
         "address#0 (copy)",
@@ -2272,7 +2412,7 @@
         "asset#0"
       ]
     },
-    "385": {
+    "415": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset#0",
@@ -2293,7 +2433,7 @@
         "tmp%6#0"
       ]
     },
-    "387": {
+    "417": {
       "op": "bury 1",
       "stack_out": [
         "clawback#0",
@@ -2306,7 +2446,7 @@
         "tmp%6#0"
       ]
     },
-    "389": {
+    "419": {
       "op": "bnz set_not_circulating_address_after_assert@10",
       "stack_out": [
         "clawback#0",
@@ -2318,7 +2458,7 @@
         "encoded_value%0#0"
       ]
     },
-    "391": {
+    "421": {
       "op": "pushbytes \"ERR:addressNotOptedIn\"",
       "defined_out": [
         "\"ERR:addressNotOptedIn\"",
@@ -2337,7 +2477,7 @@
         "\"ERR:addressNotOptedIn\""
       ]
     },
-    "414": {
+    "444": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -2349,11 +2489,11 @@
         "encoded_value%0#0"
       ]
     },
-    "415": {
+    "445": {
       "error": "ERR:addressNotOptedIn",
       "op": "err // ERR:addressNotOptedIn"
     },
-    "416": {
+    "446": {
       "block": "set_not_circulating_address_after_assert@10",
       "stack_in": [
         "clawback#0",
@@ -2379,7 +2519,7 @@
         "asset#0"
       ]
     },
-    "418": {
+    "448": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
         "asset#0",
@@ -2398,7 +2538,7 @@
         "check%1#0"
       ]
     },
-    "420": {
+    "450": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -2412,7 +2552,7 @@
         "value%1#0"
       ]
     },
-    "421": {
+    "451": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -2431,7 +2571,7 @@
         "address#0 (copy)"
       ]
     },
-    "423": {
+    "453": {
       "op": "!=",
       "defined_out": [
         "asset#0",
@@ -2448,7 +2588,7 @@
         "tmp%7#0"
       ]
     },
-    "424": {
+    "454": {
       "op": "bnz set_not_circulating_address_after_assert@12",
       "stack_out": [
         "clawback#0",
@@ -2460,7 +2600,7 @@
         "encoded_value%0#0"
       ]
     },
-    "426": {
+    "456": {
       "op": "pushbytes \"ERR:addressIsReserve\"",
       "defined_out": [
         "\"ERR:addressIsReserve\"",
@@ -2477,7 +2617,7 @@
         "\"ERR:addressIsReserve\""
       ]
     },
-    "448": {
+    "478": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -2489,11 +2629,11 @@
         "encoded_value%0#0"
       ]
     },
-    "449": {
+    "479": {
       "error": "ERR:addressIsReserve",
       "op": "err // ERR:addressIsReserve"
     },
-    "450": {
+    "480": {
       "block": "set_not_circulating_address_after_assert@12",
       "stack_in": [
         "clawback#0",
@@ -2519,7 +2659,7 @@
         "label#0 (copy)"
       ]
     },
-    "452": {
+    "482": {
       "op": "bytec 5 // \"burned\"",
       "defined_out": [
         "\"burned\"",
@@ -2537,7 +2677,7 @@
         "\"burned\""
       ]
     },
-    "454": {
+    "484": {
       "op": "==",
       "defined_out": [
         "tmp%8#0"
@@ -2553,7 +2693,7 @@
         "tmp%8#0"
       ]
     },
-    "455": {
+    "485": {
       "op": "bnz set_not_circulating_address_bool_true@14",
       "stack_out": [
         "clawback#0",
@@ -2565,7 +2705,7 @@
         "encoded_value%0#0"
       ]
     },
-    "457": {
+    "487": {
       "op": "dig 2",
       "defined_out": [
         "config#0 (copy)"
@@ -2581,7 +2721,7 @@
         "config#0 (copy)"
       ]
     },
-    "459": {
+    "489": {
       "op": "extract 0 32",
       "defined_out": [
         "aggregate%extract%0#0"
@@ -2597,7 +2737,7 @@
         "aggregate%extract%0#0"
       ]
     },
-    "462": {
+    "492": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -2615,7 +2755,7 @@
         "address#0 (copy)"
       ]
     },
-    "464": {
+    "494": {
       "op": "!=",
       "defined_out": [
         "tmp%10#0"
@@ -2631,7 +2771,7 @@
         "tmp%10#0"
       ]
     },
-    "465": {
+    "495": {
       "op": "bz set_not_circulating_address_bool_false@15",
       "stack_out": [
         "clawback#0",
@@ -2643,7 +2783,7 @@
         "encoded_value%0#0"
       ]
     },
-    "468": {
+    "498": {
       "block": "set_not_circulating_address_bool_true@14",
       "stack_in": [
         "clawback#0",
@@ -2669,7 +2809,7 @@
         "or_result%0#0"
       ]
     },
-    "469": {
+    "499": {
       "block": "set_not_circulating_address_bool_merge@16",
       "stack_in": [
         "clawback#0",
@@ -2693,7 +2833,7 @@
         "encoded_value%0#0"
       ]
     },
-    "471": {
+    "501": {
       "op": "bytec_0 // \"ERR:addressAlreadyAssigned\"",
       "defined_out": [
         "\"ERR:addressAlreadyAssigned\""
@@ -2709,7 +2849,7 @@
         "\"ERR:addressAlreadyAssigned\""
       ]
     },
-    "472": {
+    "502": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -2721,11 +2861,11 @@
         "encoded_value%0#0"
       ]
     },
-    "473": {
+    "503": {
       "error": "ERR:addressAlreadyAssigned",
       "op": "err // ERR:addressAlreadyAssigned"
     },
-    "474": {
+    "504": {
       "block": "set_not_circulating_address_after_assert@18",
       "stack_in": [
         "clawback#0",
@@ -2751,7 +2891,7 @@
         "label#0 (copy)"
       ]
     },
-    "476": {
+    "506": {
       "op": "bytec 6 // \"custom_1\"",
       "defined_out": [
         "\"custom_1\"",
@@ -2769,7 +2909,7 @@
         "\"custom_1\""
       ]
     },
-    "478": {
+    "508": {
       "op": "==",
       "defined_out": [
         "tmp%11#0"
@@ -2785,7 +2925,7 @@
         "tmp%11#0"
       ]
     },
-    "479": {
+    "509": {
       "op": "bnz set_not_circulating_address_bool_true@20",
       "stack_out": [
         "clawback#0",
@@ -2797,7 +2937,7 @@
         "encoded_value%0#0"
       ]
     },
-    "481": {
+    "511": {
       "op": "dig 2",
       "defined_out": [
         "config#0 (copy)"
@@ -2813,7 +2953,7 @@
         "config#0 (copy)"
       ]
     },
-    "483": {
+    "513": {
       "op": "extract 32 32",
       "defined_out": [
         "aggregate%extract%1#0"
@@ -2829,7 +2969,7 @@
         "aggregate%extract%1#0"
       ]
     },
-    "486": {
+    "516": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -2847,7 +2987,7 @@
         "address#0 (copy)"
       ]
     },
-    "488": {
+    "518": {
       "op": "!=",
       "defined_out": [
         "tmp%13#0"
@@ -2863,7 +3003,7 @@
         "tmp%13#0"
       ]
     },
-    "489": {
+    "519": {
       "op": "bz set_not_circulating_address_bool_false@21",
       "stack_out": [
         "clawback#0",
@@ -2875,7 +3015,7 @@
         "encoded_value%0#0"
       ]
     },
-    "492": {
+    "522": {
       "block": "set_not_circulating_address_bool_true@20",
       "stack_in": [
         "clawback#0",
@@ -2901,7 +3041,7 @@
         "or_result%1#0"
       ]
     },
-    "493": {
+    "523": {
       "block": "set_not_circulating_address_bool_merge@22",
       "stack_in": [
         "clawback#0",
@@ -2925,7 +3065,7 @@
         "encoded_value%0#0"
       ]
     },
-    "495": {
+    "525": {
       "op": "bytec_0 // \"ERR:addressAlreadyAssigned\"",
       "defined_out": [
         "\"ERR:addressAlreadyAssigned\""
@@ -2941,7 +3081,7 @@
         "\"ERR:addressAlreadyAssigned\""
       ]
     },
-    "496": {
+    "526": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -2953,11 +3093,11 @@
         "encoded_value%0#0"
       ]
     },
-    "497": {
+    "527": {
       "error": "ERR:addressAlreadyAssigned",
       "op": "err // ERR:addressAlreadyAssigned"
     },
-    "498": {
+    "528": {
       "block": "set_not_circulating_address_after_assert@24",
       "stack_in": [
         "clawback#0",
@@ -2983,7 +3123,7 @@
         "label#0 (copy)"
       ]
     },
-    "500": {
+    "530": {
       "op": "bytec 7 // \"custom_2\"",
       "defined_out": [
         "\"custom_2\"",
@@ -3001,7 +3141,7 @@
         "\"custom_2\""
       ]
     },
-    "502": {
+    "532": {
       "op": "==",
       "defined_out": [
         "tmp%14#0"
@@ -3017,7 +3157,7 @@
         "tmp%14#0"
       ]
     },
-    "503": {
+    "533": {
       "op": "bnz set_not_circulating_address_bool_true@26",
       "stack_out": [
         "clawback#0",
@@ -3029,7 +3169,7 @@
         "encoded_value%0#0"
       ]
     },
-    "505": {
+    "535": {
       "op": "dig 2",
       "defined_out": [
         "config#0 (copy)"
@@ -3045,7 +3185,7 @@
         "config#0 (copy)"
       ]
     },
-    "507": {
+    "537": {
       "op": "extract 64 32",
       "defined_out": [
         "aggregate%extract%2#0"
@@ -3061,7 +3201,7 @@
         "aggregate%extract%2#0"
       ]
     },
-    "510": {
+    "540": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -3079,7 +3219,7 @@
         "address#0 (copy)"
       ]
     },
-    "512": {
+    "542": {
       "op": "!=",
       "defined_out": [
         "tmp%16#0"
@@ -3095,7 +3235,7 @@
         "tmp%16#0"
       ]
     },
-    "513": {
+    "543": {
       "op": "bz set_not_circulating_address_bool_false@27",
       "stack_out": [
         "clawback#0",
@@ -3107,7 +3247,7 @@
         "encoded_value%0#0"
       ]
     },
-    "516": {
+    "546": {
       "block": "set_not_circulating_address_bool_true@26",
       "stack_in": [
         "clawback#0",
@@ -3133,7 +3273,7 @@
         "or_result%2#0"
       ]
     },
-    "517": {
+    "547": {
       "block": "set_not_circulating_address_bool_merge@28",
       "stack_in": [
         "clawback#0",
@@ -3157,7 +3297,7 @@
         "encoded_value%0#0"
       ]
     },
-    "519": {
+    "549": {
       "op": "bytec_0 // \"ERR:addressAlreadyAssigned\"",
       "defined_out": [
         "\"ERR:addressAlreadyAssigned\""
@@ -3173,7 +3313,7 @@
         "\"ERR:addressAlreadyAssigned\""
       ]
     },
-    "520": {
+    "550": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -3185,11 +3325,11 @@
         "encoded_value%0#0"
       ]
     },
-    "521": {
+    "551": {
       "error": "ERR:addressAlreadyAssigned",
       "op": "err // ERR:addressAlreadyAssigned"
     },
-    "522": {
+    "552": {
       "block": "set_not_circulating_address_after_assert@30",
       "stack_in": [
         "clawback#0",
@@ -3215,7 +3355,7 @@
         "label#0 (copy)"
       ]
     },
-    "524": {
+    "554": {
       "op": "bytec 8 // \"custom_3\"",
       "defined_out": [
         "\"custom_3\"",
@@ -3233,7 +3373,7 @@
         "\"custom_3\""
       ]
     },
-    "526": {
+    "556": {
       "op": "==",
       "defined_out": [
         "tmp%17#0"
@@ -3249,7 +3389,7 @@
         "tmp%17#0"
       ]
     },
-    "527": {
+    "557": {
       "op": "bnz set_not_circulating_address_bool_true@32",
       "stack_out": [
         "clawback#0",
@@ -3261,7 +3401,7 @@
         "encoded_value%0#0"
       ]
     },
-    "529": {
+    "559": {
       "op": "dig 2",
       "defined_out": [
         "config#0 (copy)"
@@ -3277,7 +3417,7 @@
         "config#0 (copy)"
       ]
     },
-    "531": {
+    "561": {
       "op": "extract 96 32",
       "defined_out": [
         "aggregate%extract%3#0"
@@ -3293,7 +3433,7 @@
         "aggregate%extract%3#0"
       ]
     },
-    "534": {
+    "564": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -3311,7 +3451,7 @@
         "address#0 (copy)"
       ]
     },
-    "536": {
+    "566": {
       "op": "!=",
       "defined_out": [
         "tmp%19#0"
@@ -3327,7 +3467,7 @@
         "tmp%19#0"
       ]
     },
-    "537": {
+    "567": {
       "op": "bz set_not_circulating_address_bool_false@33",
       "stack_out": [
         "clawback#0",
@@ -3339,7 +3479,7 @@
         "encoded_value%0#0"
       ]
     },
-    "540": {
+    "570": {
       "block": "set_not_circulating_address_bool_true@32",
       "stack_in": [
         "clawback#0",
@@ -3365,7 +3505,7 @@
         "or_result%3#0"
       ]
     },
-    "541": {
+    "571": {
       "block": "set_not_circulating_address_bool_merge@34",
       "stack_in": [
         "clawback#0",
@@ -3389,7 +3529,7 @@
         "encoded_value%0#0"
       ]
     },
-    "543": {
+    "573": {
       "op": "bytec_0 // \"ERR:addressAlreadyAssigned\"",
       "defined_out": [
         "\"ERR:addressAlreadyAssigned\""
@@ -3405,7 +3545,7 @@
         "\"ERR:addressAlreadyAssigned\""
       ]
     },
-    "544": {
+    "574": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -3417,11 +3557,11 @@
         "encoded_value%0#0"
       ]
     },
-    "545": {
+    "575": {
       "error": "ERR:addressAlreadyAssigned",
       "op": "err // ERR:addressAlreadyAssigned"
     },
-    "546": {
+    "576": {
       "block": "set_not_circulating_address_after_assert@36",
       "stack_in": [
         "clawback#0",
@@ -3447,7 +3587,7 @@
         "label#0 (copy)"
       ]
     },
-    "548": {
+    "578": {
       "op": "bytec 9 // \"custom_4\"",
       "defined_out": [
         "\"custom_4\"",
@@ -3465,7 +3605,7 @@
         "\"custom_4\""
       ]
     },
-    "550": {
+    "580": {
       "op": "==",
       "defined_out": [
         "tmp%20#0"
@@ -3481,7 +3621,7 @@
         "tmp%20#0"
       ]
     },
-    "551": {
+    "581": {
       "op": "bnz set_not_circulating_address_bool_true@38",
       "stack_out": [
         "clawback#0",
@@ -3493,7 +3633,7 @@
         "encoded_value%0#0"
       ]
     },
-    "553": {
+    "583": {
       "op": "dig 2",
       "defined_out": [
         "config#0 (copy)"
@@ -3509,7 +3649,7 @@
         "config#0 (copy)"
       ]
     },
-    "555": {
+    "585": {
       "op": "extract 128 32",
       "defined_out": [
         "aggregate%extract%4#0"
@@ -3525,7 +3665,7 @@
         "aggregate%extract%4#0"
       ]
     },
-    "558": {
+    "588": {
       "op": "dig 4",
       "defined_out": [
         "address#0 (copy)",
@@ -3543,7 +3683,7 @@
         "address#0 (copy)"
       ]
     },
-    "560": {
+    "590": {
       "op": "!=",
       "defined_out": [
         "tmp%22#0"
@@ -3559,7 +3699,7 @@
         "tmp%22#0"
       ]
     },
-    "561": {
+    "591": {
       "op": "bz set_not_circulating_address_bool_false@39",
       "stack_out": [
         "clawback#0",
@@ -3571,7 +3711,7 @@
         "encoded_value%0#0"
       ]
     },
-    "564": {
+    "594": {
       "block": "set_not_circulating_address_bool_true@38",
       "stack_in": [
         "clawback#0",
@@ -3597,7 +3737,7 @@
         "or_result%4#0"
       ]
     },
-    "565": {
+    "595": {
       "block": "set_not_circulating_address_bool_merge@40",
       "stack_in": [
         "clawback#0",
@@ -3621,7 +3761,7 @@
         "encoded_value%0#0"
       ]
     },
-    "567": {
+    "597": {
       "op": "bytec_0 // \"ERR:addressAlreadyAssigned\"",
       "defined_out": [
         "\"ERR:addressAlreadyAssigned\""
@@ -3637,7 +3777,7 @@
         "\"ERR:addressAlreadyAssigned\""
       ]
     },
-    "568": {
+    "598": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -3649,11 +3789,11 @@
         "encoded_value%0#0"
       ]
     },
-    "569": {
+    "599": {
       "error": "ERR:addressAlreadyAssigned",
       "op": "err // ERR:addressAlreadyAssigned"
     },
-    "570": {
+    "600": {
       "block": "set_not_circulating_address_after_if_else@43",
       "stack_in": [
         "clawback#0",
@@ -3679,7 +3819,7 @@
         "\"burned\""
       ]
     },
-    "572": {
+    "602": {
       "op": "bytec 6 // \"custom_1\"",
       "defined_out": [
         "\"burned\"",
@@ -3697,7 +3837,7 @@
         "\"custom_1\""
       ]
     },
-    "574": {
+    "604": {
       "op": "bytec 7 // \"custom_2\"",
       "defined_out": [
         "\"burned\"",
@@ -3717,7 +3857,7 @@
         "\"custom_2\""
       ]
     },
-    "576": {
+    "606": {
       "op": "bytec 8 // \"custom_3\"",
       "defined_out": [
         "\"burned\"",
@@ -3739,7 +3879,7 @@
         "\"custom_3\""
       ]
     },
-    "578": {
+    "608": {
       "op": "bytec 9 // \"custom_4\"",
       "defined_out": [
         "\"burned\"",
@@ -3763,7 +3903,7 @@
         "\"custom_4\""
       ]
     },
-    "580": {
+    "610": {
       "op": "uncover 6",
       "defined_out": [
         "\"burned\"",
@@ -3788,7 +3928,7 @@
         "label#0"
       ]
     },
-    "582": {
+    "612": {
       "op": "match set_not_circulating_address_switch_case_0@44 set_not_circulating_address_switch_case_1@51 set_not_circulating_address_switch_case_2@52 set_not_circulating_address_switch_case_3@53 set_not_circulating_address_switch_case_4@54",
       "stack_out": [
         "clawback#0",
@@ -3799,7 +3939,7 @@
         "encoded_value%0#0"
       ]
     },
-    "594": {
+    "624": {
       "op": "pushbytes \"ERR:labelInvalid\"",
       "defined_out": [
         "\"ERR:labelInvalid\""
@@ -3814,7 +3954,7 @@
         "\"ERR:labelInvalid\""
       ]
     },
-    "612": {
+    "642": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -3825,11 +3965,11 @@
         "encoded_value%0#0"
       ]
     },
-    "613": {
+    "643": {
       "error": "ERR:labelInvalid",
       "op": "err // ERR:labelInvalid"
     },
-    "614": {
+    "644": {
       "block": "set_not_circulating_address_switch_case_4@54",
       "stack_in": [
         "clawback#0",
@@ -3853,7 +3993,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "615": {
+    "645": {
       "op": "pushint 128",
       "defined_out": [
         "128",
@@ -3870,7 +4010,7 @@
         "128"
       ]
     },
-    "618": {
+    "648": {
       "op": "uncover 4",
       "defined_out": [
         "128",
@@ -3888,7 +4028,7 @@
         "address#0"
       ]
     },
-    "620": {
+    "650": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -3899,7 +4039,7 @@
         "encoded_value%0#0"
       ]
     },
-    "621": {
+    "651": {
       "block": "set_not_circulating_address_switch_case_next@56",
       "stack_in": [
         "clawback#0",
@@ -3922,7 +4062,7 @@
         "aggregate%box_get%3#0"
       ]
     },
-    "622": {
+    "652": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -3933,7 +4073,7 @@
         "aggregate%box_get%2#0"
       ]
     },
-    "623": {
+    "653": {
       "op": "!=",
       "defined_out": [
         "tmp%25#0"
@@ -3945,7 +4085,7 @@
         "tmp%25#0"
       ]
     },
-    "624": {
+    "654": {
       "op": "bz set_not_circulating_address_after_if_else@58",
       "stack_out": [
         "clawback#0",
@@ -3953,7 +4093,7 @@
         "asset#0"
       ]
     },
-    "626": {
+    "656": {
       "op": "dup",
       "defined_out": [
         "asset#0"
@@ -3965,7 +4105,7 @@
         "asset#0"
       ]
     },
-    "627": {
+    "657": {
       "callsub": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
       "op": "callsub _emit_config_updated",
       "stack_out": [
@@ -3974,7 +4114,7 @@
         "asset#0"
       ]
     },
-    "630": {
+    "660": {
       "block": "set_not_circulating_address_after_if_else@58",
       "stack_in": [
         "clawback#0",
@@ -3992,7 +4132,7 @@
         "1"
       ]
     },
-    "631": {
+    "661": {
       "op": "return",
       "stack_out": [
         "clawback#0",
@@ -4000,7 +4140,7 @@
         "asset#0"
       ]
     },
-    "632": {
+    "662": {
       "block": "set_not_circulating_address_switch_case_3@53",
       "stack_in": [
         "clawback#0",
@@ -4024,7 +4164,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "633": {
+    "663": {
       "op": "pushint 96",
       "defined_out": [
         "96",
@@ -4041,7 +4181,7 @@
         "96"
       ]
     },
-    "635": {
+    "665": {
       "op": "uncover 4",
       "defined_out": [
         "96",
@@ -4059,7 +4199,7 @@
         "address#0"
       ]
     },
-    "637": {
+    "667": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -4070,10 +4210,10 @@
         "encoded_value%0#0"
       ]
     },
-    "638": {
+    "668": {
       "op": "b set_not_circulating_address_switch_case_next@56"
     },
-    "640": {
+    "670": {
       "block": "set_not_circulating_address_switch_case_2@52",
       "stack_in": [
         "clawback#0",
@@ -4097,7 +4237,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "641": {
+    "671": {
       "op": "pushint 64",
       "defined_out": [
         "64",
@@ -4114,7 +4254,7 @@
         "64"
       ]
     },
-    "643": {
+    "673": {
       "op": "uncover 4",
       "defined_out": [
         "64",
@@ -4132,7 +4272,7 @@
         "address#0"
       ]
     },
-    "645": {
+    "675": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -4143,10 +4283,10 @@
         "encoded_value%0#0"
       ]
     },
-    "646": {
+    "676": {
       "op": "b set_not_circulating_address_switch_case_next@56"
     },
-    "648": {
+    "678": {
       "block": "set_not_circulating_address_switch_case_1@51",
       "stack_in": [
         "clawback#0",
@@ -4170,7 +4310,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "649": {
+    "679": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -4187,7 +4327,7 @@
         "32"
       ]
     },
-    "650": {
+    "680": {
       "op": "uncover 4",
       "defined_out": [
         "32",
@@ -4205,7 +4345,7 @@
         "address#0"
       ]
     },
-    "652": {
+    "682": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -4216,10 +4356,10 @@
         "encoded_value%0#0"
       ]
     },
-    "653": {
+    "683": {
       "op": "b set_not_circulating_address_switch_case_next@56"
     },
-    "655": {
+    "685": {
       "block": "set_not_circulating_address_switch_case_0@44",
       "stack_in": [
         "clawback#0",
@@ -4243,7 +4383,7 @@
         "is_unset#0"
       ]
     },
-    "657": {
+    "687": {
       "op": "bnz set_not_circulating_address_after_if_else@50",
       "stack_out": [
         "clawback#0",
@@ -4254,7 +4394,7 @@
         "encoded_value%0#0"
       ]
     },
-    "660": {
+    "690": {
       "op": "dig 3",
       "defined_out": [
         "asset#0",
@@ -4270,7 +4410,7 @@
         "asset#0"
       ]
     },
-    "662": {
+    "692": {
       "op": "asset_params_get AssetClawback",
       "defined_out": [
         "asset#0",
@@ -4289,7 +4429,7 @@
         "exists#0"
       ]
     },
-    "664": {
+    "694": {
       "op": "swap",
       "stack_out": [
         "clawback#0",
@@ -4302,7 +4442,7 @@
         "clawback#0"
       ]
     },
-    "665": {
+    "695": {
       "op": "bury 7",
       "defined_out": [
         "asset#0",
@@ -4320,7 +4460,7 @@
         "exists#0"
       ]
     },
-    "667": {
+    "697": {
       "op": "bz set_not_circulating_address_bool_false@62",
       "stack_out": [
         "clawback#0",
@@ -4331,7 +4471,7 @@
         "encoded_value%0#0"
       ]
     },
-    "670": {
+    "700": {
       "op": "dig 5",
       "stack_out": [
         "clawback#0",
@@ -4343,7 +4483,7 @@
         "clawback#0"
       ]
     },
-    "672": {
+    "702": {
       "op": "global ZeroAddress",
       "defined_out": [
         "asset#0",
@@ -4362,7 +4502,7 @@
         "tmp%2#2"
       ]
     },
-    "674": {
+    "704": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -4380,7 +4520,7 @@
         "tmp%3#2"
       ]
     },
-    "675": {
+    "705": {
       "op": "bz set_not_circulating_address_bool_false@62",
       "stack_out": [
         "clawback#0",
@@ -4391,7 +4531,7 @@
         "encoded_value%0#0"
       ]
     },
-    "678": {
+    "708": {
       "op": "intc_1 // 1",
       "defined_out": [
         "and_result%0#0",
@@ -4409,7 +4549,7 @@
         "and_result%0#0"
       ]
     },
-    "679": {
+    "709": {
       "block": "set_not_circulating_address_bool_merge@63",
       "stack_in": [
         "clawback#0",
@@ -4431,7 +4571,7 @@
         "encoded_value%0#0"
       ]
     },
-    "681": {
+    "711": {
       "op": "pushbytes \"ERR:asaNotArc54Compliant\"",
       "defined_out": [
         "\"ERR:asaNotArc54Compliant\""
@@ -4446,7 +4586,7 @@
         "\"ERR:asaNotArc54Compliant\""
       ]
     },
-    "707": {
+    "737": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -4457,11 +4597,11 @@
         "encoded_value%0#0"
       ]
     },
-    "708": {
+    "738": {
       "error": "ERR:asaNotArc54Compliant",
       "op": "err // ERR:asaNotArc54Compliant"
     },
-    "709": {
+    "739": {
       "block": "set_not_circulating_address_after_assert@47",
       "stack_in": [
         "clawback#0",
@@ -4485,7 +4625,7 @@
         "address#0 (copy)"
       ]
     },
-    "711": {
+    "741": {
       "op": "bytec 10 // TMPL_ARC54_BURN_ADDRESS",
       "defined_out": [
         "TMPL_ARC54_BURN_ADDRESS",
@@ -4502,7 +4642,7 @@
         "TMPL_ARC54_BURN_ADDRESS"
       ]
     },
-    "713": {
+    "743": {
       "op": "==",
       "defined_out": [
         "tmp%24#0"
@@ -4517,7 +4657,7 @@
         "tmp%24#0"
       ]
     },
-    "714": {
+    "744": {
       "op": "bnz set_not_circulating_address_after_if_else@50",
       "stack_out": [
         "clawback#0",
@@ -4528,7 +4668,7 @@
         "encoded_value%0#0"
       ]
     },
-    "716": {
+    "746": {
       "op": "pushbytes \"ERR:burnedAddressInvalid\"",
       "defined_out": [
         "\"ERR:burnedAddressInvalid\""
@@ -4543,7 +4683,7 @@
         "\"ERR:burnedAddressInvalid\""
       ]
     },
-    "742": {
+    "772": {
       "op": "log",
       "stack_out": [
         "clawback#0",
@@ -4554,11 +4694,11 @@
         "encoded_value%0#0"
       ]
     },
-    "743": {
+    "773": {
       "error": "ERR:burnedAddressInvalid",
       "op": "err // ERR:burnedAddressInvalid"
     },
-    "744": {
+    "774": {
       "block": "set_not_circulating_address_after_if_else@50",
       "stack_in": [
         "clawback#0",
@@ -4582,7 +4722,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "745": {
+    "775": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -4599,7 +4739,7 @@
         "0"
       ]
     },
-    "746": {
+    "776": {
       "op": "uncover 4",
       "defined_out": [
         "0",
@@ -4617,7 +4757,7 @@
         "address#0"
       ]
     },
-    "748": {
+    "778": {
       "error": "index out of bounds",
       "op": "box_replace // on error: index out of bounds",
       "stack_out": [
@@ -4628,10 +4768,10 @@
         "encoded_value%0#0"
       ]
     },
-    "749": {
+    "779": {
       "op": "b set_not_circulating_address_switch_case_next@56"
     },
-    "752": {
+    "782": {
       "block": "set_not_circulating_address_bool_false@62",
       "stack_in": [
         "clawback#0",
@@ -4655,10 +4795,10 @@
         "and_result%0#0"
       ]
     },
-    "753": {
+    "783": {
       "op": "b set_not_circulating_address_bool_merge@63"
     },
-    "756": {
+    "786": {
       "block": "set_not_circulating_address_bool_false@39",
       "stack_in": [
         "clawback#0",
@@ -4684,10 +4824,10 @@
         "or_result%4#0"
       ]
     },
-    "757": {
+    "787": {
       "op": "b set_not_circulating_address_bool_merge@40"
     },
-    "760": {
+    "790": {
       "block": "set_not_circulating_address_bool_false@33",
       "stack_in": [
         "clawback#0",
@@ -4713,10 +4853,10 @@
         "or_result%3#0"
       ]
     },
-    "761": {
+    "791": {
       "op": "b set_not_circulating_address_bool_merge@34"
     },
-    "764": {
+    "794": {
       "block": "set_not_circulating_address_bool_false@27",
       "stack_in": [
         "clawback#0",
@@ -4742,10 +4882,10 @@
         "or_result%2#0"
       ]
     },
-    "765": {
+    "795": {
       "op": "b set_not_circulating_address_bool_merge@28"
     },
-    "768": {
+    "798": {
       "block": "set_not_circulating_address_bool_false@21",
       "stack_in": [
         "clawback#0",
@@ -4771,10 +4911,10 @@
         "or_result%1#0"
       ]
     },
-    "769": {
+    "799": {
       "op": "b set_not_circulating_address_bool_merge@22"
     },
-    "772": {
+    "802": {
       "block": "set_not_circulating_address_bool_false@15",
       "stack_in": [
         "clawback#0",
@@ -4800,10 +4940,10 @@
         "or_result%0#0"
       ]
     },
-    "773": {
+    "803": {
       "op": "b set_not_circulating_address_bool_merge@16"
     },
-    "776": {
+    "806": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.delete_config[routing]",
       "params": {},
       "block": "delete_config",
@@ -4816,7 +4956,7 @@
         "tmp%0#0"
       ]
     },
-    "779": {
+    "809": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -4827,7 +4967,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "780": {
+    "810": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -4838,7 +4978,7 @@
         "len%0#0"
       ]
     },
-    "781": {
+    "811": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -4851,7 +4991,7 @@
         "8"
       ]
     },
-    "782": {
+    "812": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -4862,14 +5002,14 @@
         "eq%0#0"
       ]
     },
-    "783": {
+    "813": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "784": {
+    "814": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -4878,7 +5018,7 @@
         "asset#0"
       ]
     },
-    "785": {
+    "815": {
       "op": "dup",
       "defined_out": [
         "asset#0"
@@ -4888,7 +5028,7 @@
         "asset#0"
       ]
     },
-    "786": {
+    "816": {
       "op": "itob",
       "defined_out": [
         "asset#0",
@@ -4899,7 +5039,7 @@
         "encoded_value%0#0"
       ]
     },
-    "787": {
+    "817": {
       "op": "dup",
       "defined_out": [
         "asset#0",
@@ -4911,7 +5051,7 @@
         "encoded_value%0#0"
       ]
     },
-    "788": {
+    "818": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -4926,7 +5066,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "789": {
+    "819": {
       "op": "bury 1",
       "stack_out": [
         "asset#0",
@@ -4934,14 +5074,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "791": {
+    "821": {
       "op": "bnz delete_config_after_assert@3",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0"
       ]
     },
-    "793": {
+    "823": {
       "op": "bytec_2 // \"ERR:configNotExist\"",
       "defined_out": [
         "\"ERR:configNotExist\"",
@@ -4954,18 +5094,18 @@
         "\"ERR:configNotExist\""
       ]
     },
-    "794": {
+    "824": {
       "op": "log",
       "stack_out": [
         "asset#0",
         "encoded_value%0#0"
       ]
     },
-    "795": {
+    "825": {
       "error": "ERR:configNotExist",
       "op": "err // ERR:configNotExist"
     },
-    "796": {
+    "826": {
       "block": "delete_config_after_assert@3",
       "stack_in": [
         "asset#0",
@@ -4981,7 +5121,7 @@
         "asset#0"
       ]
     },
-    "798": {
+    "828": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
@@ -4995,7 +5135,7 @@
         "exists#0"
       ]
     },
-    "800": {
+    "830": {
       "op": "dup",
       "stack_out": [
         "asset#0",
@@ -5005,7 +5145,7 @@
         "exists#0 (copy)"
       ]
     },
-    "801": {
+    "831": {
       "op": "uncover 2",
       "defined_out": [
         "_creator#0",
@@ -5020,7 +5160,7 @@
         "_creator#0"
       ]
     },
-    "803": {
+    "833": {
       "op": "pop",
       "stack_out": [
         "asset#0",
@@ -5029,7 +5169,7 @@
         "exists#0"
       ]
     },
-    "804": {
+    "834": {
       "op": "bz delete_config_after_if_else@7",
       "stack_out": [
         "asset#0",
@@ -5037,7 +5177,7 @@
         "exists#0"
       ]
     },
-    "806": {
+    "836": {
       "op": "txn Sender",
       "defined_out": [
         "asset#0",
@@ -5051,7 +5191,7 @@
         "tmp%1#1"
       ]
     },
-    "808": {
+    "838": {
       "op": "dig 3",
       "stack_out": [
         "asset#0",
@@ -5061,7 +5201,7 @@
         "asset#0"
       ]
     },
-    "810": {
+    "840": {
       "op": "asset_params_get AssetManager",
       "defined_out": [
         "asset#0",
@@ -5079,7 +5219,7 @@
         "check%0#0"
       ]
     },
-    "812": {
+    "842": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
@@ -5090,7 +5230,7 @@
         "value%0#0"
       ]
     },
-    "813": {
+    "843": {
       "op": "==",
       "defined_out": [
         "asset#0",
@@ -5104,7 +5244,7 @@
         "tmp%2#1"
       ]
     },
-    "814": {
+    "844": {
       "op": "bnz delete_config_after_if_else@7",
       "stack_out": [
         "asset#0",
@@ -5112,7 +5252,7 @@
         "exists#0"
       ]
     },
-    "816": {
+    "846": {
       "op": "bytec_3 // \"ERR:unauthorized\"",
       "defined_out": [
         "\"ERR:unauthorized\"",
@@ -5126,7 +5266,7 @@
         "\"ERR:unauthorized\""
       ]
     },
-    "817": {
+    "847": {
       "op": "log",
       "stack_out": [
         "asset#0",
@@ -5134,11 +5274,11 @@
         "exists#0"
       ]
     },
-    "818": {
+    "848": {
       "error": "ERR:unauthorized",
       "op": "err // ERR:unauthorized"
     },
-    "819": {
+    "849": {
       "block": "delete_config_after_if_else@7",
       "stack_in": [
         "asset#0",
@@ -5156,7 +5296,7 @@
         "tmp%3#1"
       ]
     },
-    "821": {
+    "851": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%1#0",
@@ -5170,7 +5310,7 @@
         "check%1#0"
       ]
     },
-    "823": {
+    "853": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -5180,7 +5320,7 @@
         "mbr_i#0"
       ]
     },
-    "824": {
+    "854": {
       "op": "uncover 2",
       "defined_out": [
         "encoded_value%0#0",
@@ -5193,7 +5333,7 @@
         "encoded_value%0#0"
       ]
     },
-    "826": {
+    "856": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0 (copy)",
@@ -5207,7 +5347,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "827": {
+    "857": {
       "op": "cover 2",
       "stack_out": [
         "asset#0",
@@ -5217,7 +5357,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "829": {
+    "859": {
       "op": "box_del",
       "defined_out": [
         "encoded_value%0#0",
@@ -5232,7 +5372,7 @@
         "{box_del}"
       ]
     },
-    "830": {
+    "860": {
       "op": "pop",
       "stack_out": [
         "asset#0",
@@ -5241,7 +5381,7 @@
         "mbr_i#0"
       ]
     },
-    "831": {
+    "861": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "encoded_value%0#0",
@@ -5256,7 +5396,7 @@
         "tmp%4#1"
       ]
     },
-    "833": {
+    "863": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%2#0",
@@ -5273,7 +5413,7 @@
         "check%2#0"
       ]
     },
-    "835": {
+    "865": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -5284,7 +5424,7 @@
         "value%2#0"
       ]
     },
-    "836": {
+    "866": {
       "op": "-",
       "defined_out": [
         "encoded_value%0#0",
@@ -5297,10 +5437,10 @@
         "mbr_delta_amount#0"
       ]
     },
-    "837": {
+    "867": {
       "op": "itxn_begin"
     },
-    "838": {
+    "868": {
       "op": "txn Sender",
       "defined_out": [
         "encoded_value%0#0",
@@ -5315,7 +5455,7 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "840": {
+    "870": {
       "op": "dig 1",
       "defined_out": [
         "encoded_value%0#0",
@@ -5332,7 +5472,7 @@
         "mbr_delta_amount#0 (copy)"
       ]
     },
-    "842": {
+    "872": {
       "op": "itxn_field Amount",
       "stack_out": [
         "asset#0",
@@ -5342,7 +5482,7 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "844": {
+    "874": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "asset#0",
@@ -5351,7 +5491,7 @@
         "mbr_delta_amount#0"
       ]
     },
-    "846": {
+    "876": {
       "op": "intc_1 // pay",
       "defined_out": [
         "encoded_value%0#0",
@@ -5366,7 +5506,7 @@
         "pay"
       ]
     },
-    "847": {
+    "877": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset#0",
@@ -5375,7 +5515,7 @@
         "mbr_delta_amount#0"
       ]
     },
-    "849": {
+    "879": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -5390,7 +5530,7 @@
         "0"
       ]
     },
-    "850": {
+    "880": {
       "op": "itxn_field Fee",
       "stack_out": [
         "asset#0",
@@ -5399,10 +5539,10 @@
         "mbr_delta_amount#0"
       ]
     },
-    "852": {
+    "882": {
       "op": "itxn_submit"
     },
-    "853": {
+    "883": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "encoded_value%0#0",
@@ -5417,7 +5557,7 @@
         "tmp%7#0"
       ]
     },
-    "855": {
+    "885": {
       "op": "global Round",
       "defined_out": [
         "encoded_value%0#0",
@@ -5434,7 +5574,7 @@
         "tmp%6#0"
       ]
     },
-    "857": {
+    "887": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%1#0",
@@ -5451,7 +5591,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "858": {
+    "888": {
       "op": "uncover 3",
       "stack_out": [
         "asset#0",
@@ -5462,7 +5602,7 @@
         "encoded_value%0#0"
       ]
     },
-    "860": {
+    "890": {
       "op": "swap",
       "stack_out": [
         "asset#0",
@@ -5473,7 +5613,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "861": {
+    "891": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%1#0",
@@ -5488,7 +5628,7 @@
         "aggregate%head%1#0"
       ]
     },
-    "862": {
+    "892": {
       "op": "swap",
       "stack_out": [
         "asset#0",
@@ -5498,7 +5638,7 @@
         "tmp%7#0"
       ]
     },
-    "863": {
+    "893": {
       "op": "itob",
       "defined_out": [
         "aggregate%head%1#0",
@@ -5513,7 +5653,7 @@
         "aggregate%val_as_bytes%2#0"
       ]
     },
-    "864": {
+    "894": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%2#0",
@@ -5526,7 +5666,7 @@
         "aggregate%head%2#0"
       ]
     },
-    "865": {
+    "895": {
       "op": "pushbytes 0x00",
       "defined_out": [
         "0x00",
@@ -5541,7 +5681,7 @@
         "0x00"
       ]
     },
-    "868": {
+    "898": {
       "op": "intc_0 // 0",
       "stack_out": [
         "asset#0",
@@ -5552,7 +5692,7 @@
         "0"
       ]
     },
-    "869": {
+    "899": {
       "op": "uncover 4",
       "defined_out": [
         "0",
@@ -5570,7 +5710,7 @@
         "exists#0"
       ]
     },
-    "871": {
+    "901": {
       "op": "setbit",
       "defined_out": [
         "aggregate%encoded_bool%0#0",
@@ -5584,7 +5724,7 @@
         "aggregate%encoded_bool%0#0"
       ]
     },
-    "872": {
+    "902": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%3#0",
@@ -5596,7 +5736,7 @@
         "aggregate%head%3#0"
       ]
     },
-    "873": {
+    "903": {
       "op": "pushbytes 0xc4b5e8e7 // method \"Arc62ConfigDeleted(uint64,uint64,uint64,bool)\"",
       "defined_out": [
         "Method(Arc62ConfigDeleted(uint64,uint64,uint64,bool))",
@@ -5610,7 +5750,7 @@
         "Method(Arc62ConfigDeleted(uint64,uint64,uint64,bool))"
       ]
     },
-    "879": {
+    "909": {
       "op": "swap",
       "stack_out": [
         "asset#0",
@@ -5619,7 +5759,7 @@
         "aggregate%head%3#0"
       ]
     },
-    "880": {
+    "910": {
       "op": "concat",
       "defined_out": [
         "event%0#0",
@@ -5631,14 +5771,14 @@
         "event%0#0"
       ]
     },
-    "881": {
+    "911": {
       "op": "log",
       "stack_out": [
         "asset#0",
         "mbr_delta_amount#0"
       ]
     },
-    "882": {
+    "912": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%3#0"
@@ -5648,7 +5788,7 @@
         "aggregate%val_as_bytes%3#0"
       ]
     },
-    "883": {
+    "913": {
       "op": "bytec_1 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -5660,7 +5800,7 @@
         "0x151f7c75"
       ]
     },
-    "884": {
+    "914": {
       "op": "swap",
       "stack_out": [
         "asset#0",
@@ -5668,7 +5808,7 @@
         "aggregate%val_as_bytes%3#0"
       ]
     },
-    "885": {
+    "915": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -5678,13 +5818,13 @@
         "tmp%4#0"
       ]
     },
-    "886": {
+    "916": {
       "op": "log",
       "stack_out": [
         "asset#0"
       ]
     },
-    "887": {
+    "917": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -5694,13 +5834,13 @@
         "1"
       ]
     },
-    "888": {
+    "918": {
       "op": "return",
       "stack_out": [
         "asset#0"
       ]
     },
-    "889": {
+    "919": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.get_config[routing]",
       "params": {},
       "block": "get_config",
@@ -5713,7 +5853,7 @@
         "tmp%0#0"
       ]
     },
-    "892": {
+    "922": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -5724,7 +5864,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "893": {
+    "923": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -5735,7 +5875,7 @@
         "len%0#0"
       ]
     },
-    "894": {
+    "924": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -5748,7 +5888,7 @@
         "8"
       ]
     },
-    "895": {
+    "925": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -5759,14 +5899,14 @@
         "eq%0#0"
       ]
     },
-    "896": {
+    "926": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "897": {
+    "927": {
       "op": "btoi",
       "defined_out": [
         "asset#0"
@@ -5775,7 +5915,7 @@
         "asset#0"
       ]
     },
-    "898": {
+    "928": {
       "op": "itob",
       "defined_out": [
         "encoded_value%0#0"
@@ -5784,7 +5924,7 @@
         "encoded_value%0#0"
       ]
     },
-    "899": {
+    "929": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0"
@@ -5794,7 +5934,7 @@
         "encoded_value%0#0"
       ]
     },
-    "900": {
+    "930": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -5807,20 +5947,20 @@
         "maybe_exists%0#0"
       ]
     },
-    "901": {
+    "931": {
       "op": "bury 1",
       "stack_out": [
         "encoded_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "903": {
+    "933": {
       "op": "bnz get_config_after_assert@3",
       "stack_out": [
         "encoded_value%0#0"
       ]
     },
-    "905": {
+    "935": {
       "op": "bytec_2 // \"ERR:configNotExist\"",
       "defined_out": [
         "\"ERR:configNotExist\"",
@@ -5831,17 +5971,17 @@
         "\"ERR:configNotExist\""
       ]
     },
-    "906": {
+    "936": {
       "op": "log",
       "stack_out": [
         "encoded_value%0#0"
       ]
     },
-    "907": {
+    "937": {
       "error": "ERR:configNotExist",
       "op": "err // ERR:configNotExist"
     },
-    "908": {
+    "938": {
       "block": "get_config_after_assert@3",
       "stack_in": [
         "encoded_value%0#0"
@@ -5856,14 +5996,14 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "909": {
+    "939": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
         "aggregate%box_get%0#0"
       ]
     },
-    "910": {
+    "940": {
       "op": "bytec_1 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -5874,14 +6014,14 @@
         "0x151f7c75"
       ]
     },
-    "911": {
+    "941": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%box_get%0#0"
       ]
     },
-    "912": {
+    "942": {
       "op": "concat",
       "defined_out": [
         "tmp%3#0"
@@ -5890,11 +6030,11 @@
         "tmp%3#0"
       ]
     },
-    "913": {
+    "943": {
       "op": "log",
       "stack_out": []
     },
-    "914": {
+    "944": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -5903,55 +6043,46 @@
         "1"
       ]
     },
-    "915": {
+    "945": {
       "op": "return",
       "stack_out": []
     },
-    "916": {
+    "946": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.arc62_get_circulating_supply[routing]",
       "params": {},
       "block": "arc62_get_circulating_supply",
       "stack_in": [],
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "reserve#0"
-      ]
-    },
-    "917": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%0#0"
       ]
     },
-    "920": {
+    "949": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ]
     },
-    "921": {
+    "950": {
       "op": "len",
       "defined_out": [
         "len%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%0#0",
         "len%0#0"
       ]
     },
-    "922": {
+    "951": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -5959,79 +6090,80 @@
         "tmp%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%0#0",
         "len%0#0",
         "8"
       ]
     },
-    "923": {
+    "952": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%0#0",
         "eq%0#0"
       ]
     },
-    "924": {
+    "953": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
-        "reserve#0",
         "tmp%0#0"
       ]
     },
-    "925": {
+    "954": {
       "op": "btoi",
       "defined_out": [
         "asset_id#0"
       ],
       "stack_out": [
-        "reserve#0",
         "asset_id#0"
       ]
     },
-    "926": {
+    "955": {
       "op": "dup",
       "defined_out": [
         "asset_id#0"
       ],
       "stack_out": [
-        "reserve#0",
         "asset_id#0",
         "asset_id#0"
       ]
     },
-    "927": {
+    "956": {
       "op": "itob",
       "defined_out": [
         "asset_id#0",
         "encoded_value%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "asset_id#0",
         "encoded_value%0#0"
       ]
     },
-    "928": {
+    "957": {
       "op": "dup",
-      "defined_out": [
-        "asset_id#0",
-        "encoded_value%0#0"
-      ],
       "stack_out": [
-        "reserve#0",
         "asset_id#0",
         "encoded_value%0#0",
         "encoded_value%0#0"
       ]
     },
-    "929": {
+    "958": {
+      "op": "cover 2",
+      "defined_out": [
+        "asset_id#0",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "asset_id#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "960": {
       "op": "box_len",
       "defined_out": [
         "_%0#0",
@@ -6040,31 +6172,28 @@
         "maybe_exists%0#0"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "_%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "930": {
+    "961": {
       "op": "bury 1",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "maybe_exists%0#0"
       ]
     },
-    "932": {
+    "963": {
       "op": "bnz arc62_get_circulating_supply_after_assert@3",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "asset_id#0"
       ]
     },
-    "934": {
+    "965": {
       "op": "bytec_2 // \"ERR:configNotExist\"",
       "defined_out": [
         "\"ERR:configNotExist\"",
@@ -6072,94 +6201,83 @@
         "encoded_value%0#0"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "\"ERR:configNotExist\""
       ]
     },
-    "935": {
+    "966": {
       "op": "log",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "asset_id#0"
       ]
     },
-    "936": {
+    "967": {
       "error": "ERR:configNotExist",
       "op": "err // ERR:configNotExist"
     },
-    "937": {
+    "968": {
       "block": "arc62_get_circulating_supply_after_assert@3",
       "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "asset_id#0"
       ],
-      "op": "dig 1",
+      "op": "dup",
       "defined_out": [
         "asset_id#0 (copy)"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "asset_id#0 (copy)"
       ]
     },
-    "939": {
+    "969": {
       "op": "asset_params_get AssetCreator",
       "defined_out": [
         "_creator#0",
         "exists#0"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "_creator#0",
         "exists#0"
       ]
     },
-    "941": {
+    "971": {
       "op": "bury 1",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
         "exists#0"
       ]
     },
-    "943": {
+    "973": {
       "op": "bnz arc62_get_circulating_supply_else_body@5",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "asset_id#0"
       ]
     },
-    "945": {
+    "975": {
       "op": "popn 2",
       "defined_out": [],
-      "stack_out": [
-        "reserve#0"
-      ]
+      "stack_out": []
     },
-    "947": {
+    "977": {
       "op": "intc_0 // 0",
       "defined_out": [
         "circulating_supply#0"
       ],
       "stack_out": [
-        "reserve#0",
         "circulating_supply#0"
       ]
     },
-    "948": {
-      "block": "arc62_get_circulating_supply_after_if_else@35",
+    "978": {
+      "block": "arc62_get_circulating_supply_after_if_else@6",
       "stack_in": [
-        "reserve#0",
         "circulating_supply#0"
       ],
       "op": "itob",
@@ -6167,2524 +6285,1457 @@
         "aggregate%val_as_bytes%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "949": {
+    "979": {
       "op": "bytec_1 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ],
       "stack_out": [
-        "reserve#0",
         "aggregate%val_as_bytes%0#0",
         "0x151f7c75"
       ]
     },
-    "950": {
+    "980": {
       "op": "swap",
       "stack_out": [
-        "reserve#0",
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "951": {
+    "981": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
       ],
       "stack_out": [
-        "reserve#0",
         "tmp%4#0"
       ]
     },
-    "952": {
+    "982": {
       "op": "log",
-      "stack_out": [
-        "reserve#0"
-      ]
+      "stack_out": []
     },
-    "953": {
+    "983": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
       ],
       "stack_out": [
-        "reserve#0",
         "1"
       ]
     },
-    "954": {
+    "984": {
       "op": "return",
-      "stack_out": [
-        "reserve#0"
-      ]
+      "stack_out": []
     },
-    "955": {
+    "985": {
       "block": "arc62_get_circulating_supply_else_body@5",
       "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
+        "encoded_value%0#0",
+        "asset_id#0"
       ],
-      "op": "dig 1",
+      "op": "dupn 2",
       "defined_out": [
+        "asset_id#0",
         "asset_id#0 (copy)"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
+        "asset_id#0",
         "asset_id#0 (copy)"
       ]
     },
-    "957": {
+    "987": {
       "op": "asset_params_get AssetReserve",
       "defined_out": [
+        "asset_id#0",
         "check%0#0",
         "reserve#0"
       ],
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
+        "asset_id#0",
         "reserve#0",
         "check%0#0"
       ]
     },
-    "959": {
+    "989": {
       "op": "swap",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
+        "asset_id#0",
         "check%0#0",
         "reserve#0"
       ]
     },
-    "960": {
+    "990": {
       "op": "dup",
       "stack_out": [
-        "reserve#0",
-        "asset_id#0",
         "encoded_value%0#0",
+        "asset_id#0",
+        "asset_id#0",
         "check%0#0",
         "reserve#0",
         "reserve#0 (copy)"
       ]
     },
-    "961": {
-      "op": "cover 2",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0",
-        "check%0#0",
-        "reserve#0"
-      ]
-    },
-    "963": {
-      "op": "bury 5",
-      "defined_out": [
-        "check%0#0",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0",
-        "check%0#0"
-      ]
-    },
-    "965": {
-      "error": "asset exists",
-      "op": "assert // asset exists",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0"
-      ]
-    },
-    "966": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "reserve#0",
-        "tmp%1#1"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0",
-        "tmp%1#1"
-      ]
-    },
-    "968": {
-      "op": "==",
-      "defined_out": [
-        "reserve#0",
-        "tmp%2#1"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "tmp%2#1"
-      ]
-    },
-    "969": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@7",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "971": {
-      "op": "dig 2",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0"
-      ]
-    },
-    "973": {
-      "op": "dig 2",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "975": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "reserve#0",
-        "tmp%3#1",
-        "tmp%4#1"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "tmp%3#1",
-        "tmp%4#1"
-      ]
-    },
-    "977": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "tmp%4#1"
-      ]
-    },
-    "979": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@8",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "982": {
-      "block": "arc62_get_circulating_supply_ternary_true@7",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
-      ],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "reserve_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0",
-        "reserve_balance#0"
-      ]
-    },
-    "983": {
-      "op": "swap",
-      "defined_out": [
-        "reserve_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "984": {
-      "block": "arc62_get_circulating_supply_ternary_merge@9",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "encoded_value%0#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)"
-      ]
-    },
-    "985": {
-      "op": "box_get",
-      "defined_out": [
-        "aggregate%box_get%0#0",
-        "aggregate%box_get%1#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%0#0",
-        "aggregate%box_get%1#0"
-      ]
-    },
-    "986": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%0#0"
-      ]
-    },
-    "987": {
-      "op": "extract 0 32",
-      "defined_out": [
-        "burned_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ]
-    },
-    "990": {
-      "op": "dup",
-      "defined_out": [
-        "burned_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0"
-      ]
-    },
     "991": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "burned_addr#0",
-        "tmp%6#0"
-      ],
+      "op": "cover 3",
       "stack_out": [
+        "encoded_value%0#0",
+        "asset_id#0",
         "reserve#0",
         "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0",
-        "tmp%6#0"
+        "check%0#0",
+        "reserve#0"
       ]
     },
     "993": {
-      "op": "==",
-      "defined_out": [
-        "burned_addr#0",
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "tmp%7#0"
-      ]
-    },
-    "994": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@12",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ]
-    },
-    "996": {
-      "op": "dup",
-      "defined_out": [
-        "burned_addr#0",
-        "burned_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0 (copy)"
-      ]
-    },
-    "997": {
-      "op": "dig 5",
-      "defined_out": [
-        "burned_addr#0",
-        "burned_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0 (copy)",
-        "reserve#0"
-      ]
-    },
-    "999": {
-      "op": "==",
-      "defined_out": [
-        "burned_addr#0",
-        "reserve#0",
-        "tmp%8#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "tmp%8#0"
-      ]
-    },
-    "1000": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@12",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ]
-    },
-    "1002": {
-      "op": "dup",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0 (copy)"
-      ]
-    },
-    "1003": {
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "burned_addr#0",
-        "burned_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "burned_addr#0 (copy)",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1005": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "burned_addr#0",
-        "reserve#0",
-        "tmp%10#0",
-        "tmp%9#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "tmp%9#0",
-        "tmp%10#0"
-      ]
-    },
-    "1007": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "tmp%10#0"
-      ]
-    },
-    "1009": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@13",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ]
-    },
-    "1012": {
-      "block": "arc62_get_circulating_supply_ternary_true@12",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ],
-      "op": "pop",
-      "defined_out": [],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1013": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "burned_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_balance#0"
-      ]
-    },
-    "1014": {
-      "op": "cover 2",
-      "defined_out": [
-        "burned_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1016": {
-      "block": "arc62_get_circulating_supply_ternary_merge@14",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "encoded_value%0#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)"
-      ]
-    },
-    "1017": {
-      "op": "box_get",
-      "defined_out": [
-        "aggregate%box_get%2#0",
-        "aggregate%box_get%3#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%2#0",
-        "aggregate%box_get%3#0"
-      ]
-    },
-    "1018": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%2#0"
-      ]
-    },
-    "1019": {
-      "op": "extract 32 32",
-      "defined_out": [
-        "custom_1_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ]
-    },
-    "1022": {
-      "op": "dup",
-      "defined_out": [
-        "custom_1_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0"
-      ]
-    },
-    "1023": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "custom_1_addr#0",
-        "tmp%12#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0",
-        "tmp%12#0"
-      ]
-    },
-    "1025": {
-      "op": "==",
-      "defined_out": [
-        "custom_1_addr#0",
-        "tmp%13#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "tmp%13#0"
-      ]
-    },
-    "1026": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@17",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ]
-    },
-    "1028": {
-      "op": "dup",
-      "defined_out": [
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)"
-      ]
-    },
-    "1029": {
-      "op": "dig 6",
-      "defined_out": [
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)",
-        "reserve#0"
-      ]
-    },
-    "1031": {
-      "op": "==",
-      "defined_out": [
-        "custom_1_addr#0",
-        "reserve#0",
-        "tmp%14#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "tmp%14#0"
-      ]
-    },
-    "1032": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@17",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ]
-    },
-    "1034": {
-      "op": "dup",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)"
-      ]
-    },
-    "1035": {
-      "op": "dig 5",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "custom_1_addr#0 (copy)",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1037": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "custom_1_addr#0",
-        "reserve#0",
-        "tmp%15#0",
-        "tmp%16#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "tmp%15#0",
-        "tmp%16#0"
-      ]
-    },
-    "1039": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "tmp%16#0"
-      ]
-    },
-    "1041": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@18",
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ]
-    },
-    "1044": {
-      "block": "arc62_get_circulating_supply_ternary_true@17",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ],
-      "op": "pop",
-      "defined_out": [],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1045": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "custom_balance_1#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_1#0"
-      ]
-    },
-    "1046": {
       "op": "cover 4",
       "defined_out": [
-        "custom_balance_1#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1048": {
-      "block": "arc62_get_circulating_supply_ternary_merge@19",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "encoded_value%0#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)"
-      ]
-    },
-    "1049": {
-      "op": "box_get",
-      "defined_out": [
-        "aggregate%box_get%4#0",
-        "aggregate%box_get%5#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%4#0",
-        "aggregate%box_get%5#0"
-      ]
-    },
-    "1050": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%4#0"
-      ]
-    },
-    "1051": {
-      "op": "extract 64 32",
-      "defined_out": [
-        "custom_2_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ]
-    },
-    "1054": {
-      "op": "dup",
-      "defined_out": [
-        "custom_2_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0"
-      ]
-    },
-    "1055": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "custom_2_addr#0",
-        "tmp%18#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0",
-        "tmp%18#0"
-      ]
-    },
-    "1057": {
-      "op": "==",
-      "defined_out": [
-        "custom_2_addr#0",
-        "tmp%19#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "tmp%19#0"
-      ]
-    },
-    "1058": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@22",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ]
-    },
-    "1060": {
-      "op": "dup",
-      "defined_out": [
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)"
-      ]
-    },
-    "1061": {
-      "op": "dig 7",
-      "defined_out": [
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)",
+        "check%0#0",
         "reserve#0"
       ],
       "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
         "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)",
-        "reserve#0"
+        "reserve#0",
+        "asset_id#0",
+        "reserve#0",
+        "asset_id#0",
+        "check%0#0"
       ]
     },
-    "1063": {
-      "op": "==",
-      "defined_out": [
-        "custom_2_addr#0",
-        "reserve#0",
-        "tmp%20#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "tmp%20#0"
-      ]
-    },
-    "1064": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@22",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ]
-    },
-    "1066": {
-      "op": "dup",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)"
-      ]
-    },
-    "1067": {
-      "op": "dig 5",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "custom_2_addr#0 (copy)",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1069": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "custom_2_addr#0",
-        "reserve#0",
-        "tmp%21#0",
-        "tmp%22#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "tmp%21#0",
-        "tmp%22#0"
-      ]
-    },
-    "1071": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "tmp%22#0"
-      ]
-    },
-    "1073": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@23",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ]
-    },
-    "1076": {
-      "block": "arc62_get_circulating_supply_ternary_true@22",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ],
-      "op": "pop",
-      "defined_out": [],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1077": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "custom_balance_2#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_2#0"
-      ]
-    },
-    "1078": {
-      "op": "cover 5",
-      "defined_out": [
-        "custom_balance_2#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1080": {
-      "block": "arc62_get_circulating_supply_ternary_merge@24",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "encoded_value%0#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "encoded_value%0#0 (copy)"
-      ]
-    },
-    "1081": {
-      "op": "box_get",
-      "defined_out": [
-        "aggregate%box_get%6#0",
-        "aggregate%box_get%7#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%6#0",
-        "aggregate%box_get%7#0"
-      ]
-    },
-    "1082": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "aggregate%box_get%6#0"
-      ]
-    },
-    "1083": {
-      "op": "extract 96 32",
-      "defined_out": [
-        "custom_3_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0"
-      ]
-    },
-    "1086": {
-      "op": "dup",
-      "defined_out": [
-        "custom_3_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0"
-      ]
-    },
-    "1087": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "custom_3_addr#0",
-        "tmp%24#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0",
-        "tmp%24#0"
-      ]
-    },
-    "1089": {
-      "op": "==",
-      "defined_out": [
-        "custom_3_addr#0",
-        "tmp%25#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "tmp%25#0"
-      ]
-    },
-    "1090": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@27",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0"
-      ]
-    },
-    "1092": {
-      "op": "dup",
-      "defined_out": [
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)"
-      ]
-    },
-    "1093": {
-      "op": "dig 8",
-      "defined_out": [
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)",
-        "reserve#0"
-      ]
-    },
-    "1095": {
-      "op": "==",
-      "defined_out": [
-        "custom_3_addr#0",
-        "reserve#0",
-        "tmp%26#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "tmp%26#0"
-      ]
-    },
-    "1096": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@27",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0"
-      ]
-    },
-    "1098": {
-      "op": "dup",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)"
-      ]
-    },
-    "1099": {
-      "op": "dig 5",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "custom_3_addr#0 (copy)",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1101": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "custom_3_addr#0",
-        "reserve#0",
-        "tmp%27#0",
-        "tmp%28#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "tmp%27#0",
-        "tmp%28#0"
-      ]
-    },
-    "1103": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "tmp%28#0"
-      ]
-    },
-    "1105": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@28",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0"
-      ]
-    },
-    "1108": {
-      "block": "arc62_get_circulating_supply_ternary_true@27",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0"
-      ],
-      "op": "pop",
-      "defined_out": [],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1109": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "custom_balance_3#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_3#0"
-      ]
-    },
-    "1110": {
-      "op": "cover 6",
-      "defined_out": [
-        "custom_balance_3#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1112": {
-      "block": "arc62_get_circulating_supply_ternary_merge@29",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ],
-      "op": "box_get",
-      "defined_out": [
-        "aggregate%box_get%8#0",
-        "aggregate%box_get%9#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "aggregate%box_get%8#0",
-        "aggregate%box_get%9#0"
-      ]
-    },
-    "1113": {
-      "error": "check self.circulating_supply entry exists",
-      "op": "assert // check self.circulating_supply entry exists",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "aggregate%box_get%8#0"
-      ]
-    },
-    "1114": {
-      "op": "extract 128 32",
-      "defined_out": [
-        "custom_4_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ]
-    },
-    "1117": {
-      "op": "dup",
-      "defined_out": [
-        "custom_4_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0"
-      ]
-    },
-    "1118": {
-      "op": "global ZeroAddress",
-      "defined_out": [
-        "custom_4_addr#0",
-        "tmp%30#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0",
-        "tmp%30#0"
-      ]
-    },
-    "1120": {
-      "op": "==",
-      "defined_out": [
-        "custom_4_addr#0",
-        "tmp%31#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "tmp%31#0"
-      ]
-    },
-    "1121": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@32",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ]
-    },
-    "1123": {
-      "op": "dup",
-      "defined_out": [
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)"
-      ]
-    },
-    "1124": {
-      "op": "dig 8",
-      "defined_out": [
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)",
-        "reserve#0"
-      ]
-    },
-    "1126": {
-      "op": "==",
-      "defined_out": [
-        "custom_4_addr#0",
-        "reserve#0",
-        "tmp%32#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "tmp%32#0"
-      ]
-    },
-    "1127": {
-      "op": "bnz arc62_get_circulating_supply_ternary_true@32",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ]
-    },
-    "1129": {
-      "op": "dup",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)"
-      ]
-    },
-    "1130": {
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)",
-        "reserve#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "custom_4_addr#0 (copy)",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1132": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "custom_4_addr#0",
-        "reserve#0",
-        "tmp%33#0",
-        "tmp%34#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "tmp%33#0",
-        "tmp%34#0"
-      ]
-    },
-    "1134": {
-      "op": "bury 1",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "tmp%34#0"
-      ]
-    },
-    "1136": {
-      "op": "bnz arc62_get_circulating_supply_ternary_false@33",
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ]
-    },
-    "1138": {
-      "block": "arc62_get_circulating_supply_ternary_true@32",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ],
-      "op": "pop",
-      "defined_out": [],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0"
-      ]
-    },
-    "1139": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "custom_balance_4#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0"
-      ]
-    },
-    "1140": {
-      "block": "arc62_get_circulating_supply_ternary_merge@34",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0"
-      ],
-      "op": "uncover 3",
-      "defined_out": [
-        "asset_id#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0",
-        "asset_id#0"
-      ]
-    },
-    "1142": {
-      "op": "asset_params_get AssetTotal",
-      "defined_out": [
-        "check%7#0",
-        "value%7#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0",
-        "value%7#0",
-        "check%7#0"
-      ]
-    },
-    "1144": {
+    "995": {
       "error": "asset exists",
       "op": "assert // asset exists",
       "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0",
-        "value%7#0"
-      ]
-    },
-    "1145": {
-      "op": "uncover 2",
-      "defined_out": [
-        "reserve_balance#0",
-        "value%7#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "burned_balance#0",
-        "custom_balance_4#0",
-        "value%7#0",
-        "reserve_balance#0"
-      ]
-    },
-    "1147": {
-      "op": "-",
-      "defined_out": [
-        "tmp%35#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "burned_balance#0",
-        "custom_balance_4#0",
-        "tmp%35#0"
-      ]
-    },
-    "1148": {
-      "op": "uncover 2",
-      "defined_out": [
-        "burned_balance#0",
-        "tmp%35#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "custom_balance_4#0",
-        "tmp%35#0",
-        "burned_balance#0"
-      ]
-    },
-    "1150": {
-      "op": "-",
-      "defined_out": [
-        "tmp%36#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "custom_balance_4#0",
-        "tmp%36#0"
-      ]
-    },
-    "1151": {
-      "op": "uncover 2",
-      "defined_out": [
-        "custom_balance_1#0",
-        "tmp%36#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_4#0",
-        "tmp%36#0",
-        "custom_balance_1#0"
-      ]
-    },
-    "1153": {
-      "op": "-",
-      "defined_out": [
-        "tmp%37#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_4#0",
-        "tmp%37#0"
-      ]
-    },
-    "1154": {
-      "op": "uncover 2",
-      "defined_out": [
-        "custom_balance_2#0",
-        "tmp%37#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_4#0",
-        "tmp%37#0",
-        "custom_balance_2#0"
-      ]
-    },
-    "1156": {
-      "op": "-",
-      "defined_out": [
-        "tmp%38#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_4#0",
-        "tmp%38#0"
-      ]
-    },
-    "1157": {
-      "op": "uncover 2",
-      "defined_out": [
-        "custom_balance_3#0",
-        "tmp%38#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_4#0",
-        "tmp%38#0",
-        "custom_balance_3#0"
-      ]
-    },
-    "1159": {
-      "op": "-",
-      "defined_out": [
-        "tmp%39#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_4#0",
-        "tmp%39#0"
-      ]
-    },
-    "1160": {
-      "op": "swap",
-      "defined_out": [
-        "custom_balance_4#0",
-        "tmp%39#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "tmp%39#0",
-        "custom_balance_4#0"
-      ]
-    },
-    "1161": {
-      "op": "-",
-      "defined_out": [
-        "circulating_supply#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "circulating_supply#0"
-      ]
-    },
-    "1162": {
-      "op": "b arc62_get_circulating_supply_after_if_else@35"
-    },
-    "1165": {
-      "block": "arc62_get_circulating_supply_ternary_false@33",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0"
-      ],
-      "op": "dig 3",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_4_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_4_addr#0",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1167": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "check%6#0",
-        "value%6#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "value%6#0",
-        "check%6#0"
-      ]
-    },
-    "1169": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
-        "custom_balance_4#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "custom_balance_4#0"
-      ]
-    },
-    "1170": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@34"
-    },
-    "1172": {
-      "block": "arc62_get_circulating_supply_ternary_false@28",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
         "encoded_value%0#0",
-        "custom_3_addr#0"
-      ],
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_3_addr#0"
-      ],
-      "stack_out": [
         "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_3_addr#0",
-        "asset_id#0 (copy)"
+        "reserve#0",
+        "asset_id#0"
       ]
     },
-    "1174": {
-      "op": "asset_holding_get AssetBalance",
+    "996": {
+      "op": "uncover 4",
       "defined_out": [
-        "check%5#0",
-        "value%5#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
         "encoded_value%0#0",
-        "value%5#0",
-        "check%5#0"
-      ]
-    },
-    "1176": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
-        "custom_balance_3#0"
+        "reserve#0"
       ],
       "stack_out": [
         "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_3#0"
-      ]
-    },
-    "1177": {
-      "op": "cover 6",
-      "defined_out": [
-        "custom_balance_3#0"
-      ],
-      "stack_out": [
         "reserve#0",
-        "custom_balance_3#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
         "encoded_value%0#0"
       ]
     },
-    "1179": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@29"
-    },
-    "1182": {
-      "block": "arc62_get_circulating_supply_ternary_false@23",
-      "stack_in": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0"
-      ],
-      "op": "dig 4",
+    "998": {
+      "op": "box_get",
       "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_2_addr#0"
+        "aggregate%box_get%1#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0"
       ],
       "stack_out": [
         "reserve#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_2_addr#0",
-        "asset_id#0 (copy)"
+        "reserve#0",
+        "asset_id#0",
+        "config#0",
+        "aggregate%box_get%1#0"
       ]
     },
-    "1184": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "check%4#0",
-        "value%4#0"
-      ],
+    "999": {
+      "op": "swap",
       "stack_out": [
         "reserve#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "value%4#0",
-        "check%4#0"
+        "reserve#0",
+        "asset_id#0",
+        "aggregate%box_get%1#0",
+        "config#0"
       ]
     },
-    "1186": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
-        "custom_balance_2#0"
-      ],
+    "1000": {
+      "op": "dup",
       "stack_out": [
         "reserve#0",
-        "custom_balance_1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_2#0"
+        "reserve#0",
+        "asset_id#0",
+        "aggregate%box_get%1#0",
+        "config#0",
+        "config#0 (copy)"
       ]
     },
-    "1187": {
+    "1001": {
+      "op": "cover 4",
+      "stack_out": [
+        "reserve#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "asset_id#0",
+        "aggregate%box_get%1#0",
+        "config#0"
+      ]
+    },
+    "1003": {
       "op": "cover 5",
       "defined_out": [
-        "custom_balance_2#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_2#0",
-        "custom_balance_1#0",
+        "aggregate%box_get%1#0",
         "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1189": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@24"
-    },
-    "1192": {
-      "block": "arc62_get_circulating_supply_ternary_false@18",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0"
-      ],
-      "op": "dig 4",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "custom_1_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_1_addr#0",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1194": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "check%3#0",
-        "value%3#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "value%3#0",
-        "check%3#0"
-      ]
-    },
-    "1196": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
-        "custom_balance_1#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "custom_balance_1#0"
-      ]
-    },
-    "1197": {
-      "op": "cover 4",
-      "defined_out": [
-        "custom_balance_1#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "custom_balance_1#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1199": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@19"
-    },
-    "1202": {
-      "block": "arc62_get_circulating_supply_ternary_false@13",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0"
-      ],
-      "op": "dig 3",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "burned_addr#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_addr#0",
-        "asset_id#0 (copy)"
-      ]
-    },
-    "1204": {
-      "op": "asset_holding_get AssetBalance",
-      "defined_out": [
-        "check%2#0",
-        "value%2#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "value%2#0",
-        "check%2#0"
-      ]
-    },
-    "1206": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
-        "burned_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0",
-        "burned_balance#0"
-      ]
-    },
-    "1207": {
-      "op": "cover 2",
-      "defined_out": [
-        "burned_balance#0"
-      ],
-      "stack_out": [
-        "reserve#0",
-        "asset_id#0",
-        "burned_balance#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
-      ]
-    },
-    "1209": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@14"
-    },
-    "1212": {
-      "block": "arc62_get_circulating_supply_ternary_false@8",
-      "stack_in": [
-        "reserve#0",
-        "asset_id#0",
-        "encoded_value%0#0"
-      ],
-      "op": "dig 2",
-      "defined_out": [
+        "config#0",
         "reserve#0"
       ],
       "stack_out": [
         "reserve#0",
+        "config#0",
         "asset_id#0",
-        "encoded_value%0#0",
-        "reserve#0"
+        "config#0",
+        "reserve#0",
+        "asset_id#0",
+        "aggregate%box_get%1#0"
       ]
     },
-    "1214": {
-      "op": "dig 2",
-      "defined_out": [
-        "asset_id#0 (copy)",
-        "reserve#0"
-      ],
+    "1005": {
+      "error": "check self.circulating_supply entry exists",
+      "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
         "reserve#0",
+        "config#0",
         "asset_id#0",
-        "encoded_value%0#0",
+        "config#0",
         "reserve#0",
+        "asset_id#0"
+      ]
+    },
+    "1006": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "asset_id#0",
         "asset_id#0 (copy)"
       ]
     },
-    "1216": {
-      "op": "asset_holding_get AssetBalance",
+    "1007": {
+      "op": "asset_params_get AssetTotal",
       "defined_out": [
+        "asset_id#0",
         "check%1#0",
+        "config#0",
         "reserve#0",
         "value%1#0"
       ],
       "stack_out": [
         "reserve#0",
+        "config#0",
         "asset_id#0",
-        "encoded_value%0#0",
+        "config#0",
+        "reserve#0",
+        "asset_id#0",
         "value%1#0",
         "check%1#0"
       ]
     },
-    "1218": {
-      "error": "account opted into asset",
-      "op": "assert // account opted into asset",
-      "defined_out": [
+    "1009": {
+      "error": "asset exists",
+      "op": "assert // asset exists",
+      "stack_out": [
         "reserve#0",
-        "reserve_balance#0"
+        "config#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "asset_id#0",
+        "value%1#0"
+      ]
+    },
+    "1010": {
+      "op": "swap",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "value%1#0",
+        "asset_id#0"
+      ]
+    },
+    "1011": {
+      "op": "dig 2",
+      "defined_out": [
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "reserve#0 (copy)",
+        "value%1#0"
       ],
       "stack_out": [
         "reserve#0",
+        "config#0",
         "asset_id#0",
-        "encoded_value%0#0",
-        "reserve_balance#0"
+        "config#0",
+        "reserve#0",
+        "value%1#0",
+        "asset_id#0",
+        "reserve#0 (copy)"
       ]
     },
-    "1219": {
+    "1013": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%1#1",
+        "value%1#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "value%1#0",
+        "tmp%1#1"
+      ]
+    },
+    "1016": {
+      "op": "-",
+      "defined_out": [
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1"
+      ]
+    },
+    "1017": {
+      "op": "cover 3",
+      "defined_out": [
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "config#0",
+        "reserve#0"
+      ]
+    },
+    "1019": {
+      "op": "swap",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "reserve#0",
+        "config#0"
+      ]
+    },
+    "1020": {
+      "op": "extract 0 32",
+      "defined_out": [
+        "address#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "reserve#0",
+        "address#0"
+      ]
+    },
+    "1023": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "reserve#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "1024": {
+      "op": "cover 3",
+      "defined_out": [
+        "address#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "address#0",
+        "asset_id#0",
+        "reserve#0",
+        "address#0"
+      ]
+    },
+    "1026": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%0#2",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "address#0",
+        "asset_id#0",
+        "tmp%0#2"
+      ]
+    },
+    "1027": {
+      "op": "bz arc62_get_circulating_supply_after_if_else@9",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "address#0",
+        "asset_id#0"
+      ]
+    },
+    "1030": {
+      "op": "bury 1",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0"
+      ]
+    },
+    "1032": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "asset_id#0",
+        "config#0",
+        "reserve#0",
+        "tmp%2#1",
+        "tmp%4#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "tmp%4#1"
+      ]
+    },
+    "1033": {
+      "block": "arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@10",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "tmp%4#1"
+      ],
+      "op": "uncover 2",
+      "defined_out": [
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%4#1",
+        "tmp%2#1"
+      ]
+    },
+    "1035": {
       "op": "swap",
       "defined_out": [
-        "reserve#0",
-        "reserve_balance#0"
+        "tmp%2#1",
+        "tmp%4#1"
       ],
       "stack_out": [
         "reserve#0",
+        "config#0",
         "asset_id#0",
-        "reserve_balance#0",
-        "encoded_value%0#0"
+        "tmp%2#1",
+        "tmp%4#1"
       ]
     },
-    "1220": {
-      "op": "b arc62_get_circulating_supply_ternary_merge@9"
+    "1036": {
+      "op": "-",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%5#0"
+      ]
     },
-    "1223": {
+    "1037": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0"
+      ]
+    },
+    "1038": {
+      "op": "dig 2",
+      "defined_out": [
+        "config#0 (copy)",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "config#0 (copy)"
+      ]
+    },
+    "1040": {
+      "op": "extract 32 32",
+      "defined_out": [
+        "address#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1043": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "1044": {
+      "op": "cover 2",
+      "defined_out": [
+        "address#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1046": {
+      "op": "dig 5",
+      "defined_out": [
+        "address#0",
+        "reserve#0 (copy)",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0",
+        "address#0",
+        "reserve#0 (copy)"
+      ]
+    },
+    "1048": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "tmp%0#2",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0",
+        "tmp%0#2"
+      ]
+    },
+    "1049": {
+      "op": "bz arc62_get_circulating_supply_after_if_else@13",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0"
+      ]
+    },
+    "1052": {
+      "op": "bury 1",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0"
+      ]
+    },
+    "1054": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%5#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "tmp%7#0"
+      ]
+    },
+    "1055": {
+      "block": "arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@14",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "tmp%7#0"
+      ],
+      "op": "uncover 2",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%7#0",
+        "tmp%5#0"
+      ]
+    },
+    "1057": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%5#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%5#0",
+        "tmp%7#0"
+      ]
+    },
+    "1058": {
+      "op": "-",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%8#0"
+      ]
+    },
+    "1059": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0"
+      ]
+    },
+    "1060": {
+      "op": "dig 2",
+      "defined_out": [
+        "config#0 (copy)",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "config#0 (copy)"
+      ]
+    },
+    "1062": {
+      "op": "extract 64 32",
+      "defined_out": [
+        "address#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1065": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "1066": {
+      "op": "cover 2",
+      "defined_out": [
+        "address#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1068": {
+      "op": "dig 5",
+      "defined_out": [
+        "address#0",
+        "reserve#0 (copy)",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0",
+        "address#0",
+        "reserve#0 (copy)"
+      ]
+    },
+    "1070": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "tmp%0#2",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0",
+        "tmp%0#2"
+      ]
+    },
+    "1071": {
+      "op": "bz arc62_get_circulating_supply_after_if_else@17",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0"
+      ]
+    },
+    "1073": {
+      "op": "bury 1",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0"
+      ]
+    },
+    "1075": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "tmp%10#0"
+      ]
+    },
+    "1076": {
+      "block": "arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@18",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "tmp%10#0"
+      ],
+      "op": "uncover 2",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%10#0",
+        "tmp%8#0"
+      ]
+    },
+    "1078": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "1079": {
+      "op": "-",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%11#0"
+      ]
+    },
+    "1080": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0"
+      ]
+    },
+    "1081": {
+      "op": "dig 2",
+      "defined_out": [
+        "config#0 (copy)",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "config#0 (copy)"
+      ]
+    },
+    "1083": {
+      "op": "extract 96 32",
+      "defined_out": [
+        "address#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1086": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "1087": {
+      "op": "cover 2",
+      "defined_out": [
+        "address#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1089": {
+      "op": "dig 5",
+      "defined_out": [
+        "address#0",
+        "reserve#0 (copy)",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0",
+        "address#0",
+        "reserve#0 (copy)"
+      ]
+    },
+    "1091": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "tmp%0#2",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0",
+        "tmp%0#2"
+      ]
+    },
+    "1092": {
+      "op": "bz arc62_get_circulating_supply_after_if_else@21",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0"
+      ]
+    },
+    "1094": {
+      "op": "bury 1",
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0"
+      ]
+    },
+    "1096": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "tmp%13#0"
+      ]
+    },
+    "1097": {
+      "block": "arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@22",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "tmp%13#0"
+      ],
+      "op": "uncover 2",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%13#0",
+        "tmp%11#0"
+      ]
+    },
+    "1099": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%11#0",
+        "tmp%13#0"
+      ]
+    },
+    "1100": {
+      "op": "-",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "asset_id#0",
+        "tmp%14#0"
+      ]
+    },
+    "1101": {
+      "op": "swap",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%14#0",
+        "asset_id#0"
+      ]
+    },
+    "1102": {
+      "op": "uncover 2",
+      "defined_out": [
+        "config#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "tmp%14#0",
+        "asset_id#0",
+        "config#0"
+      ]
+    },
+    "1104": {
+      "op": "extract 128 32",
+      "defined_out": [
+        "address#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "tmp%14#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1107": {
+      "op": "dup",
+      "stack_out": [
+        "reserve#0",
+        "tmp%14#0",
+        "asset_id#0",
+        "address#0",
+        "address#0"
+      ]
+    },
+    "1108": {
+      "op": "cover 2",
+      "defined_out": [
+        "address#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "tmp%14#0",
+        "address#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1110": {
+      "op": "uncover 4",
+      "defined_out": [
+        "address#0",
+        "reserve#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "address#0",
+        "asset_id#0",
+        "address#0",
+        "reserve#0"
+      ]
+    },
+    "1112": {
+      "op": "==",
+      "defined_out": [
+        "address#0",
+        "tmp%0#2",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "address#0",
+        "asset_id#0",
+        "tmp%0#2"
+      ]
+    },
+    "1113": {
+      "op": "bz arc62_get_circulating_supply_after_if_else@25",
+      "stack_out": [
+        "tmp%14#0",
+        "address#0",
+        "asset_id#0"
+      ]
+    },
+    "1115": {
+      "op": "popn 2",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "1117": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%14#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%16#0"
+      ]
+    },
+    "1118": {
+      "block": "arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@26",
+      "stack_in": [
+        "tmp%14#0",
+        "tmp%16#0"
+      ],
+      "op": "-",
+      "defined_out": [
+        "circulating_supply#0"
+      ],
+      "stack_out": [
+        "circulating_supply#0"
+      ]
+    },
+    "1119": {
+      "op": "b arc62_get_circulating_supply_after_if_else@6"
+    },
+    "1122": {
+      "block": "arc62_get_circulating_supply_after_if_else@25",
+      "stack_in": [
+        "tmp%14#0",
+        "address#0",
+        "asset_id#0"
+      ],
+      "op": "swap",
+      "defined_out": [
+        "address#0",
+        "asset_id#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "asset_id#0",
+        "address#0"
+      ]
+    },
+    "1123": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%16#0"
+      ]
+    },
+    "1126": {
+      "op": "b arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@26"
+    },
+    "1128": {
+      "block": "arc62_get_circulating_supply_after_if_else@21",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "address#0",
+        "asset_id#0",
+        "asset_id#0 (copy)"
+      ]
+    },
+    "1129": {
+      "op": "uncover 2",
+      "defined_out": [
+        "address#0",
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "asset_id#0 (copy)",
+        "address#0"
+      ]
+    },
+    "1131": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%11#0",
+        "asset_id#0",
+        "tmp%13#0"
+      ]
+    },
+    "1134": {
+      "op": "b arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@22"
+    },
+    "1136": {
+      "block": "arc62_get_circulating_supply_after_if_else@17",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "address#0",
+        "asset_id#0",
+        "asset_id#0 (copy)"
+      ]
+    },
+    "1137": {
+      "op": "uncover 2",
+      "defined_out": [
+        "address#0",
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "asset_id#0 (copy)",
+        "address#0"
+      ]
+    },
+    "1139": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%8#0",
+        "asset_id#0",
+        "tmp%10#0"
+      ]
+    },
+    "1142": {
+      "op": "b arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@18"
+    },
+    "1145": {
+      "block": "arc62_get_circulating_supply_after_if_else@13",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "address#0",
+        "asset_id#0",
+        "asset_id#0 (copy)"
+      ]
+    },
+    "1146": {
+      "op": "uncover 2",
+      "defined_out": [
+        "address#0",
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "asset_id#0 (copy)",
+        "address#0"
+      ]
+    },
+    "1148": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%5#0",
+        "asset_id#0",
+        "tmp%7#0"
+      ]
+    },
+    "1151": {
+      "op": "b arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@14"
+    },
+    "1154": {
+      "block": "arc62_get_circulating_supply_after_if_else@9",
+      "stack_in": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "address#0",
+        "asset_id#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "address#0",
+        "asset_id#0",
+        "asset_id#0 (copy)"
+      ]
+    },
+    "1155": {
+      "op": "uncover 2",
+      "defined_out": [
+        "address#0",
+        "asset_id#0 (copy)"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "asset_id#0 (copy)",
+        "address#0"
+      ]
+    },
+    "1157": {
+      "callsub": "smart_contracts.circulating_supply.contract._balance",
+      "op": "callsub _balance",
+      "defined_out": [
+        "tmp%4#1"
+      ],
+      "stack_out": [
+        "reserve#0",
+        "config#0",
+        "tmp%2#1",
+        "asset_id#0",
+        "tmp%4#1"
+      ]
+    },
+    "1160": {
+      "op": "b arc62_get_circulating_supply_after_inlined_smart_contracts.circulating_supply.contract._label_balance@10"
+    },
+    "1163": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply.withdraw_balance_excess[routing]",
       "params": {},
       "block": "withdraw_balance_excess",
@@ -8697,7 +7748,7 @@
         "tmp%0#0"
       ]
     },
-    "1225": {
+    "1165": {
       "op": "acct_params_get AcctBalance",
       "defined_out": [
         "check%0#0",
@@ -8708,14 +7759,14 @@
         "check%0#0"
       ]
     },
-    "1227": {
+    "1167": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
         "value%0#0"
       ]
     },
-    "1228": {
+    "1168": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%1#0",
@@ -8726,7 +7777,7 @@
         "tmp%1#0"
       ]
     },
-    "1230": {
+    "1170": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%1#0",
@@ -8739,7 +7790,7 @@
         "check%1#0"
       ]
     },
-    "1232": {
+    "1172": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -8747,7 +7798,7 @@
         "value%1#0"
       ]
     },
-    "1233": {
+    "1173": {
       "op": "-",
       "defined_out": [
         "excess_balance#0"
@@ -8756,10 +7807,10 @@
         "excess_balance#0"
       ]
     },
-    "1234": {
+    "1174": {
       "op": "itxn_begin"
     },
-    "1235": {
+    "1175": {
       "op": "global CreatorAddress",
       "defined_out": [
         "excess_balance#0",
@@ -8770,14 +7821,14 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "1237": {
+    "1177": {
       "op": "itxn_field Receiver"
     },
-    "1239": {
+    "1179": {
       "op": "itxn_field Amount",
       "stack_out": []
     },
-    "1241": {
+    "1181": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay"
@@ -8786,11 +7837,11 @@
         "pay"
       ]
     },
-    "1242": {
+    "1182": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "1244": {
+    "1184": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -8799,14 +7850,14 @@
         "0"
       ]
     },
-    "1245": {
+    "1185": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "1247": {
+    "1187": {
       "op": "itxn_submit"
     },
-    "1248": {
+    "1188": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -8815,11 +7866,11 @@
         "1"
       ]
     },
-    "1249": {
+    "1189": {
       "op": "return",
       "stack_out": []
     },
-    "1250": {
+    "1190": {
       "subroutine": "smart_contracts.circulating_supply.contract.CirculatingSupply._emit_config_updated",
       "params": {
         "asset#0": "uint64"
@@ -8828,7 +7879,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "1253": {
+    "1193": {
       "op": "frame_dig -1",
       "defined_out": [
         "asset#0 (copy)"
@@ -8837,7 +7888,7 @@
         "asset#0 (copy)"
       ]
     },
-    "1255": {
+    "1195": {
       "op": "itob",
       "defined_out": [
         "encoded_value%0#0"
@@ -8846,7 +7897,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1256": {
+    "1196": {
       "op": "dup",
       "defined_out": [
         "encoded_value%0#0",
@@ -8857,7 +7908,7 @@
         "encoded_value%0#0 (copy)"
       ]
     },
-    "1257": {
+    "1197": {
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%1#0",
@@ -8870,7 +7921,7 @@
         "aggregate%box_get%1#0"
       ]
     },
-    "1258": {
+    "1198": {
       "error": "check self.circulating_supply entry exists",
       "op": "assert // check self.circulating_supply entry exists",
       "stack_out": [
@@ -8878,7 +7929,7 @@
         "config#0"
       ]
     },
-    "1259": {
+    "1199": {
       "op": "global Round",
       "defined_out": [
         "config#0",
@@ -8891,7 +7942,7 @@
         "tmp%0#0"
       ]
     },
-    "1261": {
+    "1201": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "config#0",
@@ -8906,7 +7957,7 @@
         "tmp%1#0"
       ]
     },
-    "1263": {
+    "1203": {
       "op": "dig 2",
       "defined_out": [
         "config#0",
@@ -8923,7 +7974,7 @@
         "config#0 (copy)"
       ]
     },
-    "1265": {
+    "1205": {
       "op": "extract 0 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -8940,7 +7991,7 @@
         "aggregate%extract%0#0"
       ]
     },
-    "1268": {
+    "1208": {
       "op": "dig 3",
       "stack_out": [
         "encoded_value%0#0",
@@ -8951,7 +8002,7 @@
         "config#0 (copy)"
       ]
     },
-    "1270": {
+    "1210": {
       "op": "extract 32 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -8970,7 +8021,7 @@
         "aggregate%extract%1#0"
       ]
     },
-    "1273": {
+    "1213": {
       "op": "dig 4",
       "stack_out": [
         "encoded_value%0#0",
@@ -8982,7 +8033,7 @@
         "config#0 (copy)"
       ]
     },
-    "1275": {
+    "1215": {
       "op": "extract 64 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9003,7 +8054,7 @@
         "aggregate%extract%2#0"
       ]
     },
-    "1278": {
+    "1218": {
       "op": "dig 5",
       "stack_out": [
         "encoded_value%0#0",
@@ -9016,7 +8067,7 @@
         "config#0 (copy)"
       ]
     },
-    "1280": {
+    "1220": {
       "op": "extract 96 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9039,7 +8090,7 @@
         "aggregate%extract%3#0"
       ]
     },
-    "1283": {
+    "1223": {
       "op": "uncover 6",
       "stack_out": [
         "encoded_value%0#0",
@@ -9052,7 +8103,7 @@
         "config#0"
       ]
     },
-    "1285": {
+    "1225": {
       "op": "extract 128 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9075,7 +8126,7 @@
         "aggregate%extract%4#0"
       ]
     },
-    "1288": {
+    "1228": {
       "op": "uncover 6",
       "stack_out": [
         "encoded_value%0#0",
@@ -9088,7 +8139,7 @@
         "tmp%0#0"
       ]
     },
-    "1290": {
+    "1230": {
       "op": "itob",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9111,7 +8162,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "1291": {
+    "1231": {
       "op": "uncover 7",
       "stack_out": [
         "tmp%1#0",
@@ -9124,7 +8175,7 @@
         "encoded_value%0#0"
       ]
     },
-    "1293": {
+    "1233": {
       "op": "swap",
       "stack_out": [
         "tmp%1#0",
@@ -9137,7 +8188,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "1294": {
+    "1234": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9158,7 +8209,7 @@
         "aggregate%head%1#0"
       ]
     },
-    "1295": {
+    "1235": {
       "op": "uncover 6",
       "stack_out": [
         "aggregate%extract%0#0",
@@ -9170,7 +8221,7 @@
         "tmp%1#0"
       ]
     },
-    "1297": {
+    "1237": {
       "op": "itob",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9191,7 +8242,7 @@
         "aggregate%val_as_bytes%2#0"
       ]
     },
-    "1298": {
+    "1238": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -9210,7 +8261,7 @@
         "aggregate%head%2#0"
       ]
     },
-    "1299": {
+    "1239": {
       "op": "uncover 5",
       "stack_out": [
         "aggregate%extract%1#0",
@@ -9221,7 +8272,7 @@
         "aggregate%extract%0#0"
       ]
     },
-    "1301": {
+    "1241": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%1#0",
@@ -9238,7 +8289,7 @@
         "aggregate%head%3#0"
       ]
     },
-    "1302": {
+    "1242": {
       "op": "uncover 4",
       "stack_out": [
         "aggregate%extract%2#0",
@@ -9248,7 +8299,7 @@
         "aggregate%extract%1#0"
       ]
     },
-    "1304": {
+    "1244": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%2#0",
@@ -9263,7 +8314,7 @@
         "aggregate%head%4#0"
       ]
     },
-    "1305": {
+    "1245": {
       "op": "uncover 3",
       "stack_out": [
         "aggregate%extract%3#0",
@@ -9272,7 +8323,7 @@
         "aggregate%extract%2#0"
       ]
     },
-    "1307": {
+    "1247": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%3#0",
@@ -9285,7 +8336,7 @@
         "aggregate%head%5#0"
       ]
     },
-    "1308": {
+    "1248": {
       "op": "uncover 2",
       "stack_out": [
         "aggregate%extract%4#0",
@@ -9293,7 +8344,7 @@
         "aggregate%extract%3#0"
       ]
     },
-    "1310": {
+    "1250": {
       "op": "concat",
       "defined_out": [
         "aggregate%extract%4#0",
@@ -9304,14 +8355,14 @@
         "aggregate%head%6#0"
       ]
     },
-    "1311": {
+    "1251": {
       "op": "swap",
       "stack_out": [
         "aggregate%head%6#0",
         "aggregate%extract%4#0"
       ]
     },
-    "1312": {
+    "1252": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%7#0"
@@ -9320,7 +8371,7 @@
         "aggregate%head%7#0"
       ]
     },
-    "1313": {
+    "1253": {
       "op": "pushbytes 0xe9d100e4 // method \"Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address)\"",
       "defined_out": [
         "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))",
@@ -9331,14 +8382,14 @@
         "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))"
       ]
     },
-    "1319": {
+    "1259": {
       "op": "swap",
       "stack_out": [
         "Method(Arc62ConfigUpdated(uint64,uint64,uint64,address,address,address,address,address))",
         "aggregate%head%7#0"
       ]
     },
-    "1320": {
+    "1260": {
       "op": "concat",
       "defined_out": [
         "event%0#0"
@@ -9347,11 +8398,11 @@
         "event%0#0"
       ]
     },
-    "1321": {
+    "1261": {
       "op": "log",
       "stack_out": []
     },
-    "1322": {
+    "1262": {
       "retsub": true,
       "op": "retsub"
     }

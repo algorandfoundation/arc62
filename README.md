@@ -44,6 +44,12 @@ is deleted.
 ¹ If the ASA has been destroyed, anyone can delete its configuration and claim
 the MBR.
 
+> [!WARNING]
+> If the ASA Manager Address is cleared (Zero Address), the configuration can no
+> longer be changed or deleted, and its MBR stays locked in the App, since an ASA
+> without a Manager can not be destroyed either. Delete the configuration first
+> if the MBR must be recovered.
+
 `set_not_circulating_address` requires the address to be opted in to the ASA. The
 `burned` label also requires the ASA to have no Clawback Address
 ([ARC-54](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0054.md)
@@ -125,6 +131,45 @@ circulating_supply = circulating_supply_client.send.arc62_get_circulating_supply
 ).abi_return
 ```
 
+#### Calls without simulation
+
+On-chain callers, and clients that send the getter instead of simulating it, must
+provide the resource references explicitly. The getter reads the configuration box,
+the ASA, and the holdings of up to 6 accounts (the Reserve and the 5 labels). A
+transaction holds at most 4 accounts and 8 references, so group the getter with
+`extra_resources` and split the accounts between them, each transaction also
+referencing the ASA:
+
+```python
+from algokit_utils import BoxReference, CommonAppCallParams, SendParams
+
+# Reserve and labelled addresses (skip the Zero Address and repeated addresses)
+accounts = ["<RESERVE>", "<BURNED>", "<CUSTOM-1>", "<CUSTOM-2>", "<CUSTOM-3>", "<CUSTOM-4>"]
+
+result = (
+    circulating_supply_client.new_group()
+    .arc62_get_circulating_supply(
+        args=(asset_id,),
+        params=CommonAppCallParams(
+            asset_references=[asset_id],
+            account_references=accounts[:4],
+            box_references=[BoxReference(app_id=0, name=asset_id.to_bytes(8, "big"))],
+        ),
+    )
+    .extra_resources(
+        params=CommonAppCallParams(
+            asset_references=[asset_id], account_references=accounts[4:]
+        )
+    )
+    .send(SendParams(populate_app_call_resources=False))
+)
+circulating_supply = result.returns[0].value
+```
+
+> [!NOTE]
+> Disable automatic resource population for this group: with AlgoKit Utils 4.2.3
+> it repeats the ASA reference and exceeds the 8 references limit.
+
 ### Configure an ASA
 
 The following calls must be signed by the ASA Manager.
@@ -159,7 +204,7 @@ circulating_supply_client.send.init_config(
     args=InitConfigArgs(asset=asset_id, mbr_payment=mbr_payment),
 )
 
-# 2. Label the non-circulating addresses (they must be opted in to the ASA)
+# 2. Label the not-circulating addresses (they must be opted in to the ASA)
 circulating_supply_client.send.set_not_circulating_address(
     args=SetNotCirculatingAddressArgs(
         asset=asset_id,

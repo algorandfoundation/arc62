@@ -288,7 +288,7 @@ algokit-utils = ">=4.2.3,<5.0.0"
 [package.source]
 type = "git"
 url = "https://github.com/algorandfoundation/arc89.git"
-reference = "main"
+reference = "v1.0.0"
 resolved_reference = "c4f045170b049ac97fc65c99cbb6b28be76ccdda"
 
 [[package]]
@@ -3176,4 +3176,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "c0f753b74c242d427bad62c1e28329528979813132cffc4f80db2c024d0a6cec"
+content-hash = "982a4fd78123cc621f18ef1bf223637f7ca3bf087845b50a415853fdc2adef99"

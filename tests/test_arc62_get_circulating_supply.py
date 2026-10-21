@@ -4,8 +4,10 @@ from algokit_utils import (
     AssetConfigParams,
     AssetDestroyParams,
     AssetTransferParams,
+    BoxReference,
     CommonAppCallParams,
     LogicError,
+    SendParams,
     SigningAccount,
 )
 from algosdk.constants import ZERO_ADDRESS
@@ -269,6 +271,56 @@ def test_pass_reserve_assigned_to_label(
     # The Reserve Address is changed back: the label counts again
     set_reserve(reserve_with_balance.address)
     assert _get_circulating_supply(client, asset) == expected
+
+
+def test_pass_get_circulating_supply_not_simulated(
+    algorand: AlgorandClient,
+    asset_circulating_supply_client: CirculatingSupplyClient,
+    asset_manager: SigningAccount,
+    asset: int,
+    reserve_with_balance: SigningAccount,
+    burned_balance: SigningAccount,
+    custom_balance_1: SigningAccount,
+    custom_balance_2: SigningAccount,
+    custom_balance_3: SigningAccount,
+    custom_balance_4: SigningAccount,
+) -> None:
+    client = asset_circulating_supply_client
+    labelled = [
+        (cfg.BURNED, burned_balance),
+        (cfg.CUSTOM_1, custom_balance_1),
+        (cfg.CUSTOM_2, custom_balance_2),
+        (cfg.CUSTOM_3, custom_balance_3),
+        (cfg.CUSTOM_4, custom_balance_4),
+    ]
+    for label, account in labelled:
+        _set_not_circulating_address(
+            client, asset_manager, asset, account.address, label
+        )
+    addresses = [reserve_with_balance.address] + [a.address for _, a in labelled]
+    expected = _get_circulating_supply(client, asset)
+
+    # A transaction holds up to 4 accounts and 8 references: the getter takes the
+    # box, the ASA and 4 accounts, extra_resources the ASA and the other 2 accounts
+    result = (
+        client.new_group()
+        .arc62_get_circulating_supply(
+            args=(asset,),
+            params=CommonAppCallParams(
+                asset_references=[asset],
+                account_references=addresses[:4],
+                box_references=[BoxReference(app_id=0, name=asset.to_bytes(8, "big"))],
+            ),
+        )
+        .extra_resources(
+            params=CommonAppCallParams(
+                asset_references=[asset], account_references=addresses[4:]
+            )
+        )
+        .send(SendParams(populate_app_call_resources=False))
+    )
+    assert result.confirmations[0]["confirmed-round"] > 0
+    assert result.returns[0].value == expected
 
 
 def test_fail_config_not_exists(
